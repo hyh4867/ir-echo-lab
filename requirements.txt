@@ -1,0 +1,8 @@
+# 2026-11-12 실행에 실제로 쓴 버전 (Python 3.12.7)
+numpy==2.5.4
+scipy==1.18.1
+matplotlib==3.11.2
+requests==2.34.2
+pytest==9.2.0
+pyarrow==26.0.1
+scikit-learn==1.9.1

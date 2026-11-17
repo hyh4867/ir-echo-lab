@@ -1,0 +1,8 @@
+# IRSA 원자료 캐시는 git에 넣지 않는다 (docs/DATA.md 참고)
+data/cache/
+# 5a단계에서 동결한 표적 광도곡선 (해시만 data/freeze_v1.json에 커밋)
+data/frozen/
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/

@@ -1,0 +1,509 @@
+{
+ "per_object": [
+  {
+   "name": "mrk573",
+   "n_visits": 22,
+   "n_flagged": 0,
+   "flagged_dates": [],
+   "onset_mjd": null,
+   "onset_date": null,
+   "w1_max_significance": 1.609914,
+   "w1_dmag_at_max_significance": 0.024,
+   "w1_max_brightening_mag": 0.024,
+   "w2_max_significance": 2.32874,
+   "w2_dmag_at_max_significance": 0.028,
+   "w2_max_brightening_mag": 0.028,
+   "variability": {
+    "w1": {
+     "n_visits": 22,
+     "median_mag": 10.044498,
+     "rms_mag": 0.017059,
+     "median_err_mag": 0.01056,
+     "chi2_red": 3.002484,
+     "p_value": 4e-06,
+     "floor_mag": 0.013197
+    },
+    "w2": {
+     "n_visits": 22,
+     "median_mag": 8.9275,
+     "rms_mag": 0.018708,
+     "median_err_mag": 0.006356,
+     "chi2_red": 6.289089,
+     "p_value": 0.0,
+     "floor_mag": 0.015894
+    }
+   },
+   "injection_recovery": {
+    "0.1": {
+     "recovered": 0,
+     "trials": 18
+    },
+    "0.2": {
+     "recovered": 5,
+     "trials": 18
+    },
+    "0.3": {
+     "recovered": 18,
+     "trials": 18
+    },
+    "0.5": {
+     "recovered": 18,
+     "trials": 18
+    },
+    "0.8": {
+     "recovered": 18,
+     "trials": 18
+    }
+   },
+   "single_exposure_rchi2_median": {
+    "w1": 25.605,
+    "w2": 5.442
+   }
+  },
+  {
+   "name": "ngc1386",
+   "n_visits": 22,
+   "n_flagged": 0,
+   "flagged_dates": [],
+   "onset_mjd": null,
+   "onset_date": null,
+   "w1_max_significance": -0.080703,
+   "w1_dmag_at_max_significance": -0.0025,
+   "w1_max_brightening_mag": -0.0025,
+   "w2_max_significance": 0.06739,
+   "w2_dmag_at_max_significance": 0.000999,
+   "w2_max_brightening_mag": 0.000999,
+   "variability": {
+    "w1": {
+     "n_visits": 22,
+     "median_mag": 8.958739,
+     "rms_mag": 0.025424,
+     "median_err_mag": 0.014699,
+     "chi2_red": 3.02977,
+     "p_value": 4e-06,
+     "floor_mag": 0.019442
+    },
+    "w2": {
+     "n_visits": 22,
+     "median_mag": 8.173245,
+     "rms_mag": 0.034494,
+     "median_err_mag": 0.00912,
+     "chi2_red": 14.913904,
+     "p_value": 0.0,
+     "floor_mag": 0.033035
+    }
+   },
+   "injection_recovery": {
+    "0.1": {
+     "recovered": 0,
+     "trials": 18
+    },
+    "0.2": {
+     "recovered": 0,
+     "trials": 18
+    },
+    "0.3": {
+     "recovered": 18,
+     "trials": 18
+    },
+    "0.5": {
+     "recovered": 18,
+     "trials": 18
+    },
+    "0.8": {
+     "recovered": 18,
+     "trials": 18
+    }
+   },
+   "single_exposure_rchi2_median": {
+    "w1": 88.6,
+    "w2": 23.975
+   }
+  },
+  {
+   "name": "ngc2273",
+   "n_visits": 21,
+   "n_flagged": 0,
+   "flagged_dates": [],
+   "onset_mjd": null,
+   "onset_date": null,
+   "w1_max_significance": 4.916321,
+   "w1_dmag_at_max_significance": 0.088,
+   "w1_max_brightening_mag": 0.199259,
+   "w2_max_significance": 3.122672,
+   "w2_dmag_at_max_significance": 0.396503,
+   "w2_max_brightening_mag": 0.396503,
+   "variability": {
+    "w1": {
+     "n_visits": 21,
+     "median_mag": 9.207499,
+     "rms_mag": 0.085044,
+     "median_err_mag": 0.01382,
+     "chi2_red": 43.580434,
+     "p_value": 0.0,
+     "floor_mag": 0.083642
+    },
+    "w2": {
+     "n_visits": 21,
+     "median_mag": 8.517,
+     "rms_mag": 0.183593,
+     "median_err_mag": 0.011129,
+     "chi2_red": 354.07618,
+     "p_value": 0.0,
+     "floor_mag": 0.183147
+    }
+   },
+   "injection_recovery": {
+    "0.1": {
+     "recovered": 0,
+     "trials": 17
+    },
+    "0.2": {
+     "recovered": 1,
+     "trials": 17
+    },
+    "0.3": {
+     "recovered": 9,
+     "trials": 17
+    },
+    "0.5": {
+     "recovered": 13,
+     "trials": 17
+    },
+    "0.8": {
+     "recovered": 17,
+     "trials": 17
+    }
+   },
+   "single_exposure_rchi2_median": {
+    "w1": 57.35,
+    "w2": 17.78
+   }
+  },
+  {
+   "name": "ngc3081",
+   "n_visits": 21,
+   "n_flagged": 0,
+   "flagged_dates": [],
+   "onset_mjd": null,
+   "onset_date": null,
+   "w1_max_significance": 2.154668,
+   "w1_dmag_at_max_significance": 0.066985,
+   "w1_max_brightening_mag": 0.066985,
+   "w2_max_significance": 3.030739,
+   "w2_dmag_at_max_significance": 0.090242,
+   "w2_max_brightening_mag": 0.090242,
+   "variability": {
+    "w1": {
+     "n_visits": 21,
+     "median_mag": 9.548,
+     "rms_mag": 0.026188,
+     "median_err_mag": 0.015847,
+     "chi2_red": 4.327437,
+     "p_value": 0.0,
+     "floor_mag": 0.021363
+    },
+    "w2": {
+     "n_visits": 21,
+     "median_mag": 8.705,
+     "rms_mag": 0.050785,
+     "median_err_mag": 0.010284,
+     "chi2_red": 20.930104,
+     "p_value": 0.0,
+     "floor_mag": 0.048979
+    }
+   },
+   "injection_recovery": {
+    "0.1": {
+     "recovered": 0,
+     "trials": 17
+    },
+    "0.2": {
+     "recovered": 7,
+     "trials": 17
+    },
+    "0.3": {
+     "recovered": 16,
+     "trials": 17
+    },
+    "0.5": {
+     "recovered": 17,
+     "trials": 17
+    },
+    "0.8": {
+     "recovered": 17,
+     "trials": 17
+    }
+   },
+   "single_exposure_rchi2_median": {
+    "w1": 60.34,
+    "w2": 15.0
+   }
+  },
+  {
+   "name": "ngc3393",
+   "n_visits": 22,
+   "n_flagged": 0,
+   "flagged_dates": [],
+   "onset_mjd": null,
+   "onset_date": null,
+   "w1_max_significance": 1.464165,
+   "w1_dmag_at_max_significance": 0.034249,
+   "w1_max_brightening_mag": 0.034249,
+   "w2_max_significance": 1.904837,
+   "w2_dmag_at_max_significance": 0.047012,
+   "w2_max_brightening_mag": 0.047012,
+   "variability": {
+    "w1": {
+     "n_visits": 22,
+     "median_mag": 10.02023,
+     "rms_mag": 0.020893,
+     "median_err_mag": 0.016663,
+     "chi2_red": 1.975791,
+     "p_value": 0.004872,
+     "floor_mag": 0.013402
+    },
+    "w2": {
+     "n_visits": 22,
+     "median_mag": 9.7005,
+     "rms_mag": 0.020943,
+     "median_err_mag": 0.011197,
+     "chi2_red": 3.957267,
+     "p_value": 0.0,
+     "floor_mag": 0.017396
+    }
+   },
+   "injection_recovery": {
+    "0.1": {
+     "recovered": 0,
+     "trials": 18
+    },
+    "0.2": {
+     "recovered": 4,
+     "trials": 18
+    },
+    "0.3": {
+     "recovered": 18,
+     "trials": 18
+    },
+    "0.5": {
+     "recovered": 18,
+     "trials": 18
+    },
+    "0.8": {
+     "recovered": 18,
+     "trials": 18
+    }
+   },
+   "single_exposure_rchi2_median": {
+    "w1": 73.89,
+    "w2": 24.86
+   }
+  },
+  {
+   "name": "ngc4941",
+   "n_visits": 21,
+   "n_flagged": 0,
+   "flagged_dates": [],
+   "onset_mjd": null,
+   "onset_date": null,
+   "w1_max_significance": 0.967228,
+   "w1_dmag_at_max_significance": 0.044208,
+   "w1_max_brightening_mag": 0.044208,
+   "w2_max_significance": 1.944592,
+   "w2_dmag_at_max_significance": 0.116274,
+   "w2_max_brightening_mag": 0.116274,
+   "variability": {
+    "w1": {
+     "n_visits": 21,
+     "median_mag": 9.828,
+     "rms_mag": 0.047353,
+     "median_err_mag": 0.017263,
+     "chi2_red": 10.372234,
+     "p_value": 0.0,
+     "floor_mag": 0.044182
+    },
+    "w2": {
+     "n_visits": 21,
+     "median_mag": 9.510922,
+     "rms_mag": 0.097692,
+     "median_err_mag": 0.010828,
+     "chi2_red": 68.055189,
+     "p_value": 0.0,
+     "floor_mag": 0.096339
+    }
+   },
+   "injection_recovery": {
+    "0.1": {
+     "recovered": 0,
+     "trials": 17
+    },
+    "0.2": {
+     "recovered": 1,
+     "trials": 17
+    },
+    "0.3": {
+     "recovered": 1,
+     "trials": 17
+    },
+    "0.5": {
+     "recovered": 11,
+     "trials": 17
+    },
+    "0.8": {
+     "recovered": 17,
+     "trials": 17
+    }
+   },
+   "single_exposure_rchi2_median": {
+    "w1": 67.375,
+    "w2": 22.355
+   }
+  },
+  {
+   "name": "ngc5347",
+   "n_visits": 21,
+   "n_flagged": 0,
+   "flagged_dates": [],
+   "onset_mjd": null,
+   "onset_date": null,
+   "w1_max_significance": 1.319276,
+   "w1_dmag_at_max_significance": 0.069,
+   "w1_max_brightening_mag": 0.07625,
+   "w2_max_significance": 1.11498,
+   "w2_dmag_at_max_significance": 0.115,
+   "w2_max_brightening_mag": 0.115,
+   "variability": {
+    "w1": {
+     "n_visits": 21,
+     "median_mag": 10.2905,
+     "rms_mag": 0.061662,
+     "median_err_mag": 0.009637,
+     "chi2_red": 43.251751,
+     "p_value": 0.0,
+     "floor_mag": 0.060847
+    },
+    "w2": {
+     "n_visits": 21,
+     "median_mag": 9.322,
+     "rms_mag": 0.08559,
+     "median_err_mag": 0.005637,
+     "chi2_red": 236.684716,
+     "p_value": 0.0,
+     "floor_mag": 0.085361
+    }
+   },
+   "injection_recovery": {
+    "0.1": {
+     "recovered": 0,
+     "trials": 17
+    },
+    "0.2": {
+     "recovered": 0,
+     "trials": 17
+    },
+    "0.3": {
+     "recovered": 1,
+     "trials": 17
+    },
+    "0.5": {
+     "recovered": 10,
+     "trials": 17
+    },
+    "0.8": {
+     "recovered": 16,
+     "trials": 17
+    }
+   },
+   "single_exposure_rchi2_median": {
+    "w1": 33.36,
+    "w2": 6.52
+   }
+  },
+  {
+   "name": "ngc5728",
+   "n_visits": 21,
+   "n_flagged": 0,
+   "flagged_dates": [],
+   "onset_mjd": null,
+   "onset_date": null,
+   "w1_max_significance": 0.765641,
+   "w1_dmag_at_max_significance": 0.026486,
+   "w1_max_brightening_mag": 0.027486,
+   "w2_max_significance": -0.061083,
+   "w2_dmag_at_max_significance": -0.003015,
+   "w2_max_brightening_mag": -0.002995,
+   "variability": {
+    "w1": {
+     "n_visits": 21,
+     "median_mag": 9.432,
+     "rms_mag": 0.040923,
+     "median_err_mag": 0.022349,
+     "chi2_red": 2.986701,
+     "p_value": 8e-06,
+     "floor_mag": 0.032026
+    },
+    "w2": {
+     "n_visits": 21,
+     "median_mag": 9.155,
+     "rms_mag": 0.045406,
+     "median_err_mag": 0.016535,
+     "chi2_red": 7.870901,
+     "p_value": 0.0,
+     "floor_mag": 0.041606
+    }
+   },
+   "injection_recovery": {
+    "0.1": {
+     "recovered": 0,
+     "trials": 17
+    },
+    "0.2": {
+     "recovered": 0,
+     "trials": 17
+    },
+    "0.3": {
+     "recovered": 15,
+     "trials": 17
+    },
+    "0.5": {
+     "recovered": 17,
+     "trials": 17
+    },
+    "0.8": {
+     "recovered": 17,
+     "trials": 17
+    }
+   },
+   "single_exposure_rchi2_median": {
+    "w1": 125.6,
+    "w2": 56.69
+   }
+  }
+ ],
+ "n_objects": 8,
+ "n_objects_flagged": 0,
+ "n_visits_tested": 171,
+ "injection_recovery_pooled": {
+  "0.1": {
+   "recovered": 0,
+   "trials": 139
+  },
+  "0.2": {
+   "recovered": 18,
+   "trials": 139
+  },
+  "0.3": {
+   "recovered": 96,
+   "trials": 139
+  },
+  "0.5": {
+   "recovered": 122,
+   "trials": 139
+  },
+  "0.8": {
+   "recovered": 138,
+   "trials": 139
+  }
+ }
+}

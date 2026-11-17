@@ -1,0 +1,82 @@
+{
+ "stage": "prelim",
+ "n_objects": 163,
+ "cases": [
+  {
+   "case": "lag 0 d",
+   "true_lag_days": 0.0,
+   "tau_re_yr": 0.0,
+   "n_samples": 40,
+   "mean_estimate_days": -0.45,
+   "std_of_estimates_days": 1.0609623111312794,
+   "median_quoted_error_days": 4.880351395888731,
+   "bias_days": -0.45
+  },
+  {
+   "case": "lag 20 d",
+   "true_lag_days": 20.0,
+   "tau_re_yr": 0.0,
+   "n_samples": 40,
+   "mean_estimate_days": 22.1,
+   "std_of_estimates_days": 1.3549529275577936,
+   "median_quoted_error_days": 5.23035003889529,
+   "bias_days": 2.1000000000000014
+  },
+  {
+   "case": "lag 40 d",
+   "true_lag_days": 40.0,
+   "tau_re_yr": 0.0,
+   "n_samples": 40,
+   "mean_estimate_days": 44.05,
+   "std_of_estimates_days": 1.6633299933166197,
+   "median_quoted_error_days": 5.999708011979603,
+   "bias_days": 4.049999999999997
+  },
+  {
+   "case": "lag 80 d",
+   "true_lag_days": 80.0,
+   "tau_re_yr": 0.0,
+   "n_samples": 40,
+   "mean_estimate_days": 84.75,
+   "std_of_estimates_days": 2.1572774865200244,
+   "median_quoted_error_days": 7.668173848187385,
+   "bias_days": 4.75
+  },
+  {
+   "case": "re-formation 1 yr, no lag",
+   "true_lag_days": 0.0,
+   "tau_re_yr": 1.0,
+   "n_samples": 40,
+   "mean_estimate_days": 15.9,
+   "std_of_estimates_days": 1.6916082470650413,
+   "median_quoted_error_days": 5.037946315120005,
+   "bias_days": 15.9
+  },
+  {
+   "case": "re-formation 2 yr, no lag",
+   "true_lag_days": 0.0,
+   "tau_re_yr": 2.0,
+   "n_samples": 40,
+   "mean_estimate_days": 20.3,
+   "std_of_estimates_days": 1.5392305770191708,
+   "median_quoted_error_days": 5.1833225884281715,
+   "bias_days": 20.3
+  },
+  {
+   "case": "re-formation 5 yr, no lag",
+   "true_lag_days": 0.0,
+   "tau_re_yr": 5.0,
+   "n_samples": 40,
+   "mean_estimate_days": 21.9,
+   "std_of_estimates_days": 2.4786265841368165,
+   "median_quoted_error_days": 5.372416430666659,
+   "bias_days": 21.9
+  }
+ ],
+ "pass": {
+  "1_bias": true,
+  "2_precision": true,
+  "3_not_fooled_by_reformation": false,
+  "all": false
+ }
+}

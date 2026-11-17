@@ -1,0 +1,82 @@
+{
+ "stage": "final",
+ "n_objects": 163,
+ "cases": [
+  {
+   "case": "lag 0 d",
+   "true_lag_days": 0.0,
+   "tau_re_yr": 0.0,
+   "n_samples": 40,
+   "mean_estimate_days": -0.1,
+   "std_of_estimates_days": 0.4414428557263045,
+   "median_quoted_error_days": 4.107851311852805,
+   "bias_days": -0.1
+  },
+  {
+   "case": "lag 20 d",
+   "true_lag_days": 20.0,
+   "tau_re_yr": 0.0,
+   "n_samples": 40,
+   "mean_estimate_days": 22.55,
+   "std_of_estimates_days": 0.9044051735526052,
+   "median_quoted_error_days": 4.781802257968922,
+   "bias_days": 2.5500000000000007
+  },
+  {
+   "case": "lag 40 d",
+   "true_lag_days": 40.0,
+   "tau_re_yr": 0.0,
+   "n_samples": 40,
+   "mean_estimate_days": 44.35,
+   "std_of_estimates_days": 1.2719861311935432,
+   "median_quoted_error_days": 6.005926961203036,
+   "bias_days": 4.350000000000001
+  },
+  {
+   "case": "lag 80 d",
+   "true_lag_days": 80.0,
+   "tau_re_yr": 0.0,
+   "n_samples": 40,
+   "mean_estimate_days": 84.9,
+   "std_of_estimates_days": 1.6298497649815016,
+   "median_quoted_error_days": 8.633934466411842,
+   "bias_days": 4.900000000000006
+  },
+  {
+   "case": "re-formation 1 yr, no lag",
+   "true_lag_days": 0.0,
+   "tau_re_yr": 1.0,
+   "n_samples": 40,
+   "mean_estimate_days": 16.7,
+   "std_of_estimates_days": 1.1591331863033443,
+   "median_quoted_error_days": 4.5635952766545085,
+   "bias_days": 16.7
+  },
+  {
+   "case": "re-formation 2 yr, no lag",
+   "true_lag_days": 0.0,
+   "tau_re_yr": 2.0,
+   "n_samples": 40,
+   "mean_estimate_days": 21.0,
+   "std_of_estimates_days": 1.4322297480788657,
+   "median_quoted_error_days": 4.9609593452777165,
+   "bias_days": 21.0
+  },
+  {
+   "case": "re-formation 5 yr, no lag",
+   "true_lag_days": 0.0,
+   "tau_re_yr": 5.0,
+   "n_samples": 40,
+   "mean_estimate_days": 22.1,
+   "std_of_estimates_days": 1.8646509262923925,
+   "median_quoted_error_days": 5.4441184956102475,
+   "bias_days": 22.1
+  }
+ ],
+ "pass": {
+  "1_bias": true,
+  "2_precision": true,
+  "3_not_fooled_by_reformation": false,
+  "all": false
+ }
+}

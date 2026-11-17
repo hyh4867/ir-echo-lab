@@ -1,0 +1,474 @@
+{
+ "z": 0.009083,
+ "luminosity_distance_mpc": 40.6801,
+ "cosmology": {
+  "h0_km_s_mpc": 67.4,
+  "omega_m": 0.315,
+  "note": "flat LCDM as in Son et al. (2022); no peculiar-velocity correction"
+ },
+ "n_draws": 4000,
+ "seed": 20261112,
+ "error_model": "err_scatter",
+ "baseline": {
+  "n_visits": 13,
+  "span": [
+   "2014-05-29",
+   "2020-05-10"
+  ],
+  "w1_flux_mjy": 21.6332,
+  "w2_flux_mjy": 14.3712,
+  "w1_flux_err_mjy": 0.412286,
+  "w2_flux_err_mjy": 0.471775,
+  "alt_faint_half_n_visits": 7
+ },
+ "flagged_visits": [
+  {
+   "date": "2020-12-02",
+   "mjd": 59185.9,
+   "year": 2020.92,
+   "w1_mag": 9.83176,
+   "w2_mag": 9.33275,
+   "w1_excess_mjy": 14.5087,
+   "w2_excess_mjy": 17.3895,
+   "w1_excess_err_mjy": 0.528524,
+   "w2_excess_err_mjy": 0.49755,
+   "t_obs_k": 1064.2,
+   "t_rest_k": 1073.87,
+   "l_dust_erg_s": 3.49525e+42,
+   "r_bb_light_days": 23.4472,
+   "valid_draw_fraction": 1.0,
+   "t_rest_k_p16": 1025.76,
+   "t_rest_k_p50": 1073.38,
+   "t_rest_k_p84": 1125.05,
+   "l_dust_erg_s_p16": 3.39504e+42,
+   "l_dust_erg_s_p50": 3.50017e+42,
+   "l_dust_erg_s_p84": 3.62238e+42,
+   "r_bb_light_days_p16": 21.6306,
+   "r_bb_light_days_p50": 23.4884,
+   "r_bb_light_days_p84": 25.4352,
+   "color_corrected": {
+    "t_rest_k": 1080.33,
+    "l_dust_erg_s": 3.55943e+42,
+    "r_bb_light_days": 23.3794
+   },
+   "alt_baseline": {
+    "faint_half": {
+     "t_rest_k": 1077.96,
+     "l_dust_erg_s": 3.55363e+42,
+     "r_bb_light_days": 23.4632
+    },
+    "last_pre_flare_visit": {
+     "t_rest_k": 1106.19,
+     "l_dust_erg_s": 3.0638e+42,
+     "r_bb_light_days": 20.6882
+    }
+   }
+  },
+  {
+   "date": "2021-05-10",
+   "mjd": 59344.1,
+   "year": 2021.35,
+   "w1_mag": 10.0068,
+   "w2_mag": 9.52151,
+   "w1_excess_mjy": 9.12873,
+   "w2_excess_mjy": 12.3211,
+   "w1_excess_err_mjy": 0.465521,
+   "w2_excess_err_mjy": 0.508078,
+   "t_obs_k": 952.741,
+   "t_rest_k": 961.395,
+   "l_dust_erg_s": 2.27977e+42,
+   "r_bb_light_days": 23.6264,
+   "valid_draw_fraction": 1.0,
+   "t_rest_k_p16": 907.875,
+   "t_rest_k_p50": 960.386,
+   "t_rest_k_p84": 1018.89,
+   "l_dust_erg_s_p16": 2.21723e+42,
+   "l_dust_erg_s_p50": 2.29188e+42,
+   "l_dust_erg_s_p84": 2.36832e+42,
+   "r_bb_light_days_p16": 21.1717,
+   "r_bb_light_days_p50": 23.6699,
+   "r_bb_light_days_p84": 26.4701,
+   "color_corrected": {
+    "t_rest_k": 963.413,
+    "l_dust_erg_s": 2.31379e+42,
+    "r_bb_light_days": 23.7024
+   },
+   "alt_baseline": {
+    "faint_half": {
+     "t_rest_k": 968.417,
+     "l_dust_erg_s": 2.3325e+42,
+     "r_bb_light_days": 23.5527
+    },
+    "last_pre_flare_visit": {
+     "t_rest_k": 976.307,
+     "l_dust_erg_s": 1.82249e+42,
+     "r_bb_light_days": 20.484
+    }
+   }
+  },
+  {
+   "date": "2021-12-04",
+   "mjd": 59552.8,
+   "year": 2021.93,
+   "w1_mag": 9.69725,
+   "w2_mag": 9.10875,
+   "w1_excess_mjy": 19.2756,
+   "w2_excess_mjy": 24.6672,
+   "w1_excess_err_mjy": 0.593224,
+   "w2_excess_err_mjy": 0.568489,
+   "t_obs_k": 999.396,
+   "t_rest_k": 1008.47,
+   "l_dust_erg_s": 4.71062e+42,
+   "r_bb_light_days": 30.8649,
+   "valid_draw_fraction": 1.0,
+   "t_rest_k_p16": 973.884,
+   "t_rest_k_p50": 1007.04,
+   "t_rest_k_p84": 1045.33,
+   "l_dust_erg_s_p16": 4.61789e+42,
+   "l_dust_erg_s_p50": 4.71646e+42,
+   "l_dust_erg_s_p84": 4.82502e+42,
+   "r_bb_light_days_p16": 28.8992,
+   "r_bb_light_days_p50": 30.9596,
+   "r_bb_light_days_p84": 32.9794,
+   "color_corrected": {
+    "t_rest_k": 1012.17,
+    "l_dust_erg_s": 4.78614e+42,
+    "r_bb_light_days": 30.8846
+   },
+   "alt_baseline": {
+    "faint_half": {
+     "t_rest_k": 1011.75,
+     "l_dust_erg_s": 4.76584e+42,
+     "r_bb_light_days": 30.8447
+    },
+    "last_pre_flare_visit": {
+     "t_rest_k": 1021.04,
+     "l_dust_erg_s": 4.26017e+42,
+     "r_bb_light_days": 28.6341
+    }
+   }
+  },
+  {
+   "date": "2022-05-10",
+   "mjd": 59709.9,
+   "year": 2022.36,
+   "w1_mag": 9.52325,
+   "w2_mag": 9.0145,
+   "w1_excess_mjy": 26.3863,
+   "w2_excess_mjy": 28.2074,
+   "w1_excess_err_mjy": 0.503307,
+   "w2_excess_err_mjy": 0.503647,
+   "t_obs_k": 1203.14,
+   "t_rest_k": 1214.07,
+   "l_dust_erg_s": 6.4488e+42,
+   "r_bb_light_days": 24.9177,
+   "valid_draw_fraction": 1.0,
+   "t_rest_k_p16": 1177.4,
+   "t_rest_k_p50": 1212.82,
+   "t_rest_k_p84": 1251.88,
+   "l_dust_erg_s_p16": 6.27918e+42,
+   "l_dust_erg_s_p50": 6.44419e+42,
+   "l_dust_erg_s_p84": 6.63498e+42,
+   "r_bb_light_days_p16": 23.7261,
+   "r_bb_light_days_p50": 24.954,
+   "r_bb_light_days_p84": 26.2055,
+   "color_corrected": {
+    "t_rest_k": 1225.04,
+    "l_dust_erg_s": 6.60014e+42,
+    "r_bb_light_days": 24.759
+   },
+   "alt_baseline": {
+    "faint_half": {
+     "t_rest_k": 1215.8,
+     "l_dust_erg_s": 6.51246e+42,
+     "r_bb_light_days": 24.969
+    },
+    "last_pre_flare_visit": {
+     "t_rest_k": 1251.55,
+     "l_dust_erg_s": 6.08536e+42,
+     "r_bb_light_days": 22.7772
+    }
+   }
+  },
+  {
+   "date": "2022-12-03",
+   "mjd": 59916.9,
+   "year": 2022.92,
+   "w1_mag": 9.648,
+   "w2_mag": 9.01425,
+   "w1_excess_mjy": 21.1739,
+   "w2_excess_mjy": 28.2172,
+   "w1_excess_err_mjy": 0.55706,
+   "w2_excess_err_mjy": 0.500677,
+   "t_obs_k": 963.45,
+   "t_rest_k": 972.201,
+   "l_dust_erg_s": 5.25661e+42,
+   "r_bb_light_days": 35.0829,
+   "valid_draw_fraction": 1.0,
+   "t_rest_k_p16": 945.396,
+   "t_rest_k_p50": 971.736,
+   "t_rest_k_p84": 999.982,
+   "l_dust_erg_s_p16": 5.17766e+42,
+   "l_dust_erg_s_p50": 5.26249e+42,
+   "l_dust_erg_s_p84": 5.34739e+42,
+   "r_bb_light_days_p16": 33.2935,
+   "r_bb_light_days_p50": 35.1458,
+   "r_bb_light_days_p84": 37.0124,
+   "color_corrected": {
+    "t_rest_k": 974.582,
+    "l_dust_erg_s": 5.33616e+42,
+    "r_bb_light_days": 35.1749
+   },
+   "alt_baseline": {
+    "faint_half": {
+     "t_rest_k": 975.242,
+     "l_dust_erg_s": 5.30985e+42,
+     "r_bb_light_days": 35.0406
+    },
+    "last_pre_flare_visit": {
+     "t_rest_k": 979.005,
+     "l_dust_erg_s": 4.80015e+42,
+     "r_bb_light_days": 33.0607
+    }
+   }
+  },
+  {
+   "date": "2023-05-11",
+   "mjd": 60075.4,
+   "year": 2023.36,
+   "w1_mag": 9.92824,
+   "w2_mag": 9.38001,
+   "w1_excess_mjy": 11.4357,
+   "w2_excess_mjy": 16.0368,
+   "w1_excess_err_mjy": 0.534178,
+   "w2_excess_err_mjy": 0.506431,
+   "t_obs_k": 922.04,
+   "t_rest_k": 930.415,
+   "l_dust_erg_s": 2.91512e+42,
+   "r_bb_light_days": 28.5253,
+   "valid_draw_fraction": 1.0,
+   "t_rest_k_p16": 887.846,
+   "t_rest_k_p50": 930.897,
+   "t_rest_k_p84": 975.137,
+   "l_dust_erg_s_p16": 2.8483e+42,
+   "l_dust_erg_s_p50": 2.92494e+42,
+   "l_dust_erg_s_p84": 3.00512e+42,
+   "r_bb_light_days_p16": 26.0576,
+   "r_bb_light_days_p50": 28.5237,
+   "r_bb_light_days_p84": 31.3041,
+   "color_corrected": {
+    "t_rest_k": 931.465,
+    "l_dust_erg_s": 2.95728e+42,
+    "r_bb_light_days": 28.6661
+   },
+   "alt_baseline": {
+    "faint_half": {
+     "t_rest_k": 936.085,
+     "l_dust_erg_s": 2.96592e+42,
+     "r_bb_light_days": 28.4252
+    },
+    "last_pre_flare_visit": {
+     "t_rest_k": 934.991,
+     "l_dust_erg_s": 2.45505e+42,
+     "r_bb_light_days": 25.9221
+    }
+   }
+  },
+  {
+   "date": "2023-12-05",
+   "mjd": 60283.0,
+   "year": 2023.92,
+   "w1_mag": 9.4145,
+   "w2_mag": 8.86775,
+   "w1_excess_mjy": 31.445,
+   "w2_excess_mjy": 34.3693,
+   "w1_excess_err_mjy": 0.553638,
+   "w2_excess_err_mjy": 0.55013,
+   "t_obs_k": 1173.09,
+   "t_rest_k": 1183.75,
+   "l_dust_erg_s": 7.62951e+42,
+   "r_bb_light_days": 28.5091,
+   "valid_draw_fraction": 1.0,
+   "t_rest_k_p16": 1153.31,
+   "t_rest_k_p50": 1183.01,
+   "t_rest_k_p84": 1215.26,
+   "l_dust_erg_s_p16": 7.463e+42,
+   "l_dust_erg_s_p50": 7.62713e+42,
+   "l_dust_erg_s_p84": 7.81368e+42,
+   "r_bb_light_days_p16": 27.3281,
+   "r_bb_light_days_p50": 28.5338,
+   "r_bb_light_days_p84": 29.7708,
+   "color_corrected": {
+    "t_rest_k": 1194.11,
+    "l_dust_erg_s": 7.80205e+42,
+    "r_bb_light_days": 28.3315
+   },
+   "alt_baseline": {
+    "faint_half": {
+     "t_rest_k": 1185.33,
+     "l_dust_erg_s": 7.69217e+42,
+     "r_bb_light_days": 28.5498
+    },
+    "last_pre_flare_visit": {
+     "t_rest_k": 1210.33,
+     "l_dust_erg_s": 7.24478e+42,
+     "r_bb_light_days": 26.574
+    }
+   }
+  },
+  {
+   "date": "2024-05-10",
+   "mjd": 60440.1,
+   "year": 2024.35,
+   "w1_mag": 9.3505,
+   "w2_mag": 8.718,
+   "w1_excess_mjy": 34.6679,
+   "w2_excess_mjy": 41.5773,
+   "w1_excess_err_mjy": 0.666668,
+   "w2_excess_err_mjy": 0.627151,
+   "t_obs_k": 1063.55,
+   "t_rest_k": 1073.21,
+   "l_dust_erg_s": 8.3523e+42,
+   "r_bb_light_days": 36.2903,
+   "valid_draw_fraction": 1.0,
+   "t_rest_k_p16": 1046.85,
+   "t_rest_k_p50": 1072.41,
+   "t_rest_k_p84": 1099.26,
+   "l_dust_erg_s_p16": 8.21639e+42,
+   "l_dust_erg_s_p50": 8.35451e+42,
+   "l_dust_erg_s_p84": 8.50461e+42,
+   "r_bb_light_days_p16": 34.8197,
+   "r_bb_light_days_p50": 36.333,
+   "r_bb_light_days_p84": 37.9421,
+   "color_corrected": {
+    "t_rest_k": 1079.64,
+    "l_dust_erg_s": 8.50543e+42,
+    "r_bb_light_days": 36.1866
+   },
+   "alt_baseline": {
+    "faint_half": {
+     "t_rest_k": 1074.93,
+     "l_dust_erg_s": 8.4106e+42,
+     "r_bb_light_days": 36.3001
+    },
+    "last_pre_flare_visit": {
+     "t_rest_k": 1085.3,
+     "l_dust_erg_s": 7.91765e+42,
+     "r_bb_light_days": 34.5505
+    }
+   }
+  }
+ ],
+ "summary": {
+  "t_rest_k_min": 930.415,
+  "t_rest_k_max": 1214.07,
+  "t_rest_k_mean": 1052.17,
+  "t_rest_k_std": 104.065,
+  "l_dust_ratio_last_over_first": 2.38961,
+  "r_bb_ratio_last_over_first": 1.54775,
+  "dlog_r_dlog_l": 0.206377,
+  "onset_light_travel_limit_light_days": 206.087
+ },
+ "sublimation_radius": [
+  {
+   "label": "Son+2022, before the flare (W1-based)",
+   "log_lbol": 42.89,
+   "date": null,
+   "source": "Son et al. 2022, ApJ 937, 3, Sec. 3.3",
+   "r_sub_graphite_light_days": 16.5953,
+   "r_sub_silicate_light_days": 43.1479
+  },
+  {
+   "label": "Son+2022, after the flare (W1-based)",
+   "log_lbol": 43.35,
+   "date": null,
+   "source": "Son et al. 2022, ApJ 937, 3, Sec. 3.3",
+   "r_sub_graphite_light_days": 28.1829,
+   "r_sub_silicate_light_days": 73.2756
+  },
+  {
+   "label": "Son+2026, broad H-alpha, 2022-02-02",
+   "log_lbol": 43.31,
+   "date": "2022-02-02",
+   "source": "Son et al. 2026, arXiv:2604.17173, Sec. 4",
+   "r_sub_graphite_light_days": 26.9145,
+   "r_sub_silicate_light_days": 69.9777,
+   "nearest_visit": "2021-12-04",
+   "nearest_visit_gap_days": 59.2349,
+   "r_bb_light_days": 30.8649,
+   "r_bb_over_r_sub_graphite": 1.14678,
+   "r_bb_over_r_sub_silicate": 0.441068,
+   "l_dust_over_l_bol": 0.230716
+  },
+  {
+   "label": "Son+2026, broad H-alpha, 2023-06-10",
+   "log_lbol": 43.24,
+   "date": "2023-06-10",
+   "source": "Son et al. 2026, arXiv:2604.17173, Sec. 4",
+   "r_sub_graphite_light_days": 24.8305,
+   "r_sub_silicate_light_days": 64.5594,
+   "nearest_visit": "2023-05-11",
+   "nearest_visit_gap_days": 29.6482,
+   "r_bb_light_days": 28.5253,
+   "r_bb_over_r_sub_graphite": 1.1488,
+   "r_bb_over_r_sub_silicate": 0.441845,
+   "l_dust_over_l_bol": 0.167748
+  },
+  {
+   "label": "Son+2026, broad H-alpha, 2023-12-23",
+   "log_lbol": 43.34,
+   "date": "2023-12-23",
+   "source": "Son et al. 2026, arXiv:2604.17173, Sec. 4",
+   "r_sub_graphite_light_days": 27.8603,
+   "r_sub_silicate_light_days": 72.4368,
+   "nearest_visit": "2023-12-05",
+   "nearest_visit_gap_days": 17.9906,
+   "r_bb_light_days": 28.5091,
+   "r_bb_over_r_sub_graphite": 1.02329,
+   "r_bb_over_r_sub_silicate": 0.393571,
+   "l_dust_over_l_bol": 0.348736
+  },
+  {
+   "label": "Son+2026, extinction-corrected, 2022-02-02",
+   "log_lbol": 44.05,
+   "date": "2022-02-02",
+   "source": "Son et al. 2026, arXiv:2604.17173, Sec. 4",
+   "r_sub_graphite_light_days": 63.0937,
+   "r_sub_silicate_light_days": 164.044,
+   "nearest_visit": "2021-12-04",
+   "nearest_visit_gap_days": 59.2349,
+   "r_bb_light_days": 30.8649,
+   "r_bb_over_r_sub_graphite": 0.489191,
+   "r_bb_over_r_sub_silicate": 0.188151,
+   "l_dust_over_l_bol": 0.0419835
+  },
+  {
+   "label": "Son+2026, extinction-corrected, 2023-06-10",
+   "log_lbol": 44.39,
+   "date": "2023-06-10",
+   "source": "Son et al. 2026, arXiv:2604.17173, Sec. 4",
+   "r_sub_graphite_light_days": 93.3224,
+   "r_sub_silicate_light_days": 242.638,
+   "nearest_visit": "2023-05-11",
+   "nearest_visit_gap_days": 29.6482,
+   "r_bb_light_days": 28.5253,
+   "r_bb_over_r_sub_graphite": 0.305664,
+   "r_bb_over_r_sub_silicate": 0.117563,
+   "l_dust_over_l_bol": 0.0118756
+  },
+  {
+   "label": "Son+2026, extinction-corrected, 2023-12-23",
+   "log_lbol": 44.64,
+   "date": "2023-12-23",
+   "source": "Son et al. 2026, arXiv:2604.17173, Sec. 4",
+   "r_sub_graphite_light_days": 124.447,
+   "r_sub_silicate_light_days": 323.563,
+   "nearest_visit": "2023-12-05",
+   "nearest_visit_gap_days": 17.9906,
+   "r_bb_light_days": 28.5091,
+   "r_bb_over_r_sub_graphite": 0.229085,
+   "r_bb_over_r_sub_silicate": 0.0881097,
+   "l_dust_over_l_bol": 0.0174782
+  }
+ ]
+}

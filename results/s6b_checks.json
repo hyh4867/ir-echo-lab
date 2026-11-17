@@ -1,0 +1,178 @@
+{
+ "note": "computed after the registered result was seen; not part of PREDICTIONS_6.md",
+ "registered": {
+  "n": 70,
+  "median_d": 0.2569305,
+  "rho": 0.12887874096146174,
+  "p_one_sided_permutation": 0.1434,
+  "q2": 0.1977140907615745,
+  "q1_model1": 0.41645034154602184,
+  "verdict_by_the_registered_rule": "사용자 예측 지지"
+ },
+ "without_flagged_objects": {
+  "n": 47,
+  "median_d": 0.259735,
+  "rho": 0.1238436632747456,
+  "p_one_sided_permutation": 0.205,
+  "q2": 0.2445883441258091,
+  "q1_model1": 0.37358815252009087,
+  "verdict_by_the_registered_rule": "사용자 예측 지지",
+  "n_measurable_any_lbol": 66,
+  "median_d_any_lbol": 0.26934749999999996
+ },
+ "errors_without_floor": {
+  "n": 105,
+  "median_d": 0.2593593066061365,
+  "rho": 0.08658060269235397,
+  "p_one_sided_permutation": 0.1901,
+  "q2": 0.16113695680268955,
+  "q1_model1": 0.4493464852058463,
+  "verdict_by_the_registered_rule": "사용자 예측 지지",
+  "n_measurable_any_lbol": 137,
+  "median_d_any_lbol": 0.2593593066061365
+ },
+ "by_type": {
+  "1": {
+   "n": 53,
+   "median_d": 0.269661,
+   "rho": 0.13272320441344462,
+   "p_one_sided_permutation": 0.1748,
+   "q2": 0.22872175302488224,
+   "q1_model1": 0.38518842196749314,
+   "verdict_by_the_registered_rule": "사용자 예측 지지",
+   "n_measurable_any_lbol": 67,
+   "median_d_any_lbol": 0.275139
+  },
+  "2": {
+   "n": 17,
+   "median_d": 0.249,
+   "rho": 0.056372549019607844,
+   "p_one_sided_permutation": 0.4143,
+   "q2": 0.4045343137254884,
+   "q1_model1": 0.2383979108042466,
+   "verdict_by_the_registered_rule": "판정불가 (표본 부족)",
+   "n_measurable_any_lbol": 27,
+   "median_d_any_lbol": 0.248608
+  }
+ },
+ "n_sample_by_type": {
+  "1": 146,
+  "2": 64,
+  "other": 0
+ },
+ "separate_predictors": {
+  "rho_d_log_lbol": 0.12765250428101874,
+  "rho_d_redshift": 0.14186730142725124,
+  "rho_log_lbol_redshift": 0.784253516969729,
+  "high_minus_low_median_d": 0.073078,
+  "high_minus_low_ci95": [
+   -0.016922000000000006,
+   0.159268325
+  ],
+  "high_minus_low_p_one_sided_permutation": 0.0192,
+  "model1_expectation": 0.179704688077916,
+  "model1_half_expectation": 0.09499187401847459,
+  "model2_expectation": 0.005485288390407933
+ },
+ "measurable_objects_without_lbol": {
+  "n": 24,
+  "median_d": 0.2799735
+ },
+ "v1_against_v2": {
+  "n_v1": 71,
+  "n_v2": 94,
+  "measurable_fraction_v1": [
+   71,
+   225
+  ],
+  "measurable_fraction_v2": [
+   94,
+   210
+  ],
+  "median_d_v1": 0.227597,
+  "median_d_v2": 0.2681635,
+  "median_difference_v2_minus_v1": 0.040566500000000005,
+  "median_difference_ci95": [
+   0.003229649999999985,
+   0.08355700000000005
+  ],
+  "mann_whitney_p_two_sided": 0.011757139976605957,
+  "common_log_lbol_range": [
+   44.51,
+   45.07
+  ],
+  "common_range_n_v1": 22,
+  "common_range_n_v2": 41,
+  "common_range_median_d_v1": 0.2113915,
+  "common_range_median_d_v2": 0.24133,
+  "common_range_mann_whitney_p_two_sided": 0.6087700066584225,
+  "toy_median_d": {
+   "model1": 0.36109319037520543,
+   "model1_half": 0.18580263394834406,
+   "model1_double": 0.6735113814718942,
+   "model2": 0.1230460457416335
+  }
+ },
+ "lbol_error_in_model1": {
+  "n": 70,
+  "observed_rho": 0.12887874096146174,
+  "cases": [
+   {
+    "model": "model1",
+    "sigma_log_lbol_dex": 0.0,
+    "rho_p5": 0.404379337000991,
+    "rho_p50": 0.5672776639322725,
+    "fraction_at_or_below_observed": 0.0
+   },
+   {
+    "model": "model1",
+    "sigma_log_lbol_dex": 0.3,
+    "rho_p5": 0.280531886974018,
+    "rho_p50": 0.45847257457790225,
+    "fraction_at_or_below_observed": 0.0016666666666666668
+   },
+   {
+    "model": "model1",
+    "sigma_log_lbol_dex": 0.5,
+    "rho_p5": 0.171059399877526,
+    "rho_p50": 0.35576939900271193,
+    "fraction_at_or_below_observed": 0.020666666666666667
+   },
+   {
+    "model": "model1",
+    "sigma_log_lbol_dex": 1.0,
+    "rho_p5": 0.018593298923978655,
+    "rho_p50": 0.21292975242760914,
+    "fraction_at_or_below_observed": 0.22766666666666666
+   },
+   {
+    "model": "model1_half",
+    "sigma_log_lbol_dex": 0.0,
+    "rho_p5": 0.3292285197067217,
+    "rho_p50": 0.5068927763263555,
+    "fraction_at_or_below_observed": 0.0
+   },
+   {
+    "model": "model1_half",
+    "sigma_log_lbol_dex": 0.3,
+    "rho_p5": 0.2354142244772986,
+    "rho_p50": 0.4097804216603972,
+    "fraction_at_or_below_observed": 0.006666666666666667
+   },
+   {
+    "model": "model1_half",
+    "sigma_log_lbol_dex": 0.5,
+    "rho_p5": 0.13601959583588488,
+    "rho_p50": 0.3253608608170764,
+    "fraction_at_or_below_observed": 0.042
+   },
+   {
+    "model": "model1_half",
+    "sigma_log_lbol_dex": 1.0,
+    "rho_p5": 0.0058297611757501646,
+    "rho_p50": 0.199212667308197,
+    "fraction_at_or_below_observed": 0.2753333333333333
+   }
+  ]
+ }
+}

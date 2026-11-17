@@ -1,0 +1,286 @@
+{
+ "rules": "docs/PREDICTIONS.md section 2 (commit 0aefbe4)",
+ "bands": {
+  "g": {
+   "status": "ok",
+   "oid": "813106400015231",
+   "n_rows_total": 630,
+   "n_rows_clean": 416,
+   "n_rows_used": 352,
+   "mjd_range": [
+    58204.2,
+    60968.4
+   ],
+   "date_range": [
+    "2018-03-27",
+    "2025-10-20"
+   ],
+   "bins": [
+    {
+     "wise_visit": "2018-03-07",
+     "n": 10,
+     "mag": 15.1947,
+     "err": 0.0267409,
+     "offset_days": 26.1532,
+     "w1_excess_mjy": -1.28315,
+     "post_outburst": false
+    },
+    {
+     "wise_visit": "2018-10-01",
+     "n": 72,
+     "mag": 15.1443,
+     "err": 0.0125409,
+     "offset_days": -9.08557,
+     "w1_excess_mjy": 0.698621,
+     "post_outburst": false
+    },
+    {
+     "wise_visit": "2019-03-06",
+     "n": 38,
+     "mag": 15.1353,
+     "err": 0.0106434,
+     "offset_days": 28.9376,
+     "w1_excess_mjy": -2.34148,
+     "post_outburst": false
+    },
+    {
+     "wise_visit": "2019-10-01",
+     "n": 30,
+     "mag": 15.1555,
+     "err": 0.0139447,
+     "offset_days": 11.5742,
+     "w1_excess_mjy": -2.27133,
+     "post_outburst": false
+    },
+    {
+     "wise_visit": "2020-03-05",
+     "n": 19,
+     "mag": 15.1166,
+     "err": 0.0234572,
+     "offset_days": -32.7344,
+     "w1_excess_mjy": 0.0,
+     "post_outburst": false
+    },
+    {
+     "wise_visit": "2020-09-30",
+     "n": 23,
+     "mag": 15.1547,
+     "err": 0.010059,
+     "offset_days": 9.29684,
+     "w1_excess_mjy": 3.16949,
+     "post_outburst": true
+    },
+    {
+     "wise_visit": "2021-03-06",
+     "n": 25,
+     "mag": 15.1262,
+     "err": 0.0158725,
+     "offset_days": 16.7771,
+     "w1_excess_mjy": 3.4602,
+     "post_outburst": true
+    },
+    {
+     "wise_visit": "2021-10-01",
+     "n": 12,
+     "mag": 15.1642,
+     "err": 0.0155628,
+     "offset_days": -0.64295,
+     "w1_excess_mjy": 7.97577,
+     "post_outburst": true
+    },
+    {
+     "wise_visit": "2022-03-06",
+     "n": 11,
+     "mag": 15.1671,
+     "err": 0.0170582,
+     "offset_days": 31.8758,
+     "w1_excess_mjy": 9.19738,
+     "post_outburst": true
+    },
+    {
+     "wise_visit": "2022-10-01",
+     "n": 19,
+     "mag": 15.1625,
+     "err": 0.0172403,
+     "offset_days": 14.0032,
+     "w1_excess_mjy": 12.207,
+     "post_outburst": true
+    },
+    {
+     "wise_visit": "2023-03-07",
+     "n": 13,
+     "mag": 15.1461,
+     "err": 0.0201515,
+     "offset_days": -27.5855,
+     "w1_excess_mjy": 8.25459,
+     "post_outburst": true
+    },
+    {
+     "wise_visit": "2023-10-01",
+     "n": 18,
+     "mag": 15.1596,
+     "err": 0.0189432,
+     "offset_days": 24.53,
+     "w1_excess_mjy": 12.5011,
+     "post_outburst": true
+    },
+    {
+     "wise_visit": "2024-03-06",
+     "n": 9,
+     "mag": 15.1509,
+     "err": 0.0115469,
+     "offset_days": 15.145,
+     "w1_excess_mjy": 13.996,
+     "post_outburst": true
+    }
+   ],
+   "n_pre_bins": 5,
+   "n_post_bins": 8,
+   "brightening_mag": -0.0128388,
+   "pre_outburst_bin_scatter_mag": 0.0291344,
+   "brightening_over_scatter": -0.440676,
+   "post_bin_range_mag": 0.0409537,
+   "n_pairs_for_correlation": 8,
+   "spearman_rho": -0.190476,
+   "spearman_p": 0.651401,
+   "passes": false
+  },
+  "r": {
+   "status": "ok",
+   "oid": "813206400013346",
+   "n_rows_total": 633,
+   "n_rows_clean": 562,
+   "n_rows_used": 497,
+   "mjd_range": [
+    58217.1,
+    60968.5
+   ],
+   "date_range": [
+    "2018-04-09",
+    "2025-10-20"
+   ],
+   "bins": [
+    {
+     "wise_visit": "2018-10-01",
+     "n": 101,
+     "mag": 14.3191,
+     "err": 0.00599482,
+     "offset_days": -8.54315,
+     "w1_excess_mjy": 0.698621,
+     "post_outburst": false
+    },
+    {
+     "wise_visit": "2019-03-06",
+     "n": 36,
+     "mag": 14.2562,
+     "err": 0.0161192,
+     "offset_days": 11.9007,
+     "w1_excess_mjy": -2.34148,
+     "post_outburst": false
+    },
+    {
+     "wise_visit": "2019-10-01",
+     "n": 43,
+     "mag": 14.2657,
+     "err": 0.00989646,
+     "offset_days": 35.689,
+     "w1_excess_mjy": -2.27133,
+     "post_outburst": false
+    },
+    {
+     "wise_visit": "2020-03-05",
+     "n": 35,
+     "mag": 14.2552,
+     "err": 0.0104862,
+     "offset_days": -41.6493,
+     "w1_excess_mjy": 0.0,
+     "post_outburst": false
+    },
+    {
+     "wise_visit": "2020-09-30",
+     "n": 39,
+     "mag": 14.2492,
+     "err": 0.0103085,
+     "offset_days": 21.4097,
+     "w1_excess_mjy": 3.16949,
+     "post_outburst": true
+    },
+    {
+     "wise_visit": "2021-03-06",
+     "n": 42,
+     "mag": 14.2311,
+     "err": 0.0166509,
+     "offset_days": 5.70148,
+     "w1_excess_mjy": 3.4602,
+     "post_outburst": true
+    },
+    {
+     "wise_visit": "2021-10-01",
+     "n": 24,
+     "mag": 14.2645,
+     "err": 0.00919577,
+     "offset_days": 4.33982,
+     "w1_excess_mjy": 7.97577,
+     "post_outburst": true
+    },
+    {
+     "wise_visit": "2022-03-06",
+     "n": 12,
+     "mag": 14.2688,
+     "err": 0.0177262,
+     "offset_days": 11.3625,
+     "w1_excess_mjy": 9.19738,
+     "post_outburst": true
+    },
+    {
+     "wise_visit": "2022-10-01",
+     "n": 29,
+     "mag": 14.2847,
+     "err": 0.00925403,
+     "offset_days": 13.9731,
+     "w1_excess_mjy": 12.207,
+     "post_outburst": true
+    },
+    {
+     "wise_visit": "2023-03-07",
+     "n": 17,
+     "mag": 14.2851,
+     "err": 0.0168208,
+     "offset_days": -30.492,
+     "w1_excess_mjy": 8.25459,
+     "post_outburst": true
+    },
+    {
+     "wise_visit": "2023-10-01",
+     "n": 29,
+     "mag": 14.2778,
+     "err": 0.00963445,
+     "offset_days": 13.9923,
+     "w1_excess_mjy": 12.5011,
+     "post_outburst": true
+    },
+    {
+     "wise_visit": "2024-03-06",
+     "n": 19,
+     "mag": 14.2892,
+     "err": 0.00948627,
+     "offset_days": -20.854,
+     "w1_excess_mjy": 13.996,
+     "post_outburst": true
+    }
+   ],
+   "n_pre_bins": 4,
+   "n_post_bins": 8,
+   "brightening_mag": -0.0123858,
+   "pre_outburst_bin_scatter_mag": 0.0304001,
+   "brightening_over_scatter": -0.407427,
+   "post_bin_range_mag": 0.0581522,
+   "n_pairs_for_correlation": 8,
+   "spearman_rho": -0.809524,
+   "spearman_p": 0.0149027,
+   "passes": false
+  }
+ },
+ "verdict": "undetermined",
+ "note": "same rule as for NGC 3786, applied after the fact to the slow-rise candidate; baseline = median W1 flux before MJD 59000"
+}

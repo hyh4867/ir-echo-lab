@@ -1,0 +1,6008 @@
+{
+ "bat0001": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.4176353085724327,
+   "chi2_red_median_after": 0.8361496467781535,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 5.510843552767073,
+   "offset_max_abs_mmag": 13.121287086944378,
+   "offset_err_median_mmag": 2.0941556070189615,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 3.1850194736476847,
+   "chi2_red_median_after": 0.9137418431527868,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 14.13949093689407,
+   "offset_max_abs_mmag": 42.000748339763305,
+   "offset_err_median_mmag": 3.014052405890152,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat0003": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.4862380860964213,
+   "chi2_red_median_after": 0.7890118480959691,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.550701503020362,
+   "offset_max_abs_mmag": 13.000000000001677,
+   "offset_err_median_mmag": 1.5417980374430396,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 3.757057095665788,
+   "chi2_red_median_after": 0.8048821668546409,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 16.848175844291898,
+   "offset_max_abs_mmag": 56.132166762617786,
+   "offset_err_median_mmag": 3.0436321512152418,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat0004": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.6608603028961326,
+   "chi2_red_median_after": 0.9993217623184831,
+   "n_p_below_0.01_before": 4,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.864628048572482,
+   "offset_max_abs_mmag": 14.750115129237074,
+   "offset_err_median_mmag": 2.130381869865733,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 4.064723087309049,
+   "chi2_red_median_after": 0.9936101256273308,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 16.691724574566692,
+   "offset_max_abs_mmag": 52.87606494448038,
+   "offset_err_median_mmag": 3.305215603822612,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0006": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.3036967048340418,
+   "chi2_red_median_after": 0.7162405943179954,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 5.577533175658161,
+   "offset_max_abs_mmag": 18.75040295229269,
+   "offset_err_median_mmag": 1.6171595175981477,
+   "min_stars_per_visit": 7
+  },
+  "w2": {
+   "chi2_red_median_before": 4.5456911232578605,
+   "chi2_red_median_after": 0.7879350164666894,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 18.261887715882565,
+   "offset_max_abs_mmag": 58.124971217687005,
+   "offset_err_median_mmag": 2.679289289805633,
+   "min_stars_per_visit": 7
+  }
+ },
+ "bat0024": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.333479208855722,
+   "chi2_red_median_after": 0.7767643293648462,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 5.098339858485264,
+   "offset_max_abs_mmag": 14.751554240903353,
+   "offset_err_median_mmag": 1.909574141792673,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 4.383192513033678,
+   "chi2_red_median_after": 1.0071981266480152,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 3,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 17.771575337693058,
+   "offset_max_abs_mmag": 52.5046051488296,
+   "offset_err_median_mmag": 2.974866551494111,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0028": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.5415134048861332,
+   "chi2_red_median_after": 0.7933681121651328,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.976037484779509,
+   "offset_max_abs_mmag": 9.00535349009246,
+   "offset_err_median_mmag": 1.8356671442597967,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 2.521061609517508,
+   "chi2_red_median_after": 0.8061150685656577,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 14.238294850072423,
+   "offset_max_abs_mmag": 41.00046051675843,
+   "offset_err_median_mmag": 3.34183085362282,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0031": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.384752121576387,
+   "chi2_red_median_after": 0.7342126027634407,
+   "n_p_below_0.01_before": 4,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 5.121646247734062,
+   "offset_max_abs_mmag": 13.625431734005211,
+   "offset_err_median_mmag": 2.056965334644085,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 3.8444466761803744,
+   "chi2_red_median_after": 0.8824243039292345,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 16.19251942575799,
+   "offset_max_abs_mmag": 49.999769741524425,
+   "offset_err_median_mmag": 3.747084748603414,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat0034": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.4330614327138242,
+   "chi2_red_median_after": 0.8063498059304806,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.4139095577059875,
+   "offset_max_abs_mmag": 10.125892250470336,
+   "offset_err_median_mmag": 1.8734155300137223,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.4886795550476104,
+   "chi2_red_median_after": 0.8936504591539677,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 2,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 15.30873198262332,
+   "offset_max_abs_mmag": 53.62577712211092,
+   "offset_err_median_mmag": 3.5248563667586836,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0049": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.2929714886641488,
+   "chi2_red_median_after": 0.8242931511147891,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.307119899516688,
+   "offset_max_abs_mmag": 12.380036877719824,
+   "offset_err_median_mmag": 1.9479652035230086,
+   "min_stars_per_visit": 3
+  },
+  "w2": {
+   "chi2_red_median_before": 2.8146235893723235,
+   "chi2_red_median_after": 0.8267908573361792,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 13.465803069382055,
+   "offset_max_abs_mmag": 40.88072765997541,
+   "offset_err_median_mmag": 2.8284901228135455,
+   "min_stars_per_visit": 3
+  }
+ },
+ "bat0050": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.3929771163081348,
+   "chi2_red_median_after": 0.8370889045284824,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 4.360788880177688,
+   "offset_max_abs_mmag": 8.756044256600148,
+   "offset_err_median_mmag": 1.8933361299560747,
+   "min_stars_per_visit": 6
+  },
+  "w2": {
+   "chi2_red_median_before": 3.098303833767278,
+   "chi2_red_median_after": 0.9066384609987057,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 15.37111928315072,
+   "offset_max_abs_mmag": 39.24625831205386,
+   "offset_err_median_mmag": 2.5722341015912327,
+   "min_stars_per_visit": 6
+  }
+ },
+ "bat0062": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.2800799409221755,
+   "chi2_red_median_after": 0.8194873723035452,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.0330999661800275,
+   "offset_max_abs_mmag": 9.877331362978303,
+   "offset_err_median_mmag": 1.982517128924834,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.87098952957486,
+   "chi2_red_median_after": 1.060604337848815,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 16.81828300177297,
+   "offset_max_abs_mmag": 47.37618007352484,
+   "offset_err_median_mmag": 3.195133078138309,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0063": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.2419968858533355,
+   "chi2_red_median_after": 0.8817519542236705,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.160615882585132,
+   "offset_max_abs_mmag": 7.748676014449174,
+   "offset_err_median_mmag": 1.616753616952434,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.4448369447340053,
+   "chi2_red_median_after": 0.9463017577255831,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 12.699465454274385,
+   "offset_max_abs_mmag": 33.00000000000125,
+   "offset_err_median_mmag": 2.2036800199196986,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0064": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.2066069170322473,
+   "chi2_red_median_after": 1.044181882996232,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.983399743514448,
+   "offset_max_abs_mmag": 11.36829375067272,
+   "offset_err_median_mmag": 1.7628763655931647,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.311599180304569,
+   "chi2_red_median_after": 0.7840034664624318,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 15.499637710214259,
+   "offset_max_abs_mmag": 48.211374830364306,
+   "offset_err_median_mmag": 2.310667574303466,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0072": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.2590890914054191,
+   "chi2_red_median_after": 0.8469051007024384,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.485759732327897,
+   "offset_max_abs_mmag": 11.000633210720423,
+   "offset_err_median_mmag": 2.166574305676577,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.576291224631926,
+   "chi2_red_median_after": 0.8625766755620439,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 16.007582975880656,
+   "offset_max_abs_mmag": 45.24407087185711,
+   "offset_err_median_mmag": 2.9367799107786716,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0074": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.4759647766486117,
+   "chi2_red_median_after": 1.001146988427308,
+   "n_p_below_0.01_before": 4,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.575721575789283,
+   "offset_max_abs_mmag": 14.000057564611978,
+   "offset_err_median_mmag": 1.6155528258006082,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.74234625404665,
+   "chi2_red_median_after": 0.8517054436329634,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 16.07747526399261,
+   "offset_max_abs_mmag": 56.628194826156,
+   "offset_err_median_mmag": 2.3853694523998104,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0077": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.2950657305081688,
+   "chi2_red_median_after": 0.9875863212049586,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.600157463537821,
+   "offset_max_abs_mmag": 16.002763097230144,
+   "offset_err_median_mmag": 2.1652382158618066,
+   "min_stars_per_visit": 7
+  },
+  "w2": {
+   "chi2_red_median_before": 3.890206469292261,
+   "chi2_red_median_after": 1.0902016279950941,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 15.276664552142545,
+   "offset_max_abs_mmag": 49.625489297411285,
+   "offset_err_median_mmag": 2.7572214641137047,
+   "min_stars_per_visit": 7
+  }
+ },
+ "bat0079": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.3566476795661182,
+   "chi2_red_median_after": 0.8273329802666134,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 5.284946077647584,
+   "offset_max_abs_mmag": 14.750460516758324,
+   "offset_err_median_mmag": 1.7626565023671377,
+   "min_stars_per_visit": 7
+  },
+  "w2": {
+   "chi2_red_median_before": 3.3174142630638572,
+   "chi2_red_median_after": 0.763725398911472,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 14.43011217467713,
+   "offset_max_abs_mmag": 42.00506558950945,
+   "offset_err_median_mmag": 3.1203635423087475,
+   "min_stars_per_visit": 7
+  }
+ },
+ "bat0081": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.4787409866199952,
+   "chi2_red_median_after": 0.8417923949008526,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.696332297549494,
+   "offset_max_abs_mmag": 11.502878221195445,
+   "offset_err_median_mmag": 1.761912350661607,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 3.6013043699699834,
+   "chi2_red_median_after": 0.7557092567073393,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 14.811306655080486,
+   "offset_max_abs_mmag": 41.48716319109447,
+   "offset_err_median_mmag": 3.0853718902067055,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0083": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.1876778087411959,
+   "chi2_red_median_after": 0.8013559862820943,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.568264073508145,
+   "offset_max_abs_mmag": 13.006504751383652,
+   "offset_err_median_mmag": 1.6912356320957023,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.4720539071223326,
+   "chi2_red_median_after": 0.9643233471256571,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 2,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 15.822928632188264,
+   "offset_max_abs_mmag": 50.75011512923844,
+   "offset_err_median_mmag": 3.0073890425031307,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0087": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.0662940541646588,
+   "chi2_red_median_after": 0.9559906946131148,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.461134168040243,
+   "offset_max_abs_mmag": 9.124913653073108,
+   "offset_err_median_mmag": 1.8063917335658626,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.540887634989902,
+   "chi2_red_median_after": 1.141763674624996,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 14.088046602397043,
+   "offset_max_abs_mmag": 41.87997932378895,
+   "offset_err_median_mmag": 3.2289915865409093,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0095": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 2.0143003705023785,
+   "chi2_red_median_after": 1.1811954274258132,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 5.685952830427312,
+   "offset_max_abs_mmag": 13.125028782312143,
+   "offset_err_median_mmag": 2.2396864178327984,
+   "min_stars_per_visit": 4
+  },
+  "w2": {
+   "chi2_red_median_before": 4.337218662999956,
+   "chi2_red_median_after": 0.8634315800475574,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 17.727340860258657,
+   "offset_max_abs_mmag": 55.620653888539096,
+   "offset_err_median_mmag": 3.3032537611037505,
+   "min_stars_per_visit": 4
+  }
+ },
+ "bat0096": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.4025020616258876,
+   "chi2_red_median_after": 0.6606074146829173,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.6519416550250945,
+   "offset_max_abs_mmag": 15.003684127814942,
+   "offset_err_median_mmag": 1.5415274363861142,
+   "min_stars_per_visit": 6
+  },
+  "w2": {
+   "chi2_red_median_before": 3.4451126905530005,
+   "chi2_red_median_after": 0.8294003179179411,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 14.595316727806841,
+   "offset_max_abs_mmag": 44.75005756457584,
+   "offset_err_median_mmag": 2.717325185212967,
+   "min_stars_per_visit": 6
+  }
+ },
+ "bat0102": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.2328086715469895,
+   "chi2_red_median_after": 0.9656694054921875,
+   "n_p_below_0.01_before": 4,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.312266552403352,
+   "offset_max_abs_mmag": 13.250000000000206,
+   "offset_err_median_mmag": 2.094527682010207,
+   "min_stars_per_visit": 7
+  },
+  "w2": {
+   "chi2_red_median_before": 3.640863479826195,
+   "chi2_red_median_after": 0.9534758716452828,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 14.386815676861952,
+   "offset_max_abs_mmag": 40.60079426558261,
+   "offset_err_median_mmag": 2.8624670073492835,
+   "min_stars_per_visit": 7
+  }
+ },
+ "bat0116": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.5646187284356985,
+   "chi2_red_median_after": 0.8021544252822803,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.739069749736305,
+   "offset_max_abs_mmag": 16.499481916564918,
+   "offset_err_median_mmag": 1.98106265066696,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 4.086663524050329,
+   "chi2_red_median_after": 0.9604135528061092,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 16.333619988362287,
+   "offset_max_abs_mmag": 51.47754997059906,
+   "offset_err_median_mmag": 3.5995920829019217,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0128": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0405987510917014,
+   "chi2_red_median_after": 0.6037249411131362,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 4.101314635822082,
+   "offset_max_abs_mmag": 9.001957192962706,
+   "offset_err_median_mmag": 1.7599674151308908,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.360521941148881,
+   "chi2_red_median_after": 0.8044304542421384,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 9.55665540490246,
+   "offset_max_abs_mmag": 20.249827306149548,
+   "offset_err_median_mmag": 2.2167363963202713,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0130": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.4325365672615926,
+   "chi2_red_median_after": 0.9759074532490364,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.6007698264997994,
+   "offset_max_abs_mmag": 8.125143911550836,
+   "offset_err_median_mmag": 1.9082211411615346,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.1262755171947965,
+   "chi2_red_median_after": 0.7307228263682892,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 15.032676259970144,
+   "offset_max_abs_mmag": 36.865242853780344,
+   "offset_err_median_mmag": 2.9378115750482254,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0131": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.043277672835694,
+   "chi2_red_median_after": 0.7808371634236431,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.8093535860098795,
+   "offset_max_abs_mmag": 16.87531660520758,
+   "offset_err_median_mmag": 2.128014114969339,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.882575655125209,
+   "chi2_red_median_after": 0.6278101100719202,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 17.610144997988122,
+   "offset_max_abs_mmag": 59.37508634649813,
+   "offset_err_median_mmag": 2.7141794785198328,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0133": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.8951897907760805,
+   "chi2_red_median_after": 0.8408883643005662,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.310203709211082,
+   "offset_max_abs_mmag": 5.999539483142691,
+   "offset_err_median_mmag": 1.7637558186470572,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.5019830855744765,
+   "chi2_red_median_after": 0.923612297021152,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.97700723474712,
+   "offset_max_abs_mmag": 16.49999999999885,
+   "offset_err_median_mmag": 2.345540819714563,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0141": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.1530601580617161,
+   "chi2_red_median_after": 0.9984639356691984,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.411308846510301,
+   "offset_max_abs_mmag": 6.000460516853323,
+   "offset_err_median_mmag": 1.6885296399172904,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 2.690249029965715,
+   "chi2_red_median_after": 1.052457196300351,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 10.784876910615594,
+   "offset_max_abs_mmag": 26.99976974152385,
+   "offset_err_median_mmag": 3.0849490771421415,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat0146": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.5469018432279196,
+   "chi2_red_median_after": 0.8326890515259038,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.246045642500771,
+   "offset_max_abs_mmag": 13.253741685798737,
+   "offset_err_median_mmag": 1.8742780672045103,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.532175098368879,
+   "chi2_red_median_after": 1.01694645291641,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 15.790192135392306,
+   "offset_max_abs_mmag": 46.37577710648699,
+   "offset_err_median_mmag": 3.085659397834112,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0153": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.5898963474764778,
+   "chi2_red_median_after": 0.9918257430662167,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 5.12395835238422,
+   "offset_max_abs_mmag": 12.50299335043259,
+   "offset_err_median_mmag": 1.9444474024434006,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 3.141569187862831,
+   "chi2_red_median_after": 0.8778846335243788,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 12.932896801886933,
+   "offset_max_abs_mmag": 39.75074833981207,
+   "offset_err_median_mmag": 2.4533206606639415,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0156": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 0.8473622556396633,
+   "chi2_red_median_after": 0.833864769032622,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.517532580640482,
+   "offset_max_abs_mmag": 8.75143911440901,
+   "offset_err_median_mmag": 1.762690327450391,
+   "min_stars_per_visit": 5
+  },
+  "w2": {
+   "chi2_red_median_before": 2.4786145098666728,
+   "chi2_red_median_after": 0.9471350931990794,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 12.83534352861842,
+   "offset_max_abs_mmag": 33.000230258478425,
+   "offset_err_median_mmag": 3.85623707799843,
+   "min_stars_per_visit": 5
+  }
+ },
+ "bat0157": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.163627949747017,
+   "chi2_red_median_after": 0.9236728671224803,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.168692895442395,
+   "offset_max_abs_mmag": 7.500690775038343,
+   "offset_err_median_mmag": 1.7622675134594608,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.744962323933751,
+   "chi2_red_median_after": 0.9396061612604618,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 11.240552258420715,
+   "offset_max_abs_mmag": 25.254662721464705,
+   "offset_err_median_mmag": 2.937879225165151,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0159": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.3854405359970656,
+   "chi2_red_median_after": 1.019099704821255,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.971404529928165,
+   "offset_max_abs_mmag": 9.996315872184525,
+   "offset_err_median_mmag": 2.020654507807795,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 3.5776643988916166,
+   "chi2_red_median_after": 0.8540664896747963,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 14.969046508261163,
+   "offset_max_abs_mmag": 41.62520147572568,
+   "offset_err_median_mmag": 2.7542448611815358,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat0162": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.3427718728797764,
+   "chi2_red_median_after": 0.8614755933060361,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 4.793012252357617,
+   "offset_max_abs_mmag": 11.00736825562798,
+   "offset_err_median_mmag": 2.2035447194275077,
+   "min_stars_per_visit": 1
+  },
+  "w2": {
+   "chi2_red_median_before": 2.207555723943912,
+   "chi2_red_median_after": 0.9552780311407452,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 10.45007658749044,
+   "offset_max_abs_mmag": 23.5000000000003,
+   "offset_err_median_mmag": 3.521896681913158,
+   "min_stars_per_visit": 1
+  }
+ },
+ "bat0163": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0798716831660031,
+   "chi2_red_median_after": 0.921971790161139,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.3878270049514483,
+   "offset_max_abs_mmag": 5.749942435373967,
+   "offset_err_median_mmag": 1.9080520126151965,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 2.2354241249832776,
+   "chi2_red_median_after": 0.8423207396949699,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 10.442366981046293,
+   "offset_max_abs_mmag": 20.249942435374813,
+   "offset_err_median_mmag": 2.9358497215075845,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0164": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.8394438189446725,
+   "chi2_red_median_after": 0.558832691819285,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.2538997649371573,
+   "offset_max_abs_mmag": 4.499999999999282,
+   "offset_err_median_mmag": 1.0285418599019698,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.7422642499355323,
+   "chi2_red_median_after": 0.8056119229828036,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.705071076801433,
+   "offset_max_abs_mmag": 20.000000000000462,
+   "offset_err_median_mmag": 1.6159418142847661,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0165": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.0782158885932969,
+   "chi2_red_median_after": 0.9256711395751808,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.4988043971535983,
+   "offset_max_abs_mmag": 10.250345387713189,
+   "offset_err_median_mmag": 1.9481005055688847,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.6718625545909997,
+   "chi2_red_median_after": 0.8094186884297447,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 13.840000490993338,
+   "offset_max_abs_mmag": 49.1235896678992,
+   "offset_err_median_mmag": 2.715921447461492,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0171": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.9050089478949126,
+   "chi2_red_median_after": 0.8139309881894943,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.2973516601924104,
+   "offset_max_abs_mmag": 4.499539483142634,
+   "offset_err_median_mmag": 2.0572190202528127,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 2.1465180568879783,
+   "chi2_red_median_after": 0.8958144312255565,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 11.06662140578085,
+   "offset_max_abs_mmag": 21.750978598142012,
+   "offset_err_median_mmag": 2.5741959499744955,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat0182": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.9072808157801555,
+   "chi2_red_median_after": 0.8146808607848987,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.968192639512507,
+   "offset_max_abs_mmag": 7.0006907750386205,
+   "offset_err_median_mmag": 1.6049825937008664,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 1.8888708624189567,
+   "chi2_red_median_after": 1.1303810798145806,
+   "n_p_below_0.01_before": 5,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 10.48031631018885,
+   "offset_max_abs_mmag": 17.999769741523508,
+   "offset_err_median_mmag": 2.9437647371066826,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0197": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.9406507686961717,
+   "chi2_red_median_after": 0.7902421723613973,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.7106838405727998,
+   "offset_max_abs_mmag": 7.24948191852004,
+   "offset_err_median_mmag": 2.351088114081921,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.4745641315577895,
+   "chi2_red_median_after": 1.1763568078698416,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 2,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 10.13008227806309,
+   "offset_max_abs_mmag": 20.75017269385171,
+   "offset_err_median_mmag": 2.9373380241128375,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0213": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.8823388938285126,
+   "chi2_red_median_after": 0.8310773373400275,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.282328316986613,
+   "offset_max_abs_mmag": 5.499424353893723,
+   "offset_err_median_mmag": 1.61614476510212,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 2.257960264260346,
+   "chi2_red_median_after": 1.0281427125716784,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.69939329263149,
+   "offset_max_abs_mmag": 14.997927676053457,
+   "offset_err_median_mmag": 2.6401540735778832,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0221": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.8929901000694216,
+   "chi2_red_median_after": 0.7672933144145013,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.678647476883527,
+   "offset_max_abs_mmag": 8.49999999999973,
+   "offset_err_median_mmag": 1.4696837653773036,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.338348697496948,
+   "chi2_red_median_after": 0.7637630518353814,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 9.568716237942068,
+   "offset_max_abs_mmag": 17.488026636168996,
+   "offset_err_median_mmag": 2.1988092242848674,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0228": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.2596797183565853,
+   "chi2_red_median_after": 1.1168812696202897,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.4677835008064597,
+   "offset_max_abs_mmag": 9.000230258477515,
+   "offset_err_median_mmag": 2.350411620573053,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.0742784475423743,
+   "chi2_red_median_after": 1.1629501510262301,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 11.18779454193076,
+   "offset_max_abs_mmag": 26.25005756462606,
+   "offset_err_median_mmag": 2.93855572734115,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0230": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0346452028867095,
+   "chi2_red_median_after": 0.8972728366062815,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.024992642813236,
+   "offset_max_abs_mmag": 7.250057564626822,
+   "offset_err_median_mmag": 1.7655823692472918,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.355416730961135,
+   "chi2_red_median_after": 1.0512639896053866,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 11.087286860030874,
+   "offset_max_abs_mmag": 24.52532804032881,
+   "offset_err_median_mmag": 3.2320865793289557,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0242": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.1636253048918648,
+   "chi2_red_median_after": 0.9953357735523756,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.710649523372047,
+   "offset_max_abs_mmag": 5.249942435375132,
+   "offset_err_median_mmag": 2.349667468172096,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.9580690413517612,
+   "chi2_red_median_after": 0.8807858157206759,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 7.533299876921012,
+   "offset_max_abs_mmag": 14.752129889450849,
+   "offset_err_median_mmag": 2.2035447194285513,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0245": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.958149528815909,
+   "chi2_red_median_after": 0.7835500101344546,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.268167007033061,
+   "offset_max_abs_mmag": 7.505180802944267,
+   "offset_err_median_mmag": 1.7628087154297898,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.3116085319886057,
+   "chi2_red_median_after": 1.0641059698807505,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.888864434136464,
+   "offset_max_abs_mmag": 18.000000000000682,
+   "offset_err_median_mmag": 2.7910799742884036,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0252": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0600951405509325,
+   "chi2_red_median_after": 0.8503088651656343,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.7557228047405022,
+   "offset_max_abs_mmag": 6.620481190085847,
+   "offset_err_median_mmag": 1.8387452187714897,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 2.146950659562798,
+   "chi2_red_median_after": 0.9900832284852424,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 9.765782213934068,
+   "offset_max_abs_mmag": 19.750805897245982,
+   "offset_err_median_mmag": 2.9361879709821417,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0258": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.9515263600713508,
+   "chi2_red_median_after": 0.9570719003349951,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.816182524249705,
+   "offset_max_abs_mmag": 7.000000000000561,
+   "offset_err_median_mmag": 2.057895521854726,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.0468538438373898,
+   "chi2_red_median_after": 0.903212647621675,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.502204645057335,
+   "offset_max_abs_mmag": 18.99769741757673,
+   "offset_err_median_mmag": 2.6442130731439017,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0269": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0104287963861578,
+   "chi2_red_median_after": 0.8056515412200824,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.4111308195106433,
+   "offset_max_abs_mmag": 5.49976974152333,
+   "offset_err_median_mmag": 1.9075108150063544,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.112350913701106,
+   "chi2_red_median_after": 0.7687320812531022,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.482722840719557,
+   "offset_max_abs_mmag": 14.251439114412179,
+   "offset_err_median_mmag": 2.4974138222666324,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0270": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.133035359242931,
+   "chi2_red_median_after": 0.9449569592680094,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.126360195684871,
+   "offset_max_abs_mmag": 5.500000000001393,
+   "offset_err_median_mmag": 1.3217344602368233,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.606223834742896,
+   "chi2_red_median_after": 0.9693118600000129,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.486455278932207,
+   "offset_max_abs_mmag": 18.500000000001293,
+   "offset_err_median_mmag": 2.350411620572009,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0279": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.8189139697303538,
+   "chi2_red_median_after": 0.8729775859847764,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.633046800677432,
+   "offset_max_abs_mmag": 6.249942435374578,
+   "offset_err_median_mmag": 1.7626734148796686,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 1.6533475531581163,
+   "chi2_red_median_after": 0.7441250419888554,
+   "n_p_below_0.01_before": 4,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 7.33345258426673,
+   "offset_max_abs_mmag": 15.504605156836604,
+   "offset_err_median_mmag": 2.3307934987814014,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0301": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.9296649528196902,
+   "chi2_red_median_after": 0.8252159530231093,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.5693940920714056,
+   "offset_max_abs_mmag": 4.999769741521831,
+   "offset_err_median_mmag": 2.0566101680011606,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.7707362815876118,
+   "chi2_red_median_after": 0.8749303798287055,
+   "n_p_below_0.01_before": 5,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 7.471877541311762,
+   "offset_max_abs_mmag": 16.250518081482923,
+   "offset_err_median_mmag": 2.939232229285949,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0319": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.1579879164031737,
+   "chi2_red_median_after": 0.9107655939620471,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.1262477181559545,
+   "offset_max_abs_mmag": 3.750057564625209,
+   "offset_err_median_mmag": 1.0286095101843369,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.4161873828640728,
+   "chi2_red_median_after": 0.9947119820593521,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.645636479501798,
+   "offset_max_abs_mmag": 18.25259040337812,
+   "offset_err_median_mmag": 1.763079316473146,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0325": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.960536233936788,
+   "chi2_red_median_after": 0.8562315140327486,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.7949385862473135,
+   "offset_max_abs_mmag": 6.500000000001727,
+   "offset_err_median_mmag": 1.4687366618145414,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.3739059306591135,
+   "chi2_red_median_after": 1.0940406648954322,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 7.4054558056916635,
+   "offset_max_abs_mmag": 13.750057564625884,
+   "offset_err_median_mmag": 2.349870418602724,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0335": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.9986824242323327,
+   "chi2_red_median_after": 1.0176476897607682,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.3098745964700336,
+   "offset_max_abs_mmag": 4.747524728119679,
+   "offset_err_median_mmag": 2.3509528225423386,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.975077841315434,
+   "chi2_red_median_after": 0.9798624195614404,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 7.92339531030559,
+   "offset_max_abs_mmag": 13.749942435374862,
+   "offset_err_median_mmag": 2.79107997428736,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0346": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.128222264274747,
+   "chi2_red_median_after": 0.743628113694154,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.695486186659409,
+   "offset_max_abs_mmag": 10.996891518292529,
+   "offset_err_median_mmag": 1.616077114776957,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.4872042353413444,
+   "chi2_red_median_after": 0.9352561426208246,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.552323387247319,
+   "offset_max_abs_mmag": 12.776997334110973,
+   "offset_err_median_mmag": 2.2032741184994906,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0369": {
+  "n_stars": 10,
+  "n_field_visits": 20,
+  "w1": {
+   "chi2_red_median_before": 0.8938303554606127,
+   "chi2_red_median_after": 0.9232299800688673,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 2.513643645486459,
+   "offset_max_abs_mmag": 4.749769741571264,
+   "offset_err_median_mmag": 1.725905952214346,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.6867262945023822,
+   "chi2_red_median_after": 0.8352529189973035,
+   "n_p_below_0.01_before": 4,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 6.44008610796546,
+   "offset_max_abs_mmag": 11.995394851168406,
+   "offset_err_median_mmag": 3.1225452531865985,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0378": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.8753620300224825,
+   "chi2_red_median_after": 0.7926181652172409,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.0624867800649276,
+   "offset_max_abs_mmag": 7.009670799281054,
+   "offset_err_median_mmag": 1.9096756165732478,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.8763931699459853,
+   "chi2_red_median_after": 1.1898529036848722,
+   "n_p_below_0.01_before": 5,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 7.1323833142552076,
+   "offset_max_abs_mmag": 13.244070863763113,
+   "offset_err_median_mmag": 2.6436718711740945,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0382": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0657370219206745,
+   "chi2_red_median_after": 0.9018732854705278,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.515196242351349,
+   "offset_max_abs_mmag": 5.374395572032675,
+   "offset_err_median_mmag": 1.7629440159783454,
+   "min_stars_per_visit": 3
+  },
+  "w2": {
+   "chi2_red_median_before": 2.0739757639844187,
+   "chi2_red_median_after": 0.9057763613498762,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 7.491506207418027,
+   "offset_max_abs_mmag": 16.00000000000179,
+   "offset_err_median_mmag": 2.280123900184224,
+   "min_stars_per_visit": 3
+  }
+ },
+ "bat0383": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.2403341178129472,
+   "chi2_red_median_after": 1.0003977165711166,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.5506329798342215,
+   "offset_max_abs_mmag": 6.250172693850864,
+   "offset_err_median_mmag": 1.9113668708147098,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.966303605971147,
+   "chi2_red_median_after": 0.7324940955731638,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.874049502073885,
+   "offset_max_abs_mmag": 13.499999999997847,
+   "offset_err_median_mmag": 2.056745468549716,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0389": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0121794137221491,
+   "chi2_red_median_after": 0.9338100717089193,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.0137040648702906,
+   "offset_max_abs_mmag": 8.248560885589562,
+   "offset_err_median_mmag": 1.6156712132419322,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 2.059366716623929,
+   "chi2_red_median_after": 1.0046608791435712,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.933255080361636,
+   "offset_max_abs_mmag": 15.749366790075214,
+   "offset_err_median_mmag": 2.0551895136559266,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0390": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.880489691127762,
+   "chi2_red_median_after": 0.7167949111438572,
+   "n_p_below_0.01_before": 5,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.905178438127855,
+   "offset_max_abs_mmag": 13.624510700831927,
+   "offset_err_median_mmag": 1.3221403617094811,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 7.134271832559662,
+   "chi2_red_median_after": 0.7396951816564863,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 17.592261351780987,
+   "offset_max_abs_mmag": 56.625028782312015,
+   "offset_err_median_mmag": 2.0933945435657386,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0399": {
+  "n_stars": 10,
+  "n_field_visits": 20,
+  "w1": {
+   "chi2_red_median_before": 0.9030743550036398,
+   "chi2_red_median_after": 0.8198693457826419,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 2.4575588025971493,
+   "offset_max_abs_mmag": 4.6265830260976415,
+   "offset_err_median_mmag": 2.1303987794478165,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 1.5955131861802265,
+   "chi2_red_median_after": 0.935944843648091,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 6.932072656994546,
+   "offset_max_abs_mmag": 12.250057564624939,
+   "offset_err_median_mmag": 3.011312674689956,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0400": {
+  "n_stars": 10,
+  "n_field_visits": 20,
+  "w1": {
+   "chi2_red_median_before": 1.175055527554688,
+   "chi2_red_median_after": 0.8423485968184512,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 3.502734918261554,
+   "offset_max_abs_mmag": 6.999424354331651,
+   "offset_err_median_mmag": 1.946713680413183,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 1.7317903954294482,
+   "chi2_red_median_after": 0.8635879394148687,
+   "n_p_below_0.01_before": 4,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 6.593741270177902,
+   "offset_max_abs_mmag": 12.998560885892907,
+   "offset_err_median_mmag": 2.2386209297622908,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0405": {
+  "n_stars": 10,
+  "n_field_visits": 20,
+  "w1": {
+   "chi2_red_median_before": 0.93616459649396,
+   "chi2_red_median_after": 0.9287964185940973,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 3.143121802551618,
+   "offset_max_abs_mmag": 10.37658302155453,
+   "offset_err_median_mmag": 1.690119416872815,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 1.8230504222158816,
+   "chi2_red_median_after": 0.7677065193586545,
+   "n_p_below_0.01_before": 4,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 8.019731717307597,
+   "offset_max_abs_mmag": 17.500402952475014,
+   "offset_err_median_mmag": 2.350563833316044,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0408": {
+  "n_stars": 10,
+  "n_field_visits": 20,
+  "w1": {
+   "chi2_red_median_before": 1.1736024318338805,
+   "chi2_red_median_after": 0.999842901441977,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 2.8666511187958794,
+   "offset_max_abs_mmag": 7.749597047769896,
+   "offset_err_median_mmag": 2.0552909964022033,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 1.2828201053196588,
+   "chi2_red_median_after": 0.944516486152261,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 6.63535141866926,
+   "offset_max_abs_mmag": 18.749942435375644,
+   "offset_err_median_mmag": 3.1979067222764628,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat0411": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.8807738714173141,
+   "chi2_red_median_after": 0.8761431280581533,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.104389109047202,
+   "offset_max_abs_mmag": 9.000000000002117,
+   "offset_err_median_mmag": 1.4690072628578974,
+   "min_stars_per_visit": 3
+  },
+  "w2": {
+   "chi2_red_median_before": 1.5718333877325361,
+   "chi2_red_median_after": 0.9195449954228507,
+   "n_p_below_0.01_before": 4,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 7.1118505395282545,
+   "offset_max_abs_mmag": 14.2494819188137,
+   "offset_err_median_mmag": 2.352880848265251,
+   "min_stars_per_visit": 3
+  }
+ },
+ "bat0434": {
+  "n_stars": 10,
+  "n_field_visits": 20,
+  "w1": {
+   "chi2_red_median_before": 0.8738720775110458,
+   "chi2_red_median_after": 0.772778357022416,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 2.5349407048401886,
+   "offset_max_abs_mmag": 5.251957195893553,
+   "offset_err_median_mmag": 1.3581636726653588,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.948651665239213,
+   "chi2_red_median_after": 0.9122439239389981,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 5.918773622749863,
+   "offset_max_abs_mmag": 11.499712176910926,
+   "offset_err_median_mmag": 2.0930393796593774,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0437": {
+  "n_stars": 10,
+  "n_field_visits": 20,
+  "w1": {
+   "chi2_red_median_before": 0.8738111122260782,
+   "chi2_red_median_after": 0.6986896575912518,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 2.9282612154782632,
+   "offset_max_abs_mmag": 6.375143911500736,
+   "offset_err_median_mmag": 1.7628425405660155,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.6711188916253135,
+   "chi2_red_median_after": 0.8691277731465732,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 6.874498452372416,
+   "offset_max_abs_mmag": 13.253396304762077,
+   "offset_err_median_mmag": 2.4240311090827116,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0449": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0545911760273994,
+   "chi2_red_median_after": 0.9313653029081697,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.322745213766079,
+   "offset_max_abs_mmag": 6.001381547442897,
+   "offset_err_median_mmag": 1.9081873131653178,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 2.1483337596073286,
+   "chi2_red_median_after": 1.0752425294523449,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.57091212285254,
+   "offset_max_abs_mmag": 16.497697419628032,
+   "offset_err_median_mmag": 2.790809373246614,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0451": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.030237061237091,
+   "chi2_red_median_after": 0.6902209992442279,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.85376224156192,
+   "offset_max_abs_mmag": 7.005065673694411,
+   "offset_err_median_mmag": 1.3226139134008355,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.5433463778025458,
+   "chi2_red_median_after": 0.7783903708902985,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.5784260011293885,
+   "offset_max_abs_mmag": 12.999769741619538,
+   "offset_err_median_mmag": 2.215789231185759,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0453": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.7767558416797884,
+   "chi2_red_median_after": 0.6285381755069303,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 1.9812912341471964,
+   "offset_max_abs_mmag": 3.9999999999995595,
+   "offset_err_median_mmag": 1.6149947117548364,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 1.2690580928827084,
+   "chi2_red_median_after": 0.6735805407803789,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.197972040314598,
+   "offset_max_abs_mmag": 15.743034709883474,
+   "offset_err_median_mmag": 2.3504116205725314,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0455": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.010361574153446,
+   "chi2_red_median_after": 0.8618733370001983,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 1.9928307637170555,
+   "offset_max_abs_mmag": 4.625949815486585,
+   "offset_err_median_mmag": 2.0567454685507602,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 1.9799031344162734,
+   "chi2_red_median_after": 0.8259908073030527,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 7.933812614125806,
+   "offset_max_abs_mmag": 14.000460516855107,
+   "offset_err_median_mmag": 2.714805228840277,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat0458": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.8878288108479113,
+   "chi2_red_median_after": 1.075340466147109,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.0467005702177685,
+   "offset_max_abs_mmag": 5.499884870747707,
+   "offset_err_median_mmag": 1.5424407134588525,
+   "min_stars_per_visit": 3
+  },
+  "w2": {
+   "chi2_red_median_before": 1.987961803710097,
+   "chi2_red_median_after": 0.9493108057064505,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 7.21317757576972,
+   "offset_max_abs_mmag": 18.016118011333404,
+   "offset_err_median_mmag": 2.1298744929105498,
+   "min_stars_per_visit": 3
+  }
+ },
+ "bat0459": {
+  "n_stars": 10,
+  "n_field_visits": 20,
+  "w1": {
+   "chi2_red_median_before": 0.8119678196986229,
+   "chi2_red_median_after": 0.8564934527210271,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 1.975017083667695,
+   "offset_max_abs_mmag": 3.6269284135785895,
+   "offset_err_median_mmag": 1.358873999566329,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.6876929198052424,
+   "chi2_red_median_after": 0.8953034748415991,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 6.0492917080478215,
+   "offset_max_abs_mmag": 13.625259040887627,
+   "offset_err_median_mmag": 1.8362252534910755,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0460": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.9037884697975147,
+   "chi2_red_median_after": 0.8847135003071085,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.422112206720217,
+   "offset_max_abs_mmag": 7.493034709883162,
+   "offset_err_median_mmag": 1.9115698197459305,
+   "min_stars_per_visit": 5
+  },
+  "w2": {
+   "chi2_red_median_before": 1.3347705938468666,
+   "chi2_red_median_after": 0.9682540945964191,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.07739268363612,
+   "offset_max_abs_mmag": 16.76151276269522,
+   "offset_err_median_mmag": 2.4976167730417127,
+   "min_stars_per_visit": 5
+  }
+ },
+ "bat0461": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.7620172781125605,
+   "chi2_red_median_after": 0.7937244031328812,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.7133844771685007,
+   "offset_max_abs_mmag": 9.999999999998899,
+   "offset_err_median_mmag": 1.7550717901198793,
+   "min_stars_per_visit": 7
+  },
+  "w2": {
+   "chi2_red_median_before": 1.616003685609075,
+   "chi2_red_median_after": 0.7310390196962904,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.344514801212375,
+   "offset_max_abs_mmag": 17.750518081481204,
+   "offset_err_median_mmag": 2.498530050428632,
+   "min_stars_per_visit": 7
+  }
+ },
+ "bat0463": {
+  "n_stars": 10,
+  "n_field_visits": 20,
+  "w1": {
+   "chi2_red_median_before": 0.8340429328111232,
+   "chi2_red_median_after": 0.761391956998386,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 2.5523596452795325,
+   "offset_max_abs_mmag": 6.755756441163996,
+   "offset_err_median_mmag": 1.3968422491579444,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.5895477413512493,
+   "chi2_red_median_after": 0.7345790439716686,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 6.497776975581253,
+   "offset_max_abs_mmag": 12.874510700978448,
+   "offset_err_median_mmag": 2.2767583066443016,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0467": {
+  "n_stars": 10,
+  "n_field_visits": 20,
+  "w1": {
+   "chi2_red_median_before": 0.7870375705183601,
+   "chi2_red_median_after": 0.7106485157697142,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 2.261624149892968,
+   "offset_max_abs_mmag": 4.251208856277167,
+   "offset_err_median_mmag": 1.5425929265215046,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.9048114525989286,
+   "chi2_red_median_after": 0.7844037814274557,
+   "n_p_below_0.01_before": 5,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 6.761874818718054,
+   "offset_max_abs_mmag": 13.750230258476215,
+   "offset_err_median_mmag": 1.9831598048550558,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0470": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.9027852549056405,
+   "chi2_red_median_after": 0.692866722486287,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.7616781959380607,
+   "offset_max_abs_mmag": 4.6217476051673145,
+   "offset_err_median_mmag": 1.7614557125130068,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 1.7617420242620414,
+   "chi2_red_median_after": 0.6763842425641937,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.729126112638717,
+   "offset_max_abs_mmag": 12.001381550375001,
+   "offset_err_median_mmag": 2.277181119734699,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat0471": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.8841538190294951,
+   "chi2_red_median_after": 0.815903640349205,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.094114232101179,
+   "offset_max_abs_mmag": 8.999999999999453,
+   "offset_err_median_mmag": 1.9119080655536451,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.3348483422530453,
+   "chi2_red_median_after": 0.8028841255056778,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.142208746226207,
+   "offset_max_abs_mmag": 12.248560885588233,
+   "offset_err_median_mmag": 2.7902681716207356,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0475": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.7931655445590766,
+   "chi2_red_median_after": 0.8314881295099452,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.3222010429550144,
+   "offset_max_abs_mmag": 5.750057564626765,
+   "offset_err_median_mmag": 2.2036123696952616,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.5318548933656906,
+   "chi2_red_median_after": 0.9934239653953375,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.363801908403966,
+   "offset_max_abs_mmag": 14.250518080894281,
+   "offset_err_median_mmag": 3.0887374756653267,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0480": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.8871849675937631,
+   "chi2_red_median_after": 0.751869980657451,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.628431090644402,
+   "offset_max_abs_mmag": 9.505756442386826,
+   "offset_err_median_mmag": 2.0572190200237004,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 2.298079604119358,
+   "chi2_red_median_after": 0.955632124891519,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 10.186175947825213,
+   "offset_max_abs_mmag": 24.491307786360217,
+   "offset_err_median_mmag": 3.0711254644499584,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0481": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.126297188948959,
+   "chi2_red_median_after": 1.2016942590780366,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.973496174451055,
+   "offset_max_abs_mmag": 6.500230258477124,
+   "offset_err_median_mmag": 2.0556630654122565,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 2.0229719581729384,
+   "chi2_red_median_after": 1.1846893253517419,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 7.16074204697426,
+   "offset_max_abs_mmag": 14.492574229748811,
+   "offset_err_median_mmag": 2.6443483736371367,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0486": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0950279447117306,
+   "chi2_red_median_after": 0.932338652185293,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.19382097720296,
+   "offset_max_abs_mmag": 7.745567537011944,
+   "offset_err_median_mmag": 2.500593377505386,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.296551060888555,
+   "chi2_red_median_after": 1.0305685079223812,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 9.996637390599224,
+   "offset_max_abs_mmag": 21.999999999999353,
+   "offset_err_median_mmag": 3.085016727409896,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0503": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.2319291595069686,
+   "chi2_red_median_after": 0.94624826582448,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.065873173948714,
+   "offset_max_abs_mmag": 11.521010952698418,
+   "offset_err_median_mmag": 2.315859687843283,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 1.8252671458169183,
+   "chi2_red_median_after": 0.9900867443879695,
+   "n_p_below_0.01_before": 5,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 9.612371066166252,
+   "offset_max_abs_mmag": 27.10223351535035,
+   "offset_err_median_mmag": 3.1978898144868317,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat0504": {
+  "n_stars": 10,
+  "n_field_visits": 20,
+  "w1": {
+   "chi2_red_median_before": 0.9854887473626992,
+   "chi2_red_median_after": 1.0573529711827518,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 2.075511740640871,
+   "offset_max_abs_mmag": 4.1250287823118015,
+   "offset_err_median_mmag": 1.3583327976930728,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.0174066478744574,
+   "chi2_red_median_after": 0.7738044149390694,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 7.422881652138739,
+   "offset_max_abs_mmag": 17.624165313553597,
+   "offset_err_median_mmag": 1.615924901713783,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0513": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.2274557080004727,
+   "chi2_red_median_after": 1.1550215625554356,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 2.006442199327327,
+   "offset_max_abs_mmag": 4.1232442815530845,
+   "offset_err_median_mmag": 1.689290701911291,
+   "min_stars_per_visit": 1
+  },
+  "w2": {
+   "chi2_red_median_before": 1.9555870064865108,
+   "chi2_red_median_after": 0.7747392478038266,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 6.4473389100983995,
+   "offset_max_abs_mmag": 13.508231720040342,
+   "offset_err_median_mmag": 1.5436245861005162,
+   "min_stars_per_visit": 1
+  }
+ },
+ "bat0515": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0462532654408316,
+   "chi2_red_median_after": 1.0121059645253496,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.4695952559750847,
+   "offset_max_abs_mmag": 5.499078967072357,
+   "offset_err_median_mmag": 1.7633499174001188,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.5845090984153827,
+   "chi2_red_median_after": 0.9588085942866815,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.011992712219712,
+   "offset_max_abs_mmag": 12.500000000000178,
+   "offset_err_median_mmag": 2.056474867451039,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0517": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.7897359006975935,
+   "chi2_red_median_after": 0.75593020108102,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.3319493936974385,
+   "offset_max_abs_mmag": 7.50023025847657,
+   "offset_err_median_mmag": 1.6160771148343658,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.7708680073901988,
+   "chi2_red_median_after": 0.7788073794389931,
+   "n_p_below_0.01_before": 4,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 7.616905728336264,
+   "offset_max_abs_mmag": 16.254662721464364,
+   "offset_err_median_mmag": 2.6427247697349285,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0518": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.3905257922694312,
+   "chi2_red_median_after": 0.9621933592489484,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 2,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.7955307623046557,
+   "offset_max_abs_mmag": 12.374625830167574,
+   "offset_err_median_mmag": 2.1303818695314587,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 2.1419513231626155,
+   "chi2_red_median_after": 0.7633337523888972,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 10.624373635623662,
+   "offset_max_abs_mmag": 21.994358676291625,
+   "offset_err_median_mmag": 2.8743057042607765,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0519": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.1096926843350334,
+   "chi2_red_median_after": 0.7793945099526525,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.7909898977979184,
+   "offset_max_abs_mmag": 6.373819927548041,
+   "offset_err_median_mmag": 1.9112315714712125,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 1.3541995920313976,
+   "chi2_red_median_after": 0.8746864729385273,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.446765232120305,
+   "offset_max_abs_mmag": 17.737623707962058,
+   "offset_err_median_mmag": 3.039215373697524,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat0520": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 0.9720186517761294,
+   "chi2_red_median_after": 0.8970313707234348,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.013356279731584,
+   "offset_max_abs_mmag": 6.999539483242501,
+   "offset_err_median_mmag": 1.8377304663686205,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 1.9158979173715194,
+   "chi2_red_median_after": 0.8227700134723658,
+   "n_p_below_0.01_before": 5,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 10.010220323933833,
+   "offset_max_abs_mmag": 30.26214581138209,
+   "offset_err_median_mmag": 3.0106699419450687,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat0531": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.1680163202040357,
+   "chi2_red_median_after": 0.8177910681209154,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.178488115824906,
+   "offset_max_abs_mmag": 10.374625829874695,
+   "offset_err_median_mmag": 2.1836487090736405,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 1.9462143936650422,
+   "chi2_red_median_after": 0.7509333703863659,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 9.107390451712943,
+   "offset_max_abs_mmag": 20.375719557498506,
+   "offset_err_median_mmag": 2.8654605262032704,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat0532": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0200294491471689,
+   "chi2_red_median_after": 0.8521588364576438,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.111484275302576,
+   "offset_max_abs_mmag": 5.503108484930408,
+   "offset_err_median_mmag": 1.6149270613576525,
+   "min_stars_per_visit": 7
+  },
+  "w2": {
+   "chi2_red_median_before": 1.9154890800688515,
+   "chi2_red_median_after": 0.9400641578378874,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.063941077328797,
+   "offset_max_abs_mmag": 16.001381549797244,
+   "offset_err_median_mmag": 3.084069624192107,
+   "min_stars_per_visit": 7
+  }
+ },
+ "bat0542": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.1142745612997524,
+   "chi2_red_median_after": 0.8405337171459739,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.627760319413412,
+   "offset_max_abs_mmag": 4.999999999999893,
+   "offset_err_median_mmag": 1.4707661680544508,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.9034339299077794,
+   "chi2_red_median_after": 0.683247036696294,
+   "n_p_below_0.01_before": 5,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.916286905459123,
+   "offset_max_abs_mmag": 18.749021401859522,
+   "offset_err_median_mmag": 2.056136616126882,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0543": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.275239715845565,
+   "chi2_red_median_after": 0.952505561915046,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.6351170753176314,
+   "offset_max_abs_mmag": 4.629000728882282,
+   "offset_err_median_mmag": 1.762402814010104,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 1.4798665225370418,
+   "chi2_red_median_after": 0.6989954634256647,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.9425234883543485,
+   "offset_max_abs_mmag": 15.74994243537553,
+   "offset_err_median_mmag": 1.9108933208474403,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat0548": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0117275980216127,
+   "chi2_red_median_after": 0.8304782223605416,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.553345367067531,
+   "offset_max_abs_mmag": 6.999999999998785,
+   "offset_err_median_mmag": 1.3220727114305064,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.8056230685542902,
+   "chi2_red_median_after": 0.8300991035562697,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.2398359570519055,
+   "offset_max_abs_mmag": 16.749942435375864,
+   "offset_err_median_mmag": 2.203544719426986,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0552": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0867174799023482,
+   "chi2_red_median_after": 0.783128771287584,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.771516499305126,
+   "offset_max_abs_mmag": 4.750057564625543,
+   "offset_err_median_mmag": 1.3220727114315505,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.7374862160148572,
+   "chi2_red_median_after": 0.7784256167024011,
+   "n_p_below_0.01_before": 5,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 7.287887917907526,
+   "offset_max_abs_mmag": 16.25282066185285,
+   "offset_err_median_mmag": 2.4975491222990325,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0554": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.1950709167440272,
+   "chi2_red_median_after": 0.9197811155970268,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.899119712547259,
+   "offset_max_abs_mmag": 5.250518081480138,
+   "offset_err_median_mmag": 1.4720515138034898,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.7622967575560078,
+   "chi2_red_median_after": 0.9511907967264124,
+   "n_p_below_0.01_before": 5,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 7.393160471709347,
+   "offset_max_abs_mmag": 13.999539483143586,
+   "offset_err_median_mmag": 2.6443483736935014,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0557": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.155324307446927,
+   "chi2_red_median_after": 0.8269542817889384,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.023874767230536,
+   "offset_max_abs_mmag": 7.8752014760175015,
+   "offset_err_median_mmag": 2.27535456910863,
+   "min_stars_per_visit": 4
+  },
+  "w2": {
+   "chi2_red_median_before": 2.372511692546583,
+   "chi2_red_median_after": 0.7947549111574408,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 12.117477582484124,
+   "offset_max_abs_mmag": 26.369329902487415,
+   "offset_err_median_mmag": 2.900232310316199,
+   "min_stars_per_visit": 4
+  }
+ },
+ "bat0560": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0095916416780328,
+   "chi2_red_median_after": 0.9117003703150194,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.61947192064641,
+   "offset_max_abs_mmag": 6.750518080895773,
+   "offset_err_median_mmag": 1.46738366062106,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.561276611787266,
+   "chi2_red_median_after": 0.7926062755287685,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.523125510314291,
+   "offset_max_abs_mmag": 13.020262428160123,
+   "offset_err_median_mmag": 2.643807170862044,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0562": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 0.9458935963399348,
+   "chi2_red_median_after": 0.8613973825545655,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 2.450532347219053,
+   "offset_max_abs_mmag": 5.623819926475981,
+   "offset_err_median_mmag": 2.133493764948365,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.7913992199273743,
+   "chi2_red_median_after": 0.9177100745336987,
+   "n_p_below_0.01_before": 4,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 8.368243608640858,
+   "offset_max_abs_mmag": 22.631475980838367,
+   "offset_err_median_mmag": 2.6124516692015605,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0565": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.8471713931311777,
+   "chi2_red_median_after": 0.8065828143961042,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.1819993581937176,
+   "offset_max_abs_mmag": 4.499999999998394,
+   "offset_err_median_mmag": 1.4692102136314116,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.6843677480286323,
+   "chi2_red_median_after": 0.9644092196667895,
+   "n_p_below_0.01_before": 4,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.632811808257014,
+   "offset_max_abs_mmag": 13.997927676053123,
+   "offset_err_median_mmag": 2.1970503380242747,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0566": {
+  "n_stars": 10,
+  "n_field_visits": 20,
+  "w1": {
+   "chi2_red_median_before": 1.0812436922801383,
+   "chi2_red_median_after": 0.9391795654128304,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 1.9580280136920454,
+   "offset_max_abs_mmag": 3.5005756459964843,
+   "offset_err_median_mmag": 1.3588063492870934,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.646151089409669,
+   "chi2_red_median_after": 0.9072156099526474,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 7.471305110633185,
+   "offset_max_abs_mmag": 18.247870113039966,
+   "offset_err_median_mmag": 1.7260581650199645,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0567": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.0781877213218787,
+   "chi2_red_median_after": 0.8709448529746897,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.5805771883772888,
+   "offset_max_abs_mmag": 6.999539483047101,
+   "offset_err_median_mmag": 2.056305741817404,
+   "min_stars_per_visit": 1
+  },
+  "w2": {
+   "chi2_red_median_before": 2.4067688713142017,
+   "chi2_red_median_after": 0.9243383208359663,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.916909663280235,
+   "offset_max_abs_mmag": 17.249194097223253,
+   "offset_err_median_mmag": 2.797574329752351,
+   "min_stars_per_visit": 1
+  }
+ },
+ "bat0568": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.7927361056882107,
+   "chi2_red_median_after": 0.7949812960732983,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 1.9619903586138459,
+   "offset_max_abs_mmag": 4.499884870750037,
+   "offset_err_median_mmag": 1.3224109627551859,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.853562721335415,
+   "chi2_red_median_after": 0.7831465724366411,
+   "n_p_below_0.01_before": 5,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 7.177812455150849,
+   "offset_max_abs_mmag": 17.503684127814445,
+   "offset_err_median_mmag": 2.2034770691456624,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0573": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.9183363266799753,
+   "chi2_red_median_after": 0.8268664935472566,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.8339233512161064,
+   "offset_max_abs_mmag": 7.742113676367346,
+   "offset_err_median_mmag": 1.6119504649854575,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.9271675541283677,
+   "chi2_red_median_after": 0.8986335276996691,
+   "n_p_below_0.01_before": 5,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 7.817348430038167,
+   "offset_max_abs_mmag": 16.24994243537614,
+   "offset_err_median_mmag": 2.5022846262230987,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0577": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 0.8774688530584664,
+   "chi2_red_median_after": 0.6645516039440775,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.1100099654915017,
+   "offset_max_abs_mmag": 5.877676745028815,
+   "offset_err_median_mmag": 2.3502763200224095,
+   "min_stars_per_visit": 2
+  },
+  "w2": {
+   "chi2_red_median_before": 2.0648282280872943,
+   "chi2_red_median_after": 0.8263403797482978,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 10.402025674309085,
+   "offset_max_abs_mmag": 25.749712176896367,
+   "offset_err_median_mmag": 3.1901433639928256,
+   "min_stars_per_visit": 2
+  }
+ },
+ "bat0580": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.9308321800248047,
+   "chi2_red_median_after": 0.8747420891752437,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.604863880977466,
+   "offset_max_abs_mmag": 6.249942435374578,
+   "offset_err_median_mmag": 1.6147241107130463,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.11194649041641,
+   "chi2_red_median_after": 1.059288060248005,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.557404372669724,
+   "offset_max_abs_mmag": 21.73129175863764,
+   "offset_err_median_mmag": 2.0692606152797968,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0582": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.1439678224772074,
+   "chi2_red_median_after": 0.881961787510781,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.0729354446736217,
+   "offset_max_abs_mmag": 6.375834684821946,
+   "offset_err_median_mmag": 1.799440878386027,
+   "min_stars_per_visit": 7
+  },
+  "w2": {
+   "chi2_red_median_before": 1.944112051585679,
+   "chi2_red_median_after": 0.8703318197509792,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 8.802517838422157,
+   "offset_max_abs_mmag": 20.006850139051124,
+   "offset_err_median_mmag": 3.1932726989630744,
+   "min_stars_per_visit": 7
+  }
+ },
+ "bat0586": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 0.9764140620390949,
+   "chi2_red_median_after": 0.8780408656758798,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 2.4607547697999634,
+   "offset_max_abs_mmag": 5.999999999804828,
+   "offset_err_median_mmag": 1.8362252534485413,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.6549536900860984,
+   "chi2_red_median_after": 0.8143479873581001,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 2,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 6.832940876658461,
+   "offset_max_abs_mmag": 12.249251660041871,
+   "offset_err_median_mmag": 2.276944344963215,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0588": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.077579391725354,
+   "chi2_red_median_after": 0.9386114431790553,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.4535727754758394,
+   "offset_max_abs_mmag": 4.873762362925582,
+   "offset_err_median_mmag": 1.907646110334904,
+   "min_stars_per_visit": 6
+  },
+  "w2": {
+   "chi2_red_median_before": 1.7748286602333385,
+   "chi2_red_median_after": 0.9598958561320394,
+   "n_p_below_0.01_before": 5,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.06370276554821,
+   "offset_max_abs_mmag": 18.875201476115322,
+   "offset_err_median_mmag": 2.2776546724915043,
+   "min_stars_per_visit": 6
+  }
+ },
+ "bat0592": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.06966108476695,
+   "chi2_red_median_after": 1.172501674818042,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 1.8480563798125287,
+   "offset_max_abs_mmag": 4.500402952244187,
+   "offset_err_median_mmag": 1.7609145122070053,
+   "min_stars_per_visit": 6
+  },
+  "w2": {
+   "chi2_red_median_before": 1.7166462752165237,
+   "chi2_red_median_after": 0.7353135616465392,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.317473922531166,
+   "offset_max_abs_mmag": 11.624453136793278,
+   "offset_err_median_mmag": 1.6187831183710661,
+   "min_stars_per_visit": 6
+  }
+ },
+ "bat0593": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0240136384092466,
+   "chi2_red_median_after": 0.7959129800879418,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.369299284397059,
+   "offset_max_abs_mmag": 5.499884870749483,
+   "offset_err_median_mmag": 1.4686690115337397,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.14868991867812,
+   "chi2_red_median_after": 0.9469589100014908,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 7.054399680624187,
+   "offset_max_abs_mmag": 16.00046051695525,
+   "offset_err_median_mmag": 2.4976167730406686,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0596": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.1111102274016922,
+   "chi2_red_median_after": 1.0833304195790636,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 1.9660089187829017,
+   "offset_max_abs_mmag": 4.2499424353756865,
+   "offset_err_median_mmag": 1.6149947117543149,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.689944371183183,
+   "chi2_red_median_after": 0.8724777844447209,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.29695111618247,
+   "offset_max_abs_mmag": 13.001842065471614,
+   "offset_err_median_mmag": 2.206724266043492,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0600": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 0.7663060419381776,
+   "chi2_red_median_after": 0.6002165700414348,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 2.0787952020634295,
+   "offset_max_abs_mmag": 4.996315872184631,
+   "offset_err_median_mmag": 1.3581298469404344,
+   "min_stars_per_visit": 4
+  },
+  "w2": {
+   "chi2_red_median_before": 2.4367833437663626,
+   "chi2_red_median_after": 0.8224528866517663,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 8.062608140105059,
+   "offset_max_abs_mmag": 18.750057564625777,
+   "offset_err_median_mmag": 2.3504116205720096,
+   "min_stars_per_visit": 4
+  }
+ },
+ "bat0607": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.3655781370274058,
+   "chi2_red_median_after": 0.8267637653786621,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.8161063348399638,
+   "offset_max_abs_mmag": 8.499884870762031,
+   "offset_err_median_mmag": 1.6528107526157994,
+   "min_stars_per_visit": 7
+  },
+  "w2": {
+   "chi2_red_median_before": 2.7650900263752294,
+   "chi2_red_median_after": 0.9963798752727118,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 10.951203423009012,
+   "offset_max_abs_mmag": 25.5093254429255,
+   "offset_err_median_mmag": 2.5721326260619977,
+   "min_stars_per_visit": 7
+  }
+ },
+ "bat0608": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.2881566928092016,
+   "chi2_red_median_after": 0.8975545684362993,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 2.8723940173446527,
+   "offset_max_abs_mmag": 6.000115129238814,
+   "offset_err_median_mmag": 1.836174515697493,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.9709456742563276,
+   "chi2_red_median_after": 0.6749122429826991,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 7.606769912319377,
+   "offset_max_abs_mmag": 17.24953948314578,
+   "offset_err_median_mmag": 2.1302127442062635,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0609": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0358569882610067,
+   "chi2_red_median_after": 0.8986039013148179,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.5227742896032086,
+   "offset_max_abs_mmag": 6.7500575646253225,
+   "offset_err_median_mmag": 1.762808715429268,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.5255613369195786,
+   "chi2_red_median_after": 0.922093165090595,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.138260355680112,
+   "offset_max_abs_mmag": 18.000921033516804,
+   "offset_err_median_mmag": 2.3510881230919374,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0613": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0136344494707754,
+   "chi2_red_median_after": 0.8468665756990222,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.8005734545582324,
+   "offset_max_abs_mmag": 6.000000000000227,
+   "offset_err_median_mmag": 1.76159101185807,
+   "min_stars_per_visit": 7
+  },
+  "w2": {
+   "chi2_red_median_before": 2.0484519248867694,
+   "chi2_red_median_after": 0.8489987221483857,
+   "n_p_below_0.01_before": 5,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.562841360998952,
+   "offset_max_abs_mmag": 19.0013815500798,
+   "offset_err_median_mmag": 3.084746126310697,
+   "min_stars_per_visit": 7
+  }
+ },
+ "bat0615": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.2123826095098669,
+   "chi2_red_median_after": 0.8791691310101617,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 2.811311056629741,
+   "offset_max_abs_mmag": 5.634929840069525,
+   "offset_err_median_mmag": 1.947271794122071,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 1.8937034714367833,
+   "chi2_red_median_after": 0.7276226411182216,
+   "n_p_below_0.01_before": 5,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 8.341483656766648,
+   "offset_max_abs_mmag": 20.492977145258884,
+   "offset_err_median_mmag": 2.7522999358786806,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat0628": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 0.8969221181634284,
+   "chi2_red_median_after": 0.7862972555582168,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.5341998083232133,
+   "offset_max_abs_mmag": 9.000921033514686,
+   "offset_err_median_mmag": 1.6892399644650304,
+   "min_stars_per_visit": 6
+  },
+  "w2": {
+   "chi2_red_median_before": 2.293768768395469,
+   "chi2_red_median_after": 1.1250201829853221,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 9.298435101520615,
+   "offset_max_abs_mmag": 22.496085613758154,
+   "offset_err_median_mmag": 3.0068647192431586,
+   "min_stars_per_visit": 6
+  }
+ },
+ "bat0629": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.1864123523843328,
+   "chi2_red_median_after": 0.9083766627220926,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.9880652453713124,
+   "offset_max_abs_mmag": 9.99999999999801,
+   "offset_err_median_mmag": 1.6159925480513977,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 2.692923804444689,
+   "chi2_red_median_after": 0.7634554398572218,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 15.152530407643274,
+   "offset_max_abs_mmag": 42.41100794121522,
+   "offset_err_median_mmag": 2.826545176277343,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0630": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.3322348957572978,
+   "chi2_red_median_after": 0.7899122900706662,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.978423084962687,
+   "offset_max_abs_mmag": 10.737450972202467,
+   "offset_err_median_mmag": 1.8071867188201458,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 2.1972261163155165,
+   "chi2_red_median_after": 0.8703137284654956,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 13.493813331903329,
+   "offset_max_abs_mmag": 41.36668195354343,
+   "offset_err_median_mmag": 3.1785597603336706,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0631": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.2081253064706037,
+   "chi2_red_median_after": 0.8827572796696594,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 4.003083883088025,
+   "offset_max_abs_mmag": 8.252820661853733,
+   "offset_err_median_mmag": 1.8634404312791868,
+   "min_stars_per_visit": 2
+  },
+  "w2": {
+   "chi2_red_median_before": 2.40654156650139,
+   "chi2_red_median_after": 0.8341484384919344,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 11.020423082201958,
+   "offset_max_abs_mmag": 19.751439114997993,
+   "offset_err_median_mmag": 2.500661023985739,
+   "min_stars_per_visit": 2
+  }
+ },
+ "bat0638": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.8229730126907866,
+   "chi2_red_median_after": 0.7396067444824506,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.4355913470908708,
+   "offset_max_abs_mmag": 6.249481918519706,
+   "offset_err_median_mmag": 1.5417642109384022,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 1.9760140923106415,
+   "chi2_red_median_after": 0.7648777134939886,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.414468524395757,
+   "offset_max_abs_mmag": 13.998848708983935,
+   "offset_err_median_mmag": 1.910960970427335,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0641": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 0.8714171486116076,
+   "chi2_red_median_after": 0.8281450270224144,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.197177659656609,
+   "offset_max_abs_mmag": 9.000000000000341,
+   "offset_err_median_mmag": 1.7967517970576448,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 2.581960090532667,
+   "chi2_red_median_after": 0.809747888734454,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 13.305809852911157,
+   "offset_max_abs_mmag": 36.988832540444605,
+   "offset_err_median_mmag": 2.7189995259727375,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat0653": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.3616281050535115,
+   "chi2_red_median_after": 0.9198597146741883,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.173044506061587,
+   "offset_max_abs_mmag": 8.753684123321115,
+   "offset_err_median_mmag": 2.0581999415745367,
+   "min_stars_per_visit": 5
+  },
+  "w2": {
+   "chi2_red_median_before": 2.828851961720622,
+   "chi2_red_median_after": 0.9024195151012832,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 14.70888290064562,
+   "offset_max_abs_mmag": 36.98526358875043,
+   "offset_err_median_mmag": 3.2327123435707206,
+   "min_stars_per_visit": 5
+  }
+ },
+ "bat0654": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.4256877536966819,
+   "chi2_red_median_after": 0.9865787465489616,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.8032841041650545,
+   "offset_max_abs_mmag": 11.502072323947843,
+   "offset_err_median_mmag": 2.0538585419602757,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 2.3257263251002414,
+   "chi2_red_median_after": 0.9119922892922205,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 13.22727635303829,
+   "offset_max_abs_mmag": 39.75569878751983,
+   "offset_err_median_mmag": 3.015320916105309,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat0659": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 0.9951153136659063,
+   "chi2_red_median_after": 0.9217909484145703,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.3413469348672913,
+   "offset_max_abs_mmag": 5.747179338145614,
+   "offset_err_median_mmag": 1.6159418142842443,
+   "min_stars_per_visit": 1
+  },
+  "w2": {
+   "chi2_red_median_before": 2.5566757856447513,
+   "chi2_red_median_after": 1.0068296039172893,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 10.200503585932356,
+   "offset_max_abs_mmag": 19.496315872186365,
+   "offset_err_median_mmag": 2.9378792251646297,
+   "min_stars_per_visit": 1
+  }
+ },
+ "bat0663": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.3804300633275797,
+   "chi2_red_median_after": 0.9765198694423872,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.02820735401536,
+   "offset_max_abs_mmag": 9.375546863793716,
+   "offset_err_median_mmag": 2.185954334469032,
+   "min_stars_per_visit": 3
+  },
+  "w2": {
+   "chi2_red_median_before": 3.392394166713154,
+   "chi2_red_median_after": 1.0421156935844245,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 13.965646266285477,
+   "offset_max_abs_mmag": 33.50103616197497,
+   "offset_err_median_mmag": 3.093839825006619,
+   "min_stars_per_visit": 3
+  }
+ },
+ "bat0666": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.5534335585079826,
+   "chi2_red_median_after": 0.8653225278094128,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.8264196393608603,
+   "offset_max_abs_mmag": 7.99994243537494,
+   "offset_err_median_mmag": 1.3589247372709283,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.5485489568539816,
+   "chi2_red_median_after": 1.0285046607824826,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 8.564346526773518,
+   "offset_max_abs_mmag": 20.750518080492775,
+   "offset_err_median_mmag": 2.570728884863659,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0669": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.3824052512008291,
+   "chi2_red_median_after": 0.8369459755756585,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.135227500395488,
+   "offset_max_abs_mmag": 8.62502878231286,
+   "offset_err_median_mmag": 1.5423392381610788,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.3490017105735665,
+   "chi2_red_median_after": 1.089291157199427,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 13.369544883455907,
+   "offset_max_abs_mmag": 34.87894311855211,
+   "offset_err_median_mmag": 2.642200498426854,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0674": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.269815206885481,
+   "chi2_red_median_after": 1.0195874166761827,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.602944394793284,
+   "offset_max_abs_mmag": 11.999999999998678,
+   "offset_err_median_mmag": 2.3501579393328575,
+   "min_stars_per_visit": 4
+  },
+  "w2": {
+   "chi2_red_median_before": 2.8391023031998737,
+   "chi2_red_median_after": 1.1049866778983186,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 15.300097072756367,
+   "offset_max_abs_mmag": 46.758519522574815,
+   "offset_err_median_mmag": 4.002985597735511,
+   "min_stars_per_visit": 4
+  }
+ },
+ "bat0678": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.2236962573431946,
+   "chi2_red_median_after": 0.8664305169832603,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.388984363656539,
+   "offset_max_abs_mmag": 14.248560885590678,
+   "offset_err_median_mmag": 2.130855420556351,
+   "min_stars_per_visit": 6
+  },
+  "w2": {
+   "chi2_red_median_before": 3.2927037978226705,
+   "chi2_red_median_after": 1.0253716025535673,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 14.656097647202845,
+   "offset_max_abs_mmag": 38.12318672377657,
+   "offset_err_median_mmag": 2.9388601455432872,
+   "min_stars_per_visit": 6
+  }
+ },
+ "bat0679": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.3629287397393364,
+   "chi2_red_median_after": 0.8264794239700415,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.753006527340844,
+   "offset_max_abs_mmag": 9.997179338146367,
+   "offset_err_median_mmag": 1.7265317162737086,
+   "min_stars_per_visit": 6
+  },
+  "w2": {
+   "chi2_red_median_before": 3.5326102058868027,
+   "chi2_red_median_after": 0.9054238452287127,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 14.586553793587804,
+   "offset_max_abs_mmag": 43.24476163909541,
+   "offset_err_median_mmag": 2.7172237097721936,
+   "min_stars_per_visit": 6
+  }
+ },
+ "bat0682": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.5324729151335637,
+   "chi2_red_median_after": 1.06627822262503,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.034004258845875,
+   "offset_max_abs_mmag": 12.998560885590038,
+   "offset_err_median_mmag": 2.2033586811947066,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 3.693480876357675,
+   "chi2_red_median_after": 0.85827615225159,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 13.503440389749647,
+   "offset_max_abs_mmag": 40.644830549133815,
+   "offset_err_median_mmag": 2.7892366052857906,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat0684": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.9327062847362633,
+   "chi2_red_median_after": 0.913952069599016,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 1.9458784264949949,
+   "offset_max_abs_mmag": 3.750287823103271,
+   "offset_err_median_mmag": 1.1758823128054112,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.354448840478375,
+   "chi2_red_median_after": 0.9213550702698716,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.411601685701991,
+   "offset_max_abs_mmag": 16.75005756462511,
+   "offset_err_median_mmag": 1.7624028138357906,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0685": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.2117469060588733,
+   "chi2_red_median_after": 0.8974911630891477,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.553633067485608,
+   "offset_max_abs_mmag": 13.999999999999346,
+   "offset_err_median_mmag": 1.5779228295108758,
+   "min_stars_per_visit": 3
+  },
+  "w2": {
+   "chi2_red_median_before": 3.2818684417692663,
+   "chi2_red_median_after": 0.8140589982700831,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 14.763635212358349,
+   "offset_max_abs_mmag": 45.999999999999375,
+   "offset_err_median_mmag": 2.9384542521902905,
+   "min_stars_per_visit": 3
+  }
+ },
+ "bat0686": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.1787492421043795,
+   "chi2_red_median_after": 0.9023436704656789,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.1951896420894745,
+   "offset_max_abs_mmag": 6.3752590407428755,
+   "offset_err_median_mmag": 1.6884619884152516,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.393297000602388,
+   "chi2_red_median_after": 1.142290319219049,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 12.377296880256498,
+   "offset_max_abs_mmag": 29.872611074899247,
+   "offset_err_median_mmag": 2.534570273385843,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0687": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.3228218882815903,
+   "chi2_red_median_after": 0.970578172793134,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.345521793952973,
+   "offset_max_abs_mmag": 8.8753741699783,
+   "offset_err_median_mmag": 1.9464769046333954,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.5104644220365664,
+   "chi2_red_median_after": 0.8444203614438697,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 13.269462369553203,
+   "offset_max_abs_mmag": 38.50661988062232,
+   "offset_err_median_mmag": 2.496314532201821,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0688": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.0006520392139318,
+   "chi2_red_median_after": 0.8697590215534077,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.0014767200714614,
+   "offset_max_abs_mmag": 7.000000000000561,
+   "offset_err_median_mmag": 1.6526416269858173,
+   "min_stars_per_visit": 4
+  },
+  "w2": {
+   "chi2_red_median_before": 2.229348662087693,
+   "chi2_red_median_after": 0.7871067028464648,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 10.692505322785408,
+   "offset_max_abs_mmag": 28.62525904073987,
+   "offset_err_median_mmag": 2.4237097740232585,
+   "min_stars_per_visit": 4
+  }
+ },
+ "bat0695": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.216381334173005,
+   "chi2_red_median_after": 0.8808906249324773,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.147242693800912,
+   "offset_max_abs_mmag": 11.121344654497989,
+   "offset_err_median_mmag": 1.7255338760036907,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 3.1303590052351806,
+   "chi2_red_median_after": 0.8846965997575368,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 14.245556706255492,
+   "offset_max_abs_mmag": 40.500460516759595,
+   "offset_err_median_mmag": 3.0484183899920057,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0696": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.2567049125220482,
+   "chi2_red_median_after": 0.9025268748915757,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.300402518357715,
+   "offset_max_abs_mmag": 13.374568265555276,
+   "offset_err_median_mmag": 2.0546990561685847,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 3.2577863710603054,
+   "chi2_red_median_after": 1.0801658683295026,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 15.979779700202695,
+   "offset_max_abs_mmag": 47.63849876212767,
+   "offset_err_median_mmag": 4.039516284415419,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0697": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.9459410216150845,
+   "chi2_red_median_after": 0.6683926892201477,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.2401494313707384,
+   "offset_max_abs_mmag": 6.2500575646256,
+   "offset_err_median_mmag": 1.322072711432072,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.170058814513254,
+   "chi2_red_median_after": 0.8702312471067937,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.214208024583855,
+   "offset_max_abs_mmag": 16.000460516855775,
+   "offset_err_median_mmag": 1.6150623627125376,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0704": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.1784298615522983,
+   "chi2_red_median_after": 0.7573557658064727,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 5.056529953401705,
+   "offset_max_abs_mmag": 12.749481918519656,
+   "offset_err_median_mmag": 1.8349906582278743,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 3.0187289778716657,
+   "chi2_red_median_after": 0.9667988776165117,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 16.967691842907424,
+   "offset_max_abs_mmag": 56.46644072271556,
+   "offset_err_median_mmag": 3.3770254581005967,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat0707": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 0.9926881027717247,
+   "chi2_red_median_after": 0.8505071118260832,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.6329673336903694,
+   "offset_max_abs_mmag": 7.874971217686877,
+   "offset_err_median_mmag": 2.206470571675779,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 3.429932598639108,
+   "chi2_red_median_after": 0.9937794275118668,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 15.723303746069867,
+   "offset_max_abs_mmag": 51.114552097017985,
+   "offset_err_median_mmag": 3.1695614997605053,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0719": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.2529562811140211,
+   "chi2_red_median_after": 0.882397385014525,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 5.105416271624548,
+   "offset_max_abs_mmag": 17.502763084922712,
+   "offset_err_median_mmag": 2.310075623965937,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 3.3193427645774607,
+   "chi2_red_median_after": 1.0846393390003248,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 18.03611792425405,
+   "offset_max_abs_mmag": 59.627791877491454,
+   "offset_err_median_mmag": 3.8930045470655923,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0723": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.1177388664179562,
+   "chi2_red_median_after": 0.8130882074362598,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.9748106955183657,
+   "offset_max_abs_mmag": 10.625143911550339,
+   "offset_err_median_mmag": 1.6536563768924573,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.594664015661131,
+   "chi2_red_median_after": 1.0662718641734645,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 13.333732252653656,
+   "offset_max_abs_mmag": 38.4991365310956,
+   "offset_err_median_mmag": 3.122190078299019,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0733": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.071981823717727,
+   "chi2_red_median_after": 0.8429485898603863,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.450938938187799,
+   "offset_max_abs_mmag": 8.005238342153831,
+   "offset_err_median_mmag": 1.9465276452687028,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.485582831102832,
+   "chi2_red_median_after": 0.8520154135218643,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 14.724366272999186,
+   "offset_max_abs_mmag": 51.37525904059448,
+   "offset_err_median_mmag": 2.8295386759829575,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0734": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.356108587151315,
+   "chi2_red_median_after": 0.9825078929043118,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 2.6752711742199446,
+   "offset_max_abs_mmag": 5.750978598143774,
+   "offset_err_median_mmag": 1.5451941580295765,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 4.315998683082377,
+   "chi2_red_median_after": 0.7761522237400847,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 11.131162643137554,
+   "offset_max_abs_mmag": 35.00000000000014,
+   "offset_err_median_mmag": 1.9829399415340438,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0735": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.249263470186766,
+   "chi2_red_median_after": 0.8008715914522759,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 2,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.155073029934009,
+   "offset_max_abs_mmag": 6.249942435375466,
+   "offset_err_median_mmag": 1.2484532226283251,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.104237645157867,
+   "chi2_red_median_after": 1.036510049636648,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 8.09765584042353,
+   "offset_max_abs_mmag": 20.24999999999988,
+   "offset_err_median_mmag": 1.836259078571458,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0739": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.407392543007383,
+   "chi2_red_median_after": 1.0001675097349034,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.872832795776713,
+   "offset_max_abs_mmag": 15.513930580230095,
+   "offset_err_median_mmag": 2.6567620999536157,
+   "min_stars_per_visit": 5
+  },
+  "w2": {
+   "chi2_red_median_before": 2.2865899403195846,
+   "chi2_red_median_after": 0.7860932532776987,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 12.80776654859588,
+   "offset_max_abs_mmag": 33.00000000000303,
+   "offset_err_median_mmag": 3.377871077451598,
+   "min_stars_per_visit": 5
+  }
+ },
+ "bat0753": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.5857794667485487,
+   "chi2_red_median_after": 0.9085994749639035,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 5.1959135476633245,
+   "offset_max_abs_mmag": 12.252763091941787,
+   "offset_err_median_mmag": 1.6523879411286666,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 3.744161979756756,
+   "chi2_red_median_after": 0.9743334071365444,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 14.32049650423121,
+   "offset_max_abs_mmag": 45.617833233571936,
+   "offset_err_median_mmag": 2.4221707308886415,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0754": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.2073495945445467,
+   "chi2_red_median_after": 0.9405894139056139,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.421331176374298,
+   "offset_max_abs_mmag": 8.625143910768074,
+   "offset_err_median_mmag": 2.422559717868434,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.977843469914694,
+   "chi2_red_median_after": 0.8736046499518655,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 16.017614279697504,
+   "offset_max_abs_mmag": 58.377849445336416,
+   "offset_err_median_mmag": 3.456006197173048,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0766": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.140956784876668,
+   "chi2_red_median_after": 0.6050375101770131,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.6090507829888185,
+   "offset_max_abs_mmag": 10.49999999999951,
+   "offset_err_median_mmag": 0.9913346702960983,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 5.324786482235382,
+   "chi2_red_median_after": 0.9315994845610536,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 12.933584233454484,
+   "offset_max_abs_mmag": 36.7504029521335,
+   "offset_err_median_mmag": 2.0562380921062524,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0772": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 0.9841090310572086,
+   "chi2_red_median_after": 0.7089550200116094,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.146272276871748,
+   "offset_max_abs_mmag": 10.126180072499658,
+   "offset_err_median_mmag": 1.616110939910834,
+   "min_stars_per_visit": 7
+  },
+  "w2": {
+   "chi2_red_median_before": 3.256740100542496,
+   "chi2_red_median_after": 1.1038154395197202,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 14.237476864249972,
+   "offset_max_abs_mmag": 43.0036841211745,
+   "offset_err_median_mmag": 3.3384822038228275,
+   "min_stars_per_visit": 7
+  }
+ },
+ "bat0774": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.4601236086824574,
+   "chi2_red_median_after": 0.9103115059434905,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.0994563333413714,
+   "offset_max_abs_mmag": 9.250057564626601,
+   "offset_err_median_mmag": 1.0648865087652888,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 5.1915848515083205,
+   "chi2_red_median_after": 0.7832866459404781,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 11.341116704670398,
+   "offset_max_abs_mmag": 35.00000000000014,
+   "offset_err_median_mmag": 1.7738352229105294,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0778": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0647224519801695,
+   "chi2_red_median_after": 0.8576900880337263,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.023912890599979,
+   "offset_max_abs_mmag": 4.249942435374798,
+   "offset_err_median_mmag": 1.322072711432072,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.4573792235503222,
+   "chi2_red_median_after": 1.0054709259453931,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.395580920377967,
+   "offset_max_abs_mmag": 16.750172693853038,
+   "offset_err_median_mmag": 1.9118404207809363,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0804": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.859088635294395,
+   "chi2_red_median_after": 0.8984546517620173,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 1.896138537637653,
+   "offset_max_abs_mmag": 4.499078966482273,
+   "offset_err_median_mmag": 0.8818102593081112,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.158369020691321,
+   "chi2_red_median_after": 0.8952012209703285,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 5.930875871888039,
+   "offset_max_abs_mmag": 12.750518081482198,
+   "offset_err_median_mmag": 1.7628087154287462,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0816": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.3275222411084728,
+   "chi2_red_median_after": 0.8508370417723179,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.154965696831655,
+   "offset_max_abs_mmag": 9.874798523838102,
+   "offset_err_median_mmag": 1.2121085737689203,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.9752596360302306,
+   "chi2_red_median_after": 0.7034034256838992,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 12.26474614840585,
+   "offset_max_abs_mmag": 37.62525904059366,
+   "offset_err_median_mmag": 1.6888171504566172,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0836": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.8738136782587249,
+   "chi2_red_median_after": 0.8424559516975946,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.758475621504917,
+   "offset_max_abs_mmag": 6.4979276760537275,
+   "offset_err_median_mmag": 1.3238992668520184,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 2.580917762462959,
+   "chi2_red_median_after": 0.8214637652496253,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 9.53930457928928,
+   "offset_max_abs_mmag": 18.25282066185352,
+   "offset_err_median_mmag": 2.7876974772407475,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat0839": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 2.032227089225442,
+   "chi2_red_median_after": 1.039931767419159,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.1167560776976,
+   "offset_max_abs_mmag": 12.625201476114789,
+   "offset_err_median_mmag": 1.2852545107573627,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 7.118940105970776,
+   "chi2_red_median_after": 0.8984622764835485,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 14.885704209045207,
+   "offset_max_abs_mmag": 52.49976974152215,
+   "offset_err_median_mmag": 2.0199949181122303,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0841": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.9683718039804624,
+   "chi2_red_median_after": 0.97243865211416,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.3956003266151247,
+   "offset_max_abs_mmag": 5.502302578030083,
+   "offset_err_median_mmag": 1.617091867573597,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.2535076162688705,
+   "chi2_red_median_after": 0.8433646698173424,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 10.240013070663032,
+   "offset_max_abs_mmag": 25.247179338145465,
+   "offset_err_median_mmag": 2.204491822645819,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat0883": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.8468803749044918,
+   "chi2_red_median_after": 0.7078321179512197,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.2422859429315976,
+   "offset_max_abs_mmag": 4.750402952034882,
+   "offset_err_median_mmag": 1.4690072628573754,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.927747153856597,
+   "chi2_red_median_after": 0.8190975736688726,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 2,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.91245653121943,
+   "offset_max_abs_mmag": 14.000690774453872,
+   "offset_err_median_mmag": 2.056068966375805,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1009": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0014657404295562,
+   "chi2_red_median_after": 0.8210041464110689,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.0087405654221837,
+   "offset_max_abs_mmag": 6.997006642537329,
+   "offset_err_median_mmag": 1.6158741640029208,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.784503011067245,
+   "chi2_red_median_after": 0.8602014625925551,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 7.986595932850591,
+   "offset_max_abs_mmag": 14.500230258475355,
+   "offset_err_median_mmag": 2.3504116205725314,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1032": {
+  "n_stars": 10,
+  "n_field_visits": 20,
+  "w1": {
+   "chi2_red_median_before": 0.9363770414369368,
+   "chi2_red_median_after": 0.7608911650289187,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 3.0929150099635625,
+   "offset_max_abs_mmag": 6.999712176899209,
+   "offset_err_median_mmag": 1.8365465920842885,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.1151285238383375,
+   "chi2_red_median_after": 0.8542475720467311,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 8.899972553634822,
+   "offset_max_abs_mmag": 15.250460516904596,
+   "offset_err_median_mmag": 2.8254289468667064,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1060": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.973774072143788,
+   "chi2_red_median_after": 0.8844594339864282,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 3.3492600095085554,
+   "offset_max_abs_mmag": 5.752360147927682,
+   "offset_err_median_mmag": 2.1295531542249613,
+   "min_stars_per_visit": 1
+  },
+  "w2": {
+   "chi2_red_median_before": 1.889081126410743,
+   "chi2_red_median_after": 0.8476135942991232,
+   "n_p_below_0.01_before": 5,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 8.74987099292312,
+   "offset_max_abs_mmag": 17.002014759319728,
+   "offset_err_median_mmag": 3.26931058617442,
+   "min_stars_per_visit": 1
+  }
+ },
+ "bat1085": {
+  "n_stars": 10,
+  "n_field_visits": 20,
+  "w1": {
+   "chi2_red_median_before": 1.0722543661256214,
+   "chi2_red_median_after": 0.7282289485056936,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 3.2909809220136466,
+   "offset_max_abs_mmag": 8.248445756643186,
+   "offset_err_median_mmag": 2.018692653431076,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.9659071347299029,
+   "chi2_red_median_after": 0.8716881205144378,
+   "n_p_below_0.01_before": 5,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 8.9962293639389,
+   "offset_max_abs_mmag": 23.250978597651795,
+   "offset_err_median_mmag": 2.6094412885542213,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1114": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.8492072180296482,
+   "chi2_red_median_after": 0.7772239222270201,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 2,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 1.697279305956972,
+   "offset_max_abs_mmag": 3.4972369027723715,
+   "offset_err_median_mmag": 2.3523734758563055,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.7375307335180843,
+   "chi2_red_median_after": 0.7946178847252006,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.159891058155464,
+   "offset_max_abs_mmag": 13.491250234237029,
+   "offset_err_median_mmag": 3.5313000206108085,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1127": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0677858624533818,
+   "chi2_red_median_after": 0.7748576925097339,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.9347250701954595,
+   "offset_max_abs_mmag": 5.251208855934664,
+   "offset_err_median_mmag": 2.2019887657366883,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.926858855725397,
+   "chi2_red_median_after": 1.0626494712757548,
+   "n_p_below_0.01_before": 5,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.38776165754025,
+   "offset_max_abs_mmag": 23.052036775062845,
+   "offset_err_median_mmag": 2.6520604550517137,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1131": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0613858800745166,
+   "chi2_red_median_after": 0.9706376340764493,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.3083382079080796,
+   "offset_max_abs_mmag": 4.749481918628895,
+   "offset_err_median_mmag": 1.4683984104909058,
+   "min_stars_per_visit": 3
+  },
+  "w2": {
+   "chi2_red_median_before": 2.011890158617025,
+   "chi2_red_median_after": 0.6682133540149429,
+   "n_p_below_0.01_before": 5,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.86223960618321,
+   "offset_max_abs_mmag": 22.123704798311827,
+   "offset_err_median_mmag": 2.0568469439093344,
+   "min_stars_per_visit": 3
+  }
+ },
+ "bat1133": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.4567484319269515,
+   "chi2_red_median_after": 1.0449126740396122,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.599118777711193,
+   "offset_max_abs_mmag": 7.000230258474183,
+   "offset_err_median_mmag": 1.6184448636034372,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.4278132116853284,
+   "chi2_red_median_after": 0.9834818405434731,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 10.448635917261505,
+   "offset_max_abs_mmag": 21.233594251115484,
+   "offset_err_median_mmag": 2.5005933792265993,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1139": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.2659567820989965,
+   "chi2_red_median_after": 1.048902316018407,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.622244368065438,
+   "offset_max_abs_mmag": 8.752820661854344,
+   "offset_err_median_mmag": 1.9096756165737696,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.8969825690846838,
+   "chi2_red_median_after": 0.9753608789335755,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 11.994010435514483,
+   "offset_max_abs_mmag": 32.50000000000064,
+   "offset_err_median_mmag": 2.4981579746675897,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1141": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.970542559200862,
+   "chi2_red_median_after": 0.7061667007677142,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.210216835215482,
+   "offset_max_abs_mmag": 5.4986184502148205,
+   "offset_err_median_mmag": 1.6233832992486739,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.1022396535942307,
+   "chi2_red_median_after": 1.2260618704557764,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 2,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 9.122055625534705,
+   "offset_max_abs_mmag": 17.247985240679498,
+   "offset_err_median_mmag": 3.2339807824938096,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1150": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.946262133967888,
+   "chi2_red_median_after": 0.7603586232359536,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.717870492237941,
+   "offset_max_abs_mmag": 7.998618450213435,
+   "offset_err_median_mmag": 1.7614557148077847,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 4.1208187642474154,
+   "chi2_red_median_after": 0.8226579502477894,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 15.690778352635,
+   "offset_max_abs_mmag": 41.75005756462369,
+   "offset_err_median_mmag": 3.231815978287165,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat1156": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.1735637595172892,
+   "chi2_red_median_after": 0.9566696603821361,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.9195157255223854,
+   "offset_max_abs_mmag": 8.497236902771377,
+   "offset_err_median_mmag": 2.5016081154389433,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 2.498179008739892,
+   "chi2_red_median_after": 1.0691194532907025,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 12.724829297411803,
+   "offset_max_abs_mmag": 25.00207232394569,
+   "offset_err_median_mmag": 3.2403398358007176,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat1157": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.132855356305161,
+   "chi2_red_median_after": 0.8618657563710965,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.697573604301504,
+   "offset_max_abs_mmag": 7.0000575646131935,
+   "offset_err_median_mmag": 2.056610168000117,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 2.083258818474474,
+   "chi2_red_median_after": 0.8924370918459921,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 11.053736796587954,
+   "offset_max_abs_mmag": 23.769859614414024,
+   "offset_err_median_mmag": 3.3755709744752807,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat1158": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.316820372170569,
+   "chi2_red_median_after": 0.7559504032999455,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 5.329588424283051,
+   "offset_max_abs_mmag": 15.749942435374642,
+   "offset_err_median_mmag": 2.022125893638713,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 3.886963234385664,
+   "chi2_red_median_after": 1.0356398860644085,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 16.3138705284294,
+   "offset_max_abs_mmag": 53.68984709907565,
+   "offset_err_median_mmag": 2.4594455749463093,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat1161": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.84696615633378,
+   "chi2_red_median_after": 0.6790265771151728,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.6900229671064193,
+   "offset_max_abs_mmag": 8.250057564622715,
+   "offset_err_median_mmag": 2.0566101680011606,
+   "min_stars_per_visit": 4
+  },
+  "w2": {
+   "chi2_red_median_before": 2.1563878639483387,
+   "chi2_red_median_after": 0.9775120127592524,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 11.511275331160432,
+   "offset_max_abs_mmag": 24.999078966484234,
+   "offset_err_median_mmag": 2.940077842203796,
+   "min_stars_per_visit": 4
+  }
+ },
+ "bat1162": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.9957991387327217,
+   "chi2_red_median_after": 0.7409222802653597,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.9541413644512855,
+   "offset_max_abs_mmag": 8.500230258475128,
+   "offset_err_median_mmag": 1.9106227191026557,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.0380423691380023,
+   "chi2_red_median_after": 0.8497357533951844,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 14.806740179707317,
+   "offset_max_abs_mmag": 35.017154088841984,
+   "offset_err_median_mmag": 3.0844078751723347,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1173": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.3320324393304122,
+   "chi2_red_median_after": 0.985191673568067,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.752713050173623,
+   "offset_max_abs_mmag": 8.500230258476016,
+   "offset_err_median_mmag": 2.0566101680011606,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.843452190186561,
+   "chi2_red_median_after": 0.8259616458849883,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 13.648862142948524,
+   "offset_max_abs_mmag": 34.003914386291356,
+   "offset_err_median_mmag": 3.222074417202415,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1174": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.11699506692828,
+   "chi2_red_median_after": 0.9382448256141054,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 4.523355519956522,
+   "offset_max_abs_mmag": 11.752129888571439,
+   "offset_err_median_mmag": 2.350411620573053,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.106202688139466,
+   "chi2_red_median_after": 0.9671288174424981,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 14.780343097824556,
+   "offset_max_abs_mmag": 39.756965290115964,
+   "offset_err_median_mmag": 2.7952066241373124,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1178": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.3226981595142466,
+   "chi2_red_median_after": 0.8443523199917162,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 5.915486807279,
+   "offset_max_abs_mmag": 17.25051808148237,
+   "offset_err_median_mmag": 2.350885172008156,
+   "min_stars_per_visit": 5
+  },
+  "w2": {
+   "chi2_red_median_before": 4.379285709059866,
+   "chi2_red_median_after": 0.9248262180330953,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 17.920411795956323,
+   "offset_max_abs_mmag": 56.75195719548842,
+   "offset_err_median_mmag": 2.976507066100741,
+   "min_stars_per_visit": 5
+  }
+ },
+ "bat1180": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.4308221391444595,
+   "chi2_red_median_after": 0.948090113326158,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 4.91127347705118,
+   "offset_max_abs_mmag": 14.499539483144197,
+   "offset_err_median_mmag": 1.6168212665892154,
+   "min_stars_per_visit": 2
+  },
+  "w2": {
+   "chi2_red_median_before": 4.2810176726736096,
+   "chi2_red_median_after": 0.7506682503109101,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 15.0815891027926,
+   "offset_max_abs_mmag": 36.375777121232744,
+   "offset_err_median_mmag": 2.9380145257152726,
+   "min_stars_per_visit": 2
+  }
+ },
+ "bat1184": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.170279368004438,
+   "chi2_red_median_after": 0.9945898815557168,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 4.369719466711381,
+   "offset_max_abs_mmag": 10.50069077445226,
+   "offset_err_median_mmag": 1.7630793164721024,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.8923961182407183,
+   "chi2_red_median_after": 0.765281109093443,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 17.34056195586029,
+   "offset_max_abs_mmag": 57.99999999999983,
+   "offset_err_median_mmag": 2.3510881193050586,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1192": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0847469760187785,
+   "chi2_red_median_after": 0.8363208047702066,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 4.224348303052734,
+   "offset_max_abs_mmag": 15.24222881733639,
+   "offset_err_median_mmag": 1.6890708386737823,
+   "min_stars_per_visit": 6
+  },
+  "w2": {
+   "chi2_red_median_before": 3.053288556134912,
+   "chi2_red_median_after": 0.710076357085839,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 14.637728285876461,
+   "offset_max_abs_mmag": 43.00368412781452,
+   "offset_err_median_mmag": 2.7480881833674196,
+   "min_stars_per_visit": 6
+  }
+ },
+ "bat1194": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.9630919716523583,
+   "chi2_red_median_after": 0.7662596078990764,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.853552958578039,
+   "offset_max_abs_mmag": 5.512203622307865,
+   "offset_err_median_mmag": 2.203544719426986,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.82095577883991,
+   "chi2_red_median_after": 0.7171147095121406,
+   "n_p_below_0.01_before": 4,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 9.075364112405008,
+   "offset_max_abs_mmag": 18.74902140254342,
+   "offset_err_median_mmag": 3.0801459480723183,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1198": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.6191659805623342,
+   "chi2_red_median_after": 1.4579886959875754,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 5.146402487220052,
+   "offset_max_abs_mmag": 11.874971217686436,
+   "offset_err_median_mmag": 1.8373414469109655,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.814197298650995,
+   "chi2_red_median_after": 0.86200160116354,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 16.540141353180715,
+   "offset_max_abs_mmag": 46.25259039385465,
+   "offset_err_median_mmag": 2.5340290721766996,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1202": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.6234473110991785,
+   "chi2_red_median_after": 0.840930512045443,
+   "n_p_below_0.01_before": 4,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 5.375426360275794,
+   "offset_max_abs_mmag": 14.001611806992997,
+   "offset_err_median_mmag": 1.7612865867932583,
+   "min_stars_per_visit": 4
+  },
+  "w2": {
+   "chi2_red_median_before": 4.960391786681633,
+   "chi2_red_median_after": 0.7443761689777787,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 18.046570478686625,
+   "offset_max_abs_mmag": 56.87796457280481,
+   "offset_err_median_mmag": 2.676312719966642,
+   "min_stars_per_visit": 4
+  }
+ },
+ "bat1218": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.1640239437070936,
+   "chi2_red_median_after": 0.5572615846451998,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.499343903074777,
+   "offset_max_abs_mmag": 11.74867601482621,
+   "offset_err_median_mmag": 1.6895613030710297,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 4.0359160019101745,
+   "chi2_red_median_after": 1.0731700109497095,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 15.222952803512662,
+   "offset_max_abs_mmag": 43.6242804428435,
+   "offset_err_median_mmag": 3.1948117396319917,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat1231": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.2127152203615372,
+   "chi2_red_median_after": 0.9683299564910293,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.5800879052817387,
+   "offset_max_abs_mmag": 4.499539483143522,
+   "offset_err_median_mmag": 1.4687366619304023,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.0928360385368068,
+   "chi2_red_median_after": 0.7472694687456807,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 9.27493650922396,
+   "offset_max_abs_mmag": 21.49953948314476,
+   "offset_err_median_mmag": 1.7623351636118758,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1242": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.7801184987422349,
+   "chi2_red_median_after": 0.5638214619878308,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.767860090770445,
+   "offset_max_abs_mmag": 7.999999999999119,
+   "offset_err_median_mmag": 1.7626734148791465,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.3851809504724004,
+   "chi2_red_median_after": 1.0413954521283049,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 10.490232916091776,
+   "offset_max_abs_mmag": 21.500000000001407,
+   "offset_err_median_mmag": 3.378750529714034,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1250": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.9649972791002968,
+   "chi2_red_median_after": 0.706970793033308,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 4.515737394032062,
+   "offset_max_abs_mmag": 9.750172693852477,
+   "offset_err_median_mmag": 1.617768367511183,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 2.0368728377363534,
+   "chi2_red_median_after": 0.686287942460303,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 9.279015851610094,
+   "offset_max_abs_mmag": 15.750115129238296,
+   "offset_err_median_mmag": 2.3510542975559394,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat1255": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.235503706421344,
+   "chi2_red_median_after": 0.6581806538361175,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 5.164238559295818,
+   "offset_max_abs_mmag": 13.000690774844337,
+   "offset_err_median_mmag": 1.8358531774064581,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 3.7231917308608935,
+   "chi2_red_median_after": 0.929772991592557,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 15.41312573217313,
+   "offset_max_abs_mmag": 45.249884870773194,
+   "offset_err_median_mmag": 3.0041586953198864,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat1258": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.098022380596571,
+   "chi2_red_median_after": 0.8781922309978101,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.894276975149012,
+   "offset_max_abs_mmag": 8.75005756462599,
+   "offset_err_median_mmag": 1.76159101185807,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.4434841180669817,
+   "chi2_red_median_after": 1.1267184005903674,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 11.475924425983322,
+   "offset_max_abs_mmag": 22.487566143338356,
+   "offset_err_median_mmag": 3.525617430858014,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1262": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.1034630593413517,
+   "chi2_red_median_after": 0.9951631968256669,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.5290359995719944,
+   "offset_max_abs_mmag": 6.999769741522499,
+   "offset_err_median_mmag": 1.9830075918521608,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 2.3276514291070987,
+   "chi2_red_median_after": 0.6775858618004019,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 11.13069834103312,
+   "offset_max_abs_mmag": 22.749366790464798,
+   "offset_err_median_mmag": 2.645836663329112,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat1264": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0394217606537817,
+   "chi2_red_median_after": 0.8824869217708652,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.87159135186629,
+   "offset_max_abs_mmag": 8.000000000000895,
+   "offset_err_median_mmag": 1.7624028138373564,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.837587173323876,
+   "chi2_red_median_after": 1.1274707601729017,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 10.279393622037505,
+   "offset_max_abs_mmag": 20.00702285474265,
+   "offset_err_median_mmag": 3.0766958050046216,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1269": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.367756748104397,
+   "chi2_red_median_after": 1.0881739537075343,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.227528038932302,
+   "offset_max_abs_mmag": 6.500115129250972,
+   "offset_err_median_mmag": 2.058335246679507,
+   "min_stars_per_visit": 7
+  },
+  "w2": {
+   "chi2_red_median_before": 1.655245774911009,
+   "chi2_red_median_after": 0.9162064554862919,
+   "n_p_below_0.01_before": 4,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 9.415939621352484,
+   "offset_max_abs_mmag": 19.258461957702977,
+   "offset_err_median_mmag": 2.4971432212243205,
+   "min_stars_per_visit": 7
+  }
+ },
+ "bat1270": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0190617541296323,
+   "chi2_red_median_after": 0.8843267330489365,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.3990577059786196,
+   "offset_max_abs_mmag": 5.998848708690829,
+   "offset_err_median_mmag": 1.909675616228796,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.9165671298285256,
+   "chi2_red_median_after": 0.7227215125274999,
+   "n_p_below_0.01_before": 5,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 9.323835553370825,
+   "offset_max_abs_mmag": 16.73704806185583,
+   "offset_err_median_mmag": 2.497278521717555,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1302": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.2118185607541199,
+   "chi2_red_median_after": 0.957549841179524,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.3634248093000707,
+   "offset_max_abs_mmag": 7.251323983989089,
+   "offset_err_median_mmag": 1.911569821459838,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.4530884717683827,
+   "chi2_red_median_after": 0.9306183806012172,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.04446167189596,
+   "offset_max_abs_mmag": 11.999078967070531,
+   "offset_err_median_mmag": 2.9380145257152726,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1316": {
+  "n_stars": 10,
+  "n_field_visits": 20,
+  "w1": {
+   "chi2_red_median_before": 0.9118266640466908,
+   "chi2_red_median_after": 0.915977891091697,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 2.5305924683331567,
+   "offset_max_abs_mmag": 6.125892251203524,
+   "offset_err_median_mmag": 1.6897135159591077,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 1.457747840954502,
+   "chi2_red_median_after": 1.2568559041953673,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 5.285891824705082,
+   "offset_max_abs_mmag": 9.87531660476737,
+   "offset_err_median_mmag": 3.1944565781005196,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat1350": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.8844394045024009,
+   "chi2_red_median_after": 0.7897588548102117,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.14136283662536,
+   "offset_max_abs_mmag": 6.749712176897127,
+   "offset_err_median_mmag": 1.4681954601897076,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.7443863520004044,
+   "chi2_red_median_after": 0.8228025972197064,
+   "n_p_below_0.01_before": 5,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 7.774495210004089,
+   "offset_max_abs_mmag": 20.001381549785258,
+   "offset_err_median_mmag": 2.790809373246614,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1361": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0622765598320916,
+   "chi2_red_median_after": 0.893185054833067,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.5615531934397295,
+   "offset_max_abs_mmag": 4.7485608855897254,
+   "offset_err_median_mmag": 2.0560689660313534,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.7955918062371192,
+   "chi2_red_median_after": 1.0356412235895875,
+   "n_p_below_0.01_before": 4,
+   "n_p_below_0.01_after": 2,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.685017293815489,
+   "offset_max_abs_mmag": 12.49585535210418,
+   "offset_err_median_mmag": 2.7932447803900535,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1364": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.1112186371070805,
+   "chi2_red_median_after": 0.8344641194163229,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.7326254629548545,
+   "offset_max_abs_mmag": 6.249942435374578,
+   "offset_err_median_mmag": 1.9097432668556151,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.5291174255821156,
+   "chi2_red_median_after": 0.8589767765111955,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.2321655398533595,
+   "offset_max_abs_mmag": 16.999078966484227,
+   "offset_err_median_mmag": 2.6442130731439017,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1368": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0181252238863747,
+   "chi2_red_median_after": 1.0935128256572941,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.5780971176291683,
+   "offset_max_abs_mmag": 5.247179338146779,
+   "offset_err_median_mmag": 1.616753616952434,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.5553941223705001,
+   "chi2_red_median_after": 0.831804724857756,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.2508250614739564,
+   "offset_max_abs_mmag": 11.750172693556493,
+   "offset_err_median_mmag": 2.4976844231951714,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1371": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.9130598504362089,
+   "chi2_red_median_after": 0.6784723132073092,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.8935315743469086,
+   "offset_max_abs_mmag": 4.366912196882566,
+   "offset_err_median_mmag": 1.6263260082793107,
+   "min_stars_per_visit": 5
+  },
+  "w2": {
+   "chi2_red_median_before": 1.602535489209429,
+   "chi2_red_median_after": 0.9219268060859471,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.135625843203,
+   "offset_max_abs_mmag": 16.37721623339683,
+   "offset_err_median_mmag": 2.567329473156652,
+   "min_stars_per_visit": 5
+  }
+ },
+ "bat1379": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.033233089950317,
+   "chi2_red_median_after": 0.794230911000726,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.7018062927193234,
+   "offset_max_abs_mmag": 8.245682666214726,
+   "offset_err_median_mmag": 1.7998298683907297,
+   "min_stars_per_visit": 7
+  },
+  "w2": {
+   "chi2_red_median_before": 1.83577307875994,
+   "chi2_red_median_after": 0.9476383423833238,
+   "n_p_below_0.01_before": 5,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 11.83149764484598,
+   "offset_max_abs_mmag": 26.749942435372986,
+   "offset_err_median_mmag": 3.6369345724258983,
+   "min_stars_per_visit": 7
+  }
+ },
+ "bat1390": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.1930464557874532,
+   "chi2_red_median_after": 0.9706564234624155,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.4202029497673925,
+   "offset_max_abs_mmag": 8.498963838024842,
+   "offset_err_median_mmag": 2.1680795159459456,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 2.3308722270949866,
+   "chi2_red_median_after": 0.7912847670257898,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 12.108405742518134,
+   "offset_max_abs_mmag": 31.625949815534682,
+   "offset_err_median_mmag": 3.047792625290711,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat1399": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.8342406995634519,
+   "chi2_red_median_after": 0.7996753452200861,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 1.7781634583190262,
+   "offset_max_abs_mmag": 3.9999999999986713,
+   "offset_err_median_mmag": 1.4690072628563318,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.011206692895363,
+   "chi2_red_median_after": 0.7330450141783378,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 7.328197110041636,
+   "offset_max_abs_mmag": 16.000575646105908,
+   "offset_err_median_mmag": 2.0571513700863067,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1401": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.177900403138814,
+   "chi2_red_median_after": 1.0093361555292673,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.6178593343137075,
+   "offset_max_abs_mmag": 5.500115129225769,
+   "offset_err_median_mmag": 1.3224109626904705,
+   "min_stars_per_visit": 8
+  },
+  "w2": {
+   "chi2_red_median_before": 1.7462669190928048,
+   "chi2_red_median_after": 0.8443298629068342,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 6.759642980549337,
+   "offset_max_abs_mmag": 14.499999999998181,
+   "offset_err_median_mmag": 2.2035108942281325,
+   "min_stars_per_visit": 8
+  }
+ },
+ "bat1419": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.2961895865042337,
+   "chi2_red_median_after": 0.9024305252310163,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.33500378448991,
+   "offset_max_abs_mmag": 11.746258307558932,
+   "offset_err_median_mmag": 1.9853922373315294,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 2.2820915242044526,
+   "chi2_red_median_after": 0.7718900662828645,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 15.68015557916954,
+   "offset_max_abs_mmag": 45.07903608033992,
+   "offset_err_median_mmag": 3.3400550444681363,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat1430": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 0.9348567562770221,
+   "chi2_red_median_after": 0.7247274431443158,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 2,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 2.59415429254612,
+   "offset_max_abs_mmag": 6.999424353892891,
+   "offset_err_median_mmag": 1.2850684725968444,
+   "min_stars_per_visit": 5
+  },
+  "w2": {
+   "chi2_red_median_before": 2.35983705677289,
+   "chi2_red_median_after": 0.9951898890141531,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 6.712409044474838,
+   "offset_max_abs_mmag": 16.875834686445934,
+   "offset_err_median_mmag": 2.1299421431897856,
+   "min_stars_per_visit": 5
+  }
+ },
+ "bat1436": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.0981809877150484,
+   "chi2_red_median_after": 0.782364886698275,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.044012777857849,
+   "offset_max_abs_mmag": 10.749999997251791,
+   "offset_err_median_mmag": 1.7260919901428817,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.2429680285899662,
+   "chi2_red_median_after": 0.9496046436788559,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 14.490507479576136,
+   "offset_max_abs_mmag": 40.995509972401756,
+   "offset_err_median_mmag": 3.268803304342651,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1461": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.246384306251504,
+   "chi2_red_median_after": 0.863736372225123,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.911432452631594,
+   "offset_max_abs_mmag": 8.498560885588091,
+   "offset_err_median_mmag": 2.4586506846165985,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 4.052816082738313,
+   "chi2_red_median_after": 1.0071089467414738,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 14.195686456641395,
+   "offset_max_abs_mmag": 47.74217125261515,
+   "offset_err_median_mmag": 2.573367234897371,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1473": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.146851387905573,
+   "chi2_red_median_after": 0.9047059563946037,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.510691747719499,
+   "offset_max_abs_mmag": 8.501036156295605,
+   "offset_err_median_mmag": 1.8584487785865351,
+   "min_stars_per_visit": 9
+  },
+  "w2": {
+   "chi2_red_median_before": 1.9161929007781282,
+   "chi2_red_median_after": 0.8675208284785904,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 9.203437969916298,
+   "offset_max_abs_mmag": 14.999654612369184,
+   "offset_err_median_mmag": 2.2036800199207423,
+   "min_stars_per_visit": 9
+  }
+ },
+ "bat1477": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.1198625366512682,
+   "chi2_red_median_after": 0.7584475855199337,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.2525890179797408,
+   "offset_max_abs_mmag": 10.254662721463248,
+   "offset_err_median_mmag": 1.6524386761434124,
+   "min_stars_per_visit": 3
+  },
+  "w2": {
+   "chi2_red_median_before": 2.549933322348452,
+   "chi2_red_median_after": 1.0844538985274077,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 12.722318118396192,
+   "offset_max_abs_mmag": 43.00368412781452,
+   "offset_err_median_mmag": 2.865156101241534,
+   "min_stars_per_visit": 3
+  }
+ },
+ "bat1481": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.5953712360315815,
+   "chi2_red_median_after": 0.9960168125622624,
+   "n_p_below_0.01_before": 3,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 3.6866539458656145,
+   "offset_max_abs_mmag": 9.999999999951825,
+   "offset_err_median_mmag": 1.6524217637229965,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 4.319939773055671,
+   "chi2_red_median_after": 0.9997644840847081,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 12.361141928986045,
+   "offset_max_abs_mmag": 37.49539484314912,
+   "offset_err_median_mmag": 2.167318458316824,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1495": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.1292727648797545,
+   "chi2_red_median_after": 0.8685492148740861,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.5207837885488096,
+   "offset_max_abs_mmag": 4.249251660041864,
+   "offset_err_median_mmag": 1.468871962308298,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.4866459668229677,
+   "chi2_red_median_after": 0.7897856613795045,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 9.351985134897491,
+   "offset_max_abs_mmag": 17.749021402445386,
+   "offset_err_median_mmag": 2.058774972208327,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1497": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.290619631943022,
+   "chi2_red_median_after": 0.9607616697428287,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.7892720661206103,
+   "offset_max_abs_mmag": 6.500575646104956,
+   "offset_err_median_mmag": 1.7633499173985532,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.5779090295291565,
+   "chi2_red_median_after": 1.0336662859727421,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 9.30780057498534,
+   "offset_max_abs_mmag": 18.74971217699617,
+   "offset_err_median_mmag": 2.7935830298197275,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1499": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0224427424293983,
+   "chi2_red_median_after": 0.7795670972409776,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.1388963055085113,
+   "offset_max_abs_mmag": 5.749481918519983,
+   "offset_err_median_mmag": 1.3224109627567515,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 3.115389481270291,
+   "chi2_red_median_after": 0.9992821638639713,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 9.3461907001681,
+   "offset_max_abs_mmag": 23.74798524067856,
+   "offset_err_median_mmag": 2.3495998179038198,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1549": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.255787183441499,
+   "chi2_red_median_after": 0.970399189499392,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.6137391208091203,
+   "offset_max_abs_mmag": 8.500690775039565,
+   "offset_err_median_mmag": 2.4942342659501633,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.290040552538678,
+   "chi2_red_median_after": 1.1670480732169524,
+   "n_p_below_0.01_before": 7,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.672210976076725,
+   "offset_max_abs_mmag": 20.000000000000462,
+   "offset_err_median_mmag": 2.946673683778946,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1585": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.943422791752064,
+   "chi2_red_median_after": 0.6933613021844822,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.126384817839368,
+   "offset_max_abs_mmag": 6.006850150903631,
+   "offset_err_median_mmag": 2.0545468373087092,
+   "min_stars_per_visit": 6
+  },
+  "w2": {
+   "chi2_red_median_before": 2.0282579662982396,
+   "chi2_red_median_after": 0.8634506272288958,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 8.011894065052438,
+   "offset_max_abs_mmag": 17.00046051675841,
+   "offset_err_median_mmag": 2.868538604924839,
+   "min_stars_per_visit": 6
+  }
+ },
+ "bat1599": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0435507535423296,
+   "chi2_red_median_after": 0.7255450528190356,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 2.8924622937044924,
+   "offset_max_abs_mmag": 5.500230258478567,
+   "offset_err_median_mmag": 1.7613204120197723,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.685328147388133,
+   "chi2_red_median_after": 0.8814803555035096,
+   "n_p_below_0.01_before": 8,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 9.631587472962151,
+   "offset_max_abs_mmag": 17.750057564624555,
+   "offset_err_median_mmag": 2.7911476245692053,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1607": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 0.8272668827297536,
+   "chi2_red_median_after": 0.648663804108435,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.3561721550442396,
+   "offset_max_abs_mmag": 6.751323985162649,
+   "offset_err_median_mmag": 1.7628087154282244,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 2.6588028963317942,
+   "chi2_red_median_after": 0.8970632492959011,
+   "n_p_below_0.01_before": 9,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 10.278578120311026,
+   "offset_max_abs_mmag": 20.997236902772443,
+   "offset_err_median_mmag": 2.935714420958507,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1611": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.0672611786719077,
+   "chi2_red_median_after": 0.8212202655439819,
+   "n_p_below_0.01_before": 1,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 3.2411228446870477,
+   "offset_max_abs_mmag": 6.776076379406248,
+   "offset_err_median_mmag": 2.2026652661330215,
+   "min_stars_per_visit": 10
+  },
+  "w2": {
+   "chi2_red_median_before": 1.6678982745298274,
+   "chi2_red_median_after": 0.8629040517692166,
+   "n_p_below_0.01_before": 4,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 7.7153791547309725,
+   "offset_max_abs_mmag": 16.50241771186778,
+   "offset_err_median_mmag": 3.378412278389355,
+   "min_stars_per_visit": 10
+  }
+ },
+ "bat1624": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.1028412008584516,
+   "chi2_red_median_after": 0.7418633080382313,
+   "n_p_below_0.01_before": 0,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 4.079436921152415,
+   "offset_max_abs_mmag": 8.875143911098782,
+   "offset_err_median_mmag": 1.4683984110717765,
+   "min_stars_per_visit": 1
+  },
+  "w2": {
+   "chi2_red_median_before": 2.170358553855923,
+   "chi2_red_median_after": 0.900692296690149,
+   "n_p_below_0.01_before": 6,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 20,
+   "offset_std_mmag": 12.299003240782385,
+   "offset_max_abs_mmag": 26.37479852383695,
+   "offset_err_median_mmag": 2.7415949152829464,
+   "min_stars_per_visit": 1
+  }
+ },
+ "bat1627": {
+  "n_stars": 10,
+  "n_field_visits": 22,
+  "w1": {
+   "chi2_red_median_before": 1.5687296967128184,
+   "chi2_red_median_after": 0.8970375494666871,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 1,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 4.949698825814452,
+   "offset_max_abs_mmag": 14.750000000001151,
+   "offset_err_median_mmag": 1.8727897656331334,
+   "min_stars_per_visit": 4
+  },
+  "w2": {
+   "chi2_red_median_before": 4.3784755167963425,
+   "chi2_red_median_after": 1.0722143182354305,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 22,
+   "offset_std_mmag": 17.20542618876427,
+   "offset_max_abs_mmag": 53.49142289575948,
+   "offset_err_median_mmag": 2.571033310525781,
+   "min_stars_per_visit": 4
+  }
+ },
+ "bat1628": {
+  "n_stars": 10,
+  "n_field_visits": 21,
+  "w1": {
+   "chi2_red_median_before": 1.2905889137366007,
+   "chi2_red_median_after": 0.9265200802198896,
+   "n_p_below_0.01_before": 2,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 4.769791458896538,
+   "offset_max_abs_mmag": 14.241883429707336,
+   "offset_err_median_mmag": 1.9046695203882955,
+   "min_stars_per_visit": 7
+  },
+  "w2": {
+   "chi2_red_median_before": 3.131560480090269,
+   "chi2_red_median_after": 0.9564534706250041,
+   "n_p_below_0.01_before": 10,
+   "n_p_below_0.01_after": 0,
+   "n_visits_with_offset": 21,
+   "offset_std_mmag": 14.969782133540324,
+   "offset_max_abs_mmag": 41.500518081370785,
+   "offset_err_median_mmag": 3.083528423942991,
+   "min_stars_per_visit": 7
+  }
+ }
+}

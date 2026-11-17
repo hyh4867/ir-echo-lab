@@ -1,0 +1,15387 @@
+{
+ "criteria": {
+  "bat_classes": [
+   40,
+   50,
+   60
+  ],
+  "z_grid": [
+   0.01,
+   0.015,
+   0.02,
+   0.025,
+   0.03,
+   0.035,
+   0.04,
+   0.045,
+   0.05
+  ],
+  "max_sample_size": 250,
+  "min_sample_size": 150,
+  "min_abs_gal_lat_deg": 20.0,
+  "max_abs_ecl_lat_deg": 80.0,
+  "dr2_match_arcsec": 5.0,
+  "dr2_excluded_types": [
+   "BZQ",
+   "BZB",
+   "BZG",
+   "BZQ/Lense",
+   "Sy1/Lense"
+  ],
+  "allwise_match_arcsec": 3.0,
+  "w1_bright_limit": 8.5,
+  "w2_bright_limit": 8.0,
+  "w1_faint_limit": 12.5,
+  "bright_star_w1": 5.0,
+  "bright_star_radius_arcsec": 300.0,
+  "blend_radius_arcsec": 12.0,
+  "blend_dmag": 2.5,
+  "min_comparison_stars": 6
+ },
+ "funnel_targets": [
+  [
+   "BAT 105-month sources",
+   1632
+  ],
+  [
+   "S1 class",
+   833
+  ],
+  [
+   "S2 redshift (z <= 0.050)",
+   480
+  ],
+  [
+   "S3 Galactic latitude",
+   363
+  ],
+  [
+   "S4 ecliptic latitude",
+   356
+  ],
+  [
+   "S5 BASS DR2 beamed/lensed",
+   356
+  ],
+  [
+   "S6 no AllWISE counterpart",
+   346
+  ],
+  [
+   "S7 saturation margin",
+   313
+  ],
+  [
+   "S8 faint limit",
+   311
+  ],
+  [
+   "S9 cc_flags / ph_qual",
+   284
+  ],
+  [
+   "S10 bright star nearby",
+   283
+  ],
+  [
+   "S10 blended neighbour",
+   270
+  ],
+  [
+   "S2 redshift rule: z <= 0.040",
+   231
+  ],
+  [
+   "S11 at least 6 comparison stars",
+   231
+  ]
+ ],
+ "count_by_z_grid_after_S1_S10": {
+  "0.010": 28,
+  "0.015": 49,
+  "0.020": 76,
+  "0.025": 111,
+  "0.030": 153,
+  "0.035": 193,
+  "0.040": 231,
+  "0.045": 254,
+  "0.050": 270
+ },
+ "z_max": 0.04,
+ "n_selected_passing_all_cuts": 231,
+ "n_calibration": 2,
+ "calibration_failed_cuts": {
+  "NGC 3786": "",
+  "NGC 2273": ""
+ },
+ "below_min_sample_size": false,
+ "star_seed": [
+  20261112,
+  5,
+  "bat_index"
+ ],
+ "star_w1_range": [
+  9.5,
+  11.5
+ ],
+ "n_stars": 2310,
+ "stars_per_field": {
+  "10": 231
+ },
+ "seen_before": {
+  "bat0480": "stage 2-4 control",
+  "bat0518": "stage 2-4 control",
+  "bat0560": "stage 1-4 (NGC 3786)",
+  "bat0653": "stage 2-4 control",
+  "bat0739": "stage 2-4 control",
+  "bat1302": "stage 2-4 control"
+ },
+ "star_funnel_per_field": {
+  "bat0001": [
+   [
+    "AllWISE sources in field query",
+    11079
+   ],
+   [
+    "R1 field",
+    6554
+   ],
+   [
+    "R2 W1 range",
+    242
+   ],
+   [
+    "R3 W1-W2 colour",
+    227
+   ],
+   [
+    "R4 cc_flags",
+    204
+   ],
+   [
+    "R5 ext_flg",
+    194
+   ],
+   [
+    "R6 nb, na",
+    192
+   ],
+   [
+    "R7 saturation",
+    188
+   ],
+   [
+    "R8 var_flg",
+    188
+   ],
+   [
+    "R9 ph_qual",
+    188
+   ],
+   [
+    "R10 rchi2",
+    188
+   ],
+   [
+    "R11 2MASS",
+    188
+   ],
+   [
+    "R12 proper motion",
+    163
+   ],
+   [
+    "R13 isolation",
+    159
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "56 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "103 / 5"
+   ]
+  ],
+  "bat0003": [
+   [
+    "AllWISE sources in field query",
+    11491
+   ],
+   [
+    "R1 field",
+    8393
+   ],
+   [
+    "R2 W1 range",
+    347
+   ],
+   [
+    "R3 W1-W2 colour",
+    339
+   ],
+   [
+    "R4 cc_flags",
+    316
+   ],
+   [
+    "R5 ext_flg",
+    311
+   ],
+   [
+    "R6 nb, na",
+    308
+   ],
+   [
+    "R7 saturation",
+    300
+   ],
+   [
+    "R8 var_flg",
+    300
+   ],
+   [
+    "R9 ph_qual",
+    300
+   ],
+   [
+    "R10 rchi2",
+    300
+   ],
+   [
+    "R11 2MASS",
+    300
+   ],
+   [
+    "R12 proper motion",
+    286
+   ],
+   [
+    "R13 isolation",
+    280
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "80 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "200 / 5"
+   ]
+  ],
+  "bat0004": [
+   [
+    "AllWISE sources in field query",
+    17530
+   ],
+   [
+    "R1 field",
+    14072
+   ],
+   [
+    "R2 W1 range",
+    549
+   ],
+   [
+    "R3 W1-W2 colour",
+    539
+   ],
+   [
+    "R4 cc_flags",
+    479
+   ],
+   [
+    "R5 ext_flg",
+    456
+   ],
+   [
+    "R6 nb, na",
+    439
+   ],
+   [
+    "R7 saturation",
+    425
+   ],
+   [
+    "R8 var_flg",
+    425
+   ],
+   [
+    "R9 ph_qual",
+    425
+   ],
+   [
+    "R10 rchi2",
+    425
+   ],
+   [
+    "R11 2MASS",
+    425
+   ],
+   [
+    "R12 proper motion",
+    411
+   ],
+   [
+    "R13 isolation",
+    404
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "126 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "278 / 5"
+   ]
+  ],
+  "bat0006": [
+   [
+    "AllWISE sources in field query",
+    14435
+   ],
+   [
+    "R1 field",
+    14235
+   ],
+   [
+    "R2 W1 range",
+    557
+   ],
+   [
+    "R3 W1-W2 colour",
+    550
+   ],
+   [
+    "R4 cc_flags",
+    506
+   ],
+   [
+    "R5 ext_flg",
+    498
+   ],
+   [
+    "R6 nb, na",
+    483
+   ],
+   [
+    "R7 saturation",
+    468
+   ],
+   [
+    "R8 var_flg",
+    467
+   ],
+   [
+    "R9 ph_qual",
+    467
+   ],
+   [
+    "R10 rchi2",
+    467
+   ],
+   [
+    "R11 2MASS",
+    466
+   ],
+   [
+    "R12 proper motion",
+    435
+   ],
+   [
+    "R13 isolation",
+    419
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "126 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "293 / 5"
+   ]
+  ],
+  "bat0024": [
+   [
+    "AllWISE sources in field query",
+    15676
+   ],
+   [
+    "R1 field",
+    15495
+   ],
+   [
+    "R2 W1 range",
+    608
+   ],
+   [
+    "R3 W1-W2 colour",
+    593
+   ],
+   [
+    "R4 cc_flags",
+    547
+   ],
+   [
+    "R5 ext_flg",
+    531
+   ],
+   [
+    "R6 nb, na",
+    512
+   ],
+   [
+    "R7 saturation",
+    498
+   ],
+   [
+    "R8 var_flg",
+    497
+   ],
+   [
+    "R9 ph_qual",
+    497
+   ],
+   [
+    "R10 rchi2",
+    497
+   ],
+   [
+    "R11 2MASS",
+    497
+   ],
+   [
+    "R12 proper motion",
+    478
+   ],
+   [
+    "R13 isolation",
+    459
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "152 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "307 / 5"
+   ]
+  ],
+  "bat0028": [
+   [
+    "AllWISE sources in field query",
+    10022
+   ],
+   [
+    "R1 field",
+    9881
+   ],
+   [
+    "R2 W1 range",
+    356
+   ],
+   [
+    "R3 W1-W2 colour",
+    346
+   ],
+   [
+    "R4 cc_flags",
+    330
+   ],
+   [
+    "R5 ext_flg",
+    214
+   ],
+   [
+    "R6 nb, na",
+    207
+   ],
+   [
+    "R7 saturation",
+    197
+   ],
+   [
+    "R8 var_flg",
+    197
+   ],
+   [
+    "R9 ph_qual",
+    197
+   ],
+   [
+    "R10 rchi2",
+    197
+   ],
+   [
+    "R11 2MASS",
+    197
+   ],
+   [
+    "R12 proper motion",
+    176
+   ],
+   [
+    "R13 isolation",
+    171
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "57 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "114 / 5"
+   ]
+  ],
+  "bat0031": [
+   [
+    "AllWISE sources in field query",
+    10336
+   ],
+   [
+    "R1 field",
+    10195
+   ],
+   [
+    "R2 W1 range",
+    377
+   ],
+   [
+    "R3 W1-W2 colour",
+    364
+   ],
+   [
+    "R4 cc_flags",
+    339
+   ],
+   [
+    "R5 ext_flg",
+    291
+   ],
+   [
+    "R6 nb, na",
+    282
+   ],
+   [
+    "R7 saturation",
+    274
+   ],
+   [
+    "R8 var_flg",
+    274
+   ],
+   [
+    "R9 ph_qual",
+    274
+   ],
+   [
+    "R10 rchi2",
+    274
+   ],
+   [
+    "R11 2MASS",
+    273
+   ],
+   [
+    "R12 proper motion",
+    255
+   ],
+   [
+    "R13 isolation",
+    246
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "76 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "170 / 5"
+   ]
+  ],
+  "bat0034": [
+   [
+    "AllWISE sources in field query",
+    17401
+   ],
+   [
+    "R1 field",
+    17171
+   ],
+   [
+    "R2 W1 range",
+    680
+   ],
+   [
+    "R3 W1-W2 colour",
+    664
+   ],
+   [
+    "R4 cc_flags",
+    606
+   ],
+   [
+    "R5 ext_flg",
+    577
+   ],
+   [
+    "R6 nb, na",
+    562
+   ],
+   [
+    "R7 saturation",
+    547
+   ],
+   [
+    "R8 var_flg",
+    546
+   ],
+   [
+    "R9 ph_qual",
+    546
+   ],
+   [
+    "R10 rchi2",
+    546
+   ],
+   [
+    "R11 2MASS",
+    546
+   ],
+   [
+    "R12 proper motion",
+    538
+   ],
+   [
+    "R13 isolation",
+    527
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "188 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "339 / 5"
+   ]
+  ],
+  "bat0049": [
+   [
+    "AllWISE sources in field query",
+    10124
+   ],
+   [
+    "R1 field",
+    10010
+   ],
+   [
+    "R2 W1 range",
+    359
+   ],
+   [
+    "R3 W1-W2 colour",
+    338
+   ],
+   [
+    "R4 cc_flags",
+    310
+   ],
+   [
+    "R5 ext_flg",
+    297
+   ],
+   [
+    "R6 nb, na",
+    295
+   ],
+   [
+    "R7 saturation",
+    286
+   ],
+   [
+    "R8 var_flg",
+    286
+   ],
+   [
+    "R9 ph_qual",
+    286
+   ],
+   [
+    "R10 rchi2",
+    286
+   ],
+   [
+    "R11 2MASS",
+    286
+   ],
+   [
+    "R12 proper motion",
+    271
+   ],
+   [
+    "R13 isolation",
+    262
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "88 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "174 / 5"
+   ]
+  ],
+  "bat0050": [
+   [
+    "AllWISE sources in field query",
+    11013
+   ],
+   [
+    "R1 field",
+    10875
+   ],
+   [
+    "R2 W1 range",
+    420
+   ],
+   [
+    "R3 W1-W2 colour",
+    402
+   ],
+   [
+    "R4 cc_flags",
+    365
+   ],
+   [
+    "R5 ext_flg",
+    337
+   ],
+   [
+    "R6 nb, na",
+    332
+   ],
+   [
+    "R7 saturation",
+    318
+   ],
+   [
+    "R8 var_flg",
+    318
+   ],
+   [
+    "R9 ph_qual",
+    318
+   ],
+   [
+    "R10 rchi2",
+    318
+   ],
+   [
+    "R11 2MASS",
+    315
+   ],
+   [
+    "R12 proper motion",
+    299
+   ],
+   [
+    "R13 isolation",
+    292
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "92 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "200 / 5"
+   ]
+  ],
+  "bat0062": [
+   [
+    "AllWISE sources in field query",
+    10278
+   ],
+   [
+    "R1 field",
+    10160
+   ],
+   [
+    "R2 W1 range",
+    371
+   ],
+   [
+    "R3 W1-W2 colour",
+    360
+   ],
+   [
+    "R4 cc_flags",
+    344
+   ],
+   [
+    "R5 ext_flg",
+    309
+   ],
+   [
+    "R6 nb, na",
+    299
+   ],
+   [
+    "R7 saturation",
+    286
+   ],
+   [
+    "R8 var_flg",
+    285
+   ],
+   [
+    "R9 ph_qual",
+    285
+   ],
+   [
+    "R10 rchi2",
+    285
+   ],
+   [
+    "R11 2MASS",
+    284
+   ],
+   [
+    "R12 proper motion",
+    259
+   ],
+   [
+    "R13 isolation",
+    251
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "90 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "161 / 5"
+   ]
+  ],
+  "bat0063": [
+   [
+    "AllWISE sources in field query",
+    12288
+   ],
+   [
+    "R1 field",
+    12160
+   ],
+   [
+    "R2 W1 range",
+    445
+   ],
+   [
+    "R3 W1-W2 colour",
+    432
+   ],
+   [
+    "R4 cc_flags",
+    382
+   ],
+   [
+    "R5 ext_flg",
+    368
+   ],
+   [
+    "R6 nb, na",
+    356
+   ],
+   [
+    "R7 saturation",
+    342
+   ],
+   [
+    "R8 var_flg",
+    340
+   ],
+   [
+    "R9 ph_qual",
+    340
+   ],
+   [
+    "R10 rchi2",
+    340
+   ],
+   [
+    "R11 2MASS",
+    340
+   ],
+   [
+    "R12 proper motion",
+    334
+   ],
+   [
+    "R13 isolation",
+    328
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "116 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "212 / 5"
+   ]
+  ],
+  "bat0064": [
+   [
+    "AllWISE sources in field query",
+    18475
+   ],
+   [
+    "R1 field",
+    18225
+   ],
+   [
+    "R2 W1 range",
+    727
+   ],
+   [
+    "R3 W1-W2 colour",
+    719
+   ],
+   [
+    "R4 cc_flags",
+    637
+   ],
+   [
+    "R5 ext_flg",
+    611
+   ],
+   [
+    "R6 nb, na",
+    596
+   ],
+   [
+    "R7 saturation",
+    580
+   ],
+   [
+    "R8 var_flg",
+    577
+   ],
+   [
+    "R9 ph_qual",
+    577
+   ],
+   [
+    "R10 rchi2",
+    577
+   ],
+   [
+    "R11 2MASS",
+    577
+   ],
+   [
+    "R12 proper motion",
+    574
+   ],
+   [
+    "R13 isolation",
+    560
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "184 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "376 / 5"
+   ]
+  ],
+  "bat0072": [
+   [
+    "AllWISE sources in field query",
+    10524
+   ],
+   [
+    "R1 field",
+    10401
+   ],
+   [
+    "R2 W1 range",
+    389
+   ],
+   [
+    "R3 W1-W2 colour",
+    379
+   ],
+   [
+    "R4 cc_flags",
+    365
+   ],
+   [
+    "R5 ext_flg",
+    324
+   ],
+   [
+    "R6 nb, na",
+    322
+   ],
+   [
+    "R7 saturation",
+    312
+   ],
+   [
+    "R8 var_flg",
+    312
+   ],
+   [
+    "R9 ph_qual",
+    312
+   ],
+   [
+    "R10 rchi2",
+    312
+   ],
+   [
+    "R11 2MASS",
+    311
+   ],
+   [
+    "R12 proper motion",
+    281
+   ],
+   [
+    "R13 isolation",
+    276
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "89 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "187 / 5"
+   ]
+  ],
+  "bat0074": [
+   [
+    "AllWISE sources in field query",
+    20951
+   ],
+   [
+    "R1 field",
+    20707
+   ],
+   [
+    "R2 W1 range",
+    820
+   ],
+   [
+    "R3 W1-W2 colour",
+    802
+   ],
+   [
+    "R4 cc_flags",
+    718
+   ],
+   [
+    "R5 ext_flg",
+    674
+   ],
+   [
+    "R6 nb, na",
+    656
+   ],
+   [
+    "R7 saturation",
+    641
+   ],
+   [
+    "R8 var_flg",
+    639
+   ],
+   [
+    "R9 ph_qual",
+    639
+   ],
+   [
+    "R10 rchi2",
+    639
+   ],
+   [
+    "R11 2MASS",
+    638
+   ],
+   [
+    "R12 proper motion",
+    637
+   ],
+   [
+    "R13 isolation",
+    620
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "200 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "420 / 5"
+   ]
+  ],
+  "bat0077": [
+   [
+    "AllWISE sources in field query",
+    13424
+   ],
+   [
+    "R1 field",
+    13243
+   ],
+   [
+    "R2 W1 range",
+    522
+   ],
+   [
+    "R3 W1-W2 colour",
+    508
+   ],
+   [
+    "R4 cc_flags",
+    473
+   ],
+   [
+    "R5 ext_flg",
+    454
+   ],
+   [
+    "R6 nb, na",
+    443
+   ],
+   [
+    "R7 saturation",
+    440
+   ],
+   [
+    "R8 var_flg",
+    440
+   ],
+   [
+    "R9 ph_qual",
+    440
+   ],
+   [
+    "R10 rchi2",
+    440
+   ],
+   [
+    "R11 2MASS",
+    439
+   ],
+   [
+    "R12 proper motion",
+    432
+   ],
+   [
+    "R13 isolation",
+    420
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "137 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "283 / 5"
+   ]
+  ],
+  "bat0079": [
+   [
+    "AllWISE sources in field query",
+    12826
+   ],
+   [
+    "R1 field",
+    12654
+   ],
+   [
+    "R2 W1 range",
+    494
+   ],
+   [
+    "R3 W1-W2 colour",
+    484
+   ],
+   [
+    "R4 cc_flags",
+    441
+   ],
+   [
+    "R5 ext_flg",
+    429
+   ],
+   [
+    "R6 nb, na",
+    420
+   ],
+   [
+    "R7 saturation",
+    414
+   ],
+   [
+    "R8 var_flg",
+    414
+   ],
+   [
+    "R9 ph_qual",
+    414
+   ],
+   [
+    "R10 rchi2",
+    414
+   ],
+   [
+    "R11 2MASS",
+    414
+   ],
+   [
+    "R12 proper motion",
+    409
+   ],
+   [
+    "R13 isolation",
+    401
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "111 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "290 / 5"
+   ]
+  ],
+  "bat0081": [
+   [
+    "AllWISE sources in field query",
+    10858
+   ],
+   [
+    "R1 field",
+    10716
+   ],
+   [
+    "R2 W1 range",
+    435
+   ],
+   [
+    "R3 W1-W2 colour",
+    409
+   ],
+   [
+    "R4 cc_flags",
+    350
+   ],
+   [
+    "R5 ext_flg",
+    335
+   ],
+   [
+    "R6 nb, na",
+    321
+   ],
+   [
+    "R7 saturation",
+    308
+   ],
+   [
+    "R8 var_flg",
+    308
+   ],
+   [
+    "R9 ph_qual",
+    308
+   ],
+   [
+    "R10 rchi2",
+    308
+   ],
+   [
+    "R11 2MASS",
+    307
+   ],
+   [
+    "R12 proper motion",
+    296
+   ],
+   [
+    "R13 isolation",
+    290
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "90 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "200 / 5"
+   ]
+  ],
+  "bat0083": [
+   [
+    "AllWISE sources in field query",
+    10789
+   ],
+   [
+    "R1 field",
+    10652
+   ],
+   [
+    "R2 W1 range",
+    417
+   ],
+   [
+    "R3 W1-W2 colour",
+    376
+   ],
+   [
+    "R4 cc_flags",
+    340
+   ],
+   [
+    "R5 ext_flg",
+    316
+   ],
+   [
+    "R6 nb, na",
+    310
+   ],
+   [
+    "R7 saturation",
+    286
+   ],
+   [
+    "R8 var_flg",
+    286
+   ],
+   [
+    "R9 ph_qual",
+    286
+   ],
+   [
+    "R10 rchi2",
+    286
+   ],
+   [
+    "R11 2MASS",
+    286
+   ],
+   [
+    "R12 proper motion",
+    267
+   ],
+   [
+    "R13 isolation",
+    261
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "79 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "182 / 5"
+   ]
+  ],
+  "bat0087": [
+   [
+    "AllWISE sources in field query",
+    9813
+   ],
+   [
+    "R1 field",
+    9675
+   ],
+   [
+    "R2 W1 range",
+    390
+   ],
+   [
+    "R3 W1-W2 colour",
+    382
+   ],
+   [
+    "R4 cc_flags",
+    360
+   ],
+   [
+    "R5 ext_flg",
+    349
+   ],
+   [
+    "R6 nb, na",
+    340
+   ],
+   [
+    "R7 saturation",
+    328
+   ],
+   [
+    "R8 var_flg",
+    327
+   ],
+   [
+    "R9 ph_qual",
+    327
+   ],
+   [
+    "R10 rchi2",
+    327
+   ],
+   [
+    "R11 2MASS",
+    326
+   ],
+   [
+    "R12 proper motion",
+    321
+   ],
+   [
+    "R13 isolation",
+    308
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "96 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "212 / 5"
+   ]
+  ],
+  "bat0095": [
+   [
+    "AllWISE sources in field query",
+    9518
+   ],
+   [
+    "R1 field",
+    9414
+   ],
+   [
+    "R2 W1 range",
+    372
+   ],
+   [
+    "R3 W1-W2 colour",
+    364
+   ],
+   [
+    "R4 cc_flags",
+    333
+   ],
+   [
+    "R5 ext_flg",
+    313
+   ],
+   [
+    "R6 nb, na",
+    310
+   ],
+   [
+    "R7 saturation",
+    294
+   ],
+   [
+    "R8 var_flg",
+    294
+   ],
+   [
+    "R9 ph_qual",
+    294
+   ],
+   [
+    "R10 rchi2",
+    294
+   ],
+   [
+    "R11 2MASS",
+    293
+   ],
+   [
+    "R12 proper motion",
+    276
+   ],
+   [
+    "R13 isolation",
+    273
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "88 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "185 / 5"
+   ]
+  ],
+  "bat0096": [
+   [
+    "AllWISE sources in field query",
+    11161
+   ],
+   [
+    "R1 field",
+    11009
+   ],
+   [
+    "R2 W1 range",
+    381
+   ],
+   [
+    "R3 W1-W2 colour",
+    372
+   ],
+   [
+    "R4 cc_flags",
+    357
+   ],
+   [
+    "R5 ext_flg",
+    347
+   ],
+   [
+    "R6 nb, na",
+    337
+   ],
+   [
+    "R7 saturation",
+    326
+   ],
+   [
+    "R8 var_flg",
+    325
+   ],
+   [
+    "R9 ph_qual",
+    325
+   ],
+   [
+    "R10 rchi2",
+    325
+   ],
+   [
+    "R11 2MASS",
+    324
+   ],
+   [
+    "R12 proper motion",
+    317
+   ],
+   [
+    "R13 isolation",
+    306
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "91 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "215 / 5"
+   ]
+  ],
+  "bat0102": [
+   [
+    "AllWISE sources in field query",
+    11146
+   ],
+   [
+    "R1 field",
+    11006
+   ],
+   [
+    "R2 W1 range",
+    380
+   ],
+   [
+    "R3 W1-W2 colour",
+    369
+   ],
+   [
+    "R4 cc_flags",
+    345
+   ],
+   [
+    "R5 ext_flg",
+    326
+   ],
+   [
+    "R6 nb, na",
+    312
+   ],
+   [
+    "R7 saturation",
+    293
+   ],
+   [
+    "R8 var_flg",
+    291
+   ],
+   [
+    "R9 ph_qual",
+    291
+   ],
+   [
+    "R10 rchi2",
+    291
+   ],
+   [
+    "R11 2MASS",
+    290
+   ],
+   [
+    "R12 proper motion",
+    283
+   ],
+   [
+    "R13 isolation",
+    276
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "81 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "195 / 5"
+   ]
+  ],
+  "bat0116": [
+   [
+    "AllWISE sources in field query",
+    11397
+   ],
+   [
+    "R1 field",
+    11236
+   ],
+   [
+    "R2 W1 range",
+    429
+   ],
+   [
+    "R3 W1-W2 colour",
+    414
+   ],
+   [
+    "R4 cc_flags",
+    398
+   ],
+   [
+    "R5 ext_flg",
+    386
+   ],
+   [
+    "R6 nb, na",
+    380
+   ],
+   [
+    "R7 saturation",
+    368
+   ],
+   [
+    "R8 var_flg",
+    365
+   ],
+   [
+    "R9 ph_qual",
+    365
+   ],
+   [
+    "R10 rchi2",
+    365
+   ],
+   [
+    "R11 2MASS",
+    364
+   ],
+   [
+    "R12 proper motion",
+    362
+   ],
+   [
+    "R13 isolation",
+    349
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "114 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "235 / 5"
+   ]
+  ],
+  "bat0128": [
+   [
+    "AllWISE sources in field query",
+    16219
+   ],
+   [
+    "R1 field",
+    16022
+   ],
+   [
+    "R2 W1 range",
+    597
+   ],
+   [
+    "R3 W1-W2 colour",
+    590
+   ],
+   [
+    "R4 cc_flags",
+    563
+   ],
+   [
+    "R5 ext_flg",
+    545
+   ],
+   [
+    "R6 nb, na",
+    531
+   ],
+   [
+    "R7 saturation",
+    511
+   ],
+   [
+    "R8 var_flg",
+    509
+   ],
+   [
+    "R9 ph_qual",
+    509
+   ],
+   [
+    "R10 rchi2",
+    509
+   ],
+   [
+    "R11 2MASS",
+    507
+   ],
+   [
+    "R12 proper motion",
+    507
+   ],
+   [
+    "R13 isolation",
+    493
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "147 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "346 / 5"
+   ]
+  ],
+  "bat0130": [
+   [
+    "AllWISE sources in field query",
+    10516
+   ],
+   [
+    "R1 field",
+    10369
+   ],
+   [
+    "R2 W1 range",
+    390
+   ],
+   [
+    "R3 W1-W2 colour",
+    378
+   ],
+   [
+    "R4 cc_flags",
+    360
+   ],
+   [
+    "R5 ext_flg",
+    344
+   ],
+   [
+    "R6 nb, na",
+    338
+   ],
+   [
+    "R7 saturation",
+    329
+   ],
+   [
+    "R8 var_flg",
+    329
+   ],
+   [
+    "R9 ph_qual",
+    329
+   ],
+   [
+    "R10 rchi2",
+    329
+   ],
+   [
+    "R11 2MASS",
+    328
+   ],
+   [
+    "R12 proper motion",
+    326
+   ],
+   [
+    "R13 isolation",
+    316
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "100 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "216 / 5"
+   ]
+  ],
+  "bat0131": [
+   [
+    "AllWISE sources in field query",
+    10880
+   ],
+   [
+    "R1 field",
+    10751
+   ],
+   [
+    "R2 W1 range",
+    388
+   ],
+   [
+    "R3 W1-W2 colour",
+    375
+   ],
+   [
+    "R4 cc_flags",
+    348
+   ],
+   [
+    "R5 ext_flg",
+    336
+   ],
+   [
+    "R6 nb, na",
+    326
+   ],
+   [
+    "R7 saturation",
+    317
+   ],
+   [
+    "R8 var_flg",
+    315
+   ],
+   [
+    "R9 ph_qual",
+    315
+   ],
+   [
+    "R10 rchi2",
+    315
+   ],
+   [
+    "R11 2MASS",
+    314
+   ],
+   [
+    "R12 proper motion",
+    309
+   ],
+   [
+    "R13 isolation",
+    304
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "105 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "199 / 5"
+   ]
+  ],
+  "bat0133": [
+   [
+    "AllWISE sources in field query",
+    21983
+   ],
+   [
+    "R1 field",
+    21731
+   ],
+   [
+    "R2 W1 range",
+    852
+   ],
+   [
+    "R3 W1-W2 colour",
+    831
+   ],
+   [
+    "R4 cc_flags",
+    748
+   ],
+   [
+    "R5 ext_flg",
+    721
+   ],
+   [
+    "R6 nb, na",
+    697
+   ],
+   [
+    "R7 saturation",
+    604
+   ],
+   [
+    "R8 var_flg",
+    602
+   ],
+   [
+    "R9 ph_qual",
+    602
+   ],
+   [
+    "R10 rchi2",
+    602
+   ],
+   [
+    "R11 2MASS",
+    601
+   ],
+   [
+    "R12 proper motion",
+    600
+   ],
+   [
+    "R13 isolation",
+    570
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "185 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "385 / 5"
+   ]
+  ],
+  "bat0141": [
+   [
+    "AllWISE sources in field query",
+    12189
+   ],
+   [
+    "R1 field",
+    12063
+   ],
+   [
+    "R2 W1 range",
+    489
+   ],
+   [
+    "R3 W1-W2 colour",
+    474
+   ],
+   [
+    "R4 cc_flags",
+    436
+   ],
+   [
+    "R5 ext_flg",
+    423
+   ],
+   [
+    "R6 nb, na",
+    418
+   ],
+   [
+    "R7 saturation",
+    410
+   ],
+   [
+    "R8 var_flg",
+    410
+   ],
+   [
+    "R9 ph_qual",
+    410
+   ],
+   [
+    "R10 rchi2",
+    410
+   ],
+   [
+    "R11 2MASS",
+    409
+   ],
+   [
+    "R12 proper motion",
+    402
+   ],
+   [
+    "R13 isolation",
+    399
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "123 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "276 / 5"
+   ]
+  ],
+  "bat0146": [
+   [
+    "AllWISE sources in field query",
+    10138
+   ],
+   [
+    "R1 field",
+    10013
+   ],
+   [
+    "R2 W1 range",
+    357
+   ],
+   [
+    "R3 W1-W2 colour",
+    350
+   ],
+   [
+    "R4 cc_flags",
+    321
+   ],
+   [
+    "R5 ext_flg",
+    269
+   ],
+   [
+    "R6 nb, na",
+    262
+   ],
+   [
+    "R7 saturation",
+    245
+   ],
+   [
+    "R8 var_flg",
+    244
+   ],
+   [
+    "R9 ph_qual",
+    244
+   ],
+   [
+    "R10 rchi2",
+    244
+   ],
+   [
+    "R11 2MASS",
+    243
+   ],
+   [
+    "R12 proper motion",
+    240
+   ],
+   [
+    "R13 isolation",
+    234
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "71 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "163 / 5"
+   ]
+  ],
+  "bat0153": [
+   [
+    "AllWISE sources in field query",
+    10384
+   ],
+   [
+    "R1 field",
+    10258
+   ],
+   [
+    "R2 W1 range",
+    417
+   ],
+   [
+    "R3 W1-W2 colour",
+    404
+   ],
+   [
+    "R4 cc_flags",
+    386
+   ],
+   [
+    "R5 ext_flg",
+    296
+   ],
+   [
+    "R6 nb, na",
+    293
+   ],
+   [
+    "R7 saturation",
+    277
+   ],
+   [
+    "R8 var_flg",
+    277
+   ],
+   [
+    "R9 ph_qual",
+    277
+   ],
+   [
+    "R10 rchi2",
+    277
+   ],
+   [
+    "R11 2MASS",
+    277
+   ],
+   [
+    "R12 proper motion",
+    271
+   ],
+   [
+    "R13 isolation",
+    264
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "81 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "183 / 5"
+   ]
+  ],
+  "bat0156": [
+   [
+    "AllWISE sources in field query",
+    10414
+   ],
+   [
+    "R1 field",
+    10274
+   ],
+   [
+    "R2 W1 range",
+    415
+   ],
+   [
+    "R3 W1-W2 colour",
+    385
+   ],
+   [
+    "R4 cc_flags",
+    345
+   ],
+   [
+    "R5 ext_flg",
+    253
+   ],
+   [
+    "R6 nb, na",
+    240
+   ],
+   [
+    "R7 saturation",
+    232
+   ],
+   [
+    "R8 var_flg",
+    231
+   ],
+   [
+    "R9 ph_qual",
+    231
+   ],
+   [
+    "R10 rchi2",
+    231
+   ],
+   [
+    "R11 2MASS",
+    231
+   ],
+   [
+    "R12 proper motion",
+    228
+   ],
+   [
+    "R13 isolation",
+    223
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "61 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "162 / 5"
+   ]
+  ],
+  "bat0157": [
+   [
+    "AllWISE sources in field query",
+    11196
+   ],
+   [
+    "R1 field",
+    11032
+   ],
+   [
+    "R2 W1 range",
+    465
+   ],
+   [
+    "R3 W1-W2 colour",
+    449
+   ],
+   [
+    "R4 cc_flags",
+    421
+   ],
+   [
+    "R5 ext_flg",
+    403
+   ],
+   [
+    "R6 nb, na",
+    392
+   ],
+   [
+    "R7 saturation",
+    386
+   ],
+   [
+    "R8 var_flg",
+    386
+   ],
+   [
+    "R9 ph_qual",
+    386
+   ],
+   [
+    "R10 rchi2",
+    386
+   ],
+   [
+    "R11 2MASS",
+    386
+   ],
+   [
+    "R12 proper motion",
+    383
+   ],
+   [
+    "R13 isolation",
+    376
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "120 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "256 / 5"
+   ]
+  ],
+  "bat0159": [
+   [
+    "AllWISE sources in field query",
+    9505
+   ],
+   [
+    "R1 field",
+    9383
+   ],
+   [
+    "R2 W1 range",
+    404
+   ],
+   [
+    "R3 W1-W2 colour",
+    391
+   ],
+   [
+    "R4 cc_flags",
+    363
+   ],
+   [
+    "R5 ext_flg",
+    322
+   ],
+   [
+    "R6 nb, na",
+    316
+   ],
+   [
+    "R7 saturation",
+    297
+   ],
+   [
+    "R8 var_flg",
+    297
+   ],
+   [
+    "R9 ph_qual",
+    297
+   ],
+   [
+    "R10 rchi2",
+    297
+   ],
+   [
+    "R11 2MASS",
+    296
+   ],
+   [
+    "R12 proper motion",
+    292
+   ],
+   [
+    "R13 isolation",
+    288
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "81 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "207 / 5"
+   ]
+  ],
+  "bat0162": [
+   [
+    "AllWISE sources in field query",
+    11422
+   ],
+   [
+    "R1 field",
+    11276
+   ],
+   [
+    "R2 W1 range",
+    424
+   ],
+   [
+    "R3 W1-W2 colour",
+    405
+   ],
+   [
+    "R4 cc_flags",
+    373
+   ],
+   [
+    "R5 ext_flg",
+    323
+   ],
+   [
+    "R6 nb, na",
+    316
+   ],
+   [
+    "R7 saturation",
+    306
+   ],
+   [
+    "R8 var_flg",
+    304
+   ],
+   [
+    "R9 ph_qual",
+    304
+   ],
+   [
+    "R10 rchi2",
+    304
+   ],
+   [
+    "R11 2MASS",
+    304
+   ],
+   [
+    "R12 proper motion",
+    300
+   ],
+   [
+    "R13 isolation",
+    291
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "81 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "210 / 5"
+   ]
+  ],
+  "bat0163": [
+   [
+    "AllWISE sources in field query",
+    11657
+   ],
+   [
+    "R1 field",
+    11528
+   ],
+   [
+    "R2 W1 range",
+    519
+   ],
+   [
+    "R3 W1-W2 colour",
+    502
+   ],
+   [
+    "R4 cc_flags",
+    474
+   ],
+   [
+    "R5 ext_flg",
+    451
+   ],
+   [
+    "R6 nb, na",
+    444
+   ],
+   [
+    "R7 saturation",
+    421
+   ],
+   [
+    "R8 var_flg",
+    417
+   ],
+   [
+    "R9 ph_qual",
+    417
+   ],
+   [
+    "R10 rchi2",
+    417
+   ],
+   [
+    "R11 2MASS",
+    416
+   ],
+   [
+    "R12 proper motion",
+    412
+   ],
+   [
+    "R13 isolation",
+    404
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "138 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "266 / 5"
+   ]
+  ],
+  "bat0164": [
+   [
+    "AllWISE sources in field query",
+    17337
+   ],
+   [
+    "R1 field",
+    17109
+   ],
+   [
+    "R2 W1 range",
+    670
+   ],
+   [
+    "R3 W1-W2 colour",
+    654
+   ],
+   [
+    "R4 cc_flags",
+    572
+   ],
+   [
+    "R5 ext_flg",
+    545
+   ],
+   [
+    "R6 nb, na",
+    536
+   ],
+   [
+    "R7 saturation",
+    495
+   ],
+   [
+    "R8 var_flg",
+    494
+   ],
+   [
+    "R9 ph_qual",
+    494
+   ],
+   [
+    "R10 rchi2",
+    494
+   ],
+   [
+    "R11 2MASS",
+    493
+   ],
+   [
+    "R12 proper motion",
+    489
+   ],
+   [
+    "R13 isolation",
+    477
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "168 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "309 / 5"
+   ]
+  ],
+  "bat0165": [
+   [
+    "AllWISE sources in field query",
+    11141
+   ],
+   [
+    "R1 field",
+    11003
+   ],
+   [
+    "R2 W1 range",
+    398
+   ],
+   [
+    "R3 W1-W2 colour",
+    389
+   ],
+   [
+    "R4 cc_flags",
+    355
+   ],
+   [
+    "R5 ext_flg",
+    290
+   ],
+   [
+    "R6 nb, na",
+    282
+   ],
+   [
+    "R7 saturation",
+    267
+   ],
+   [
+    "R8 var_flg",
+    267
+   ],
+   [
+    "R9 ph_qual",
+    267
+   ],
+   [
+    "R10 rchi2",
+    267
+   ],
+   [
+    "R11 2MASS",
+    267
+   ],
+   [
+    "R12 proper motion",
+    265
+   ],
+   [
+    "R13 isolation",
+    256
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "82 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "174 / 5"
+   ]
+  ],
+  "bat0171": [
+   [
+    "AllWISE sources in field query",
+    12783
+   ],
+   [
+    "R1 field",
+    12624
+   ],
+   [
+    "R2 W1 range",
+    477
+   ],
+   [
+    "R3 W1-W2 colour",
+    464
+   ],
+   [
+    "R4 cc_flags",
+    419
+   ],
+   [
+    "R5 ext_flg",
+    407
+   ],
+   [
+    "R6 nb, na",
+    399
+   ],
+   [
+    "R7 saturation",
+    327
+   ],
+   [
+    "R8 var_flg",
+    326
+   ],
+   [
+    "R9 ph_qual",
+    326
+   ],
+   [
+    "R10 rchi2",
+    326
+   ],
+   [
+    "R11 2MASS",
+    324
+   ],
+   [
+    "R12 proper motion",
+    312
+   ],
+   [
+    "R13 isolation",
+    300
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "90 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "210 / 5"
+   ]
+  ],
+  "bat0182": [
+   [
+    "AllWISE sources in field query",
+    13152
+   ],
+   [
+    "R1 field",
+    13019
+   ],
+   [
+    "R2 W1 range",
+    467
+   ],
+   [
+    "R3 W1-W2 colour",
+    451
+   ],
+   [
+    "R4 cc_flags",
+    418
+   ],
+   [
+    "R5 ext_flg",
+    391
+   ],
+   [
+    "R6 nb, na",
+    376
+   ],
+   [
+    "R7 saturation",
+    249
+   ],
+   [
+    "R8 var_flg",
+    248
+   ],
+   [
+    "R9 ph_qual",
+    248
+   ],
+   [
+    "R10 rchi2",
+    248
+   ],
+   [
+    "R11 2MASS",
+    248
+   ],
+   [
+    "R12 proper motion",
+    238
+   ],
+   [
+    "R13 isolation",
+    228
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "79 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "149 / 5"
+   ]
+  ],
+  "bat0197": [
+   [
+    "AllWISE sources in field query",
+    14703
+   ],
+   [
+    "R1 field",
+    14538
+   ],
+   [
+    "R2 W1 range",
+    595
+   ],
+   [
+    "R3 W1-W2 colour",
+    574
+   ],
+   [
+    "R4 cc_flags",
+    536
+   ],
+   [
+    "R5 ext_flg",
+    497
+   ],
+   [
+    "R6 nb, na",
+    490
+   ],
+   [
+    "R7 saturation",
+    153
+   ],
+   [
+    "R8 var_flg",
+    152
+   ],
+   [
+    "R9 ph_qual",
+    152
+   ],
+   [
+    "R10 rchi2",
+    152
+   ],
+   [
+    "R11 2MASS",
+    152
+   ],
+   [
+    "R12 proper motion",
+    131
+   ],
+   [
+    "R13 isolation",
+    130
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "41 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "89 / 5"
+   ]
+  ],
+  "bat0213": [
+   [
+    "AllWISE sources in field query",
+    15584
+   ],
+   [
+    "R1 field",
+    15395
+   ],
+   [
+    "R2 W1 range",
+    582
+   ],
+   [
+    "R3 W1-W2 colour",
+    564
+   ],
+   [
+    "R4 cc_flags",
+    492
+   ],
+   [
+    "R5 ext_flg",
+    466
+   ],
+   [
+    "R6 nb, na",
+    455
+   ],
+   [
+    "R7 saturation",
+    439
+   ],
+   [
+    "R8 var_flg",
+    439
+   ],
+   [
+    "R9 ph_qual",
+    439
+   ],
+   [
+    "R10 rchi2",
+    439
+   ],
+   [
+    "R11 2MASS",
+    438
+   ],
+   [
+    "R12 proper motion",
+    431
+   ],
+   [
+    "R13 isolation",
+    418
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "147 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "271 / 5"
+   ]
+  ],
+  "bat0221": [
+   [
+    "AllWISE sources in field query",
+    15482
+   ],
+   [
+    "R1 field",
+    15304
+   ],
+   [
+    "R2 W1 range",
+    601
+   ],
+   [
+    "R3 W1-W2 colour",
+    594
+   ],
+   [
+    "R4 cc_flags",
+    543
+   ],
+   [
+    "R5 ext_flg",
+    494
+   ],
+   [
+    "R6 nb, na",
+    481
+   ],
+   [
+    "R7 saturation",
+    462
+   ],
+   [
+    "R8 var_flg",
+    460
+   ],
+   [
+    "R9 ph_qual",
+    460
+   ],
+   [
+    "R10 rchi2",
+    460
+   ],
+   [
+    "R11 2MASS",
+    459
+   ],
+   [
+    "R12 proper motion",
+    451
+   ],
+   [
+    "R13 isolation",
+    433
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "118 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "315 / 5"
+   ]
+  ],
+  "bat0228": [
+   [
+    "AllWISE sources in field query",
+    16602
+   ],
+   [
+    "R1 field",
+    16374
+   ],
+   [
+    "R2 W1 range",
+    663
+   ],
+   [
+    "R3 W1-W2 colour",
+    646
+   ],
+   [
+    "R4 cc_flags",
+    578
+   ],
+   [
+    "R5 ext_flg",
+    545
+   ],
+   [
+    "R6 nb, na",
+    533
+   ],
+   [
+    "R7 saturation",
+    520
+   ],
+   [
+    "R8 var_flg",
+    518
+   ],
+   [
+    "R9 ph_qual",
+    518
+   ],
+   [
+    "R10 rchi2",
+    518
+   ],
+   [
+    "R11 2MASS",
+    517
+   ],
+   [
+    "R12 proper motion",
+    504
+   ],
+   [
+    "R13 isolation",
+    491
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "167 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "324 / 5"
+   ]
+  ],
+  "bat0230": [
+   [
+    "AllWISE sources in field query",
+    16839
+   ],
+   [
+    "R1 field",
+    16594
+   ],
+   [
+    "R2 W1 range",
+    651
+   ],
+   [
+    "R3 W1-W2 colour",
+    632
+   ],
+   [
+    "R4 cc_flags",
+    571
+   ],
+   [
+    "R5 ext_flg",
+    536
+   ],
+   [
+    "R6 nb, na",
+    520
+   ],
+   [
+    "R7 saturation",
+    506
+   ],
+   [
+    "R8 var_flg",
+    503
+   ],
+   [
+    "R9 ph_qual",
+    503
+   ],
+   [
+    "R10 rchi2",
+    503
+   ],
+   [
+    "R11 2MASS",
+    502
+   ],
+   [
+    "R12 proper motion",
+    491
+   ],
+   [
+    "R13 isolation",
+    477
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "164 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "313 / 5"
+   ]
+  ],
+  "bat0242": [
+   [
+    "AllWISE sources in field query",
+    20064
+   ],
+   [
+    "R1 field",
+    19814
+   ],
+   [
+    "R2 W1 range",
+    802
+   ],
+   [
+    "R3 W1-W2 colour",
+    784
+   ],
+   [
+    "R4 cc_flags",
+    712
+   ],
+   [
+    "R5 ext_flg",
+    677
+   ],
+   [
+    "R6 nb, na",
+    663
+   ],
+   [
+    "R7 saturation",
+    644
+   ],
+   [
+    "R8 var_flg",
+    639
+   ],
+   [
+    "R9 ph_qual",
+    639
+   ],
+   [
+    "R10 rchi2",
+    639
+   ],
+   [
+    "R11 2MASS",
+    635
+   ],
+   [
+    "R12 proper motion",
+    608
+   ],
+   [
+    "R13 isolation",
+    583
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "188 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "395 / 5"
+   ]
+  ],
+  "bat0245": [
+   [
+    "AllWISE sources in field query",
+    23733
+   ],
+   [
+    "R1 field",
+    23434
+   ],
+   [
+    "R2 W1 range",
+    959
+   ],
+   [
+    "R3 W1-W2 colour",
+    944
+   ],
+   [
+    "R4 cc_flags",
+    856
+   ],
+   [
+    "R5 ext_flg",
+    837
+   ],
+   [
+    "R6 nb, na",
+    819
+   ],
+   [
+    "R7 saturation",
+    801
+   ],
+   [
+    "R8 var_flg",
+    798
+   ],
+   [
+    "R9 ph_qual",
+    798
+   ],
+   [
+    "R10 rchi2",
+    798
+   ],
+   [
+    "R11 2MASS",
+    797
+   ],
+   [
+    "R12 proper motion",
+    784
+   ],
+   [
+    "R13 isolation",
+    744
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "247 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "497 / 5"
+   ]
+  ],
+  "bat0252": [
+   [
+    "AllWISE sources in field query",
+    25841
+   ],
+   [
+    "R1 field",
+    25514
+   ],
+   [
+    "R2 W1 range",
+    1070
+   ],
+   [
+    "R3 W1-W2 colour",
+    1055
+   ],
+   [
+    "R4 cc_flags",
+    951
+   ],
+   [
+    "R5 ext_flg",
+    928
+   ],
+   [
+    "R6 nb, na",
+    891
+   ],
+   [
+    "R7 saturation",
+    865
+   ],
+   [
+    "R8 var_flg",
+    861
+   ],
+   [
+    "R9 ph_qual",
+    861
+   ],
+   [
+    "R10 rchi2",
+    861
+   ],
+   [
+    "R11 2MASS",
+    861
+   ],
+   [
+    "R12 proper motion",
+    843
+   ],
+   [
+    "R13 isolation",
+    811
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "268 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "543 / 5"
+   ]
+  ],
+  "bat0258": [
+   [
+    "AllWISE sources in field query",
+    18312
+   ],
+   [
+    "R1 field",
+    18093
+   ],
+   [
+    "R2 W1 range",
+    723
+   ],
+   [
+    "R3 W1-W2 colour",
+    700
+   ],
+   [
+    "R4 cc_flags",
+    615
+   ],
+   [
+    "R5 ext_flg",
+    492
+   ],
+   [
+    "R6 nb, na",
+    469
+   ],
+   [
+    "R7 saturation",
+    446
+   ],
+   [
+    "R8 var_flg",
+    445
+   ],
+   [
+    "R9 ph_qual",
+    445
+   ],
+   [
+    "R10 rchi2",
+    445
+   ],
+   [
+    "R11 2MASS",
+    445
+   ],
+   [
+    "R12 proper motion",
+    420
+   ],
+   [
+    "R13 isolation",
+    401
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "119 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "282 / 5"
+   ]
+  ],
+  "bat0269": [
+   [
+    "AllWISE sources in field query",
+    18402
+   ],
+   [
+    "R1 field",
+    18172
+   ],
+   [
+    "R2 W1 range",
+    694
+   ],
+   [
+    "R3 W1-W2 colour",
+    677
+   ],
+   [
+    "R4 cc_flags",
+    586
+   ],
+   [
+    "R5 ext_flg",
+    543
+   ],
+   [
+    "R6 nb, na",
+    533
+   ],
+   [
+    "R7 saturation",
+    501
+   ],
+   [
+    "R8 var_flg",
+    498
+   ],
+   [
+    "R9 ph_qual",
+    498
+   ],
+   [
+    "R10 rchi2",
+    498
+   ],
+   [
+    "R11 2MASS",
+    498
+   ],
+   [
+    "R12 proper motion",
+    490
+   ],
+   [
+    "R13 isolation",
+    472
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "159 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "313 / 5"
+   ]
+  ],
+  "bat0270": [
+   [
+    "AllWISE sources in field query",
+    18483
+   ],
+   [
+    "R1 field",
+    18264
+   ],
+   [
+    "R2 W1 range",
+    698
+   ],
+   [
+    "R3 W1-W2 colour",
+    686
+   ],
+   [
+    "R4 cc_flags",
+    592
+   ],
+   [
+    "R5 ext_flg",
+    583
+   ],
+   [
+    "R6 nb, na",
+    575
+   ],
+   [
+    "R7 saturation",
+    541
+   ],
+   [
+    "R8 var_flg",
+    537
+   ],
+   [
+    "R9 ph_qual",
+    537
+   ],
+   [
+    "R10 rchi2",
+    537
+   ],
+   [
+    "R11 2MASS",
+    537
+   ],
+   [
+    "R12 proper motion",
+    536
+   ],
+   [
+    "R13 isolation",
+    521
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "181 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "340 / 5"
+   ]
+  ],
+  "bat0279": [
+   [
+    "AllWISE sources in field query",
+    20886
+   ],
+   [
+    "R1 field",
+    20618
+   ],
+   [
+    "R2 W1 range",
+    798
+   ],
+   [
+    "R3 W1-W2 colour",
+    781
+   ],
+   [
+    "R4 cc_flags",
+    668
+   ],
+   [
+    "R5 ext_flg",
+    574
+   ],
+   [
+    "R6 nb, na",
+    554
+   ],
+   [
+    "R7 saturation",
+    524
+   ],
+   [
+    "R8 var_flg",
+    523
+   ],
+   [
+    "R9 ph_qual",
+    523
+   ],
+   [
+    "R10 rchi2",
+    523
+   ],
+   [
+    "R11 2MASS",
+    522
+   ],
+   [
+    "R12 proper motion",
+    506
+   ],
+   [
+    "R13 isolation",
+    481
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "144 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "337 / 5"
+   ]
+  ],
+  "bat0301": [
+   [
+    "AllWISE sources in field query",
+    23175
+   ],
+   [
+    "R1 field",
+    22895
+   ],
+   [
+    "R2 W1 range",
+    925
+   ],
+   [
+    "R3 W1-W2 colour",
+    902
+   ],
+   [
+    "R4 cc_flags",
+    774
+   ],
+   [
+    "R5 ext_flg",
+    606
+   ],
+   [
+    "R6 nb, na",
+    587
+   ],
+   [
+    "R7 saturation",
+    559
+   ],
+   [
+    "R8 var_flg",
+    555
+   ],
+   [
+    "R9 ph_qual",
+    555
+   ],
+   [
+    "R10 rchi2",
+    555
+   ],
+   [
+    "R11 2MASS",
+    555
+   ],
+   [
+    "R12 proper motion",
+    537
+   ],
+   [
+    "R13 isolation",
+    522
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "150 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "372 / 5"
+   ]
+  ],
+  "bat0319": [
+   [
+    "AllWISE sources in field query",
+    30159
+   ],
+   [
+    "R1 field",
+    29414
+   ],
+   [
+    "R2 W1 range",
+    1088
+   ],
+   [
+    "R3 W1-W2 colour",
+    1057
+   ],
+   [
+    "R4 cc_flags",
+    823
+   ],
+   [
+    "R5 ext_flg",
+    794
+   ],
+   [
+    "R6 nb, na",
+    784
+   ],
+   [
+    "R7 saturation",
+    740
+   ],
+   [
+    "R8 var_flg",
+    735
+   ],
+   [
+    "R9 ph_qual",
+    735
+   ],
+   [
+    "R10 rchi2",
+    735
+   ],
+   [
+    "R11 2MASS",
+    731
+   ],
+   [
+    "R12 proper motion",
+    725
+   ],
+   [
+    "R13 isolation",
+    701
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "227 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "474 / 5"
+   ]
+  ],
+  "bat0325": [
+   [
+    "AllWISE sources in field query",
+    24546
+   ],
+   [
+    "R1 field",
+    24224
+   ],
+   [
+    "R2 W1 range",
+    943
+   ],
+   [
+    "R3 W1-W2 colour",
+    931
+   ],
+   [
+    "R4 cc_flags",
+    853
+   ],
+   [
+    "R5 ext_flg",
+    752
+   ],
+   [
+    "R6 nb, na",
+    731
+   ],
+   [
+    "R7 saturation",
+    698
+   ],
+   [
+    "R8 var_flg",
+    696
+   ],
+   [
+    "R9 ph_qual",
+    696
+   ],
+   [
+    "R10 rchi2",
+    696
+   ],
+   [
+    "R11 2MASS",
+    692
+   ],
+   [
+    "R12 proper motion",
+    430
+   ],
+   [
+    "R13 isolation",
+    411
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "129 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "282 / 5"
+   ]
+  ],
+  "bat0335": [
+   [
+    "AllWISE sources in field query",
+    25616
+   ],
+   [
+    "R1 field",
+    25289
+   ],
+   [
+    "R2 W1 range",
+    937
+   ],
+   [
+    "R3 W1-W2 colour",
+    927
+   ],
+   [
+    "R4 cc_flags",
+    798
+   ],
+   [
+    "R5 ext_flg",
+    769
+   ],
+   [
+    "R6 nb, na",
+    744
+   ],
+   [
+    "R7 saturation",
+    719
+   ],
+   [
+    "R8 var_flg",
+    717
+   ],
+   [
+    "R9 ph_qual",
+    717
+   ],
+   [
+    "R10 rchi2",
+    717
+   ],
+   [
+    "R11 2MASS",
+    716
+   ],
+   [
+    "R12 proper motion",
+    702
+   ],
+   [
+    "R13 isolation",
+    654
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "214 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "440 / 5"
+   ]
+  ],
+  "bat0346": [
+   [
+    "AllWISE sources in field query",
+    28106
+   ],
+   [
+    "R1 field",
+    27760
+   ],
+   [
+    "R2 W1 range",
+    1037
+   ],
+   [
+    "R3 W1-W2 colour",
+    1017
+   ],
+   [
+    "R4 cc_flags",
+    897
+   ],
+   [
+    "R5 ext_flg",
+    846
+   ],
+   [
+    "R6 nb, na",
+    820
+   ],
+   [
+    "R7 saturation",
+    789
+   ],
+   [
+    "R8 var_flg",
+    786
+   ],
+   [
+    "R9 ph_qual",
+    786
+   ],
+   [
+    "R10 rchi2",
+    786
+   ],
+   [
+    "R11 2MASS",
+    784
+   ],
+   [
+    "R12 proper motion",
+    772
+   ],
+   [
+    "R13 isolation",
+    739
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "242 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "497 / 5"
+   ]
+  ],
+  "bat0369": [
+   [
+    "AllWISE sources in field query",
+    28455
+   ],
+   [
+    "R1 field",
+    28097
+   ],
+   [
+    "R2 W1 range",
+    1018
+   ],
+   [
+    "R3 W1-W2 colour",
+    1001
+   ],
+   [
+    "R4 cc_flags",
+    926
+   ],
+   [
+    "R5 ext_flg",
+    909
+   ],
+   [
+    "R6 nb, na",
+    890
+   ],
+   [
+    "R7 saturation",
+    867
+   ],
+   [
+    "R8 var_flg",
+    864
+   ],
+   [
+    "R9 ph_qual",
+    864
+   ],
+   [
+    "R10 rchi2",
+    864
+   ],
+   [
+    "R11 2MASS",
+    862
+   ],
+   [
+    "R12 proper motion",
+    837
+   ],
+   [
+    "R13 isolation",
+    796
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "263 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "533 / 5"
+   ]
+  ],
+  "bat0378": [
+   [
+    "AllWISE sources in field query",
+    19564
+   ],
+   [
+    "R1 field",
+    19345
+   ],
+   [
+    "R2 W1 range",
+    742
+   ],
+   [
+    "R3 W1-W2 colour",
+    724
+   ],
+   [
+    "R4 cc_flags",
+    648
+   ],
+   [
+    "R5 ext_flg",
+    621
+   ],
+   [
+    "R6 nb, na",
+    611
+   ],
+   [
+    "R7 saturation",
+    590
+   ],
+   [
+    "R8 var_flg",
+    590
+   ],
+   [
+    "R9 ph_qual",
+    590
+   ],
+   [
+    "R10 rchi2",
+    590
+   ],
+   [
+    "R11 2MASS",
+    588
+   ],
+   [
+    "R12 proper motion",
+    575
+   ],
+   [
+    "R13 isolation",
+    536
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "171 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "365 / 5"
+   ]
+  ],
+  "bat0382": [
+   [
+    "AllWISE sources in field query",
+    18938
+   ],
+   [
+    "R1 field",
+    18692
+   ],
+   [
+    "R2 W1 range",
+    725
+   ],
+   [
+    "R3 W1-W2 colour",
+    705
+   ],
+   [
+    "R4 cc_flags",
+    625
+   ],
+   [
+    "R5 ext_flg",
+    605
+   ],
+   [
+    "R6 nb, na",
+    593
+   ],
+   [
+    "R7 saturation",
+    568
+   ],
+   [
+    "R8 var_flg",
+    567
+   ],
+   [
+    "R9 ph_qual",
+    567
+   ],
+   [
+    "R10 rchi2",
+    567
+   ],
+   [
+    "R11 2MASS",
+    566
+   ],
+   [
+    "R12 proper motion",
+    546
+   ],
+   [
+    "R13 isolation",
+    531
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "166 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "365 / 5"
+   ]
+  ],
+  "bat0383": [
+   [
+    "AllWISE sources in field query",
+    19243
+   ],
+   [
+    "R1 field",
+    18996
+   ],
+   [
+    "R2 W1 range",
+    758
+   ],
+   [
+    "R3 W1-W2 colour",
+    750
+   ],
+   [
+    "R4 cc_flags",
+    654
+   ],
+   [
+    "R5 ext_flg",
+    620
+   ],
+   [
+    "R6 nb, na",
+    606
+   ],
+   [
+    "R7 saturation",
+    591
+   ],
+   [
+    "R8 var_flg",
+    588
+   ],
+   [
+    "R9 ph_qual",
+    588
+   ],
+   [
+    "R10 rchi2",
+    588
+   ],
+   [
+    "R11 2MASS",
+    586
+   ],
+   [
+    "R12 proper motion",
+    576
+   ],
+   [
+    "R13 isolation",
+    552
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "175 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "377 / 5"
+   ]
+  ],
+  "bat0389": [
+   [
+    "AllWISE sources in field query",
+    18491
+   ],
+   [
+    "R1 field",
+    18259
+   ],
+   [
+    "R2 W1 range",
+    713
+   ],
+   [
+    "R3 W1-W2 colour",
+    702
+   ],
+   [
+    "R4 cc_flags",
+    658
+   ],
+   [
+    "R5 ext_flg",
+    630
+   ],
+   [
+    "R6 nb, na",
+    616
+   ],
+   [
+    "R7 saturation",
+    585
+   ],
+   [
+    "R8 var_flg",
+    581
+   ],
+   [
+    "R9 ph_qual",
+    581
+   ],
+   [
+    "R10 rchi2",
+    581
+   ],
+   [
+    "R11 2MASS",
+    581
+   ],
+   [
+    "R12 proper motion",
+    540
+   ],
+   [
+    "R13 isolation",
+    509
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "176 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "333 / 5"
+   ]
+  ],
+  "bat0390": [
+   [
+    "AllWISE sources in field query",
+    36417
+   ],
+   [
+    "R1 field",
+    35930
+   ],
+   [
+    "R2 W1 range",
+    1344
+   ],
+   [
+    "R3 W1-W2 colour",
+    1328
+   ],
+   [
+    "R4 cc_flags",
+    964
+   ],
+   [
+    "R5 ext_flg",
+    880
+   ],
+   [
+    "R6 nb, na",
+    866
+   ],
+   [
+    "R7 saturation",
+    752
+   ],
+   [
+    "R8 var_flg",
+    744
+   ],
+   [
+    "R9 ph_qual",
+    744
+   ],
+   [
+    "R10 rchi2",
+    744
+   ],
+   [
+    "R11 2MASS",
+    735
+   ],
+   [
+    "R12 proper motion",
+    708
+   ],
+   [
+    "R13 isolation",
+    685
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "234 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "451 / 5"
+   ]
+  ],
+  "bat0399": [
+   [
+    "AllWISE sources in field query",
+    21327
+   ],
+   [
+    "R1 field",
+    21048
+   ],
+   [
+    "R2 W1 range",
+    816
+   ],
+   [
+    "R3 W1-W2 colour",
+    803
+   ],
+   [
+    "R4 cc_flags",
+    737
+   ],
+   [
+    "R5 ext_flg",
+    703
+   ],
+   [
+    "R6 nb, na",
+    682
+   ],
+   [
+    "R7 saturation",
+    661
+   ],
+   [
+    "R8 var_flg",
+    660
+   ],
+   [
+    "R9 ph_qual",
+    660
+   ],
+   [
+    "R10 rchi2",
+    660
+   ],
+   [
+    "R11 2MASS",
+    660
+   ],
+   [
+    "R12 proper motion",
+    624
+   ],
+   [
+    "R13 isolation",
+    606
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "202 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "404 / 5"
+   ]
+  ],
+  "bat0400": [
+   [
+    "AllWISE sources in field query",
+    20961
+   ],
+   [
+    "R1 field",
+    20714
+   ],
+   [
+    "R2 W1 range",
+    787
+   ],
+   [
+    "R3 W1-W2 colour",
+    772
+   ],
+   [
+    "R4 cc_flags",
+    707
+   ],
+   [
+    "R5 ext_flg",
+    677
+   ],
+   [
+    "R6 nb, na",
+    663
+   ],
+   [
+    "R7 saturation",
+    637
+   ],
+   [
+    "R8 var_flg",
+    635
+   ],
+   [
+    "R9 ph_qual",
+    635
+   ],
+   [
+    "R10 rchi2",
+    635
+   ],
+   [
+    "R11 2MASS",
+    633
+   ],
+   [
+    "R12 proper motion",
+    618
+   ],
+   [
+    "R13 isolation",
+    590
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "204 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "386 / 5"
+   ]
+  ],
+  "bat0405": [
+   [
+    "AllWISE sources in field query",
+    26104
+   ],
+   [
+    "R1 field",
+    25783
+   ],
+   [
+    "R2 W1 range",
+    964
+   ],
+   [
+    "R3 W1-W2 colour",
+    957
+   ],
+   [
+    "R4 cc_flags",
+    865
+   ],
+   [
+    "R5 ext_flg",
+    844
+   ],
+   [
+    "R6 nb, na",
+    822
+   ],
+   [
+    "R7 saturation",
+    799
+   ],
+   [
+    "R8 var_flg",
+    795
+   ],
+   [
+    "R9 ph_qual",
+    795
+   ],
+   [
+    "R10 rchi2",
+    795
+   ],
+   [
+    "R11 2MASS",
+    794
+   ],
+   [
+    "R12 proper motion",
+    785
+   ],
+   [
+    "R13 isolation",
+    755
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "274 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "481 / 5"
+   ]
+  ],
+  "bat0408": [
+   [
+    "AllWISE sources in field query",
+    18252
+   ],
+   [
+    "R1 field",
+    18042
+   ],
+   [
+    "R2 W1 range",
+    673
+   ],
+   [
+    "R3 W1-W2 colour",
+    663
+   ],
+   [
+    "R4 cc_flags",
+    597
+   ],
+   [
+    "R5 ext_flg",
+    574
+   ],
+   [
+    "R6 nb, na",
+    567
+   ],
+   [
+    "R7 saturation",
+    558
+   ],
+   [
+    "R8 var_flg",
+    556
+   ],
+   [
+    "R9 ph_qual",
+    556
+   ],
+   [
+    "R10 rchi2",
+    556
+   ],
+   [
+    "R11 2MASS",
+    556
+   ],
+   [
+    "R12 proper motion",
+    536
+   ],
+   [
+    "R13 isolation",
+    513
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "163 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "350 / 5"
+   ]
+  ],
+  "bat0411": [
+   [
+    "AllWISE sources in field query",
+    28016
+   ],
+   [
+    "R1 field",
+    27681
+   ],
+   [
+    "R2 W1 range",
+    1046
+   ],
+   [
+    "R3 W1-W2 colour",
+    1016
+   ],
+   [
+    "R4 cc_flags",
+    923
+   ],
+   [
+    "R5 ext_flg",
+    897
+   ],
+   [
+    "R6 nb, na",
+    863
+   ],
+   [
+    "R7 saturation",
+    846
+   ],
+   [
+    "R8 var_flg",
+    845
+   ],
+   [
+    "R9 ph_qual",
+    845
+   ],
+   [
+    "R10 rchi2",
+    845
+   ],
+   [
+    "R11 2MASS",
+    844
+   ],
+   [
+    "R12 proper motion",
+    816
+   ],
+   [
+    "R13 isolation",
+    775
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "253 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "522 / 5"
+   ]
+  ],
+  "bat0434": [
+   [
+    "AllWISE sources in field query",
+    13774
+   ],
+   [
+    "R1 field",
+    13614
+   ],
+   [
+    "R2 W1 range",
+    522
+   ],
+   [
+    "R3 W1-W2 colour",
+    510
+   ],
+   [
+    "R4 cc_flags",
+    457
+   ],
+   [
+    "R5 ext_flg",
+    406
+   ],
+   [
+    "R6 nb, na",
+    400
+   ],
+   [
+    "R7 saturation",
+    386
+   ],
+   [
+    "R8 var_flg",
+    385
+   ],
+   [
+    "R9 ph_qual",
+    385
+   ],
+   [
+    "R10 rchi2",
+    385
+   ],
+   [
+    "R11 2MASS",
+    383
+   ],
+   [
+    "R12 proper motion",
+    371
+   ],
+   [
+    "R13 isolation",
+    356
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "117 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "239 / 5"
+   ]
+  ],
+  "bat0437": [
+   [
+    "AllWISE sources in field query",
+    12696
+   ],
+   [
+    "R1 field",
+    12545
+   ],
+   [
+    "R2 W1 range",
+    482
+   ],
+   [
+    "R3 W1-W2 colour",
+    468
+   ],
+   [
+    "R4 cc_flags",
+    437
+   ],
+   [
+    "R5 ext_flg",
+    424
+   ],
+   [
+    "R6 nb, na",
+    415
+   ],
+   [
+    "R7 saturation",
+    405
+   ],
+   [
+    "R8 var_flg",
+    403
+   ],
+   [
+    "R9 ph_qual",
+    403
+   ],
+   [
+    "R10 rchi2",
+    403
+   ],
+   [
+    "R11 2MASS",
+    402
+   ],
+   [
+    "R12 proper motion",
+    385
+   ],
+   [
+    "R13 isolation",
+    382
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "126 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "256 / 5"
+   ]
+  ],
+  "bat0449": [
+   [
+    "AllWISE sources in field query",
+    13619
+   ],
+   [
+    "R1 field",
+    13453
+   ],
+   [
+    "R2 W1 range",
+    496
+   ],
+   [
+    "R3 W1-W2 colour",
+    485
+   ],
+   [
+    "R4 cc_flags",
+    466
+   ],
+   [
+    "R5 ext_flg",
+    449
+   ],
+   [
+    "R6 nb, na",
+    435
+   ],
+   [
+    "R7 saturation",
+    427
+   ],
+   [
+    "R8 var_flg",
+    426
+   ],
+   [
+    "R9 ph_qual",
+    425
+   ],
+   [
+    "R10 rchi2",
+    425
+   ],
+   [
+    "R11 2MASS",
+    425
+   ],
+   [
+    "R12 proper motion",
+    408
+   ],
+   [
+    "R13 isolation",
+    399
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "131 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "268 / 5"
+   ]
+  ],
+  "bat0451": [
+   [
+    "AllWISE sources in field query",
+    12054
+   ],
+   [
+    "R1 field",
+    11915
+   ],
+   [
+    "R2 W1 range",
+    419
+   ],
+   [
+    "R3 W1-W2 colour",
+    409
+   ],
+   [
+    "R4 cc_flags",
+    382
+   ],
+   [
+    "R5 ext_flg",
+    373
+   ],
+   [
+    "R6 nb, na",
+    367
+   ],
+   [
+    "R7 saturation",
+    359
+   ],
+   [
+    "R8 var_flg",
+    356
+   ],
+   [
+    "R9 ph_qual",
+    356
+   ],
+   [
+    "R10 rchi2",
+    356
+   ],
+   [
+    "R11 2MASS",
+    356
+   ],
+   [
+    "R12 proper motion",
+    341
+   ],
+   [
+    "R13 isolation",
+    324
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "100 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "224 / 5"
+   ]
+  ],
+  "bat0453": [
+   [
+    "AllWISE sources in field query",
+    19709
+   ],
+   [
+    "R1 field",
+    19446
+   ],
+   [
+    "R2 W1 range",
+    696
+   ],
+   [
+    "R3 W1-W2 colour",
+    682
+   ],
+   [
+    "R4 cc_flags",
+    630
+   ],
+   [
+    "R5 ext_flg",
+    599
+   ],
+   [
+    "R6 nb, na",
+    580
+   ],
+   [
+    "R7 saturation",
+    568
+   ],
+   [
+    "R8 var_flg",
+    568
+   ],
+   [
+    "R9 ph_qual",
+    568
+   ],
+   [
+    "R10 rchi2",
+    568
+   ],
+   [
+    "R11 2MASS",
+    567
+   ],
+   [
+    "R12 proper motion",
+    556
+   ],
+   [
+    "R13 isolation",
+    539
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "151 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "388 / 5"
+   ]
+  ],
+  "bat0455": [
+   [
+    "AllWISE sources in field query",
+    11979
+   ],
+   [
+    "R1 field",
+    11828
+   ],
+   [
+    "R2 W1 range",
+    465
+   ],
+   [
+    "R3 W1-W2 colour",
+    448
+   ],
+   [
+    "R4 cc_flags",
+    421
+   ],
+   [
+    "R5 ext_flg",
+    409
+   ],
+   [
+    "R6 nb, na",
+    404
+   ],
+   [
+    "R7 saturation",
+    390
+   ],
+   [
+    "R8 var_flg",
+    390
+   ],
+   [
+    "R9 ph_qual",
+    390
+   ],
+   [
+    "R10 rchi2",
+    390
+   ],
+   [
+    "R11 2MASS",
+    389
+   ],
+   [
+    "R12 proper motion",
+    379
+   ],
+   [
+    "R13 isolation",
+    369
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "116 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "253 / 5"
+   ]
+  ],
+  "bat0458": [
+   [
+    "AllWISE sources in field query",
+    12583
+   ],
+   [
+    "R1 field",
+    12446
+   ],
+   [
+    "R2 W1 range",
+    465
+   ],
+   [
+    "R3 W1-W2 colour",
+    455
+   ],
+   [
+    "R4 cc_flags",
+    419
+   ],
+   [
+    "R5 ext_flg",
+    401
+   ],
+   [
+    "R6 nb, na",
+    391
+   ],
+   [
+    "R7 saturation",
+    377
+   ],
+   [
+    "R8 var_flg",
+    377
+   ],
+   [
+    "R9 ph_qual",
+    377
+   ],
+   [
+    "R10 rchi2",
+    377
+   ],
+   [
+    "R11 2MASS",
+    375
+   ],
+   [
+    "R12 proper motion",
+    359
+   ],
+   [
+    "R13 isolation",
+    343
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "117 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "226 / 5"
+   ]
+  ],
+  "bat0459": [
+   [
+    "AllWISE sources in field query",
+    13698
+   ],
+   [
+    "R1 field",
+    13541
+   ],
+   [
+    "R2 W1 range",
+    542
+   ],
+   [
+    "R3 W1-W2 colour",
+    520
+   ],
+   [
+    "R4 cc_flags",
+    450
+   ],
+   [
+    "R5 ext_flg",
+    355
+   ],
+   [
+    "R6 nb, na",
+    352
+   ],
+   [
+    "R7 saturation",
+    340
+   ],
+   [
+    "R8 var_flg",
+    338
+   ],
+   [
+    "R9 ph_qual",
+    338
+   ],
+   [
+    "R10 rchi2",
+    338
+   ],
+   [
+    "R11 2MASS",
+    337
+   ],
+   [
+    "R12 proper motion",
+    321
+   ],
+   [
+    "R13 isolation",
+    310
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "90 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "220 / 5"
+   ]
+  ],
+  "bat0460": [
+   [
+    "AllWISE sources in field query",
+    13997
+   ],
+   [
+    "R1 field",
+    13819
+   ],
+   [
+    "R2 W1 range",
+    486
+   ],
+   [
+    "R3 W1-W2 colour",
+    476
+   ],
+   [
+    "R4 cc_flags",
+    454
+   ],
+   [
+    "R5 ext_flg",
+    421
+   ],
+   [
+    "R6 nb, na",
+    410
+   ],
+   [
+    "R7 saturation",
+    400
+   ],
+   [
+    "R8 var_flg",
+    400
+   ],
+   [
+    "R9 ph_qual",
+    400
+   ],
+   [
+    "R10 rchi2",
+    400
+   ],
+   [
+    "R11 2MASS",
+    399
+   ],
+   [
+    "R12 proper motion",
+    377
+   ],
+   [
+    "R13 isolation",
+    373
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "119 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "254 / 5"
+   ]
+  ],
+  "bat0461": [
+   [
+    "AllWISE sources in field query",
+    11943
+   ],
+   [
+    "R1 field",
+    11801
+   ],
+   [
+    "R2 W1 range",
+    473
+   ],
+   [
+    "R3 W1-W2 colour",
+    455
+   ],
+   [
+    "R4 cc_flags",
+    425
+   ],
+   [
+    "R5 ext_flg",
+    416
+   ],
+   [
+    "R6 nb, na",
+    411
+   ],
+   [
+    "R7 saturation",
+    401
+   ],
+   [
+    "R8 var_flg",
+    401
+   ],
+   [
+    "R9 ph_qual",
+    401
+   ],
+   [
+    "R10 rchi2",
+    401
+   ],
+   [
+    "R11 2MASS",
+    400
+   ],
+   [
+    "R12 proper motion",
+    387
+   ],
+   [
+    "R13 isolation",
+    374
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "106 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "268 / 5"
+   ]
+  ],
+  "bat0463": [
+   [
+    "AllWISE sources in field query",
+    12702
+   ],
+   [
+    "R1 field",
+    12530
+   ],
+   [
+    "R2 W1 range",
+    499
+   ],
+   [
+    "R3 W1-W2 colour",
+    483
+   ],
+   [
+    "R4 cc_flags",
+    453
+   ],
+   [
+    "R5 ext_flg",
+    428
+   ],
+   [
+    "R6 nb, na",
+    418
+   ],
+   [
+    "R7 saturation",
+    399
+   ],
+   [
+    "R8 var_flg",
+    398
+   ],
+   [
+    "R9 ph_qual",
+    398
+   ],
+   [
+    "R10 rchi2",
+    398
+   ],
+   [
+    "R11 2MASS",
+    396
+   ],
+   [
+    "R12 proper motion",
+    377
+   ],
+   [
+    "R13 isolation",
+    366
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "112 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "254 / 5"
+   ]
+  ],
+  "bat0467": [
+   [
+    "AllWISE sources in field query",
+    12786
+   ],
+   [
+    "R1 field",
+    12626
+   ],
+   [
+    "R2 W1 range",
+    476
+   ],
+   [
+    "R3 W1-W2 colour",
+    465
+   ],
+   [
+    "R4 cc_flags",
+    441
+   ],
+   [
+    "R5 ext_flg",
+    422
+   ],
+   [
+    "R6 nb, na",
+    414
+   ],
+   [
+    "R7 saturation",
+    396
+   ],
+   [
+    "R8 var_flg",
+    395
+   ],
+   [
+    "R9 ph_qual",
+    395
+   ],
+   [
+    "R10 rchi2",
+    395
+   ],
+   [
+    "R11 2MASS",
+    394
+   ],
+   [
+    "R12 proper motion",
+    378
+   ],
+   [
+    "R13 isolation",
+    368
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "115 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "253 / 5"
+   ]
+  ],
+  "bat0470": [
+   [
+    "AllWISE sources in field query",
+    11748
+   ],
+   [
+    "R1 field",
+    11604
+   ],
+   [
+    "R2 W1 range",
+    419
+   ],
+   [
+    "R3 W1-W2 colour",
+    408
+   ],
+   [
+    "R4 cc_flags",
+    384
+   ],
+   [
+    "R5 ext_flg",
+    379
+   ],
+   [
+    "R6 nb, na",
+    374
+   ],
+   [
+    "R7 saturation",
+    365
+   ],
+   [
+    "R8 var_flg",
+    365
+   ],
+   [
+    "R9 ph_qual",
+    365
+   ],
+   [
+    "R10 rchi2",
+    365
+   ],
+   [
+    "R11 2MASS",
+    365
+   ],
+   [
+    "R12 proper motion",
+    352
+   ],
+   [
+    "R13 isolation",
+    345
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "108 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "237 / 5"
+   ]
+  ],
+  "bat0471": [
+   [
+    "AllWISE sources in field query",
+    19608
+   ],
+   [
+    "R1 field",
+    19375
+   ],
+   [
+    "R2 W1 range",
+    689
+   ],
+   [
+    "R3 W1-W2 colour",
+    679
+   ],
+   [
+    "R4 cc_flags",
+    623
+   ],
+   [
+    "R5 ext_flg",
+    552
+   ],
+   [
+    "R6 nb, na",
+    534
+   ],
+   [
+    "R7 saturation",
+    515
+   ],
+   [
+    "R8 var_flg",
+    514
+   ],
+   [
+    "R9 ph_qual",
+    514
+   ],
+   [
+    "R10 rchi2",
+    514
+   ],
+   [
+    "R11 2MASS",
+    513
+   ],
+   [
+    "R12 proper motion",
+    492
+   ],
+   [
+    "R13 isolation",
+    478
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "136 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "342 / 5"
+   ]
+  ],
+  "bat0475": [
+   [
+    "AllWISE sources in field query",
+    16035
+   ],
+   [
+    "R1 field",
+    15843
+   ],
+   [
+    "R2 W1 range",
+    539
+   ],
+   [
+    "R3 W1-W2 colour",
+    532
+   ],
+   [
+    "R4 cc_flags",
+    502
+   ],
+   [
+    "R5 ext_flg",
+    473
+   ],
+   [
+    "R6 nb, na",
+    460
+   ],
+   [
+    "R7 saturation",
+    451
+   ],
+   [
+    "R8 var_flg",
+    451
+   ],
+   [
+    "R9 ph_qual",
+    451
+   ],
+   [
+    "R10 rchi2",
+    451
+   ],
+   [
+    "R11 2MASS",
+    451
+   ],
+   [
+    "R12 proper motion",
+    436
+   ],
+   [
+    "R13 isolation",
+    424
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "130 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "294 / 5"
+   ]
+  ],
+  "bat0480": [
+   [
+    "AllWISE sources in field query",
+    23599
+   ],
+   [
+    "R1 field",
+    23315
+   ],
+   [
+    "R2 W1 range",
+    826
+   ],
+   [
+    "R3 W1-W2 colour",
+    816
+   ],
+   [
+    "R4 cc_flags",
+    736
+   ],
+   [
+    "R5 ext_flg",
+    475
+   ],
+   [
+    "R6 nb, na",
+    453
+   ],
+   [
+    "R7 saturation",
+    438
+   ],
+   [
+    "R8 var_flg",
+    438
+   ],
+   [
+    "R9 ph_qual",
+    438
+   ],
+   [
+    "R10 rchi2",
+    438
+   ],
+   [
+    "R11 2MASS",
+    437
+   ],
+   [
+    "R12 proper motion",
+    410
+   ],
+   [
+    "R13 isolation",
+    392
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "124 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "268 / 5"
+   ]
+  ],
+  "bat0481": [
+   [
+    "AllWISE sources in field query",
+    12183
+   ],
+   [
+    "R1 field",
+    12039
+   ],
+   [
+    "R2 W1 range",
+    378
+   ],
+   [
+    "R3 W1-W2 colour",
+    368
+   ],
+   [
+    "R4 cc_flags",
+    346
+   ],
+   [
+    "R5 ext_flg",
+    332
+   ],
+   [
+    "R6 nb, na",
+    326
+   ],
+   [
+    "R7 saturation",
+    312
+   ],
+   [
+    "R8 var_flg",
+    311
+   ],
+   [
+    "R9 ph_qual",
+    311
+   ],
+   [
+    "R10 rchi2",
+    311
+   ],
+   [
+    "R11 2MASS",
+    311
+   ],
+   [
+    "R12 proper motion",
+    303
+   ],
+   [
+    "R13 isolation",
+    299
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "94 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "205 / 5"
+   ]
+  ],
+  "bat0486": [
+   [
+    "AllWISE sources in field query",
+    23154
+   ],
+   [
+    "R1 field",
+    22854
+   ],
+   [
+    "R2 W1 range",
+    818
+   ],
+   [
+    "R3 W1-W2 colour",
+    806
+   ],
+   [
+    "R4 cc_flags",
+    712
+   ],
+   [
+    "R5 ext_flg",
+    526
+   ],
+   [
+    "R6 nb, na",
+    512
+   ],
+   [
+    "R7 saturation",
+    484
+   ],
+   [
+    "R8 var_flg",
+    484
+   ],
+   [
+    "R9 ph_qual",
+    484
+   ],
+   [
+    "R10 rchi2",
+    484
+   ],
+   [
+    "R11 2MASS",
+    482
+   ],
+   [
+    "R12 proper motion",
+    462
+   ],
+   [
+    "R13 isolation",
+    441
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "138 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "303 / 5"
+   ]
+  ],
+  "bat0503": [
+   [
+    "AllWISE sources in field query",
+    25292
+   ],
+   [
+    "R1 field",
+    24983
+   ],
+   [
+    "R2 W1 range",
+    918
+   ],
+   [
+    "R3 W1-W2 colour",
+    901
+   ],
+   [
+    "R4 cc_flags",
+    787
+   ],
+   [
+    "R5 ext_flg",
+    575
+   ],
+   [
+    "R6 nb, na",
+    556
+   ],
+   [
+    "R7 saturation",
+    531
+   ],
+   [
+    "R8 var_flg",
+    531
+   ],
+   [
+    "R9 ph_qual",
+    531
+   ],
+   [
+    "R10 rchi2",
+    531
+   ],
+   [
+    "R11 2MASS",
+    531
+   ],
+   [
+    "R12 proper motion",
+    509
+   ],
+   [
+    "R13 isolation",
+    484
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "157 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "327 / 5"
+   ]
+  ],
+  "bat0504": [
+   [
+    "AllWISE sources in field query",
+    13850
+   ],
+   [
+    "R1 field",
+    13665
+   ],
+   [
+    "R2 W1 range",
+    544
+   ],
+   [
+    "R3 W1-W2 colour",
+    540
+   ],
+   [
+    "R4 cc_flags",
+    483
+   ],
+   [
+    "R5 ext_flg",
+    462
+   ],
+   [
+    "R6 nb, na",
+    457
+   ],
+   [
+    "R7 saturation",
+    431
+   ],
+   [
+    "R8 var_flg",
+    430
+   ],
+   [
+    "R9 ph_qual",
+    430
+   ],
+   [
+    "R10 rchi2",
+    430
+   ],
+   [
+    "R11 2MASS",
+    429
+   ],
+   [
+    "R12 proper motion",
+    420
+   ],
+   [
+    "R13 isolation",
+    411
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "138 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "273 / 5"
+   ]
+  ],
+  "bat0513": [
+   [
+    "AllWISE sources in field query",
+    13146
+   ],
+   [
+    "R1 field",
+    12981
+   ],
+   [
+    "R2 W1 range",
+    548
+   ],
+   [
+    "R3 W1-W2 colour",
+    544
+   ],
+   [
+    "R4 cc_flags",
+    466
+   ],
+   [
+    "R5 ext_flg",
+    453
+   ],
+   [
+    "R6 nb, na",
+    445
+   ],
+   [
+    "R7 saturation",
+    423
+   ],
+   [
+    "R8 var_flg",
+    422
+   ],
+   [
+    "R9 ph_qual",
+    422
+   ],
+   [
+    "R10 rchi2",
+    422
+   ],
+   [
+    "R11 2MASS",
+    422
+   ],
+   [
+    "R12 proper motion",
+    420
+   ],
+   [
+    "R13 isolation",
+    412
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "135 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "277 / 5"
+   ]
+  ],
+  "bat0515": [
+   [
+    "AllWISE sources in field query",
+    9706
+   ],
+   [
+    "R1 field",
+    9595
+   ],
+   [
+    "R2 W1 range",
+    324
+   ],
+   [
+    "R3 W1-W2 colour",
+    318
+   ],
+   [
+    "R4 cc_flags",
+    302
+   ],
+   [
+    "R5 ext_flg",
+    286
+   ],
+   [
+    "R6 nb, na",
+    282
+   ],
+   [
+    "R7 saturation",
+    273
+   ],
+   [
+    "R8 var_flg",
+    273
+   ],
+   [
+    "R9 ph_qual",
+    273
+   ],
+   [
+    "R10 rchi2",
+    273
+   ],
+   [
+    "R11 2MASS",
+    273
+   ],
+   [
+    "R12 proper motion",
+    261
+   ],
+   [
+    "R13 isolation",
+    250
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "82 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "168 / 5"
+   ]
+  ],
+  "bat0517": [
+   [
+    "AllWISE sources in field query",
+    9346
+   ],
+   [
+    "R1 field",
+    9230
+   ],
+   [
+    "R2 W1 range",
+    367
+   ],
+   [
+    "R3 W1-W2 colour",
+    353
+   ],
+   [
+    "R4 cc_flags",
+    333
+   ],
+   [
+    "R5 ext_flg",
+    324
+   ],
+   [
+    "R6 nb, na",
+    321
+   ],
+   [
+    "R7 saturation",
+    317
+   ],
+   [
+    "R8 var_flg",
+    315
+   ],
+   [
+    "R9 ph_qual",
+    315
+   ],
+   [
+    "R10 rchi2",
+    315
+   ],
+   [
+    "R11 2MASS",
+    315
+   ],
+   [
+    "R12 proper motion",
+    304
+   ],
+   [
+    "R13 isolation",
+    300
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "83 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "217 / 5"
+   ]
+  ],
+  "bat0518": [
+   [
+    "AllWISE sources in field query",
+    20564
+   ],
+   [
+    "R1 field",
+    20304
+   ],
+   [
+    "R2 W1 range",
+    775
+   ],
+   [
+    "R3 W1-W2 colour",
+    758
+   ],
+   [
+    "R4 cc_flags",
+    661
+   ],
+   [
+    "R5 ext_flg",
+    478
+   ],
+   [
+    "R6 nb, na",
+    462
+   ],
+   [
+    "R7 saturation",
+    440
+   ],
+   [
+    "R8 var_flg",
+    440
+   ],
+   [
+    "R9 ph_qual",
+    440
+   ],
+   [
+    "R10 rchi2",
+    440
+   ],
+   [
+    "R11 2MASS",
+    439
+   ],
+   [
+    "R12 proper motion",
+    416
+   ],
+   [
+    "R13 isolation",
+    397
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "123 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "274 / 5"
+   ]
+  ],
+  "bat0519": [
+   [
+    "AllWISE sources in field query",
+    9649
+   ],
+   [
+    "R1 field",
+    9515
+   ],
+   [
+    "R2 W1 range",
+    381
+   ],
+   [
+    "R3 W1-W2 colour",
+    372
+   ],
+   [
+    "R4 cc_flags",
+    361
+   ],
+   [
+    "R5 ext_flg",
+    347
+   ],
+   [
+    "R6 nb, na",
+    343
+   ],
+   [
+    "R7 saturation",
+    339
+   ],
+   [
+    "R8 var_flg",
+    339
+   ],
+   [
+    "R9 ph_qual",
+    339
+   ],
+   [
+    "R10 rchi2",
+    339
+   ],
+   [
+    "R11 2MASS",
+    336
+   ],
+   [
+    "R12 proper motion",
+    309
+   ],
+   [
+    "R13 isolation",
+    297
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "82 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "215 / 5"
+   ]
+  ],
+  "bat0520": [
+   [
+    "AllWISE sources in field query",
+    16286
+   ],
+   [
+    "R1 field",
+    16116
+   ],
+   [
+    "R2 W1 range",
+    598
+   ],
+   [
+    "R3 W1-W2 colour",
+    587
+   ],
+   [
+    "R4 cc_flags",
+    518
+   ],
+   [
+    "R5 ext_flg",
+    452
+   ],
+   [
+    "R6 nb, na",
+    442
+   ],
+   [
+    "R7 saturation",
+    426
+   ],
+   [
+    "R8 var_flg",
+    426
+   ],
+   [
+    "R9 ph_qual",
+    426
+   ],
+   [
+    "R10 rchi2",
+    426
+   ],
+   [
+    "R11 2MASS",
+    425
+   ],
+   [
+    "R12 proper motion",
+    407
+   ],
+   [
+    "R13 isolation",
+    384
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "117 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "267 / 5"
+   ]
+  ],
+  "bat0531": [
+   [
+    "AllWISE sources in field query",
+    21613
+   ],
+   [
+    "R1 field",
+    21347
+   ],
+   [
+    "R2 W1 range",
+    796
+   ],
+   [
+    "R3 W1-W2 colour",
+    785
+   ],
+   [
+    "R4 cc_flags",
+    707
+   ],
+   [
+    "R5 ext_flg",
+    539
+   ],
+   [
+    "R6 nb, na",
+    521
+   ],
+   [
+    "R7 saturation",
+    502
+   ],
+   [
+    "R8 var_flg",
+    501
+   ],
+   [
+    "R9 ph_qual",
+    501
+   ],
+   [
+    "R10 rchi2",
+    501
+   ],
+   [
+    "R11 2MASS",
+    499
+   ],
+   [
+    "R12 proper motion",
+    481
+   ],
+   [
+    "R13 isolation",
+    467
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "139 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "328 / 5"
+   ]
+  ],
+  "bat0532": [
+   [
+    "AllWISE sources in field query",
+    9896
+   ],
+   [
+    "R1 field",
+    9774
+   ],
+   [
+    "R2 W1 range",
+    399
+   ],
+   [
+    "R3 W1-W2 colour",
+    391
+   ],
+   [
+    "R4 cc_flags",
+    374
+   ],
+   [
+    "R5 ext_flg",
+    363
+   ],
+   [
+    "R6 nb, na",
+    358
+   ],
+   [
+    "R7 saturation",
+    350
+   ],
+   [
+    "R8 var_flg",
+    349
+   ],
+   [
+    "R9 ph_qual",
+    349
+   ],
+   [
+    "R10 rchi2",
+    349
+   ],
+   [
+    "R11 2MASS",
+    347
+   ],
+   [
+    "R12 proper motion",
+    328
+   ],
+   [
+    "R13 isolation",
+    321
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "91 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "230 / 5"
+   ]
+  ],
+  "bat0542": [
+   [
+    "AllWISE sources in field query",
+    10554
+   ],
+   [
+    "R1 field",
+    10410
+   ],
+   [
+    "R2 W1 range",
+    376
+   ],
+   [
+    "R3 W1-W2 colour",
+    365
+   ],
+   [
+    "R4 cc_flags",
+    346
+   ],
+   [
+    "R5 ext_flg",
+    330
+   ],
+   [
+    "R6 nb, na",
+    326
+   ],
+   [
+    "R7 saturation",
+    317
+   ],
+   [
+    "R8 var_flg",
+    317
+   ],
+   [
+    "R9 ph_qual",
+    317
+   ],
+   [
+    "R10 rchi2",
+    317
+   ],
+   [
+    "R11 2MASS",
+    316
+   ],
+   [
+    "R12 proper motion",
+    305
+   ],
+   [
+    "R13 isolation",
+    302
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "116 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "186 / 5"
+   ]
+  ],
+  "bat0543": [
+   [
+    "AllWISE sources in field query",
+    10195
+   ],
+   [
+    "R1 field",
+    10075
+   ],
+   [
+    "R2 W1 range",
+    347
+   ],
+   [
+    "R3 W1-W2 colour",
+    339
+   ],
+   [
+    "R4 cc_flags",
+    323
+   ],
+   [
+    "R5 ext_flg",
+    303
+   ],
+   [
+    "R6 nb, na",
+    294
+   ],
+   [
+    "R7 saturation",
+    282
+   ],
+   [
+    "R8 var_flg",
+    282
+   ],
+   [
+    "R9 ph_qual",
+    282
+   ],
+   [
+    "R10 rchi2",
+    282
+   ],
+   [
+    "R11 2MASS",
+    281
+   ],
+   [
+    "R12 proper motion",
+    270
+   ],
+   [
+    "R13 isolation",
+    266
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "85 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "181 / 5"
+   ]
+  ],
+  "bat0548": [
+   [
+    "AllWISE sources in field query",
+    9697
+   ],
+   [
+    "R1 field",
+    9524
+   ],
+   [
+    "R2 W1 range",
+    322
+   ],
+   [
+    "R3 W1-W2 colour",
+    306
+   ],
+   [
+    "R4 cc_flags",
+    292
+   ],
+   [
+    "R5 ext_flg",
+    278
+   ],
+   [
+    "R6 nb, na",
+    275
+   ],
+   [
+    "R7 saturation",
+    268
+   ],
+   [
+    "R8 var_flg",
+    268
+   ],
+   [
+    "R9 ph_qual",
+    268
+   ],
+   [
+    "R10 rchi2",
+    268
+   ],
+   [
+    "R11 2MASS",
+    268
+   ],
+   [
+    "R12 proper motion",
+    254
+   ],
+   [
+    "R13 isolation",
+    248
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "86 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "162 / 5"
+   ]
+  ],
+  "bat0552": [
+   [
+    "AllWISE sources in field query",
+    10098
+   ],
+   [
+    "R1 field",
+    9975
+   ],
+   [
+    "R2 W1 range",
+    337
+   ],
+   [
+    "R3 W1-W2 colour",
+    328
+   ],
+   [
+    "R4 cc_flags",
+    312
+   ],
+   [
+    "R5 ext_flg",
+    297
+   ],
+   [
+    "R6 nb, na",
+    282
+   ],
+   [
+    "R7 saturation",
+    265
+   ],
+   [
+    "R8 var_flg",
+    265
+   ],
+   [
+    "R9 ph_qual",
+    265
+   ],
+   [
+    "R10 rchi2",
+    265
+   ],
+   [
+    "R11 2MASS",
+    265
+   ],
+   [
+    "R12 proper motion",
+    247
+   ],
+   [
+    "R13 isolation",
+    241
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "81 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "160 / 5"
+   ]
+  ],
+  "bat0554": [
+   [
+    "AllWISE sources in field query",
+    9818
+   ],
+   [
+    "R1 field",
+    9722
+   ],
+   [
+    "R2 W1 range",
+    303
+   ],
+   [
+    "R3 W1-W2 colour",
+    297
+   ],
+   [
+    "R4 cc_flags",
+    286
+   ],
+   [
+    "R5 ext_flg",
+    274
+   ],
+   [
+    "R6 nb, na",
+    272
+   ],
+   [
+    "R7 saturation",
+    267
+   ],
+   [
+    "R8 var_flg",
+    267
+   ],
+   [
+    "R9 ph_qual",
+    267
+   ],
+   [
+    "R10 rchi2",
+    267
+   ],
+   [
+    "R11 2MASS",
+    266
+   ],
+   [
+    "R12 proper motion",
+    247
+   ],
+   [
+    "R13 isolation",
+    237
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "73 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "164 / 5"
+   ]
+  ],
+  "bat0557": [
+   [
+    "AllWISE sources in field query",
+    16899
+   ],
+   [
+    "R1 field",
+    16690
+   ],
+   [
+    "R2 W1 range",
+    626
+   ],
+   [
+    "R3 W1-W2 colour",
+    614
+   ],
+   [
+    "R4 cc_flags",
+    568
+   ],
+   [
+    "R5 ext_flg",
+    338
+   ],
+   [
+    "R6 nb, na",
+    330
+   ],
+   [
+    "R7 saturation",
+    314
+   ],
+   [
+    "R8 var_flg",
+    314
+   ],
+   [
+    "R9 ph_qual",
+    314
+   ],
+   [
+    "R10 rchi2",
+    314
+   ],
+   [
+    "R11 2MASS",
+    312
+   ],
+   [
+    "R12 proper motion",
+    291
+   ],
+   [
+    "R13 isolation",
+    286
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "76 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "210 / 5"
+   ]
+  ],
+  "bat0560": [
+   [
+    "AllWISE sources in field query",
+    9176
+   ],
+   [
+    "R1 field",
+    9073
+   ],
+   [
+    "R2 W1 range",
+    329
+   ],
+   [
+    "R3 W1-W2 colour",
+    316
+   ],
+   [
+    "R4 cc_flags",
+    298
+   ],
+   [
+    "R5 ext_flg",
+    288
+   ],
+   [
+    "R6 nb, na",
+    283
+   ],
+   [
+    "R7 saturation",
+    275
+   ],
+   [
+    "R8 var_flg",
+    275
+   ],
+   [
+    "R9 ph_qual",
+    275
+   ],
+   [
+    "R10 rchi2",
+    275
+   ],
+   [
+    "R11 2MASS",
+    274
+   ],
+   [
+    "R12 proper motion",
+    262
+   ],
+   [
+    "R13 isolation",
+    257
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "79 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "178 / 5"
+   ]
+  ],
+  "bat0562": [
+   [
+    "AllWISE sources in field query",
+    11209
+   ],
+   [
+    "R1 field",
+    11062
+   ],
+   [
+    "R2 W1 range",
+    364
+   ],
+   [
+    "R3 W1-W2 colour",
+    357
+   ],
+   [
+    "R4 cc_flags",
+    331
+   ],
+   [
+    "R5 ext_flg",
+    311
+   ],
+   [
+    "R6 nb, na",
+    302
+   ],
+   [
+    "R7 saturation",
+    294
+   ],
+   [
+    "R8 var_flg",
+    292
+   ],
+   [
+    "R9 ph_qual",
+    292
+   ],
+   [
+    "R10 rchi2",
+    292
+   ],
+   [
+    "R11 2MASS",
+    292
+   ],
+   [
+    "R12 proper motion",
+    264
+   ],
+   [
+    "R13 isolation",
+    256
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "87 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "169 / 5"
+   ]
+  ],
+  "bat0565": [
+   [
+    "AllWISE sources in field query",
+    9276
+   ],
+   [
+    "R1 field",
+    9149
+   ],
+   [
+    "R2 W1 range",
+    340
+   ],
+   [
+    "R3 W1-W2 colour",
+    328
+   ],
+   [
+    "R4 cc_flags",
+    313
+   ],
+   [
+    "R5 ext_flg",
+    303
+   ],
+   [
+    "R6 nb, na",
+    297
+   ],
+   [
+    "R7 saturation",
+    294
+   ],
+   [
+    "R8 var_flg",
+    294
+   ],
+   [
+    "R9 ph_qual",
+    294
+   ],
+   [
+    "R10 rchi2",
+    294
+   ],
+   [
+    "R11 2MASS",
+    292
+   ],
+   [
+    "R12 proper motion",
+    280
+   ],
+   [
+    "R13 isolation",
+    274
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "80 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "194 / 5"
+   ]
+  ],
+  "bat0566": [
+   [
+    "AllWISE sources in field query",
+    14513
+   ],
+   [
+    "R1 field",
+    14296
+   ],
+   [
+    "R2 W1 range",
+    570
+   ],
+   [
+    "R3 W1-W2 colour",
+    553
+   ],
+   [
+    "R4 cc_flags",
+    481
+   ],
+   [
+    "R5 ext_flg",
+    467
+   ],
+   [
+    "R6 nb, na",
+    459
+   ],
+   [
+    "R7 saturation",
+    437
+   ],
+   [
+    "R8 var_flg",
+    436
+   ],
+   [
+    "R9 ph_qual",
+    436
+   ],
+   [
+    "R10 rchi2",
+    436
+   ],
+   [
+    "R11 2MASS",
+    435
+   ],
+   [
+    "R12 proper motion",
+    431
+   ],
+   [
+    "R13 isolation",
+    417
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "143 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "274 / 5"
+   ]
+  ],
+  "bat0567": [
+   [
+    "AllWISE sources in field query",
+    14712
+   ],
+   [
+    "R1 field",
+    14544
+   ],
+   [
+    "R2 W1 range",
+    547
+   ],
+   [
+    "R3 W1-W2 colour",
+    535
+   ],
+   [
+    "R4 cc_flags",
+    504
+   ],
+   [
+    "R5 ext_flg",
+    416
+   ],
+   [
+    "R6 nb, na",
+    406
+   ],
+   [
+    "R7 saturation",
+    389
+   ],
+   [
+    "R8 var_flg",
+    389
+   ],
+   [
+    "R9 ph_qual",
+    389
+   ],
+   [
+    "R10 rchi2",
+    389
+   ],
+   [
+    "R11 2MASS",
+    387
+   ],
+   [
+    "R12 proper motion",
+    353
+   ],
+   [
+    "R13 isolation",
+    342
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "108 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "234 / 5"
+   ]
+  ],
+  "bat0568": [
+   [
+    "AllWISE sources in field query",
+    11277
+   ],
+   [
+    "R1 field",
+    11155
+   ],
+   [
+    "R2 W1 range",
+    368
+   ],
+   [
+    "R3 W1-W2 colour",
+    359
+   ],
+   [
+    "R4 cc_flags",
+    332
+   ],
+   [
+    "R5 ext_flg",
+    298
+   ],
+   [
+    "R6 nb, na",
+    291
+   ],
+   [
+    "R7 saturation",
+    281
+   ],
+   [
+    "R8 var_flg",
+    281
+   ],
+   [
+    "R9 ph_qual",
+    281
+   ],
+   [
+    "R10 rchi2",
+    281
+   ],
+   [
+    "R11 2MASS",
+    281
+   ],
+   [
+    "R12 proper motion",
+    275
+   ],
+   [
+    "R13 isolation",
+    269
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "85 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "184 / 5"
+   ]
+  ],
+  "bat0573": [
+   [
+    "AllWISE sources in field query",
+    9278
+   ],
+   [
+    "R1 field",
+    9153
+   ],
+   [
+    "R2 W1 range",
+    305
+   ],
+   [
+    "R3 W1-W2 colour",
+    295
+   ],
+   [
+    "R4 cc_flags",
+    284
+   ],
+   [
+    "R5 ext_flg",
+    276
+   ],
+   [
+    "R6 nb, na",
+    274
+   ],
+   [
+    "R7 saturation",
+    267
+   ],
+   [
+    "R8 var_flg",
+    267
+   ],
+   [
+    "R9 ph_qual",
+    267
+   ],
+   [
+    "R10 rchi2",
+    267
+   ],
+   [
+    "R11 2MASS",
+    267
+   ],
+   [
+    "R12 proper motion",
+    263
+   ],
+   [
+    "R13 isolation",
+    258
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "85 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "173 / 5"
+   ]
+  ],
+  "bat0577": [
+   [
+    "AllWISE sources in field query",
+    12215
+   ],
+   [
+    "R1 field",
+    12080
+   ],
+   [
+    "R2 W1 range",
+    421
+   ],
+   [
+    "R3 W1-W2 colour",
+    412
+   ],
+   [
+    "R4 cc_flags",
+    391
+   ],
+   [
+    "R5 ext_flg",
+    376
+   ],
+   [
+    "R6 nb, na",
+    369
+   ],
+   [
+    "R7 saturation",
+    361
+   ],
+   [
+    "R8 var_flg",
+    360
+   ],
+   [
+    "R9 ph_qual",
+    360
+   ],
+   [
+    "R10 rchi2",
+    360
+   ],
+   [
+    "R11 2MASS",
+    360
+   ],
+   [
+    "R12 proper motion",
+    342
+   ],
+   [
+    "R13 isolation",
+    331
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "118 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "213 / 5"
+   ]
+  ],
+  "bat0580": [
+   [
+    "AllWISE sources in field query",
+    9935
+   ],
+   [
+    "R1 field",
+    9820
+   ],
+   [
+    "R2 W1 range",
+    353
+   ],
+   [
+    "R3 W1-W2 colour",
+    338
+   ],
+   [
+    "R4 cc_flags",
+    323
+   ],
+   [
+    "R5 ext_flg",
+    311
+   ],
+   [
+    "R6 nb, na",
+    309
+   ],
+   [
+    "R7 saturation",
+    299
+   ],
+   [
+    "R8 var_flg",
+    299
+   ],
+   [
+    "R9 ph_qual",
+    299
+   ],
+   [
+    "R10 rchi2",
+    299
+   ],
+   [
+    "R11 2MASS",
+    299
+   ],
+   [
+    "R12 proper motion",
+    282
+   ],
+   [
+    "R13 isolation",
+    276
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "87 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "189 / 5"
+   ]
+  ],
+  "bat0582": [
+   [
+    "AllWISE sources in field query",
+    9852
+   ],
+   [
+    "R1 field",
+    9735
+   ],
+   [
+    "R2 W1 range",
+    377
+   ],
+   [
+    "R3 W1-W2 colour",
+    370
+   ],
+   [
+    "R4 cc_flags",
+    360
+   ],
+   [
+    "R5 ext_flg",
+    351
+   ],
+   [
+    "R6 nb, na",
+    344
+   ],
+   [
+    "R7 saturation",
+    335
+   ],
+   [
+    "R8 var_flg",
+    333
+   ],
+   [
+    "R9 ph_qual",
+    333
+   ],
+   [
+    "R10 rchi2",
+    333
+   ],
+   [
+    "R11 2MASS",
+    331
+   ],
+   [
+    "R12 proper motion",
+    316
+   ],
+   [
+    "R13 isolation",
+    310
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "115 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "195 / 5"
+   ]
+  ],
+  "bat0586": [
+   [
+    "AllWISE sources in field query",
+    9236
+   ],
+   [
+    "R1 field",
+    9114
+   ],
+   [
+    "R2 W1 range",
+    339
+   ],
+   [
+    "R3 W1-W2 colour",
+    326
+   ],
+   [
+    "R4 cc_flags",
+    309
+   ],
+   [
+    "R5 ext_flg",
+    282
+   ],
+   [
+    "R6 nb, na",
+    279
+   ],
+   [
+    "R7 saturation",
+    273
+   ],
+   [
+    "R8 var_flg",
+    273
+   ],
+   [
+    "R9 ph_qual",
+    273
+   ],
+   [
+    "R10 rchi2",
+    273
+   ],
+   [
+    "R11 2MASS",
+    272
+   ],
+   [
+    "R12 proper motion",
+    262
+   ],
+   [
+    "R13 isolation",
+    253
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "87 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "166 / 5"
+   ]
+  ],
+  "bat0588": [
+   [
+    "AllWISE sources in field query",
+    10376
+   ],
+   [
+    "R1 field",
+    10244
+   ],
+   [
+    "R2 W1 range",
+    292
+   ],
+   [
+    "R3 W1-W2 colour",
+    288
+   ],
+   [
+    "R4 cc_flags",
+    266
+   ],
+   [
+    "R5 ext_flg",
+    254
+   ],
+   [
+    "R6 nb, na",
+    250
+   ],
+   [
+    "R7 saturation",
+    243
+   ],
+   [
+    "R8 var_flg",
+    243
+   ],
+   [
+    "R9 ph_qual",
+    243
+   ],
+   [
+    "R10 rchi2",
+    243
+   ],
+   [
+    "R11 2MASS",
+    240
+   ],
+   [
+    "R12 proper motion",
+    225
+   ],
+   [
+    "R13 isolation",
+    218
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "63 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "155 / 5"
+   ]
+  ],
+  "bat0592": [
+   [
+    "AllWISE sources in field query",
+    9575
+   ],
+   [
+    "R1 field",
+    9450
+   ],
+   [
+    "R2 W1 range",
+    365
+   ],
+   [
+    "R3 W1-W2 colour",
+    343
+   ],
+   [
+    "R4 cc_flags",
+    325
+   ],
+   [
+    "R5 ext_flg",
+    312
+   ],
+   [
+    "R6 nb, na",
+    309
+   ],
+   [
+    "R7 saturation",
+    296
+   ],
+   [
+    "R8 var_flg",
+    295
+   ],
+   [
+    "R9 ph_qual",
+    295
+   ],
+   [
+    "R10 rchi2",
+    295
+   ],
+   [
+    "R11 2MASS",
+    293
+   ],
+   [
+    "R12 proper motion",
+    281
+   ],
+   [
+    "R13 isolation",
+    272
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "90 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "182 / 5"
+   ]
+  ],
+  "bat0593": [
+   [
+    "AllWISE sources in field query",
+    9770
+   ],
+   [
+    "R1 field",
+    9635
+   ],
+   [
+    "R2 W1 range",
+    317
+   ],
+   [
+    "R3 W1-W2 colour",
+    308
+   ],
+   [
+    "R4 cc_flags",
+    293
+   ],
+   [
+    "R5 ext_flg",
+    268
+   ],
+   [
+    "R6 nb, na",
+    268
+   ],
+   [
+    "R7 saturation",
+    261
+   ],
+   [
+    "R8 var_flg",
+    260
+   ],
+   [
+    "R9 ph_qual",
+    260
+   ],
+   [
+    "R10 rchi2",
+    260
+   ],
+   [
+    "R11 2MASS",
+    260
+   ],
+   [
+    "R12 proper motion",
+    243
+   ],
+   [
+    "R13 isolation",
+    233
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "70 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "163 / 5"
+   ]
+  ],
+  "bat0596": [
+   [
+    "AllWISE sources in field query",
+    9347
+   ],
+   [
+    "R1 field",
+    9242
+   ],
+   [
+    "R2 W1 range",
+    337
+   ],
+   [
+    "R3 W1-W2 colour",
+    327
+   ],
+   [
+    "R4 cc_flags",
+    311
+   ],
+   [
+    "R5 ext_flg",
+    298
+   ],
+   [
+    "R6 nb, na",
+    298
+   ],
+   [
+    "R7 saturation",
+    286
+   ],
+   [
+    "R8 var_flg",
+    286
+   ],
+   [
+    "R9 ph_qual",
+    286
+   ],
+   [
+    "R10 rchi2",
+    286
+   ],
+   [
+    "R11 2MASS",
+    286
+   ],
+   [
+    "R12 proper motion",
+    276
+   ],
+   [
+    "R13 isolation",
+    264
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "83 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "181 / 5"
+   ]
+  ],
+  "bat0600": [
+   [
+    "AllWISE sources in field query",
+    9494
+   ],
+   [
+    "R1 field",
+    9362
+   ],
+   [
+    "R2 W1 range",
+    323
+   ],
+   [
+    "R3 W1-W2 colour",
+    316
+   ],
+   [
+    "R4 cc_flags",
+    291
+   ],
+   [
+    "R5 ext_flg",
+    278
+   ],
+   [
+    "R6 nb, na",
+    272
+   ],
+   [
+    "R7 saturation",
+    263
+   ],
+   [
+    "R8 var_flg",
+    263
+   ],
+   [
+    "R9 ph_qual",
+    263
+   ],
+   [
+    "R10 rchi2",
+    263
+   ],
+   [
+    "R11 2MASS",
+    262
+   ],
+   [
+    "R12 proper motion",
+    249
+   ],
+   [
+    "R13 isolation",
+    244
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "86 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "158 / 5"
+   ]
+  ],
+  "bat0607": [
+   [
+    "AllWISE sources in field query",
+    10600
+   ],
+   [
+    "R1 field",
+    10457
+   ],
+   [
+    "R2 W1 range",
+    351
+   ],
+   [
+    "R3 W1-W2 colour",
+    340
+   ],
+   [
+    "R4 cc_flags",
+    330
+   ],
+   [
+    "R5 ext_flg",
+    310
+   ],
+   [
+    "R6 nb, na",
+    303
+   ],
+   [
+    "R7 saturation",
+    299
+   ],
+   [
+    "R8 var_flg",
+    299
+   ],
+   [
+    "R9 ph_qual",
+    299
+   ],
+   [
+    "R10 rchi2",
+    299
+   ],
+   [
+    "R11 2MASS",
+    297
+   ],
+   [
+    "R12 proper motion",
+    280
+   ],
+   [
+    "R13 isolation",
+    268
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "75 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "193 / 5"
+   ]
+  ],
+  "bat0608": [
+   [
+    "AllWISE sources in field query",
+    9643
+   ],
+   [
+    "R1 field",
+    9521
+   ],
+   [
+    "R2 W1 range",
+    324
+   ],
+   [
+    "R3 W1-W2 colour",
+    312
+   ],
+   [
+    "R4 cc_flags",
+    300
+   ],
+   [
+    "R5 ext_flg",
+    287
+   ],
+   [
+    "R6 nb, na",
+    284
+   ],
+   [
+    "R7 saturation",
+    274
+   ],
+   [
+    "R8 var_flg",
+    273
+   ],
+   [
+    "R9 ph_qual",
+    273
+   ],
+   [
+    "R10 rchi2",
+    273
+   ],
+   [
+    "R11 2MASS",
+    272
+   ],
+   [
+    "R12 proper motion",
+    264
+   ],
+   [
+    "R13 isolation",
+    255
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "72 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "183 / 5"
+   ]
+  ],
+  "bat0609": [
+   [
+    "AllWISE sources in field query",
+    9804
+   ],
+   [
+    "R1 field",
+    9599
+   ],
+   [
+    "R2 W1 range",
+    342
+   ],
+   [
+    "R3 W1-W2 colour",
+    323
+   ],
+   [
+    "R4 cc_flags",
+    305
+   ],
+   [
+    "R5 ext_flg",
+    295
+   ],
+   [
+    "R6 nb, na",
+    293
+   ],
+   [
+    "R7 saturation",
+    284
+   ],
+   [
+    "R8 var_flg",
+    282
+   ],
+   [
+    "R9 ph_qual",
+    282
+   ],
+   [
+    "R10 rchi2",
+    282
+   ],
+   [
+    "R11 2MASS",
+    278
+   ],
+   [
+    "R12 proper motion",
+    269
+   ],
+   [
+    "R13 isolation",
+    261
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "80 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "181 / 5"
+   ]
+  ],
+  "bat0613": [
+   [
+    "AllWISE sources in field query",
+    10876
+   ],
+   [
+    "R1 field",
+    10753
+   ],
+   [
+    "R2 W1 range",
+    349
+   ],
+   [
+    "R3 W1-W2 colour",
+    335
+   ],
+   [
+    "R4 cc_flags",
+    318
+   ],
+   [
+    "R5 ext_flg",
+    311
+   ],
+   [
+    "R6 nb, na",
+    309
+   ],
+   [
+    "R7 saturation",
+    302
+   ],
+   [
+    "R8 var_flg",
+    301
+   ],
+   [
+    "R9 ph_qual",
+    301
+   ],
+   [
+    "R10 rchi2",
+    301
+   ],
+   [
+    "R11 2MASS",
+    300
+   ],
+   [
+    "R12 proper motion",
+    282
+   ],
+   [
+    "R13 isolation",
+    278
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "73 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "205 / 5"
+   ]
+  ],
+  "bat0615": [
+   [
+    "AllWISE sources in field query",
+    11404
+   ],
+   [
+    "R1 field",
+    11246
+   ],
+   [
+    "R2 W1 range",
+    333
+   ],
+   [
+    "R3 W1-W2 colour",
+    323
+   ],
+   [
+    "R4 cc_flags",
+    307
+   ],
+   [
+    "R5 ext_flg",
+    288
+   ],
+   [
+    "R6 nb, na",
+    282
+   ],
+   [
+    "R7 saturation",
+    274
+   ],
+   [
+    "R8 var_flg",
+    273
+   ],
+   [
+    "R9 ph_qual",
+    273
+   ],
+   [
+    "R10 rchi2",
+    273
+   ],
+   [
+    "R11 2MASS",
+    273
+   ],
+   [
+    "R12 proper motion",
+    258
+   ],
+   [
+    "R13 isolation",
+    253
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "83 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "170 / 5"
+   ]
+  ],
+  "bat0628": [
+   [
+    "AllWISE sources in field query",
+    10312
+   ],
+   [
+    "R1 field",
+    10193
+   ],
+   [
+    "R2 W1 range",
+    345
+   ],
+   [
+    "R3 W1-W2 colour",
+    332
+   ],
+   [
+    "R4 cc_flags",
+    321
+   ],
+   [
+    "R5 ext_flg",
+    283
+   ],
+   [
+    "R6 nb, na",
+    276
+   ],
+   [
+    "R7 saturation",
+    274
+   ],
+   [
+    "R8 var_flg",
+    274
+   ],
+   [
+    "R9 ph_qual",
+    274
+   ],
+   [
+    "R10 rchi2",
+    274
+   ],
+   [
+    "R11 2MASS",
+    274
+   ],
+   [
+    "R12 proper motion",
+    244
+   ],
+   [
+    "R13 isolation",
+    237
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "64 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "173 / 5"
+   ]
+  ],
+  "bat0629": [
+   [
+    "AllWISE sources in field query",
+    20100
+   ],
+   [
+    "R1 field",
+    19849
+   ],
+   [
+    "R2 W1 range",
+    745
+   ],
+   [
+    "R3 W1-W2 colour",
+    718
+   ],
+   [
+    "R4 cc_flags",
+    615
+   ],
+   [
+    "R5 ext_flg",
+    483
+   ],
+   [
+    "R6 nb, na",
+    474
+   ],
+   [
+    "R7 saturation",
+    453
+   ],
+   [
+    "R8 var_flg",
+    453
+   ],
+   [
+    "R9 ph_qual",
+    453
+   ],
+   [
+    "R10 rchi2",
+    453
+   ],
+   [
+    "R11 2MASS",
+    453
+   ],
+   [
+    "R12 proper motion",
+    448
+   ],
+   [
+    "R13 isolation",
+    435
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "131 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "304 / 5"
+   ]
+  ],
+  "bat0630": [
+   [
+    "AllWISE sources in field query",
+    15331
+   ],
+   [
+    "R1 field",
+    15139
+   ],
+   [
+    "R2 W1 range",
+    505
+   ],
+   [
+    "R3 W1-W2 colour",
+    491
+   ],
+   [
+    "R4 cc_flags",
+    455
+   ],
+   [
+    "R5 ext_flg",
+    396
+   ],
+   [
+    "R6 nb, na",
+    388
+   ],
+   [
+    "R7 saturation",
+    372
+   ],
+   [
+    "R8 var_flg",
+    369
+   ],
+   [
+    "R9 ph_qual",
+    369
+   ],
+   [
+    "R10 rchi2",
+    369
+   ],
+   [
+    "R11 2MASS",
+    369
+   ],
+   [
+    "R12 proper motion",
+    361
+   ],
+   [
+    "R13 isolation",
+    354
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "105 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "249 / 5"
+   ]
+  ],
+  "bat0631": [
+   [
+    "AllWISE sources in field query",
+    12278
+   ],
+   [
+    "R1 field",
+    12106
+   ],
+   [
+    "R2 W1 range",
+    422
+   ],
+   [
+    "R3 W1-W2 colour",
+    413
+   ],
+   [
+    "R4 cc_flags",
+    395
+   ],
+   [
+    "R5 ext_flg",
+    376
+   ],
+   [
+    "R6 nb, na",
+    372
+   ],
+   [
+    "R7 saturation",
+    363
+   ],
+   [
+    "R8 var_flg",
+    362
+   ],
+   [
+    "R9 ph_qual",
+    362
+   ],
+   [
+    "R10 rchi2",
+    362
+   ],
+   [
+    "R11 2MASS",
+    358
+   ],
+   [
+    "R12 proper motion",
+    338
+   ],
+   [
+    "R13 isolation",
+    330
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "112 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "218 / 5"
+   ]
+  ],
+  "bat0638": [
+   [
+    "AllWISE sources in field query",
+    9392
+   ],
+   [
+    "R1 field",
+    9270
+   ],
+   [
+    "R2 W1 range",
+    344
+   ],
+   [
+    "R3 W1-W2 colour",
+    336
+   ],
+   [
+    "R4 cc_flags",
+    315
+   ],
+   [
+    "R5 ext_flg",
+    293
+   ],
+   [
+    "R6 nb, na",
+    282
+   ],
+   [
+    "R7 saturation",
+    275
+   ],
+   [
+    "R8 var_flg",
+    275
+   ],
+   [
+    "R9 ph_qual",
+    275
+   ],
+   [
+    "R10 rchi2",
+    275
+   ],
+   [
+    "R11 2MASS",
+    275
+   ],
+   [
+    "R12 proper motion",
+    265
+   ],
+   [
+    "R13 isolation",
+    258
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "75 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "183 / 5"
+   ]
+  ],
+  "bat0641": [
+   [
+    "AllWISE sources in field query",
+    14443
+   ],
+   [
+    "R1 field",
+    14269
+   ],
+   [
+    "R2 W1 range",
+    526
+   ],
+   [
+    "R3 W1-W2 colour",
+    508
+   ],
+   [
+    "R4 cc_flags",
+    474
+   ],
+   [
+    "R5 ext_flg",
+    400
+   ],
+   [
+    "R6 nb, na",
+    396
+   ],
+   [
+    "R7 saturation",
+    388
+   ],
+   [
+    "R8 var_flg",
+    387
+   ],
+   [
+    "R9 ph_qual",
+    387
+   ],
+   [
+    "R10 rchi2",
+    387
+   ],
+   [
+    "R11 2MASS",
+    387
+   ],
+   [
+    "R12 proper motion",
+    380
+   ],
+   [
+    "R13 isolation",
+    373
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "105 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "268 / 5"
+   ]
+  ],
+  "bat0653": [
+   [
+    "AllWISE sources in field query",
+    13085
+   ],
+   [
+    "R1 field",
+    12923
+   ],
+   [
+    "R2 W1 range",
+    385
+   ],
+   [
+    "R3 W1-W2 colour",
+    376
+   ],
+   [
+    "R4 cc_flags",
+    354
+   ],
+   [
+    "R5 ext_flg",
+    333
+   ],
+   [
+    "R6 nb, na",
+    329
+   ],
+   [
+    "R7 saturation",
+    318
+   ],
+   [
+    "R8 var_flg",
+    317
+   ],
+   [
+    "R9 ph_qual",
+    317
+   ],
+   [
+    "R10 rchi2",
+    317
+   ],
+   [
+    "R11 2MASS",
+    315
+   ],
+   [
+    "R12 proper motion",
+    304
+   ],
+   [
+    "R13 isolation",
+    295
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "97 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "198 / 5"
+   ]
+  ],
+  "bat0654": [
+   [
+    "AllWISE sources in field query",
+    13402
+   ],
+   [
+    "R1 field",
+    13226
+   ],
+   [
+    "R2 W1 range",
+    440
+   ],
+   [
+    "R3 W1-W2 colour",
+    428
+   ],
+   [
+    "R4 cc_flags",
+    407
+   ],
+   [
+    "R5 ext_flg",
+    390
+   ],
+   [
+    "R6 nb, na",
+    386
+   ],
+   [
+    "R7 saturation",
+    374
+   ],
+   [
+    "R8 var_flg",
+    372
+   ],
+   [
+    "R9 ph_qual",
+    371
+   ],
+   [
+    "R10 rchi2",
+    371
+   ],
+   [
+    "R11 2MASS",
+    370
+   ],
+   [
+    "R12 proper motion",
+    364
+   ],
+   [
+    "R13 isolation",
+    356
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "119 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "237 / 5"
+   ]
+  ],
+  "bat0659": [
+   [
+    "AllWISE sources in field query",
+    10347
+   ],
+   [
+    "R1 field",
+    10242
+   ],
+   [
+    "R2 W1 range",
+    346
+   ],
+   [
+    "R3 W1-W2 colour",
+    334
+   ],
+   [
+    "R4 cc_flags",
+    316
+   ],
+   [
+    "R5 ext_flg",
+    306
+   ],
+   [
+    "R6 nb, na",
+    303
+   ],
+   [
+    "R7 saturation",
+    291
+   ],
+   [
+    "R8 var_flg",
+    290
+   ],
+   [
+    "R9 ph_qual",
+    290
+   ],
+   [
+    "R10 rchi2",
+    290
+   ],
+   [
+    "R11 2MASS",
+    289
+   ],
+   [
+    "R12 proper motion",
+    280
+   ],
+   [
+    "R13 isolation",
+    271
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "79 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "192 / 5"
+   ]
+  ],
+  "bat0663": [
+   [
+    "AllWISE sources in field query",
+    13919
+   ],
+   [
+    "R1 field",
+    13761
+   ],
+   [
+    "R2 W1 range",
+    460
+   ],
+   [
+    "R3 W1-W2 colour",
+    449
+   ],
+   [
+    "R4 cc_flags",
+    407
+   ],
+   [
+    "R5 ext_flg",
+    388
+   ],
+   [
+    "R6 nb, na",
+    378
+   ],
+   [
+    "R7 saturation",
+    366
+   ],
+   [
+    "R8 var_flg",
+    365
+   ],
+   [
+    "R9 ph_qual",
+    365
+   ],
+   [
+    "R10 rchi2",
+    365
+   ],
+   [
+    "R11 2MASS",
+    365
+   ],
+   [
+    "R12 proper motion",
+    362
+   ],
+   [
+    "R13 isolation",
+    356
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "120 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "236 / 5"
+   ]
+  ],
+  "bat0666": [
+   [
+    "AllWISE sources in field query",
+    10205
+   ],
+   [
+    "R1 field",
+    10066
+   ],
+   [
+    "R2 W1 range",
+    367
+   ],
+   [
+    "R3 W1-W2 colour",
+    354
+   ],
+   [
+    "R4 cc_flags",
+    321
+   ],
+   [
+    "R5 ext_flg",
+    303
+   ],
+   [
+    "R6 nb, na",
+    301
+   ],
+   [
+    "R7 saturation",
+    291
+   ],
+   [
+    "R8 var_flg",
+    289
+   ],
+   [
+    "R9 ph_qual",
+    289
+   ],
+   [
+    "R10 rchi2",
+    289
+   ],
+   [
+    "R11 2MASS",
+    289
+   ],
+   [
+    "R12 proper motion",
+    271
+   ],
+   [
+    "R13 isolation",
+    265
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "78 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "187 / 5"
+   ]
+  ],
+  "bat0669": [
+   [
+    "AllWISE sources in field query",
+    9891
+   ],
+   [
+    "R1 field",
+    9787
+   ],
+   [
+    "R2 W1 range",
+    310
+   ],
+   [
+    "R3 W1-W2 colour",
+    301
+   ],
+   [
+    "R4 cc_flags",
+    280
+   ],
+   [
+    "R5 ext_flg",
+    275
+   ],
+   [
+    "R6 nb, na",
+    273
+   ],
+   [
+    "R7 saturation",
+    264
+   ],
+   [
+    "R8 var_flg",
+    263
+   ],
+   [
+    "R9 ph_qual",
+    263
+   ],
+   [
+    "R10 rchi2",
+    263
+   ],
+   [
+    "R11 2MASS",
+    263
+   ],
+   [
+    "R12 proper motion",
+    259
+   ],
+   [
+    "R13 isolation",
+    251
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "74 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "177 / 5"
+   ]
+  ],
+  "bat0674": [
+   [
+    "AllWISE sources in field query",
+    20870
+   ],
+   [
+    "R1 field",
+    20605
+   ],
+   [
+    "R2 W1 range",
+    780
+   ],
+   [
+    "R3 W1-W2 colour",
+    765
+   ],
+   [
+    "R4 cc_flags",
+    706
+   ],
+   [
+    "R5 ext_flg",
+    538
+   ],
+   [
+    "R6 nb, na",
+    529
+   ],
+   [
+    "R7 saturation",
+    503
+   ],
+   [
+    "R8 var_flg",
+    499
+   ],
+   [
+    "R9 ph_qual",
+    499
+   ],
+   [
+    "R10 rchi2",
+    499
+   ],
+   [
+    "R11 2MASS",
+    497
+   ],
+   [
+    "R12 proper motion",
+    494
+   ],
+   [
+    "R13 isolation",
+    466
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "128 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "338 / 5"
+   ]
+  ],
+  "bat0678": [
+   [
+    "AllWISE sources in field query",
+    19828
+   ],
+   [
+    "R1 field",
+    19565
+   ],
+   [
+    "R2 W1 range",
+    793
+   ],
+   [
+    "R3 W1-W2 colour",
+    676
+   ],
+   [
+    "R4 cc_flags",
+    553
+   ],
+   [
+    "R5 ext_flg",
+    430
+   ],
+   [
+    "R6 nb, na",
+    416
+   ],
+   [
+    "R7 saturation",
+    406
+   ],
+   [
+    "R8 var_flg",
+    402
+   ],
+   [
+    "R9 ph_qual",
+    402
+   ],
+   [
+    "R10 rchi2",
+    402
+   ],
+   [
+    "R11 2MASS",
+    401
+   ],
+   [
+    "R12 proper motion",
+    400
+   ],
+   [
+    "R13 isolation",
+    383
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "107 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "276 / 5"
+   ]
+  ],
+  "bat0679": [
+   [
+    "AllWISE sources in field query",
+    11404
+   ],
+   [
+    "R1 field",
+    11296
+   ],
+   [
+    "R2 W1 range",
+    389
+   ],
+   [
+    "R3 W1-W2 colour",
+    381
+   ],
+   [
+    "R4 cc_flags",
+    373
+   ],
+   [
+    "R5 ext_flg",
+    357
+   ],
+   [
+    "R6 nb, na",
+    353
+   ],
+   [
+    "R7 saturation",
+    343
+   ],
+   [
+    "R8 var_flg",
+    343
+   ],
+   [
+    "R9 ph_qual",
+    343
+   ],
+   [
+    "R10 rchi2",
+    343
+   ],
+   [
+    "R11 2MASS",
+    339
+   ],
+   [
+    "R12 proper motion",
+    337
+   ],
+   [
+    "R13 isolation",
+    327
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "106 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "221 / 5"
+   ]
+  ],
+  "bat0682": [
+   [
+    "AllWISE sources in field query",
+    11564
+   ],
+   [
+    "R1 field",
+    11433
+   ],
+   [
+    "R2 W1 range",
+    397
+   ],
+   [
+    "R3 W1-W2 colour",
+    386
+   ],
+   [
+    "R4 cc_flags",
+    375
+   ],
+   [
+    "R5 ext_flg",
+    357
+   ],
+   [
+    "R6 nb, na",
+    352
+   ],
+   [
+    "R7 saturation",
+    341
+   ],
+   [
+    "R8 var_flg",
+    340
+   ],
+   [
+    "R9 ph_qual",
+    340
+   ],
+   [
+    "R10 rchi2",
+    340
+   ],
+   [
+    "R11 2MASS",
+    338
+   ],
+   [
+    "R12 proper motion",
+    336
+   ],
+   [
+    "R13 isolation",
+    326
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "91 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "235 / 5"
+   ]
+  ],
+  "bat0684": [
+   [
+    "AllWISE sources in field query",
+    11426
+   ],
+   [
+    "R1 field",
+    11261
+   ],
+   [
+    "R2 W1 range",
+    442
+   ],
+   [
+    "R3 W1-W2 colour",
+    431
+   ],
+   [
+    "R4 cc_flags",
+    397
+   ],
+   [
+    "R5 ext_flg",
+    369
+   ],
+   [
+    "R6 nb, na",
+    362
+   ],
+   [
+    "R7 saturation",
+    348
+   ],
+   [
+    "R8 var_flg",
+    345
+   ],
+   [
+    "R9 ph_qual",
+    345
+   ],
+   [
+    "R10 rchi2",
+    345
+   ],
+   [
+    "R11 2MASS",
+    345
+   ],
+   [
+    "R12 proper motion",
+    340
+   ],
+   [
+    "R13 isolation",
+    336
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "118 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "218 / 5"
+   ]
+  ],
+  "bat0685": [
+   [
+    "AllWISE sources in field query",
+    9984
+   ],
+   [
+    "R1 field",
+    9869
+   ],
+   [
+    "R2 W1 range",
+    371
+   ],
+   [
+    "R3 W1-W2 colour",
+    362
+   ],
+   [
+    "R4 cc_flags",
+    351
+   ],
+   [
+    "R5 ext_flg",
+    335
+   ],
+   [
+    "R6 nb, na",
+    330
+   ],
+   [
+    "R7 saturation",
+    317
+   ],
+   [
+    "R8 var_flg",
+    317
+   ],
+   [
+    "R9 ph_qual",
+    317
+   ],
+   [
+    "R10 rchi2",
+    317
+   ],
+   [
+    "R11 2MASS",
+    317
+   ],
+   [
+    "R12 proper motion",
+    298
+   ],
+   [
+    "R13 isolation",
+    288
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "98 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "190 / 5"
+   ]
+  ],
+  "bat0686": [
+   [
+    "AllWISE sources in field query",
+    9551
+   ],
+   [
+    "R1 field",
+    9425
+   ],
+   [
+    "R2 W1 range",
+    362
+   ],
+   [
+    "R3 W1-W2 colour",
+    350
+   ],
+   [
+    "R4 cc_flags",
+    322
+   ],
+   [
+    "R5 ext_flg",
+    308
+   ],
+   [
+    "R6 nb, na",
+    297
+   ],
+   [
+    "R7 saturation",
+    285
+   ],
+   [
+    "R8 var_flg",
+    285
+   ],
+   [
+    "R9 ph_qual",
+    285
+   ],
+   [
+    "R10 rchi2",
+    285
+   ],
+   [
+    "R11 2MASS",
+    283
+   ],
+   [
+    "R12 proper motion",
+    276
+   ],
+   [
+    "R13 isolation",
+    274
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "90 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "184 / 5"
+   ]
+  ],
+  "bat0687": [
+   [
+    "AllWISE sources in field query",
+    10246
+   ],
+   [
+    "R1 field",
+    10136
+   ],
+   [
+    "R2 W1 range",
+    342
+   ],
+   [
+    "R3 W1-W2 colour",
+    333
+   ],
+   [
+    "R4 cc_flags",
+    311
+   ],
+   [
+    "R5 ext_flg",
+    303
+   ],
+   [
+    "R6 nb, na",
+    300
+   ],
+   [
+    "R7 saturation",
+    285
+   ],
+   [
+    "R8 var_flg",
+    284
+   ],
+   [
+    "R9 ph_qual",
+    284
+   ],
+   [
+    "R10 rchi2",
+    284
+   ],
+   [
+    "R11 2MASS",
+    284
+   ],
+   [
+    "R12 proper motion",
+    282
+   ],
+   [
+    "R13 isolation",
+    275
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "105 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "170 / 5"
+   ]
+  ],
+  "bat0688": [
+   [
+    "AllWISE sources in field query",
+    9672
+   ],
+   [
+    "R1 field",
+    9550
+   ],
+   [
+    "R2 W1 range",
+    368
+   ],
+   [
+    "R3 W1-W2 colour",
+    356
+   ],
+   [
+    "R4 cc_flags",
+    328
+   ],
+   [
+    "R5 ext_flg",
+    321
+   ],
+   [
+    "R6 nb, na",
+    317
+   ],
+   [
+    "R7 saturation",
+    307
+   ],
+   [
+    "R8 var_flg",
+    304
+   ],
+   [
+    "R9 ph_qual",
+    304
+   ],
+   [
+    "R10 rchi2",
+    304
+   ],
+   [
+    "R11 2MASS",
+    304
+   ],
+   [
+    "R12 proper motion",
+    290
+   ],
+   [
+    "R13 isolation",
+    288
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "86 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "202 / 5"
+   ]
+  ],
+  "bat0695": [
+   [
+    "AllWISE sources in field query",
+    12096
+   ],
+   [
+    "R1 field",
+    11949
+   ],
+   [
+    "R2 W1 range",
+    440
+   ],
+   [
+    "R3 W1-W2 colour",
+    425
+   ],
+   [
+    "R4 cc_flags",
+    408
+   ],
+   [
+    "R5 ext_flg",
+    395
+   ],
+   [
+    "R6 nb, na",
+    389
+   ],
+   [
+    "R7 saturation",
+    379
+   ],
+   [
+    "R8 var_flg",
+    379
+   ],
+   [
+    "R9 ph_qual",
+    379
+   ],
+   [
+    "R10 rchi2",
+    379
+   ],
+   [
+    "R11 2MASS",
+    377
+   ],
+   [
+    "R12 proper motion",
+    374
+   ],
+   [
+    "R13 isolation",
+    363
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "103 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "260 / 5"
+   ]
+  ],
+  "bat0696": [
+   [
+    "AllWISE sources in field query",
+    17067
+   ],
+   [
+    "R1 field",
+    16873
+   ],
+   [
+    "R2 W1 range",
+    643
+   ],
+   [
+    "R3 W1-W2 colour",
+    626
+   ],
+   [
+    "R4 cc_flags",
+    558
+   ],
+   [
+    "R5 ext_flg",
+    467
+   ],
+   [
+    "R6 nb, na",
+    452
+   ],
+   [
+    "R7 saturation",
+    433
+   ],
+   [
+    "R8 var_flg",
+    432
+   ],
+   [
+    "R9 ph_qual",
+    431
+   ],
+   [
+    "R10 rchi2",
+    431
+   ],
+   [
+    "R11 2MASS",
+    430
+   ],
+   [
+    "R12 proper motion",
+    426
+   ],
+   [
+    "R13 isolation",
+    413
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "125 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "288 / 5"
+   ]
+  ],
+  "bat0697": [
+   [
+    "AllWISE sources in field query",
+    12149
+   ],
+   [
+    "R1 field",
+    11998
+   ],
+   [
+    "R2 W1 range",
+    455
+   ],
+   [
+    "R3 W1-W2 colour",
+    439
+   ],
+   [
+    "R4 cc_flags",
+    381
+   ],
+   [
+    "R5 ext_flg",
+    355
+   ],
+   [
+    "R6 nb, na",
+    352
+   ],
+   [
+    "R7 saturation",
+    336
+   ],
+   [
+    "R8 var_flg",
+    334
+   ],
+   [
+    "R9 ph_qual",
+    334
+   ],
+   [
+    "R10 rchi2",
+    334
+   ],
+   [
+    "R11 2MASS",
+    332
+   ],
+   [
+    "R12 proper motion",
+    328
+   ],
+   [
+    "R13 isolation",
+    320
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "101 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "219 / 5"
+   ]
+  ],
+  "bat0704": [
+   [
+    "AllWISE sources in field query",
+    18549
+   ],
+   [
+    "R1 field",
+    18297
+   ],
+   [
+    "R2 W1 range",
+    648
+   ],
+   [
+    "R3 W1-W2 colour",
+    637
+   ],
+   [
+    "R4 cc_flags",
+    596
+   ],
+   [
+    "R5 ext_flg",
+    489
+   ],
+   [
+    "R6 nb, na",
+    478
+   ],
+   [
+    "R7 saturation",
+    457
+   ],
+   [
+    "R8 var_flg",
+    456
+   ],
+   [
+    "R9 ph_qual",
+    456
+   ],
+   [
+    "R10 rchi2",
+    456
+   ],
+   [
+    "R11 2MASS",
+    454
+   ],
+   [
+    "R12 proper motion",
+    450
+   ],
+   [
+    "R13 isolation",
+    434
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "128 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "306 / 5"
+   ]
+  ],
+  "bat0707": [
+   [
+    "AllWISE sources in field query",
+    29053
+   ],
+   [
+    "R1 field",
+    28683
+   ],
+   [
+    "R2 W1 range",
+    979
+   ],
+   [
+    "R3 W1-W2 colour",
+    959
+   ],
+   [
+    "R4 cc_flags",
+    840
+   ],
+   [
+    "R5 ext_flg",
+    693
+   ],
+   [
+    "R6 nb, na",
+    672
+   ],
+   [
+    "R7 saturation",
+    644
+   ],
+   [
+    "R8 var_flg",
+    640
+   ],
+   [
+    "R9 ph_qual",
+    640
+   ],
+   [
+    "R10 rchi2",
+    640
+   ],
+   [
+    "R11 2MASS",
+    640
+   ],
+   [
+    "R12 proper motion",
+    634
+   ],
+   [
+    "R13 isolation",
+    606
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "186 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "420 / 5"
+   ]
+  ],
+  "bat0719": [
+   [
+    "AllWISE sources in field query",
+    26396
+   ],
+   [
+    "R1 field",
+    26079
+   ],
+   [
+    "R2 W1 range",
+    903
+   ],
+   [
+    "R3 W1-W2 colour",
+    880
+   ],
+   [
+    "R4 cc_flags",
+    796
+   ],
+   [
+    "R5 ext_flg",
+    603
+   ],
+   [
+    "R6 nb, na",
+    580
+   ],
+   [
+    "R7 saturation",
+    562
+   ],
+   [
+    "R8 var_flg",
+    560
+   ],
+   [
+    "R9 ph_qual",
+    560
+   ],
+   [
+    "R10 rchi2",
+    560
+   ],
+   [
+    "R11 2MASS",
+    559
+   ],
+   [
+    "R12 proper motion",
+    544
+   ],
+   [
+    "R13 isolation",
+    516
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "162 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "354 / 5"
+   ]
+  ],
+  "bat0723": [
+   [
+    "AllWISE sources in field query",
+    11211
+   ],
+   [
+    "R1 field",
+    11079
+   ],
+   [
+    "R2 W1 range",
+    407
+   ],
+   [
+    "R3 W1-W2 colour",
+    352
+   ],
+   [
+    "R4 cc_flags",
+    305
+   ],
+   [
+    "R5 ext_flg",
+    295
+   ],
+   [
+    "R6 nb, na",
+    293
+   ],
+   [
+    "R7 saturation",
+    282
+   ],
+   [
+    "R8 var_flg",
+    281
+   ],
+   [
+    "R9 ph_qual",
+    281
+   ],
+   [
+    "R10 rchi2",
+    281
+   ],
+   [
+    "R11 2MASS",
+    280
+   ],
+   [
+    "R12 proper motion",
+    277
+   ],
+   [
+    "R13 isolation",
+    271
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "88 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "183 / 5"
+   ]
+  ],
+  "bat0733": [
+   [
+    "AllWISE sources in field query",
+    13613
+   ],
+   [
+    "R1 field",
+    13443
+   ],
+   [
+    "R2 W1 range",
+    472
+   ],
+   [
+    "R3 W1-W2 colour",
+    463
+   ],
+   [
+    "R4 cc_flags",
+    415
+   ],
+   [
+    "R5 ext_flg",
+    404
+   ],
+   [
+    "R6 nb, na",
+    396
+   ],
+   [
+    "R7 saturation",
+    389
+   ],
+   [
+    "R8 var_flg",
+    389
+   ],
+   [
+    "R9 ph_qual",
+    389
+   ],
+   [
+    "R10 rchi2",
+    389
+   ],
+   [
+    "R11 2MASS",
+    388
+   ],
+   [
+    "R12 proper motion",
+    382
+   ],
+   [
+    "R13 isolation",
+    367
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "108 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "259 / 5"
+   ]
+  ],
+  "bat0734": [
+   [
+    "AllWISE sources in field query",
+    11198
+   ],
+   [
+    "R1 field",
+    11062
+   ],
+   [
+    "R2 W1 range",
+    405
+   ],
+   [
+    "R3 W1-W2 colour",
+    397
+   ],
+   [
+    "R4 cc_flags",
+    367
+   ],
+   [
+    "R5 ext_flg",
+    356
+   ],
+   [
+    "R6 nb, na",
+    346
+   ],
+   [
+    "R7 saturation",
+    336
+   ],
+   [
+    "R8 var_flg",
+    336
+   ],
+   [
+    "R9 ph_qual",
+    336
+   ],
+   [
+    "R10 rchi2",
+    336
+   ],
+   [
+    "R11 2MASS",
+    336
+   ],
+   [
+    "R12 proper motion",
+    320
+   ],
+   [
+    "R13 isolation",
+    310
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "97 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "213 / 5"
+   ]
+  ],
+  "bat0735": [
+   [
+    "AllWISE sources in field query",
+    11918
+   ],
+   [
+    "R1 field",
+    11758
+   ],
+   [
+    "R2 W1 range",
+    402
+   ],
+   [
+    "R3 W1-W2 colour",
+    391
+   ],
+   [
+    "R4 cc_flags",
+    363
+   ],
+   [
+    "R5 ext_flg",
+    354
+   ],
+   [
+    "R6 nb, na",
+    350
+   ],
+   [
+    "R7 saturation",
+    332
+   ],
+   [
+    "R8 var_flg",
+    332
+   ],
+   [
+    "R9 ph_qual",
+    332
+   ],
+   [
+    "R10 rchi2",
+    332
+   ],
+   [
+    "R11 2MASS",
+    331
+   ],
+   [
+    "R12 proper motion",
+    321
+   ],
+   [
+    "R13 isolation",
+    307
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "98 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "209 / 5"
+   ]
+  ],
+  "bat0739": [
+   [
+    "AllWISE sources in field query",
+    21231
+   ],
+   [
+    "R1 field",
+    20973
+   ],
+   [
+    "R2 W1 range",
+    793
+   ],
+   [
+    "R3 W1-W2 colour",
+    784
+   ],
+   [
+    "R4 cc_flags",
+    736
+   ],
+   [
+    "R5 ext_flg",
+    660
+   ],
+   [
+    "R6 nb, na",
+    643
+   ],
+   [
+    "R7 saturation",
+    636
+   ],
+   [
+    "R8 var_flg",
+    636
+   ],
+   [
+    "R9 ph_qual",
+    636
+   ],
+   [
+    "R10 rchi2",
+    636
+   ],
+   [
+    "R11 2MASS",
+    635
+   ],
+   [
+    "R12 proper motion",
+    607
+   ],
+   [
+    "R13 isolation",
+    593
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "207 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "386 / 5"
+   ]
+  ],
+  "bat0753": [
+   [
+    "AllWISE sources in field query",
+    13950
+   ],
+   [
+    "R1 field",
+    13800
+   ],
+   [
+    "R2 W1 range",
+    451
+   ],
+   [
+    "R3 W1-W2 colour",
+    442
+   ],
+   [
+    "R4 cc_flags",
+    410
+   ],
+   [
+    "R5 ext_flg",
+    398
+   ],
+   [
+    "R6 nb, na",
+    388
+   ],
+   [
+    "R7 saturation",
+    382
+   ],
+   [
+    "R8 var_flg",
+    380
+   ],
+   [
+    "R9 ph_qual",
+    380
+   ],
+   [
+    "R10 rchi2",
+    380
+   ],
+   [
+    "R11 2MASS",
+    378
+   ],
+   [
+    "R12 proper motion",
+    374
+   ],
+   [
+    "R13 isolation",
+    361
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "122 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "239 / 5"
+   ]
+  ],
+  "bat0754": [
+   [
+    "AllWISE sources in field query",
+    15529
+   ],
+   [
+    "R1 field",
+    15342
+   ],
+   [
+    "R2 W1 range",
+    515
+   ],
+   [
+    "R3 W1-W2 colour",
+    505
+   ],
+   [
+    "R4 cc_flags",
+    467
+   ],
+   [
+    "R5 ext_flg",
+    453
+   ],
+   [
+    "R6 nb, na",
+    439
+   ],
+   [
+    "R7 saturation",
+    439
+   ],
+   [
+    "R8 var_flg",
+    438
+   ],
+   [
+    "R9 ph_qual",
+    438
+   ],
+   [
+    "R10 rchi2",
+    438
+   ],
+   [
+    "R11 2MASS",
+    436
+   ],
+   [
+    "R12 proper motion",
+    416
+   ],
+   [
+    "R13 isolation",
+    398
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "135 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "263 / 5"
+   ]
+  ],
+  "bat0766": [
+   [
+    "AllWISE sources in field query",
+    12203
+   ],
+   [
+    "R1 field",
+    12047
+   ],
+   [
+    "R2 W1 range",
+    385
+   ],
+   [
+    "R3 W1-W2 colour",
+    374
+   ],
+   [
+    "R4 cc_flags",
+    328
+   ],
+   [
+    "R5 ext_flg",
+    318
+   ],
+   [
+    "R6 nb, na",
+    316
+   ],
+   [
+    "R7 saturation",
+    305
+   ],
+   [
+    "R8 var_flg",
+    305
+   ],
+   [
+    "R9 ph_qual",
+    305
+   ],
+   [
+    "R10 rchi2",
+    305
+   ],
+   [
+    "R11 2MASS",
+    305
+   ],
+   [
+    "R12 proper motion",
+    303
+   ],
+   [
+    "R13 isolation",
+    294
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "89 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "205 / 5"
+   ]
+  ],
+  "bat0772": [
+   [
+    "AllWISE sources in field query",
+    22485
+   ],
+   [
+    "R1 field",
+    22217
+   ],
+   [
+    "R2 W1 range",
+    765
+   ],
+   [
+    "R3 W1-W2 colour",
+    752
+   ],
+   [
+    "R4 cc_flags",
+    683
+   ],
+   [
+    "R5 ext_flg",
+    655
+   ],
+   [
+    "R6 nb, na",
+    640
+   ],
+   [
+    "R7 saturation",
+    540
+   ],
+   [
+    "R8 var_flg",
+    539
+   ],
+   [
+    "R9 ph_qual",
+    539
+   ],
+   [
+    "R10 rchi2",
+    539
+   ],
+   [
+    "R11 2MASS",
+    538
+   ],
+   [
+    "R12 proper motion",
+    527
+   ],
+   [
+    "R13 isolation",
+    506
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "184 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "322 / 5"
+   ]
+  ],
+  "bat0774": [
+   [
+    "AllWISE sources in field query",
+    12061
+   ],
+   [
+    "R1 field",
+    11912
+   ],
+   [
+    "R2 W1 range",
+    464
+   ],
+   [
+    "R3 W1-W2 colour",
+    454
+   ],
+   [
+    "R4 cc_flags",
+    409
+   ],
+   [
+    "R5 ext_flg",
+    394
+   ],
+   [
+    "R6 nb, na",
+    389
+   ],
+   [
+    "R7 saturation",
+    361
+   ],
+   [
+    "R8 var_flg",
+    360
+   ],
+   [
+    "R9 ph_qual",
+    360
+   ],
+   [
+    "R10 rchi2",
+    360
+   ],
+   [
+    "R11 2MASS",
+    359
+   ],
+   [
+    "R12 proper motion",
+    354
+   ],
+   [
+    "R13 isolation",
+    341
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "94 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "247 / 5"
+   ]
+  ],
+  "bat0778": [
+   [
+    "AllWISE sources in field query",
+    13948
+   ],
+   [
+    "R1 field",
+    13788
+   ],
+   [
+    "R2 W1 range",
+    540
+   ],
+   [
+    "R3 W1-W2 colour",
+    527
+   ],
+   [
+    "R4 cc_flags",
+    461
+   ],
+   [
+    "R5 ext_flg",
+    395
+   ],
+   [
+    "R6 nb, na",
+    386
+   ],
+   [
+    "R7 saturation",
+    371
+   ],
+   [
+    "R8 var_flg",
+    371
+   ],
+   [
+    "R9 ph_qual",
+    371
+   ],
+   [
+    "R10 rchi2",
+    371
+   ],
+   [
+    "R11 2MASS",
+    371
+   ],
+   [
+    "R12 proper motion",
+    361
+   ],
+   [
+    "R13 isolation",
+    356
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "106 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "250 / 5"
+   ]
+  ],
+  "bat0804": [
+   [
+    "AllWISE sources in field query",
+    18071
+   ],
+   [
+    "R1 field",
+    17832
+   ],
+   [
+    "R2 W1 range",
+    683
+   ],
+   [
+    "R3 W1-W2 colour",
+    672
+   ],
+   [
+    "R4 cc_flags",
+    562
+   ],
+   [
+    "R5 ext_flg",
+    529
+   ],
+   [
+    "R6 nb, na",
+    521
+   ],
+   [
+    "R7 saturation",
+    480
+   ],
+   [
+    "R8 var_flg",
+    478
+   ],
+   [
+    "R9 ph_qual",
+    478
+   ],
+   [
+    "R10 rchi2",
+    478
+   ],
+   [
+    "R11 2MASS",
+    477
+   ],
+   [
+    "R12 proper motion",
+    473
+   ],
+   [
+    "R13 isolation",
+    465
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "129 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "336 / 5"
+   ]
+  ],
+  "bat0816": [
+   [
+    "AllWISE sources in field query",
+    16206
+   ],
+   [
+    "R1 field",
+    16013
+   ],
+   [
+    "R2 W1 range",
+    612
+   ],
+   [
+    "R3 W1-W2 colour",
+    577
+   ],
+   [
+    "R4 cc_flags",
+    513
+   ],
+   [
+    "R5 ext_flg",
+    486
+   ],
+   [
+    "R6 nb, na",
+    475
+   ],
+   [
+    "R7 saturation",
+    232
+   ],
+   [
+    "R8 var_flg",
+    232
+   ],
+   [
+    "R9 ph_qual",
+    232
+   ],
+   [
+    "R10 rchi2",
+    232
+   ],
+   [
+    "R11 2MASS",
+    232
+   ],
+   [
+    "R12 proper motion",
+    222
+   ],
+   [
+    "R13 isolation",
+    209
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "77 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "132 / 5"
+   ]
+  ],
+  "bat0836": [
+   [
+    "AllWISE sources in field query",
+    31567
+   ],
+   [
+    "R1 field",
+    31184
+   ],
+   [
+    "R2 W1 range",
+    1099
+   ],
+   [
+    "R3 W1-W2 colour",
+    1084
+   ],
+   [
+    "R4 cc_flags",
+    972
+   ],
+   [
+    "R5 ext_flg",
+    960
+   ],
+   [
+    "R6 nb, na",
+    933
+   ],
+   [
+    "R7 saturation",
+    907
+   ],
+   [
+    "R8 var_flg",
+    903
+   ],
+   [
+    "R9 ph_qual",
+    903
+   ],
+   [
+    "R10 rchi2",
+    903
+   ],
+   [
+    "R11 2MASS",
+    901
+   ],
+   [
+    "R12 proper motion",
+    863
+   ],
+   [
+    "R13 isolation",
+    825
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "279 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "546 / 5"
+   ]
+  ],
+  "bat0839": [
+   [
+    "AllWISE sources in field query",
+    16184
+   ],
+   [
+    "R1 field",
+    15976
+   ],
+   [
+    "R2 W1 range",
+    646
+   ],
+   [
+    "R3 W1-W2 colour",
+    631
+   ],
+   [
+    "R4 cc_flags",
+    517
+   ],
+   [
+    "R5 ext_flg",
+    496
+   ],
+   [
+    "R6 nb, na",
+    493
+   ],
+   [
+    "R7 saturation",
+    486
+   ],
+   [
+    "R8 var_flg",
+    485
+   ],
+   [
+    "R9 ph_qual",
+    485
+   ],
+   [
+    "R10 rchi2",
+    485
+   ],
+   [
+    "R11 2MASS",
+    483
+   ],
+   [
+    "R12 proper motion",
+    478
+   ],
+   [
+    "R13 isolation",
+    473
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "153 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "320 / 5"
+   ]
+  ],
+  "bat0841": [
+   [
+    "AllWISE sources in field query",
+    35062
+   ],
+   [
+    "R1 field",
+    34663
+   ],
+   [
+    "R2 W1 range",
+    1235
+   ],
+   [
+    "R3 W1-W2 colour",
+    1225
+   ],
+   [
+    "R4 cc_flags",
+    1093
+   ],
+   [
+    "R5 ext_flg",
+    1073
+   ],
+   [
+    "R6 nb, na",
+    1041
+   ],
+   [
+    "R7 saturation",
+    1009
+   ],
+   [
+    "R8 var_flg",
+    1007
+   ],
+   [
+    "R9 ph_qual",
+    1007
+   ],
+   [
+    "R10 rchi2",
+    1007
+   ],
+   [
+    "R11 2MASS",
+    1007
+   ],
+   [
+    "R12 proper motion",
+    976
+   ],
+   [
+    "R13 isolation",
+    927
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "336 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "591 / 5"
+   ]
+  ],
+  "bat0883": [
+   [
+    "AllWISE sources in field query",
+    22732
+   ],
+   [
+    "R1 field",
+    22483
+   ],
+   [
+    "R2 W1 range",
+    797
+   ],
+   [
+    "R3 W1-W2 colour",
+    780
+   ],
+   [
+    "R4 cc_flags",
+    663
+   ],
+   [
+    "R5 ext_flg",
+    647
+   ],
+   [
+    "R6 nb, na",
+    637
+   ],
+   [
+    "R7 saturation",
+    610
+   ],
+   [
+    "R8 var_flg",
+    607
+   ],
+   [
+    "R9 ph_qual",
+    607
+   ],
+   [
+    "R10 rchi2",
+    607
+   ],
+   [
+    "R11 2MASS",
+    605
+   ],
+   [
+    "R12 proper motion",
+    593
+   ],
+   [
+    "R13 isolation",
+    570
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "198 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "372 / 5"
+   ]
+  ],
+  "bat1009": [
+   [
+    "AllWISE sources in field query",
+    35660
+   ],
+   [
+    "R1 field",
+    35154
+   ],
+   [
+    "R2 W1 range",
+    1366
+   ],
+   [
+    "R3 W1-W2 colour",
+    1351
+   ],
+   [
+    "R4 cc_flags",
+    1131
+   ],
+   [
+    "R5 ext_flg",
+    1087
+   ],
+   [
+    "R6 nb, na",
+    1059
+   ],
+   [
+    "R7 saturation",
+    1021
+   ],
+   [
+    "R8 var_flg",
+    1021
+   ],
+   [
+    "R9 ph_qual",
+    1021
+   ],
+   [
+    "R10 rchi2",
+    1021
+   ],
+   [
+    "R11 2MASS",
+    1014
+   ],
+   [
+    "R12 proper motion",
+    998
+   ],
+   [
+    "R13 isolation",
+    935
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "300 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "635 / 5"
+   ]
+  ],
+  "bat1032": [
+   [
+    "AllWISE sources in field query",
+    39497
+   ],
+   [
+    "R1 field",
+    39004
+   ],
+   [
+    "R2 W1 range",
+    1359
+   ],
+   [
+    "R3 W1-W2 colour",
+    1344
+   ],
+   [
+    "R4 cc_flags",
+    1154
+   ],
+   [
+    "R5 ext_flg",
+    1074
+   ],
+   [
+    "R6 nb, na",
+    1038
+   ],
+   [
+    "R7 saturation",
+    1011
+   ],
+   [
+    "R8 var_flg",
+    1011
+   ],
+   [
+    "R9 ph_qual",
+    1011
+   ],
+   [
+    "R10 rchi2",
+    1011
+   ],
+   [
+    "R11 2MASS",
+    1008
+   ],
+   [
+    "R12 proper motion",
+    958
+   ],
+   [
+    "R13 isolation",
+    918
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "287 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "631 / 5"
+   ]
+  ],
+  "bat1060": [
+   [
+    "AllWISE sources in field query",
+    47574
+   ],
+   [
+    "R1 field",
+    47010
+   ],
+   [
+    "R2 W1 range",
+    1679
+   ],
+   [
+    "R3 W1-W2 colour",
+    1652
+   ],
+   [
+    "R4 cc_flags",
+    1478
+   ],
+   [
+    "R5 ext_flg",
+    1266
+   ],
+   [
+    "R6 nb, na",
+    1202
+   ],
+   [
+    "R7 saturation",
+    1173
+   ],
+   [
+    "R8 var_flg",
+    1172
+   ],
+   [
+    "R9 ph_qual",
+    1171
+   ],
+   [
+    "R10 rchi2",
+    1171
+   ],
+   [
+    "R11 2MASS",
+    1156
+   ],
+   [
+    "R12 proper motion",
+    1103
+   ],
+   [
+    "R13 isolation",
+    1072
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "350 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "722 / 5"
+   ]
+  ],
+  "bat1085": [
+   [
+    "AllWISE sources in field query",
+    24993
+   ],
+   [
+    "R1 field",
+    24698
+   ],
+   [
+    "R2 W1 range",
+    889
+   ],
+   [
+    "R3 W1-W2 colour",
+    871
+   ],
+   [
+    "R4 cc_flags",
+    777
+   ],
+   [
+    "R5 ext_flg",
+    735
+   ],
+   [
+    "R6 nb, na",
+    714
+   ],
+   [
+    "R7 saturation",
+    685
+   ],
+   [
+    "R8 var_flg",
+    684
+   ],
+   [
+    "R9 ph_qual",
+    684
+   ],
+   [
+    "R10 rchi2",
+    684
+   ],
+   [
+    "R11 2MASS",
+    683
+   ],
+   [
+    "R12 proper motion",
+    651
+   ],
+   [
+    "R13 isolation",
+    632
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "209 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "423 / 5"
+   ]
+  ],
+  "bat1114": [
+   [
+    "AllWISE sources in field query",
+    17954
+   ],
+   [
+    "R1 field",
+    17759
+   ],
+   [
+    "R2 W1 range",
+    626
+   ],
+   [
+    "R3 W1-W2 colour",
+    612
+   ],
+   [
+    "R4 cc_flags",
+    574
+   ],
+   [
+    "R5 ext_flg",
+    526
+   ],
+   [
+    "R6 nb, na",
+    511
+   ],
+   [
+    "R7 saturation",
+    489
+   ],
+   [
+    "R8 var_flg",
+    487
+   ],
+   [
+    "R9 ph_qual",
+    487
+   ],
+   [
+    "R10 rchi2",
+    487
+   ],
+   [
+    "R11 2MASS",
+    483
+   ],
+   [
+    "R12 proper motion",
+    471
+   ],
+   [
+    "R13 isolation",
+    456
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "141 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "315 / 5"
+   ]
+  ],
+  "bat1127": [
+   [
+    "AllWISE sources in field query",
+    15500
+   ],
+   [
+    "R1 field",
+    15323
+   ],
+   [
+    "R2 W1 range",
+    540
+   ],
+   [
+    "R3 W1-W2 colour",
+    528
+   ],
+   [
+    "R4 cc_flags",
+    497
+   ],
+   [
+    "R5 ext_flg",
+    455
+   ],
+   [
+    "R6 nb, na",
+    438
+   ],
+   [
+    "R7 saturation",
+    428
+   ],
+   [
+    "R8 var_flg",
+    427
+   ],
+   [
+    "R9 ph_qual",
+    427
+   ],
+   [
+    "R10 rchi2",
+    427
+   ],
+   [
+    "R11 2MASS",
+    426
+   ],
+   [
+    "R12 proper motion",
+    410
+   ],
+   [
+    "R13 isolation",
+    400
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "122 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "278 / 5"
+   ]
+  ],
+  "bat1131": [
+   [
+    "AllWISE sources in field query",
+    19754
+   ],
+   [
+    "R1 field",
+    19494
+   ],
+   [
+    "R2 W1 range",
+    724
+   ],
+   [
+    "R3 W1-W2 colour",
+    708
+   ],
+   [
+    "R4 cc_flags",
+    619
+   ],
+   [
+    "R5 ext_flg",
+    564
+   ],
+   [
+    "R6 nb, na",
+    559
+   ],
+   [
+    "R7 saturation",
+    526
+   ],
+   [
+    "R8 var_flg",
+    526
+   ],
+   [
+    "R9 ph_qual",
+    526
+   ],
+   [
+    "R10 rchi2",
+    526
+   ],
+   [
+    "R11 2MASS",
+    523
+   ],
+   [
+    "R12 proper motion",
+    465
+   ],
+   [
+    "R13 isolation",
+    448
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "139 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "309 / 5"
+   ]
+  ],
+  "bat1133": [
+   [
+    "AllWISE sources in field query",
+    22323
+   ],
+   [
+    "R1 field",
+    22072
+   ],
+   [
+    "R2 W1 range",
+    812
+   ],
+   [
+    "R3 W1-W2 colour",
+    801
+   ],
+   [
+    "R4 cc_flags",
+    721
+   ],
+   [
+    "R5 ext_flg",
+    707
+   ],
+   [
+    "R6 nb, na",
+    683
+   ],
+   [
+    "R7 saturation",
+    664
+   ],
+   [
+    "R8 var_flg",
+    661
+   ],
+   [
+    "R9 ph_qual",
+    660
+   ],
+   [
+    "R10 rchi2",
+    660
+   ],
+   [
+    "R11 2MASS",
+    660
+   ],
+   [
+    "R12 proper motion",
+    637
+   ],
+   [
+    "R13 isolation",
+    615
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "196 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "419 / 5"
+   ]
+  ],
+  "bat1139": [
+   [
+    "AllWISE sources in field query",
+    20600
+   ],
+   [
+    "R1 field",
+    20334
+   ],
+   [
+    "R2 W1 range",
+    739
+   ],
+   [
+    "R3 W1-W2 colour",
+    726
+   ],
+   [
+    "R4 cc_flags",
+    667
+   ],
+   [
+    "R5 ext_flg",
+    647
+   ],
+   [
+    "R6 nb, na",
+    620
+   ],
+   [
+    "R7 saturation",
+    597
+   ],
+   [
+    "R8 var_flg",
+    594
+   ],
+   [
+    "R9 ph_qual",
+    593
+   ],
+   [
+    "R10 rchi2",
+    593
+   ],
+   [
+    "R11 2MASS",
+    593
+   ],
+   [
+    "R12 proper motion",
+    579
+   ],
+   [
+    "R13 isolation",
+    560
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "179 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "381 / 5"
+   ]
+  ],
+  "bat1141": [
+   [
+    "AllWISE sources in field query",
+    15477
+   ],
+   [
+    "R1 field",
+    15275
+   ],
+   [
+    "R2 W1 range",
+    534
+   ],
+   [
+    "R3 W1-W2 colour",
+    508
+   ],
+   [
+    "R4 cc_flags",
+    480
+   ],
+   [
+    "R5 ext_flg",
+    378
+   ],
+   [
+    "R6 nb, na",
+    370
+   ],
+   [
+    "R7 saturation",
+    359
+   ],
+   [
+    "R8 var_flg",
+    358
+   ],
+   [
+    "R9 ph_qual",
+    357
+   ],
+   [
+    "R10 rchi2",
+    357
+   ],
+   [
+    "R11 2MASS",
+    354
+   ],
+   [
+    "R12 proper motion",
+    327
+   ],
+   [
+    "R13 isolation",
+    316
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "79 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "237 / 5"
+   ]
+  ],
+  "bat1150": [
+   [
+    "AllWISE sources in field query",
+    19270
+   ],
+   [
+    "R1 field",
+    19038
+   ],
+   [
+    "R2 W1 range",
+    694
+   ],
+   [
+    "R3 W1-W2 colour",
+    685
+   ],
+   [
+    "R4 cc_flags",
+    634
+   ],
+   [
+    "R5 ext_flg",
+    617
+   ],
+   [
+    "R6 nb, na",
+    612
+   ],
+   [
+    "R7 saturation",
+    600
+   ],
+   [
+    "R8 var_flg",
+    599
+   ],
+   [
+    "R9 ph_qual",
+    599
+   ],
+   [
+    "R10 rchi2",
+    599
+   ],
+   [
+    "R11 2MASS",
+    597
+   ],
+   [
+    "R12 proper motion",
+    550
+   ],
+   [
+    "R13 isolation",
+    529
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "132 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "397 / 5"
+   ]
+  ],
+  "bat1156": [
+   [
+    "AllWISE sources in field query",
+    13249
+   ],
+   [
+    "R1 field",
+    13099
+   ],
+   [
+    "R2 W1 range",
+    501
+   ],
+   [
+    "R3 W1-W2 colour",
+    481
+   ],
+   [
+    "R4 cc_flags",
+    461
+   ],
+   [
+    "R5 ext_flg",
+    327
+   ],
+   [
+    "R6 nb, na",
+    319
+   ],
+   [
+    "R7 saturation",
+    313
+   ],
+   [
+    "R8 var_flg",
+    312
+   ],
+   [
+    "R9 ph_qual",
+    312
+   ],
+   [
+    "R10 rchi2",
+    312
+   ],
+   [
+    "R11 2MASS",
+    311
+   ],
+   [
+    "R12 proper motion",
+    286
+   ],
+   [
+    "R13 isolation",
+    277
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "90 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "187 / 5"
+   ]
+  ],
+  "bat1157": [
+   [
+    "AllWISE sources in field query",
+    12953
+   ],
+   [
+    "R1 field",
+    12783
+   ],
+   [
+    "R2 W1 range",
+    490
+   ],
+   [
+    "R3 W1-W2 colour",
+    469
+   ],
+   [
+    "R4 cc_flags",
+    448
+   ],
+   [
+    "R5 ext_flg",
+    303
+   ],
+   [
+    "R6 nb, na",
+    294
+   ],
+   [
+    "R7 saturation",
+    288
+   ],
+   [
+    "R8 var_flg",
+    287
+   ],
+   [
+    "R9 ph_qual",
+    287
+   ],
+   [
+    "R10 rchi2",
+    287
+   ],
+   [
+    "R11 2MASS",
+    286
+   ],
+   [
+    "R12 proper motion",
+    266
+   ],
+   [
+    "R13 isolation",
+    259
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "79 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "180 / 5"
+   ]
+  ],
+  "bat1158": [
+   [
+    "AllWISE sources in field query",
+    34237
+   ],
+   [
+    "R1 field",
+    33749
+   ],
+   [
+    "R2 W1 range",
+    1248
+   ],
+   [
+    "R3 W1-W2 colour",
+    1227
+   ],
+   [
+    "R4 cc_flags",
+    1078
+   ],
+   [
+    "R5 ext_flg",
+    976
+   ],
+   [
+    "R6 nb, na",
+    940
+   ],
+   [
+    "R7 saturation",
+    909
+   ],
+   [
+    "R8 var_flg",
+    907
+   ],
+   [
+    "R9 ph_qual",
+    907
+   ],
+   [
+    "R10 rchi2",
+    907
+   ],
+   [
+    "R11 2MASS",
+    906
+   ],
+   [
+    "R12 proper motion",
+    869
+   ],
+   [
+    "R13 isolation",
+    831
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "278 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "553 / 5"
+   ]
+  ],
+  "bat1161": [
+   [
+    "AllWISE sources in field query",
+    13365
+   ],
+   [
+    "R1 field",
+    13209
+   ],
+   [
+    "R2 W1 range",
+    486
+   ],
+   [
+    "R3 W1-W2 colour",
+    468
+   ],
+   [
+    "R4 cc_flags",
+    439
+   ],
+   [
+    "R5 ext_flg",
+    388
+   ],
+   [
+    "R6 nb, na",
+    380
+   ],
+   [
+    "R7 saturation",
+    365
+   ],
+   [
+    "R8 var_flg",
+    365
+   ],
+   [
+    "R9 ph_qual",
+    365
+   ],
+   [
+    "R10 rchi2",
+    365
+   ],
+   [
+    "R11 2MASS",
+    362
+   ],
+   [
+    "R12 proper motion",
+    340
+   ],
+   [
+    "R13 isolation",
+    329
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "87 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "242 / 5"
+   ]
+  ],
+  "bat1162": [
+   [
+    "AllWISE sources in field query",
+    16476
+   ],
+   [
+    "R1 field",
+    16294
+   ],
+   [
+    "R2 W1 range",
+    609
+   ],
+   [
+    "R3 W1-W2 colour",
+    598
+   ],
+   [
+    "R4 cc_flags",
+    574
+   ],
+   [
+    "R5 ext_flg",
+    563
+   ],
+   [
+    "R6 nb, na",
+    544
+   ],
+   [
+    "R7 saturation",
+    536
+   ],
+   [
+    "R8 var_flg",
+    535
+   ],
+   [
+    "R9 ph_qual",
+    535
+   ],
+   [
+    "R10 rchi2",
+    535
+   ],
+   [
+    "R11 2MASS",
+    535
+   ],
+   [
+    "R12 proper motion",
+    494
+   ],
+   [
+    "R13 isolation",
+    479
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "149 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "330 / 5"
+   ]
+  ],
+  "bat1173": [
+   [
+    "AllWISE sources in field query",
+    16665
+   ],
+   [
+    "R1 field",
+    16455
+   ],
+   [
+    "R2 W1 range",
+    624
+   ],
+   [
+    "R3 W1-W2 colour",
+    611
+   ],
+   [
+    "R4 cc_flags",
+    574
+   ],
+   [
+    "R5 ext_flg",
+    556
+   ],
+   [
+    "R6 nb, na",
+    541
+   ],
+   [
+    "R7 saturation",
+    524
+   ],
+   [
+    "R8 var_flg",
+    524
+   ],
+   [
+    "R9 ph_qual",
+    524
+   ],
+   [
+    "R10 rchi2",
+    524
+   ],
+   [
+    "R11 2MASS",
+    523
+   ],
+   [
+    "R12 proper motion",
+    489
+   ],
+   [
+    "R13 isolation",
+    471
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "153 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "318 / 5"
+   ]
+  ],
+  "bat1174": [
+   [
+    "AllWISE sources in field query",
+    16718
+   ],
+   [
+    "R1 field",
+    16535
+   ],
+   [
+    "R2 W1 range",
+    622
+   ],
+   [
+    "R3 W1-W2 colour",
+    609
+   ],
+   [
+    "R4 cc_flags",
+    572
+   ],
+   [
+    "R5 ext_flg",
+    553
+   ],
+   [
+    "R6 nb, na",
+    538
+   ],
+   [
+    "R7 saturation",
+    521
+   ],
+   [
+    "R8 var_flg",
+    521
+   ],
+   [
+    "R9 ph_qual",
+    521
+   ],
+   [
+    "R10 rchi2",
+    521
+   ],
+   [
+    "R11 2MASS",
+    520
+   ],
+   [
+    "R12 proper motion",
+    487
+   ],
+   [
+    "R13 isolation",
+    468
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "154 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "314 / 5"
+   ]
+  ],
+  "bat1178": [
+   [
+    "AllWISE sources in field query",
+    21019
+   ],
+   [
+    "R1 field",
+    20778
+   ],
+   [
+    "R2 W1 range",
+    791
+   ],
+   [
+    "R3 W1-W2 colour",
+    772
+   ],
+   [
+    "R4 cc_flags",
+    675
+   ],
+   [
+    "R5 ext_flg",
+    644
+   ],
+   [
+    "R6 nb, na",
+    627
+   ],
+   [
+    "R7 saturation",
+    582
+   ],
+   [
+    "R8 var_flg",
+    580
+   ],
+   [
+    "R9 ph_qual",
+    580
+   ],
+   [
+    "R10 rchi2",
+    580
+   ],
+   [
+    "R11 2MASS",
+    577
+   ],
+   [
+    "R12 proper motion",
+    516
+   ],
+   [
+    "R13 isolation",
+    505
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "162 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "343 / 5"
+   ]
+  ],
+  "bat1180": [
+   [
+    "AllWISE sources in field query",
+    17877
+   ],
+   [
+    "R1 field",
+    17677
+   ],
+   [
+    "R2 W1 range",
+    645
+   ],
+   [
+    "R3 W1-W2 colour",
+    627
+   ],
+   [
+    "R4 cc_flags",
+    577
+   ],
+   [
+    "R5 ext_flg",
+    556
+   ],
+   [
+    "R6 nb, na",
+    536
+   ],
+   [
+    "R7 saturation",
+    521
+   ],
+   [
+    "R8 var_flg",
+    520
+   ],
+   [
+    "R9 ph_qual",
+    520
+   ],
+   [
+    "R10 rchi2",
+    520
+   ],
+   [
+    "R11 2MASS",
+    519
+   ],
+   [
+    "R12 proper motion",
+    498
+   ],
+   [
+    "R13 isolation",
+    480
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "141 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "339 / 5"
+   ]
+  ],
+  "bat1184": [
+   [
+    "AllWISE sources in field query",
+    16033
+   ],
+   [
+    "R1 field",
+    15827
+   ],
+   [
+    "R2 W1 range",
+    566
+   ],
+   [
+    "R3 W1-W2 colour",
+    556
+   ],
+   [
+    "R4 cc_flags",
+    511
+   ],
+   [
+    "R5 ext_flg",
+    501
+   ],
+   [
+    "R6 nb, na",
+    488
+   ],
+   [
+    "R7 saturation",
+    474
+   ],
+   [
+    "R8 var_flg",
+    473
+   ],
+   [
+    "R9 ph_qual",
+    473
+   ],
+   [
+    "R10 rchi2",
+    473
+   ],
+   [
+    "R11 2MASS",
+    473
+   ],
+   [
+    "R12 proper motion",
+    433
+   ],
+   [
+    "R13 isolation",
+    415
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "137 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "278 / 5"
+   ]
+  ],
+  "bat1192": [
+   [
+    "AllWISE sources in field query",
+    11398
+   ],
+   [
+    "R1 field",
+    11241
+   ],
+   [
+    "R2 W1 range",
+    439
+   ],
+   [
+    "R3 W1-W2 colour",
+    434
+   ],
+   [
+    "R4 cc_flags",
+    406
+   ],
+   [
+    "R5 ext_flg",
+    384
+   ],
+   [
+    "R6 nb, na",
+    379
+   ],
+   [
+    "R7 saturation",
+    365
+   ],
+   [
+    "R8 var_flg",
+    365
+   ],
+   [
+    "R9 ph_qual",
+    365
+   ],
+   [
+    "R10 rchi2",
+    365
+   ],
+   [
+    "R11 2MASS",
+    364
+   ],
+   [
+    "R12 proper motion",
+    341
+   ],
+   [
+    "R13 isolation",
+    329
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "100 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "229 / 5"
+   ]
+  ],
+  "bat1194": [
+   [
+    "AllWISE sources in field query",
+    11199
+   ],
+   [
+    "R1 field",
+    11071
+   ],
+   [
+    "R2 W1 range",
+    423
+   ],
+   [
+    "R3 W1-W2 colour",
+    413
+   ],
+   [
+    "R4 cc_flags",
+    391
+   ],
+   [
+    "R5 ext_flg",
+    365
+   ],
+   [
+    "R6 nb, na",
+    358
+   ],
+   [
+    "R7 saturation",
+    346
+   ],
+   [
+    "R8 var_flg",
+    345
+   ],
+   [
+    "R9 ph_qual",
+    345
+   ],
+   [
+    "R10 rchi2",
+    345
+   ],
+   [
+    "R11 2MASS",
+    345
+   ],
+   [
+    "R12 proper motion",
+    323
+   ],
+   [
+    "R13 isolation",
+    312
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "81 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "231 / 5"
+   ]
+  ],
+  "bat1198": [
+   [
+    "AllWISE sources in field query",
+    12230
+   ],
+   [
+    "R1 field",
+    12083
+   ],
+   [
+    "R2 W1 range",
+    456
+   ],
+   [
+    "R3 W1-W2 colour",
+    448
+   ],
+   [
+    "R4 cc_flags",
+    412
+   ],
+   [
+    "R5 ext_flg",
+    402
+   ],
+   [
+    "R6 nb, na",
+    395
+   ],
+   [
+    "R7 saturation",
+    388
+   ],
+   [
+    "R8 var_flg",
+    388
+   ],
+   [
+    "R9 ph_qual",
+    388
+   ],
+   [
+    "R10 rchi2",
+    388
+   ],
+   [
+    "R11 2MASS",
+    388
+   ],
+   [
+    "R12 proper motion",
+    371
+   ],
+   [
+    "R13 isolation",
+    357
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "98 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "259 / 5"
+   ]
+  ],
+  "bat1202": [
+   [
+    "AllWISE sources in field query",
+    20852
+   ],
+   [
+    "R1 field",
+    20607
+   ],
+   [
+    "R2 W1 range",
+    777
+   ],
+   [
+    "R3 W1-W2 colour",
+    766
+   ],
+   [
+    "R4 cc_flags",
+    707
+   ],
+   [
+    "R5 ext_flg",
+    672
+   ],
+   [
+    "R6 nb, na",
+    658
+   ],
+   [
+    "R7 saturation",
+    636
+   ],
+   [
+    "R8 var_flg",
+    635
+   ],
+   [
+    "R9 ph_qual",
+    635
+   ],
+   [
+    "R10 rchi2",
+    635
+   ],
+   [
+    "R11 2MASS",
+    633
+   ],
+   [
+    "R12 proper motion",
+    596
+   ],
+   [
+    "R13 isolation",
+    574
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "186 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "388 / 5"
+   ]
+  ],
+  "bat1218": [
+   [
+    "AllWISE sources in field query",
+    12360
+   ],
+   [
+    "R1 field",
+    12201
+   ],
+   [
+    "R2 W1 range",
+    487
+   ],
+   [
+    "R3 W1-W2 colour",
+    475
+   ],
+   [
+    "R4 cc_flags",
+    433
+   ],
+   [
+    "R5 ext_flg",
+    419
+   ],
+   [
+    "R6 nb, na",
+    412
+   ],
+   [
+    "R7 saturation",
+    401
+   ],
+   [
+    "R8 var_flg",
+    399
+   ],
+   [
+    "R9 ph_qual",
+    399
+   ],
+   [
+    "R10 rchi2",
+    399
+   ],
+   [
+    "R11 2MASS",
+    399
+   ],
+   [
+    "R12 proper motion",
+    374
+   ],
+   [
+    "R13 isolation",
+    365
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "110 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "255 / 5"
+   ]
+  ],
+  "bat1231": [
+   [
+    "AllWISE sources in field query",
+    13081
+   ],
+   [
+    "R1 field",
+    12912
+   ],
+   [
+    "R2 W1 range",
+    531
+   ],
+   [
+    "R3 W1-W2 colour",
+    522
+   ],
+   [
+    "R4 cc_flags",
+    472
+   ],
+   [
+    "R5 ext_flg",
+    445
+   ],
+   [
+    "R6 nb, na",
+    443
+   ],
+   [
+    "R7 saturation",
+    418
+   ],
+   [
+    "R8 var_flg",
+    417
+   ],
+   [
+    "R9 ph_qual",
+    417
+   ],
+   [
+    "R10 rchi2",
+    417
+   ],
+   [
+    "R11 2MASS",
+    417
+   ],
+   [
+    "R12 proper motion",
+    411
+   ],
+   [
+    "R13 isolation",
+    400
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "124 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "276 / 5"
+   ]
+  ],
+  "bat1242": [
+   [
+    "AllWISE sources in field query",
+    18295
+   ],
+   [
+    "R1 field",
+    18050
+   ],
+   [
+    "R2 W1 range",
+    667
+   ],
+   [
+    "R3 W1-W2 colour",
+    658
+   ],
+   [
+    "R4 cc_flags",
+    602
+   ],
+   [
+    "R5 ext_flg",
+    580
+   ],
+   [
+    "R6 nb, na",
+    560
+   ],
+   [
+    "R7 saturation",
+    525
+   ],
+   [
+    "R8 var_flg",
+    524
+   ],
+   [
+    "R9 ph_qual",
+    524
+   ],
+   [
+    "R10 rchi2",
+    524
+   ],
+   [
+    "R11 2MASS",
+    524
+   ],
+   [
+    "R12 proper motion",
+    522
+   ],
+   [
+    "R13 isolation",
+    504
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "173 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "331 / 5"
+   ]
+  ],
+  "bat1250": [
+   [
+    "AllWISE sources in field query",
+    15318
+   ],
+   [
+    "R1 field",
+    15124
+   ],
+   [
+    "R2 W1 range",
+    596
+   ],
+   [
+    "R3 W1-W2 colour",
+    579
+   ],
+   [
+    "R4 cc_flags",
+    546
+   ],
+   [
+    "R5 ext_flg",
+    520
+   ],
+   [
+    "R6 nb, na",
+    509
+   ],
+   [
+    "R7 saturation",
+    406
+   ],
+   [
+    "R8 var_flg",
+    405
+   ],
+   [
+    "R9 ph_qual",
+    405
+   ],
+   [
+    "R10 rchi2",
+    405
+   ],
+   [
+    "R11 2MASS",
+    403
+   ],
+   [
+    "R12 proper motion",
+    392
+   ],
+   [
+    "R13 isolation",
+    381
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "112 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "269 / 5"
+   ]
+  ],
+  "bat1255": [
+   [
+    "AllWISE sources in field query",
+    10908
+   ],
+   [
+    "R1 field",
+    10748
+   ],
+   [
+    "R2 W1 range",
+    416
+   ],
+   [
+    "R3 W1-W2 colour",
+    405
+   ],
+   [
+    "R4 cc_flags",
+    373
+   ],
+   [
+    "R5 ext_flg",
+    361
+   ],
+   [
+    "R6 nb, na",
+    358
+   ],
+   [
+    "R7 saturation",
+    339
+   ],
+   [
+    "R8 var_flg",
+    337
+   ],
+   [
+    "R9 ph_qual",
+    337
+   ],
+   [
+    "R10 rchi2",
+    337
+   ],
+   [
+    "R11 2MASS",
+    336
+   ],
+   [
+    "R12 proper motion",
+    334
+   ],
+   [
+    "R13 isolation",
+    328
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "95 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "233 / 5"
+   ]
+  ],
+  "bat1258": [
+   [
+    "AllWISE sources in field query",
+    11338
+   ],
+   [
+    "R1 field",
+    11186
+   ],
+   [
+    "R2 W1 range",
+    433
+   ],
+   [
+    "R3 W1-W2 colour",
+    419
+   ],
+   [
+    "R4 cc_flags",
+    400
+   ],
+   [
+    "R5 ext_flg",
+    373
+   ],
+   [
+    "R6 nb, na",
+    360
+   ],
+   [
+    "R7 saturation",
+    348
+   ],
+   [
+    "R8 var_flg",
+    348
+   ],
+   [
+    "R9 ph_qual",
+    348
+   ],
+   [
+    "R10 rchi2",
+    348
+   ],
+   [
+    "R11 2MASS",
+    348
+   ],
+   [
+    "R12 proper motion",
+    347
+   ],
+   [
+    "R13 isolation",
+    337
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "119 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "218 / 5"
+   ]
+  ],
+  "bat1262": [
+   [
+    "AllWISE sources in field query",
+    12791
+   ],
+   [
+    "R1 field",
+    12630
+   ],
+   [
+    "R2 W1 range",
+    463
+   ],
+   [
+    "R3 W1-W2 colour",
+    456
+   ],
+   [
+    "R4 cc_flags",
+    434
+   ],
+   [
+    "R5 ext_flg",
+    409
+   ],
+   [
+    "R6 nb, na",
+    395
+   ],
+   [
+    "R7 saturation",
+    300
+   ],
+   [
+    "R8 var_flg",
+    300
+   ],
+   [
+    "R9 ph_qual",
+    300
+   ],
+   [
+    "R10 rchi2",
+    300
+   ],
+   [
+    "R11 2MASS",
+    299
+   ],
+   [
+    "R12 proper motion",
+    298
+   ],
+   [
+    "R13 isolation",
+    292
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "97 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "195 / 5"
+   ]
+  ],
+  "bat1264": [
+   [
+    "AllWISE sources in field query",
+    12590
+   ],
+   [
+    "R1 field",
+    12411
+   ],
+   [
+    "R2 W1 range",
+    442
+   ],
+   [
+    "R3 W1-W2 colour",
+    427
+   ],
+   [
+    "R4 cc_flags",
+    384
+   ],
+   [
+    "R5 ext_flg",
+    369
+   ],
+   [
+    "R6 nb, na",
+    364
+   ],
+   [
+    "R7 saturation",
+    290
+   ],
+   [
+    "R8 var_flg",
+    290
+   ],
+   [
+    "R9 ph_qual",
+    290
+   ],
+   [
+    "R10 rchi2",
+    290
+   ],
+   [
+    "R11 2MASS",
+    290
+   ],
+   [
+    "R12 proper motion",
+    285
+   ],
+   [
+    "R13 isolation",
+    271
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "96 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "175 / 5"
+   ]
+  ],
+  "bat1269": [
+   [
+    "AllWISE sources in field query",
+    17426
+   ],
+   [
+    "R1 field",
+    17210
+   ],
+   [
+    "R2 W1 range",
+    715
+   ],
+   [
+    "R3 W1-W2 colour",
+    699
+   ],
+   [
+    "R4 cc_flags",
+    646
+   ],
+   [
+    "R5 ext_flg",
+    629
+   ],
+   [
+    "R6 nb, na",
+    623
+   ],
+   [
+    "R7 saturation",
+    602
+   ],
+   [
+    "R8 var_flg",
+    601
+   ],
+   [
+    "R9 ph_qual",
+    601
+   ],
+   [
+    "R10 rchi2",
+    601
+   ],
+   [
+    "R11 2MASS",
+    597
+   ],
+   [
+    "R12 proper motion",
+    589
+   ],
+   [
+    "R13 isolation",
+    559
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "165 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "394 / 5"
+   ]
+  ],
+  "bat1270": [
+   [
+    "AllWISE sources in field query",
+    15096
+   ],
+   [
+    "R1 field",
+    14915
+   ],
+   [
+    "R2 W1 range",
+    577
+   ],
+   [
+    "R3 W1-W2 colour",
+    563
+   ],
+   [
+    "R4 cc_flags",
+    511
+   ],
+   [
+    "R5 ext_flg",
+    498
+   ],
+   [
+    "R6 nb, na",
+    487
+   ],
+   [
+    "R7 saturation",
+    392
+   ],
+   [
+    "R8 var_flg",
+    392
+   ],
+   [
+    "R9 ph_qual",
+    392
+   ],
+   [
+    "R10 rchi2",
+    392
+   ],
+   [
+    "R11 2MASS",
+    388
+   ],
+   [
+    "R12 proper motion",
+    369
+   ],
+   [
+    "R13 isolation",
+    364
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "110 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "254 / 5"
+   ]
+  ],
+  "bat1302": [
+   [
+    "AllWISE sources in field query",
+    23606
+   ],
+   [
+    "R1 field",
+    23324
+   ],
+   [
+    "R2 W1 range",
+    941
+   ],
+   [
+    "R3 W1-W2 colour",
+    928
+   ],
+   [
+    "R4 cc_flags",
+    752
+   ],
+   [
+    "R5 ext_flg",
+    701
+   ],
+   [
+    "R6 nb, na",
+    686
+   ],
+   [
+    "R7 saturation",
+    656
+   ],
+   [
+    "R8 var_flg",
+    655
+   ],
+   [
+    "R9 ph_qual",
+    655
+   ],
+   [
+    "R10 rchi2",
+    655
+   ],
+   [
+    "R11 2MASS",
+    654
+   ],
+   [
+    "R12 proper motion",
+    633
+   ],
+   [
+    "R13 isolation",
+    610
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "187 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "423 / 5"
+   ]
+  ],
+  "bat1316": [
+   [
+    "AllWISE sources in field query",
+    19730
+   ],
+   [
+    "R1 field",
+    19506
+   ],
+   [
+    "R2 W1 range",
+    694
+   ],
+   [
+    "R3 W1-W2 colour",
+    683
+   ],
+   [
+    "R4 cc_flags",
+    622
+   ],
+   [
+    "R5 ext_flg",
+    603
+   ],
+   [
+    "R6 nb, na",
+    593
+   ],
+   [
+    "R7 saturation",
+    578
+   ],
+   [
+    "R8 var_flg",
+    577
+   ],
+   [
+    "R9 ph_qual",
+    577
+   ],
+   [
+    "R10 rchi2",
+    577
+   ],
+   [
+    "R11 2MASS",
+    577
+   ],
+   [
+    "R12 proper motion",
+    569
+   ],
+   [
+    "R13 isolation",
+    545
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "191 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "354 / 5"
+   ]
+  ],
+  "bat1350": [
+   [
+    "AllWISE sources in field query",
+    11946
+   ],
+   [
+    "R1 field",
+    11777
+   ],
+   [
+    "R2 W1 range",
+    427
+   ],
+   [
+    "R3 W1-W2 colour",
+    417
+   ],
+   [
+    "R4 cc_flags",
+    400
+   ],
+   [
+    "R5 ext_flg",
+    390
+   ],
+   [
+    "R6 nb, na",
+    384
+   ],
+   [
+    "R7 saturation",
+    371
+   ],
+   [
+    "R8 var_flg",
+    371
+   ],
+   [
+    "R9 ph_qual",
+    371
+   ],
+   [
+    "R10 rchi2",
+    371
+   ],
+   [
+    "R11 2MASS",
+    371
+   ],
+   [
+    "R12 proper motion",
+    356
+   ],
+   [
+    "R13 isolation",
+    342
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "107 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "235 / 5"
+   ]
+  ],
+  "bat1361": [
+   [
+    "AllWISE sources in field query",
+    10798
+   ],
+   [
+    "R1 field",
+    10651
+   ],
+   [
+    "R2 W1 range",
+    424
+   ],
+   [
+    "R3 W1-W2 colour",
+    412
+   ],
+   [
+    "R4 cc_flags",
+    401
+   ],
+   [
+    "R5 ext_flg",
+    387
+   ],
+   [
+    "R6 nb, na",
+    383
+   ],
+   [
+    "R7 saturation",
+    371
+   ],
+   [
+    "R8 var_flg",
+    371
+   ],
+   [
+    "R9 ph_qual",
+    371
+   ],
+   [
+    "R10 rchi2",
+    371
+   ],
+   [
+    "R11 2MASS",
+    370
+   ],
+   [
+    "R12 proper motion",
+    355
+   ],
+   [
+    "R13 isolation",
+    343
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "101 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "242 / 5"
+   ]
+  ],
+  "bat1364": [
+   [
+    "AllWISE sources in field query",
+    12931
+   ],
+   [
+    "R1 field",
+    12786
+   ],
+   [
+    "R2 W1 range",
+    481
+   ],
+   [
+    "R3 W1-W2 colour",
+    473
+   ],
+   [
+    "R4 cc_flags",
+    459
+   ],
+   [
+    "R5 ext_flg",
+    445
+   ],
+   [
+    "R6 nb, na",
+    439
+   ],
+   [
+    "R7 saturation",
+    433
+   ],
+   [
+    "R8 var_flg",
+    433
+   ],
+   [
+    "R9 ph_qual",
+    433
+   ],
+   [
+    "R10 rchi2",
+    433
+   ],
+   [
+    "R11 2MASS",
+    432
+   ],
+   [
+    "R12 proper motion",
+    414
+   ],
+   [
+    "R13 isolation",
+    405
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "129 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "276 / 5"
+   ]
+  ],
+  "bat1368": [
+   [
+    "AllWISE sources in field query",
+    10530
+   ],
+   [
+    "R1 field",
+    10402
+   ],
+   [
+    "R2 W1 range",
+    387
+   ],
+   [
+    "R3 W1-W2 colour",
+    376
+   ],
+   [
+    "R4 cc_flags",
+    361
+   ],
+   [
+    "R5 ext_flg",
+    353
+   ],
+   [
+    "R6 nb, na",
+    346
+   ],
+   [
+    "R7 saturation",
+    336
+   ],
+   [
+    "R8 var_flg",
+    335
+   ],
+   [
+    "R9 ph_qual",
+    335
+   ],
+   [
+    "R10 rchi2",
+    335
+   ],
+   [
+    "R11 2MASS",
+    333
+   ],
+   [
+    "R12 proper motion",
+    312
+   ],
+   [
+    "R13 isolation",
+    304
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "95 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "209 / 5"
+   ]
+  ],
+  "bat1371": [
+   [
+    "AllWISE sources in field query",
+    21467
+   ],
+   [
+    "R1 field",
+    21207
+   ],
+   [
+    "R2 W1 range",
+    714
+   ],
+   [
+    "R3 W1-W2 colour",
+    705
+   ],
+   [
+    "R4 cc_flags",
+    633
+   ],
+   [
+    "R5 ext_flg",
+    474
+   ],
+   [
+    "R6 nb, na",
+    463
+   ],
+   [
+    "R7 saturation",
+    434
+   ],
+   [
+    "R8 var_flg",
+    434
+   ],
+   [
+    "R9 ph_qual",
+    434
+   ],
+   [
+    "R10 rchi2",
+    434
+   ],
+   [
+    "R11 2MASS",
+    434
+   ],
+   [
+    "R12 proper motion",
+    422
+   ],
+   [
+    "R13 isolation",
+    407
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "115 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "292 / 5"
+   ]
+  ],
+  "bat1379": [
+   [
+    "AllWISE sources in field query",
+    24250
+   ],
+   [
+    "R1 field",
+    23950
+   ],
+   [
+    "R2 W1 range",
+    873
+   ],
+   [
+    "R3 W1-W2 colour",
+    858
+   ],
+   [
+    "R4 cc_flags",
+    762
+   ],
+   [
+    "R5 ext_flg",
+    602
+   ],
+   [
+    "R6 nb, na",
+    585
+   ],
+   [
+    "R7 saturation",
+    550
+   ],
+   [
+    "R8 var_flg",
+    549
+   ],
+   [
+    "R9 ph_qual",
+    549
+   ],
+   [
+    "R10 rchi2",
+    549
+   ],
+   [
+    "R11 2MASS",
+    548
+   ],
+   [
+    "R12 proper motion",
+    529
+   ],
+   [
+    "R13 isolation",
+    499
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "137 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "362 / 5"
+   ]
+  ],
+  "bat1390": [
+   [
+    "AllWISE sources in field query",
+    21584
+   ],
+   [
+    "R1 field",
+    21293
+   ],
+   [
+    "R2 W1 range",
+    758
+   ],
+   [
+    "R3 W1-W2 colour",
+    740
+   ],
+   [
+    "R4 cc_flags",
+    680
+   ],
+   [
+    "R5 ext_flg",
+    436
+   ],
+   [
+    "R6 nb, na",
+    420
+   ],
+   [
+    "R7 saturation",
+    379
+   ],
+   [
+    "R8 var_flg",
+    377
+   ],
+   [
+    "R9 ph_qual",
+    377
+   ],
+   [
+    "R10 rchi2",
+    377
+   ],
+   [
+    "R11 2MASS",
+    373
+   ],
+   [
+    "R12 proper motion",
+    354
+   ],
+   [
+    "R13 isolation",
+    339
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "94 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "245 / 5"
+   ]
+  ],
+  "bat1399": [
+   [
+    "AllWISE sources in field query",
+    9811
+   ],
+   [
+    "R1 field",
+    9690
+   ],
+   [
+    "R2 W1 range",
+    336
+   ],
+   [
+    "R3 W1-W2 colour",
+    321
+   ],
+   [
+    "R4 cc_flags",
+    300
+   ],
+   [
+    "R5 ext_flg",
+    278
+   ],
+   [
+    "R6 nb, na",
+    277
+   ],
+   [
+    "R7 saturation",
+    269
+   ],
+   [
+    "R8 var_flg",
+    268
+   ],
+   [
+    "R9 ph_qual",
+    268
+   ],
+   [
+    "R10 rchi2",
+    268
+   ],
+   [
+    "R11 2MASS",
+    268
+   ],
+   [
+    "R12 proper motion",
+    253
+   ],
+   [
+    "R13 isolation",
+    247
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "78 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "169 / 5"
+   ]
+  ],
+  "bat1401": [
+   [
+    "AllWISE sources in field query",
+    9716
+   ],
+   [
+    "R1 field",
+    9589
+   ],
+   [
+    "R2 W1 range",
+    364
+   ],
+   [
+    "R3 W1-W2 colour",
+    349
+   ],
+   [
+    "R4 cc_flags",
+    324
+   ],
+   [
+    "R5 ext_flg",
+    312
+   ],
+   [
+    "R6 nb, na",
+    307
+   ],
+   [
+    "R7 saturation",
+    298
+   ],
+   [
+    "R8 var_flg",
+    296
+   ],
+   [
+    "R9 ph_qual",
+    296
+   ],
+   [
+    "R10 rchi2",
+    296
+   ],
+   [
+    "R11 2MASS",
+    296
+   ],
+   [
+    "R12 proper motion",
+    291
+   ],
+   [
+    "R13 isolation",
+    286
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "98 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "188 / 5"
+   ]
+  ],
+  "bat1419": [
+   [
+    "AllWISE sources in field query",
+    15409
+   ],
+   [
+    "R1 field",
+    15197
+   ],
+   [
+    "R2 W1 range",
+    536
+   ],
+   [
+    "R3 W1-W2 colour",
+    517
+   ],
+   [
+    "R4 cc_flags",
+    493
+   ],
+   [
+    "R5 ext_flg",
+    422
+   ],
+   [
+    "R6 nb, na",
+    413
+   ],
+   [
+    "R7 saturation",
+    394
+   ],
+   [
+    "R8 var_flg",
+    394
+   ],
+   [
+    "R9 ph_qual",
+    394
+   ],
+   [
+    "R10 rchi2",
+    394
+   ],
+   [
+    "R11 2MASS",
+    393
+   ],
+   [
+    "R12 proper motion",
+    388
+   ],
+   [
+    "R13 isolation",
+    381
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "106 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "275 / 5"
+   ]
+  ],
+  "bat1430": [
+   [
+    "AllWISE sources in field query",
+    11035
+   ],
+   [
+    "R1 field",
+    10894
+   ],
+   [
+    "R2 W1 range",
+    401
+   ],
+   [
+    "R3 W1-W2 colour",
+    379
+   ],
+   [
+    "R4 cc_flags",
+    334
+   ],
+   [
+    "R5 ext_flg",
+    322
+   ],
+   [
+    "R6 nb, na",
+    316
+   ],
+   [
+    "R7 saturation",
+    304
+   ],
+   [
+    "R8 var_flg",
+    302
+   ],
+   [
+    "R9 ph_qual",
+    302
+   ],
+   [
+    "R10 rchi2",
+    302
+   ],
+   [
+    "R11 2MASS",
+    301
+   ],
+   [
+    "R12 proper motion",
+    297
+   ],
+   [
+    "R13 isolation",
+    288
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "101 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "187 / 5"
+   ]
+  ],
+  "bat1436": [
+   [
+    "AllWISE sources in field query",
+    12193
+   ],
+   [
+    "R1 field",
+    12055
+   ],
+   [
+    "R2 W1 range",
+    397
+   ],
+   [
+    "R3 W1-W2 colour",
+    393
+   ],
+   [
+    "R4 cc_flags",
+    373
+   ],
+   [
+    "R5 ext_flg",
+    363
+   ],
+   [
+    "R6 nb, na",
+    354
+   ],
+   [
+    "R7 saturation",
+    346
+   ],
+   [
+    "R8 var_flg",
+    345
+   ],
+   [
+    "R9 ph_qual",
+    345
+   ],
+   [
+    "R10 rchi2",
+    345
+   ],
+   [
+    "R11 2MASS",
+    345
+   ],
+   [
+    "R12 proper motion",
+    341
+   ],
+   [
+    "R13 isolation",
+    331
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "103 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "228 / 5"
+   ]
+  ],
+  "bat1461": [
+   [
+    "AllWISE sources in field query",
+    17520
+   ],
+   [
+    "R1 field",
+    17308
+   ],
+   [
+    "R2 W1 range",
+    589
+   ],
+   [
+    "R3 W1-W2 colour",
+    579
+   ],
+   [
+    "R4 cc_flags",
+    543
+   ],
+   [
+    "R5 ext_flg",
+    522
+   ],
+   [
+    "R6 nb, na",
+    511
+   ],
+   [
+    "R7 saturation",
+    503
+   ],
+   [
+    "R8 var_flg",
+    503
+   ],
+   [
+    "R9 ph_qual",
+    503
+   ],
+   [
+    "R10 rchi2",
+    503
+   ],
+   [
+    "R11 2MASS",
+    502
+   ],
+   [
+    "R12 proper motion",
+    495
+   ],
+   [
+    "R13 isolation",
+    478
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "164 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "314 / 5"
+   ]
+  ],
+  "bat1473": [
+   [
+    "AllWISE sources in field query",
+    28931
+   ],
+   [
+    "R1 field",
+    28565
+   ],
+   [
+    "R2 W1 range",
+    1002
+   ],
+   [
+    "R3 W1-W2 colour",
+    984
+   ],
+   [
+    "R4 cc_flags",
+    869
+   ],
+   [
+    "R5 ext_flg",
+    839
+   ],
+   [
+    "R6 nb, na",
+    812
+   ],
+   [
+    "R7 saturation",
+    616
+   ],
+   [
+    "R8 var_flg",
+    615
+   ],
+   [
+    "R9 ph_qual",
+    615
+   ],
+   [
+    "R10 rchi2",
+    615
+   ],
+   [
+    "R11 2MASS",
+    604
+   ],
+   [
+    "R12 proper motion",
+    591
+   ],
+   [
+    "R13 isolation",
+    569
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "201 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "368 / 5"
+   ]
+  ],
+  "bat1477": [
+   [
+    "AllWISE sources in field query",
+    23610
+   ],
+   [
+    "R1 field",
+    23333
+   ],
+   [
+    "R2 W1 range",
+    784
+   ],
+   [
+    "R3 W1-W2 colour",
+    754
+   ],
+   [
+    "R4 cc_flags",
+    697
+   ],
+   [
+    "R5 ext_flg",
+    672
+   ],
+   [
+    "R6 nb, na",
+    656
+   ],
+   [
+    "R7 saturation",
+    289
+   ],
+   [
+    "R8 var_flg",
+    288
+   ],
+   [
+    "R9 ph_qual",
+    288
+   ],
+   [
+    "R10 rchi2",
+    288
+   ],
+   [
+    "R11 2MASS",
+    288
+   ],
+   [
+    "R12 proper motion",
+    277
+   ],
+   [
+    "R13 isolation",
+    261
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "89 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "172 / 5"
+   ]
+  ],
+  "bat1481": [
+   [
+    "AllWISE sources in field query",
+    16612
+   ],
+   [
+    "R1 field",
+    16401
+   ],
+   [
+    "R2 W1 range",
+    592
+   ],
+   [
+    "R3 W1-W2 colour",
+    572
+   ],
+   [
+    "R4 cc_flags",
+    499
+   ],
+   [
+    "R5 ext_flg",
+    486
+   ],
+   [
+    "R6 nb, na",
+    475
+   ],
+   [
+    "R7 saturation",
+    218
+   ],
+   [
+    "R8 var_flg",
+    216
+   ],
+   [
+    "R9 ph_qual",
+    216
+   ],
+   [
+    "R10 rchi2",
+    216
+   ],
+   [
+    "R11 2MASS",
+    215
+   ],
+   [
+    "R12 proper motion",
+    214
+   ],
+   [
+    "R13 isolation",
+    205
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "74 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "131 / 5"
+   ]
+  ],
+  "bat1495": [
+   [
+    "AllWISE sources in field query",
+    21085
+   ],
+   [
+    "R1 field",
+    20809
+   ],
+   [
+    "R2 W1 range",
+    705
+   ],
+   [
+    "R3 W1-W2 colour",
+    689
+   ],
+   [
+    "R4 cc_flags",
+    624
+   ],
+   [
+    "R5 ext_flg",
+    604
+   ],
+   [
+    "R6 nb, na",
+    593
+   ],
+   [
+    "R7 saturation",
+    564
+   ],
+   [
+    "R8 var_flg",
+    564
+   ],
+   [
+    "R9 ph_qual",
+    564
+   ],
+   [
+    "R10 rchi2",
+    564
+   ],
+   [
+    "R11 2MASS",
+    563
+   ],
+   [
+    "R12 proper motion",
+    554
+   ],
+   [
+    "R13 isolation",
+    531
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "159 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "372 / 5"
+   ]
+  ],
+  "bat1497": [
+   [
+    "AllWISE sources in field query",
+    43965
+   ],
+   [
+    "R1 field",
+    43396
+   ],
+   [
+    "R2 W1 range",
+    1656
+   ],
+   [
+    "R3 W1-W2 colour",
+    1636
+   ],
+   [
+    "R4 cc_flags",
+    1444
+   ],
+   [
+    "R5 ext_flg",
+    1388
+   ],
+   [
+    "R6 nb, na",
+    1330
+   ],
+   [
+    "R7 saturation",
+    1307
+   ],
+   [
+    "R8 var_flg",
+    1303
+   ],
+   [
+    "R9 ph_qual",
+    1303
+   ],
+   [
+    "R10 rchi2",
+    1303
+   ],
+   [
+    "R11 2MASS",
+    1248
+   ],
+   [
+    "R12 proper motion",
+    1190
+   ],
+   [
+    "R13 isolation",
+    1137
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "349 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "788 / 5"
+   ]
+  ],
+  "bat1499": [
+   [
+    "AllWISE sources in field query",
+    20865
+   ],
+   [
+    "R1 field",
+    20618
+   ],
+   [
+    "R2 W1 range",
+    731
+   ],
+   [
+    "R3 W1-W2 colour",
+    696
+   ],
+   [
+    "R4 cc_flags",
+    549
+   ],
+   [
+    "R5 ext_flg",
+    531
+   ],
+   [
+    "R6 nb, na",
+    514
+   ],
+   [
+    "R7 saturation",
+    485
+   ],
+   [
+    "R8 var_flg",
+    483
+   ],
+   [
+    "R9 ph_qual",
+    483
+   ],
+   [
+    "R10 rchi2",
+    483
+   ],
+   [
+    "R11 2MASS",
+    483
+   ],
+   [
+    "R12 proper motion",
+    479
+   ],
+   [
+    "R13 isolation",
+    462
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "152 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "310 / 5"
+   ]
+  ],
+  "bat1549": [
+   [
+    "AllWISE sources in field query",
+    55957
+   ],
+   [
+    "R1 field",
+    55275
+   ],
+   [
+    "R2 W1 range",
+    1983
+   ],
+   [
+    "R3 W1-W2 colour",
+    1953
+   ],
+   [
+    "R4 cc_flags",
+    1532
+   ],
+   [
+    "R5 ext_flg",
+    1476
+   ],
+   [
+    "R6 nb, na",
+    1419
+   ],
+   [
+    "R7 saturation",
+    1379
+   ],
+   [
+    "R8 var_flg",
+    1378
+   ],
+   [
+    "R9 ph_qual",
+    1378
+   ],
+   [
+    "R10 rchi2",
+    1378
+   ],
+   [
+    "R11 2MASS",
+    1371
+   ],
+   [
+    "R12 proper motion",
+    1352
+   ],
+   [
+    "R13 isolation",
+    1249
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "435 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "814 / 5"
+   ]
+  ],
+  "bat1585": [
+   [
+    "AllWISE sources in field query",
+    27023
+   ],
+   [
+    "R1 field",
+    26708
+   ],
+   [
+    "R2 W1 range",
+    946
+   ],
+   [
+    "R3 W1-W2 colour",
+    924
+   ],
+   [
+    "R4 cc_flags",
+    823
+   ],
+   [
+    "R5 ext_flg",
+    685
+   ],
+   [
+    "R6 nb, na",
+    655
+   ],
+   [
+    "R7 saturation",
+    630
+   ],
+   [
+    "R8 var_flg",
+    629
+   ],
+   [
+    "R9 ph_qual",
+    629
+   ],
+   [
+    "R10 rchi2",
+    629
+   ],
+   [
+    "R11 2MASS",
+    626
+   ],
+   [
+    "R12 proper motion",
+    598
+   ],
+   [
+    "R13 isolation",
+    572
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "180 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "392 / 5"
+   ]
+  ],
+  "bat1599": [
+   [
+    "AllWISE sources in field query",
+    34721
+   ],
+   [
+    "R1 field",
+    34316
+   ],
+   [
+    "R2 W1 range",
+    1251
+   ],
+   [
+    "R3 W1-W2 colour",
+    1225
+   ],
+   [
+    "R4 cc_flags",
+    1033
+   ],
+   [
+    "R5 ext_flg",
+    1002
+   ],
+   [
+    "R6 nb, na",
+    971
+   ],
+   [
+    "R7 saturation",
+    930
+   ],
+   [
+    "R8 var_flg",
+    928
+   ],
+   [
+    "R9 ph_qual",
+    928
+   ],
+   [
+    "R10 rchi2",
+    928
+   ],
+   [
+    "R11 2MASS",
+    927
+   ],
+   [
+    "R12 proper motion",
+    914
+   ],
+   [
+    "R13 isolation",
+    876
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "285 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "591 / 5"
+   ]
+  ],
+  "bat1607": [
+   [
+    "AllWISE sources in field query",
+    26265
+   ],
+   [
+    "R1 field",
+    25942
+   ],
+   [
+    "R2 W1 range",
+    909
+   ],
+   [
+    "R3 W1-W2 colour",
+    894
+   ],
+   [
+    "R4 cc_flags",
+    829
+   ],
+   [
+    "R5 ext_flg",
+    798
+   ],
+   [
+    "R6 nb, na",
+    770
+   ],
+   [
+    "R7 saturation",
+    750
+   ],
+   [
+    "R8 var_flg",
+    748
+   ],
+   [
+    "R9 ph_qual",
+    748
+   ],
+   [
+    "R10 rchi2",
+    748
+   ],
+   [
+    "R11 2MASS",
+    745
+   ],
+   [
+    "R12 proper motion",
+    701
+   ],
+   [
+    "R13 isolation",
+    682
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "224 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "458 / 5"
+   ]
+  ],
+  "bat1611": [
+   [
+    "AllWISE sources in field query",
+    14311
+   ],
+   [
+    "R1 field",
+    14142
+   ],
+   [
+    "R2 W1 range",
+    553
+   ],
+   [
+    "R3 W1-W2 colour",
+    546
+   ],
+   [
+    "R4 cc_flags",
+    508
+   ],
+   [
+    "R5 ext_flg",
+    473
+   ],
+   [
+    "R6 nb, na",
+    460
+   ],
+   [
+    "R7 saturation",
+    447
+   ],
+   [
+    "R8 var_flg",
+    447
+   ],
+   [
+    "R9 ph_qual",
+    447
+   ],
+   [
+    "R10 rchi2",
+    447
+   ],
+   [
+    "R11 2MASS",
+    447
+   ],
+   [
+    "R12 proper motion",
+    398
+   ],
+   [
+    "R13 isolation",
+    391
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "111 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "280 / 5"
+   ]
+  ],
+  "bat1624": [
+   [
+    "AllWISE sources in field query",
+    13024
+   ],
+   [
+    "R1 field",
+    12878
+   ],
+   [
+    "R2 W1 range",
+    484
+   ],
+   [
+    "R3 W1-W2 colour",
+    479
+   ],
+   [
+    "R4 cc_flags",
+    443
+   ],
+   [
+    "R5 ext_flg",
+    435
+   ],
+   [
+    "R6 nb, na",
+    419
+   ],
+   [
+    "R7 saturation",
+    402
+   ],
+   [
+    "R8 var_flg",
+    402
+   ],
+   [
+    "R9 ph_qual",
+    402
+   ],
+   [
+    "R10 rchi2",
+    402
+   ],
+   [
+    "R11 2MASS",
+    402
+   ],
+   [
+    "R12 proper motion",
+    369
+   ],
+   [
+    "R13 isolation",
+    352
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "106 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "246 / 5"
+   ]
+  ],
+  "bat1627": [
+   [
+    "AllWISE sources in field query",
+    14371
+   ],
+   [
+    "R1 field",
+    14170
+   ],
+   [
+    "R2 W1 range",
+    507
+   ],
+   [
+    "R3 W1-W2 colour",
+    492
+   ],
+   [
+    "R4 cc_flags",
+    475
+   ],
+   [
+    "R5 ext_flg",
+    461
+   ],
+   [
+    "R6 nb, na",
+    449
+   ],
+   [
+    "R7 saturation",
+    443
+   ],
+   [
+    "R8 var_flg",
+    441
+   ],
+   [
+    "R9 ph_qual",
+    441
+   ],
+   [
+    "R10 rchi2",
+    441
+   ],
+   [
+    "R11 2MASS",
+    441
+   ],
+   [
+    "R12 proper motion",
+    383
+   ],
+   [
+    "R13 isolation",
+    372
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "121 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "251 / 5"
+   ]
+  ],
+  "bat1628": [
+   [
+    "AllWISE sources in field query",
+    11744
+   ],
+   [
+    "R1 field",
+    11599
+   ],
+   [
+    "R2 W1 range",
+    474
+   ],
+   [
+    "R3 W1-W2 colour",
+    462
+   ],
+   [
+    "R4 cc_flags",
+    444
+   ],
+   [
+    "R5 ext_flg",
+    425
+   ],
+   [
+    "R6 nb, na",
+    414
+   ],
+   [
+    "R7 saturation",
+    402
+   ],
+   [
+    "R8 var_flg",
+    400
+   ],
+   [
+    "R9 ph_qual",
+    400
+   ],
+   [
+    "R10 rchi2",
+    400
+   ],
+   [
+    "R11 2MASS",
+    398
+   ],
+   [
+    "R12 proper motion",
+    362
+   ],
+   [
+    "R13 isolation",
+    352
+   ],
+   [
+    "bin 9.5-10.5: candidates / drawn",
+    "115 / 5"
+   ],
+   [
+    "bin 10.5-11.5: candidates / drawn",
+    "237 / 5"
+   ]
+  ]
+ }
+}

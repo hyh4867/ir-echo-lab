@@ -1,0 +1,29 @@
+{
+ "source_file": "data/cache/neowise/ngc3786.csv",
+ "recipe": "no quality cuts, visits split at gaps > 100 d, mean magnitude per visit, baseline = mean of visit means before MJD 59001 (2020-06-01)",
+ "n_rows_used": 317,
+ "n_visits": 21,
+ "n_baseline_visits": 13,
+ "baseline_w1_mag": 10.3536,
+ "baseline_w2_mag": 10.1419,
+ "baseline_w1_std_mag": 0.0541,
+ "baseline_w2_std_mag": 0.0993,
+ "flare_visit_mjd": 59186.135,
+ "flare_visit_n_rows": 13,
+ "flare_w1_mag": 9.824,
+ "flare_w2_mag": 9.3342,
+ "w1_dmag": 0.5296,
+ "w2_dmag": 0.8077,
+ "color_baseline_mag": 0.2118,
+ "color_flare_mag": 0.4898,
+ "delta_color_mag": 0.278,
+ "physics": {
+  "recipe": "mean magnitudes, no cuts, no differential correction, cz/H0 distance, no redshift terms, bisection",
+  "excess_w1_mjy": 14.052,
+  "excess_w2_mjy": 16.645,
+  "temperature_k": 1076.8,
+  "l_dust_erg_s": 3.336e+42,
+  "r_bb_light_days": 22.78,
+  "distance_mpc": 40.4
+ }
+}

@@ -1,0 +1,1271 @@
+{
+ "date_utc": "2026-11-16 (22:30-22:50 UTC; 2026-11-17 morning KST)",
+ "objects": {
+  "bat0463": "CGCG 312-012 (SIMBAD: Z 312-12)",
+  "bat0582": "2MASX J12005792+0648226",
+  "bat0074": "NGC 513",
+  "bat0686": "NGC 5273"
+ },
+ "simbad_references": {
+  "service": "SIMBAD TAP at simbad.harvard.edu (the CDS server timed out)",
+  "keywords": [
+   "flare",
+   "outburst",
+   "transient",
+   "tidal",
+   "changing",
+   "echo"
+  ],
+  "result": {
+   "bat0463": {
+    "n_references_listed": 48,
+    "since_year": null,
+    "titles_with_flare_keywords": []
+   },
+   "bat0582": {
+    "n_references_listed": 63,
+    "since_year": 2014,
+    "titles_with_flare_keywords": [
+     {
+      "bibcode": "2021ApJS..252...32J",
+      "title": "Mid-infrared outbursts in nearby galaxies (MIRONG). I. Sample selection and characterization."
+     },
+     {
+      "bibcode": "2021ApJ...907L..21D",
+      "title": "The landscape of galaxies harboring changing-look active galactic nuclei in the local universe."
+     },
+     {
+      "bibcode": "2023ApJ...959L..19D",
+      "title": "Mid-infrared Outbursts in Nearby Galaxies: Nuclear Obscuration and Connections to Hidden Tidal Disruption Events and Changing-look Active Galactic Nuclei."
+     },
+     {
+      "bibcode": "2025ApJS..281....7Y",
+      "title": "Distinguishing Tidal Disruption Events and Changing-look Active Galactic Nuclei via Variation in Mid-infrared Color."
+     }
+    ]
+   },
+   "bat0074": {
+    "n_references_listed": 68,
+    "since_year": 2014,
+    "titles_with_flare_keywords": []
+   },
+   "bat0686": {
+    "n_references_listed": 224,
+    "since_year": 2014,
+    "titles_with_flare_keywords": [
+     {
+      "bibcode": "2022ATel15281....1H",
+      "title": "ASAS-SN Discovery of a Large Outburst From NGC5273 and SCAT Classification as a Likely Optical Changing-Look AGN."
+     },
+     {
+      "bibcode": "2023AstL...49..271K",
+      "title": "Transient events in the circumnuclear regions of AGNs and quasars as sources of imitations of proper motion."
+     },
+     {
+      "bibcode": "2023ApJ...950..106W",
+      "title": "Steep Balmer Decrement in Weak AGNs May Not Be Caused by Dust Extinction: Clues from Low-luminosity AGNs and Changing-look AGNs."
+     },
+     {
+      "bibcode": "2023MNRAS.521.3810N",
+      "title": "Multiple flares in the changing-look AGN NGC 5273."
+     },
+     {
+      "bibcode": "2025A&A...693A..35J",
+      "title": "Investigating changing-look active galactic nuclei with long-term optical and X-ray observations."
+     },
+     {
+      "bibcode": "2025ApJ...980...91Y",
+      "title": "Galaxies Lighting Up: Discovery of Seventy New Turn-on Changing-look Active Galactic Nuclei."
+     }
+    ]
+   }
+  }
+ },
+ "vizier_cone_10_arcsec": {
+  "J/ApJS/252/32 (MIRONG, Jiang et al. 2021)": {
+   "bat0463": 0,
+   "bat0582": 1,
+   "bat0074": 0,
+   "bat0686": 0
+  },
+  "J/A+A/695/A228 (Flaires, Necker et al. 2025)": {
+   "bat0463": 0,
+   "bat0582": 0,
+   "bat0074": 0,
+   "bat0686": 0
+  },
+  "Masterson et al. 2024": "catalogue id tried (J/ApJ/961/211) was not found on VizieR; not checked"
+ },
+ "mirong_row_bat0582": {
+  "SDSS": "J120057.93+064823.1",
+  "withheld": "Row values from the MIRONG catalogue (Jiang et al. 2021, ApJS 252, 32; VizieR J/ApJS/252/32) are not reproduced here; query VizieR by the SDSS name."
+ },
+ "tns": "HTTP 403 for the public search URL (no access without a registered bot marker); not checked",
+ "atel": "no direct query; found only through SIMBAD references (ATel 15281 for NGC 5273) and one web search per object",
+ "ads": "not queried (no API access); SIMBAD reference lists and web search used instead",
+ "web_search": [
+  "\"CGCG 312-012\" OR \"Z 312-12\" OR \"SWIFT J0929.7+6232\" infrared flare OR outburst OR transient OR \"changing-look\" OR ATel OR TNS",
+  "\"NGC 513\" Seyfert mid-infrared flare OR outburst OR transient OR \"changing-look\" OR ATel OR supernova 2020 2021 2022 nucleus"
+ ],
+ "heasarc_observations_within_9_arcmin": {
+  "bat0463": {
+   "swiftmastr": [
+    {
+     "obsid": "00040946001",
+     "year": 2010.99,
+     "exposure_s": 10393
+    },
+    {
+     "obsid": "00081051001",
+     "year": 2022.33,
+     "exposure_s": 6971
+    }
+   ],
+   "xmmmaster": [],
+   "chanmaster": [],
+   "numaster": [
+    {
+     "obsid": "60160365002",
+     "year": 2022.33,
+     "exposure_s": 23054
+    }
+   ]
+  },
+  "bat0582": {
+   "swiftmastr": [
+    {
+     "obsid": "00035267001",
+     "year": 2005.94,
+     "exposure_s": 15051
+    },
+    {
+     "obsid": "00035267002",
+     "year": 2005.97,
+     "exposure_s": 3287
+    },
+    {
+     "obsid": "00080065001",
+     "year": 2022.05,
+     "exposure_s": 6076
+    },
+    {
+     "obsid": "00080065002",
+     "year": 2024.58,
+     "exposure_s": 961
+    },
+    {
+     "obsid": "00080065003",
+     "year": 2024.58,
+     "exposure_s": 893
+    }
+   ],
+   "xmmmaster": [
+    {
+     "obsid": "0312191701",
+     "year": 2006.48,
+     "exposure_s": 12910
+    }
+   ],
+   "chanmaster": [],
+   "numaster": [
+    {
+     "obsid": "60061218002",
+     "year": 2022.05,
+     "exposure_s": 18801
+    }
+   ]
+  },
+  "bat0074": {
+   "swiftmastr": [
+    {
+     "obsid": "00080021001",
+     "year": 2013.13,
+     "exposure_s": 6875
+    },
+    {
+     "obsid": "00080021002",
+     "year": 2024.47,
+     "exposure_s": 423
+    },
+    {
+     "obsid": "03611287001",
+     "year": 2026.18,
+     "exposure_s": 0
+    }
+   ],
+   "xmmmaster": [
+    {
+     "obsid": "0301150401",
+     "year": 2006.08,
+     "exposure_s": 16853
+    }
+   ],
+   "chanmaster": [],
+   "numaster": [
+    {
+     "obsid": "60061012002",
+     "year": 2013.13,
+     "exposure_s": 16040
+    }
+   ]
+  },
+  "bat0686": {
+   "swiftmastr": [
+    {
+     "obsid": "00080685001",
+     "year": 2014.53,
+     "exposure_s": 6488
+    },
+    {
+     "obsid": "00080685002",
+     "year": 2021.4,
+     "exposure_s": 2734
+    },
+    {
+     "obsid": "00080685003",
+     "year": 2021.42,
+     "exposure_s": 2522
+    },
+    {
+     "obsid": "00080685004",
+     "year": 2021.43,
+     "exposure_s": 268
+    },
+    {
+     "obsid": "00080685005",
+     "year": 2021.44,
+     "exposure_s": 40
+    },
+    {
+     "obsid": "00080685006",
+     "year": 2021.45,
+     "exposure_s": 868
+    },
+    {
+     "obsid": "00015085001",
+     "year": 2022.23,
+     "exposure_s": 1114
+    },
+    {
+     "obsid": "00015085002",
+     "year": 2022.24,
+     "exposure_s": 1366
+    },
+    {
+     "obsid": "00015085003",
+     "year": 2022.25,
+     "exposure_s": 2080
+    },
+    {
+     "obsid": "00015085004",
+     "year": 2022.25,
+     "exposure_s": 1015
+    },
+    {
+     "obsid": "00015085005",
+     "year": 2022.26,
+     "exposure_s": 1090
+    },
+    {
+     "obsid": "00015085006",
+     "year": 2022.27,
+     "exposure_s": 1533
+    },
+    {
+     "obsid": "00015085007",
+     "year": 2022.28,
+     "exposure_s": 1595
+    },
+    {
+     "obsid": "00015085008",
+     "year": 2022.29,
+     "exposure_s": 1667
+    },
+    {
+     "obsid": "00015085009",
+     "year": 2022.3,
+     "exposure_s": 1625
+    },
+    {
+     "obsid": "00015085010",
+     "year": 2022.31,
+     "exposure_s": 2964
+    },
+    {
+     "obsid": "00015085011",
+     "year": 2022.34,
+     "exposure_s": 3476
+    },
+    {
+     "obsid": "00015085012",
+     "year": 2022.37,
+     "exposure_s": 4292
+    },
+    {
+     "obsid": "00015085013",
+     "year": 2022.39,
+     "exposure_s": 3798
+    },
+    {
+     "obsid": "00015085014",
+     "year": 2022.41,
+     "exposure_s": 1023
+    },
+    {
+     "obsid": "00015085015",
+     "year": 2022.42,
+     "exposure_s": 2969
+    },
+    {
+     "obsid": "00015085016",
+     "year": 2022.44,
+     "exposure_s": 2062
+    },
+    {
+     "obsid": "00015085017",
+     "year": 2022.45,
+     "exposure_s": 3433
+    },
+    {
+     "obsid": "00015085019",
+     "year": 2022.49,
+     "exposure_s": 1593
+    },
+    {
+     "obsid": "00015085020",
+     "year": 2022.51,
+     "exposure_s": 2765
+    },
+    {
+     "obsid": "00015085021",
+     "year": 2022.52,
+     "exposure_s": 674
+    },
+    {
+     "obsid": "00015085022",
+     "year": 2022.53,
+     "exposure_s": 2084
+    },
+    {
+     "obsid": "00015085023",
+     "year": 2022.53,
+     "exposure_s": 1178
+    },
+    {
+     "obsid": "00015085024",
+     "year": 2022.54,
+     "exposure_s": 953
+    },
+    {
+     "obsid": "00015085025",
+     "year": 2022.55,
+     "exposure_s": 1166
+    },
+    {
+     "obsid": "00015085026",
+     "year": 2022.56,
+     "exposure_s": 2776
+    },
+    {
+     "obsid": "00015085027",
+     "year": 2022.57,
+     "exposure_s": 2778
+    },
+    {
+     "obsid": "00015085028",
+     "year": 2022.64,
+     "exposure_s": 2108
+    },
+    {
+     "obsid": "00015085029",
+     "year": 2022.81,
+     "exposure_s": 602
+    },
+    {
+     "obsid": "00015085031",
+     "year": 2022.83,
+     "exposure_s": 1276
+    },
+    {
+     "obsid": "00015085032",
+     "year": 2022.91,
+     "exposure_s": 2114
+    },
+    {
+     "obsid": "00015085033",
+     "year": 2022.93,
+     "exposure_s": 3285
+    },
+    {
+     "obsid": "00015085034",
+     "year": 2022.94,
+     "exposure_s": 1088
+    },
+    {
+     "obsid": "00015085035",
+     "year": 2022.95,
+     "exposure_s": 2783
+    },
+    {
+     "obsid": "00015085036",
+     "year": 2022.96,
+     "exposure_s": 3056
+    },
+    {
+     "obsid": "00015085037",
+     "year": 2022.96,
+     "exposure_s": 3085
+    },
+    {
+     "obsid": "00015085038",
+     "year": 2022.97,
+     "exposure_s": 2745
+    },
+    {
+     "obsid": "00015085039",
+     "year": 2023.0,
+     "exposure_s": 1528
+    },
+    {
+     "obsid": "00015085040",
+     "year": 2023.06,
+     "exposure_s": 2655
+    },
+    {
+     "obsid": "00015085041",
+     "year": 2023.08,
+     "exposure_s": 2558
+    },
+    {
+     "obsid": "00015085042",
+     "year": 2023.1,
+     "exposure_s": 2084
+    },
+    {
+     "obsid": "00015085043",
+     "year": 2023.12,
+     "exposure_s": 2572
+    },
+    {
+     "obsid": "00015085044",
+     "year": 2023.13,
+     "exposure_s": 2853
+    },
+    {
+     "obsid": "00015085045",
+     "year": 2023.15,
+     "exposure_s": 2204
+    },
+    {
+     "obsid": "00015085046",
+     "year": 2023.16,
+     "exposure_s": 1722
+    },
+    {
+     "obsid": "00015085047",
+     "year": 2023.17,
+     "exposure_s": 2125
+    },
+    {
+     "obsid": "00015085048",
+     "year": 2023.19,
+     "exposure_s": 2189
+    },
+    {
+     "obsid": "00015085049",
+     "year": 2023.21,
+     "exposure_s": 1983
+    },
+    {
+     "obsid": "00015085050",
+     "year": 2023.22,
+     "exposure_s": 865
+    },
+    {
+     "obsid": "00015085051",
+     "year": 2023.22,
+     "exposure_s": 506
+    },
+    {
+     "obsid": "00015085052",
+     "year": 2023.23,
+     "exposure_s": 1619
+    },
+    {
+     "obsid": "00015085053",
+     "year": 2023.24,
+     "exposure_s": 1472
+    },
+    {
+     "obsid": "00015085054",
+     "year": 2023.33,
+     "exposure_s": 1665
+    },
+    {
+     "obsid": "00015085055",
+     "year": 2023.36,
+     "exposure_s": 923
+    },
+    {
+     "obsid": "00015085056",
+     "year": 2023.36,
+     "exposure_s": 792
+    },
+    {
+     "obsid": "00015085057",
+     "year": 2023.37,
+     "exposure_s": 700
+    },
+    {
+     "obsid": "00015085058",
+     "year": 2023.37,
+     "exposure_s": 820
+    },
+    {
+     "obsid": "00015085060",
+     "year": 2023.39,
+     "exposure_s": 522
+    },
+    {
+     "obsid": "00015085061",
+     "year": 2023.39,
+     "exposure_s": 865
+    },
+    {
+     "obsid": "00015085062",
+     "year": 2023.4,
+     "exposure_s": 2809
+    },
+    {
+     "obsid": "00015085063",
+     "year": 2023.41,
+     "exposure_s": 812
+    },
+    {
+     "obsid": "00015085064",
+     "year": 2023.41,
+     "exposure_s": 998
+    },
+    {
+     "obsid": "00015085065",
+     "year": 2023.42,
+     "exposure_s": 2109
+    },
+    {
+     "obsid": "00015085066",
+     "year": 2023.42,
+     "exposure_s": 1572
+    }
+   ],
+   "xmmmaster": [
+    {
+     "obsid": "0112551701",
+     "year": 2002.45,
+     "exposure_s": 14380
+    },
+    {
+     "obsid": "0805080401",
+     "year": 2017.42,
+     "exposure_s": 110900
+    },
+    {
+     "obsid": "0805080501",
+     "year": 2017.43,
+     "exposure_s": 28000
+    },
+    {
+     "obsid": "0931790801",
+     "year": 2023.56,
+     "exposure_s": 14100
+    },
+    {
+     "obsid": "0931790701",
+     "year": 2023.56,
+     "exposure_s": 121800
+    }
+   ],
+   "chanmaster": [
+    {
+     "obsid": "415",
+     "year": 2000.67,
+     "exposure_s": 1760
+    }
+   ],
+   "numaster": [
+    {
+     "obsid": "60061350002",
+     "year": 2014.53,
+     "exposure_s": 21117
+    },
+    {
+     "obsid": "90801618002",
+     "year": 2022.5,
+     "exposure_s": 18030
+    }
+   ]
+  }
+ },
+ "requests": [
+  {
+   "tag": "simbad_bat0463_cds",
+   "url": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync",
+   "utc": "2026-11-16T22:29:01Z",
+   "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='simbad.cds.unistra.fr', port=443): Read timed out. (read timeout=60)\"))"
+  },
+  {
+   "tag": "simbad_bat0463_harvard",
+   "url": "https://simbad.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=csv&query=SELECT+r.bibcode%2C+r.year%2C+r.title+FROM+ref+AS+r+JOIN+has_ref+AS+h+ON+h.oidbibref%3Dr.oidbib+JOIN+ident+AS+i+ON+i.oidref%3Dh.oidref+WHERE+i.id%3D%27CGCG+312-012%27+AND+r.year%3E%3D2014+ORDER+BY+r.year",
+   "utc": "2026-11-16T22:30:12Z",
+   "status": 400,
+   "bytes": 1069
+  },
+  {
+   "tag": "vizier_mirong_bat0463",
+   "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJS%2F252%2F32&-c=142.40783+%2B62.54406&-c.rs=10&-out.max=20",
+   "utc": "2026-11-16T22:30:13Z",
+   "status": 200,
+   "bytes": 4246
+  },
+  {
+   "tag": "vizier_flaires_bat0463",
+   "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FA%2BA%2F695%2FA228&-c=142.40783+%2B62.54406&-c.rs=10&-out.max=20",
+   "utc": "2026-11-16T22:30:14Z",
+   "status": 200,
+   "bytes": 3680
+  },
+  {
+   "tag": "vizier_masterson_bat0463",
+   "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJ%2F961%2F211&-c=142.40783+%2B62.54406&-c.rs=10&-out.max=20",
+   "utc": "2026-11-16T22:30:15Z",
+   "status": 200,
+   "bytes": 741
+  },
+  {
+   "tag": "tns_bat0463",
+   "url": "https://www.wis-tns.org/search?ra=142.40783&decl=62.54406&radius=10&coords_unit=arcsec&format=csv",
+   "utc": "2026-11-16T22:30:16Z",
+   "status": 403,
+   "bytes": 118
+  },
+  {
+   "tag": "simbad_bat0582_cds",
+   "url": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync",
+   "utc": "2026-11-16T22:30:18Z",
+   "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='simbad.cds.unistra.fr', port=443): Read timed out. (read timeout=60)\"))"
+  },
+  {
+   "tag": "simbad_bat0582_harvard",
+   "url": "https://simbad.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=csv&query=SELECT+r.bibcode%2C+r.year%2C+r.title+FROM+ref+AS+r+JOIN+has_ref+AS+h+ON+h.oidbibref%3Dr.oidbib+JOIN+ident+AS+i+ON+i.oidref%3Dh.oidref+WHERE+i.id%3D%272MASX+J12005792%2B0648226%27+AND+r.year%3E%3D2014+ORDER+BY+r.year",
+   "utc": "2026-11-16T22:31:18Z",
+   "status": 400,
+   "bytes": 1069
+  },
+  {
+   "tag": "vizier_mirong_bat0582",
+   "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJS%2F252%2F32&-c=180.24144+%2B6.80640&-c.rs=10&-out.max=20",
+   "utc": "2026-11-16T22:31:19Z",
+   "status": 200,
+   "bytes": 1327
+  },
+  {
+   "tag": "vizier_flaires_bat0582",
+   "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FA%2BA%2F695%2FA228&-c=180.24144+%2B6.80640&-c.rs=10&-out.max=20",
+   "utc": "2026-11-16T22:31:20Z",
+   "status": 200,
+   "bytes": 3679
+  },
+  {
+   "tag": "vizier_masterson_bat0582",
+   "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJ%2F961%2F211&-c=180.24144+%2B6.80640&-c.rs=10&-out.max=20",
+   "utc": "2026-11-16T22:31:21Z",
+   "status": 200,
+   "bytes": 740
+  },
+  {
+   "tag": "tns_bat0582",
+   "url": "https://www.wis-tns.org/search?ra=180.24144&decl=6.80640&radius=10&coords_unit=arcsec&format=csv",
+   "utc": "2026-11-16T22:31:22Z",
+   "status": 403,
+   "bytes": 118
+  },
+  {
+   "tag": "simbad_bat0074_cds",
+   "url": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync",
+   "utc": "2026-11-16T22:31:24Z",
+   "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='simbad.cds.unistra.fr', port=443): Max retries exceeded with url: /simbad/sim-tap/sync?request=doQuery&lang=adql&format=csv&query=SELECT+r.bibco"
+  },
+  {
+   "tag": "simbad_bat0074_harvard",
+   "url": "https://simbad.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=csv&query=SELECT+r.bibcode%2C+r.year%2C+r.title+FROM+ref+AS+r+JOIN+has_ref+AS+h+ON+h.oidbibref%3Dr.oidbib+JOIN+ident+AS+i+ON+i.oidref%3Dh.oidref+WHERE+i.id%3D%27NGC+513%27+AND+r.year%3E%3D2014+ORDER+BY+r.year",
+   "utc": "2026-11-16T22:32:24Z",
+   "status": 400,
+   "bytes": 1069
+  },
+  {
+   "tag": "vizier_mirong_bat0074",
+   "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJS%2F252%2F32&-c=21.11167+%2B33.79949&-c.rs=10&-out.max=20",
+   "utc": "2026-11-16T22:32:24Z",
+   "status": 200,
+   "bytes": 4245
+  },
+  {
+   "tag": "vizier_flaires_bat0074",
+   "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FA%2BA%2F695%2FA228&-c=21.11167+%2B33.79949&-c.rs=10&-out.max=20",
+   "utc": "2026-11-16T22:32:25Z",
+   "status": 200,
+   "bytes": 3679
+  },
+  {
+   "tag": "vizier_masterson_bat0074",
+   "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJ%2F961%2F211&-c=21.11167+%2B33.79949&-c.rs=10&-out.max=20",
+   "utc": "2026-11-16T22:32:26Z",
+   "status": 200,
+   "bytes": 740
+  },
+  {
+   "tag": "tns_bat0074",
+   "url": "https://www.wis-tns.org/search?ra=21.11167&decl=33.79949&radius=10&coords_unit=arcsec&format=csv",
+   "utc": "2026-11-16T22:32:27Z",
+   "status": 403,
+   "bytes": 118
+  },
+  {
+   "tag": "simbad_bat0686_cds",
+   "url": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync",
+   "utc": "2026-11-16T22:32:29Z",
+   "error": "ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='simbad.cds.unistra.fr', port=443): Max retries exceeded with url: /simbad/sim-tap/sync?request=doQuery&lang=adql&format=csv&query=SELECT+r.bibco"
+  },
+  {
+   "tag": "simbad_bat0686_harvard",
+   "url": "https://simbad.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=csv&query=SELECT+r.bibcode%2C+r.year%2C+r.title+FROM+ref+AS+r+JOIN+has_ref+AS+h+ON+h.oidbibref%3Dr.oidbib+JOIN+ident+AS+i+ON+i.oidref%3Dh.oidref+WHERE+i.id%3D%27NGC+5273%27+AND+r.year%3E%3D2014+ORDER+BY+r.year",
+   "utc": "2026-11-16T22:33:29Z",
+   "status": 400,
+   "bytes": 1069
+  },
+  {
+   "tag": "vizier_mirong_bat0686",
+   "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJS%2F252%2F32&-c=205.53491+%2B35.65430&-c.rs=10&-out.max=20",
+   "utc": "2026-11-16T22:33:30Z",
+   "status": 200,
+   "bytes": 4246
+  },
+  {
+   "tag": "vizier_flaires_bat0686",
+   "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FA%2BA%2F695%2FA228&-c=205.53491+%2B35.65430&-c.rs=10&-out.max=20",
+   "utc": "2026-11-16T22:33:31Z",
+   "status": 200,
+   "bytes": 3680
+  },
+  {
+   "tag": "vizier_masterson_bat0686",
+   "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJ%2F961%2F211&-c=205.53491+%2B35.65430&-c.rs=10&-out.max=20",
+   "utc": "2026-11-16T22:33:31Z",
+   "status": 200,
+   "bytes": 741
+  },
+  {
+   "tag": "tns_bat0686",
+   "url": "https://www.wis-tns.org/search?ra=205.53491&decl=35.65430&radius=10&coords_unit=arcsec&format=csv",
+   "utc": "2026-11-16T22:33:32Z",
+   "status": 403,
+   "bytes": 118
+  },
+  {
+   "tag": "vizier_meta_ApJS",
+   "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJS%2F252%2F32&-out.max=2",
+   "utc": "2026-11-16T22:33:57Z",
+   "status": 200,
+   "bytes": 5063
+  },
+  {
+   "tag": "vizier_meta_A+A",
+   "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FA%2BA%2F695%2FA228&-out.max=2",
+   "utc": "2026-11-16T22:33:58Z",
+   "status": 200,
+   "bytes": 4509
+  },
+  {
+   "tag": "simbad_bat0463_harvard2",
+   "url": "https://simbad.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=csv&query=SELECT+r.bibcode%2C+r.%22year%22%2C+r.title+FROM+ref+AS+r+JOIN+has_ref+AS+h+ON+h.oidbibref%3Dr.oidbib+JOIN+ident+AS+i+ON+i.oidref%3Dh.oidref+WHERE+i.id%3D%27CGCG+312-012%27+AND+r.%22year%22%3E%3D2014+ORDER+BY+r.%22year%22",
+   "utc": "2026-11-16T22:33:59Z",
+   "status": 400,
+   "bytes": 697
+  },
+  {
+   "tag": "vizier2_mirong_bat0463",
+   "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJS%2F252%2F32&-c=142.40783+%2B62.54406&-c.rs=10&-out.max=20",
+   "utc": "2026-11-16T22:33:59Z",
+   "status": 200,
+   "bytes": 4246
+  },
+  {
+   "tag": "vizier2_flaires_bat0463",
+   "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FA%2BA%2F695%2FA228&-c=142.40783+%2B62.54406&-c.rs=10&-out.max=20",
+   "utc": "2026-11-16T22:34:01Z",
+   "status": 200,
+   "bytes": 3680
+  },
+  {
+   "tag": "simbad_bat0582_harvard2",
+   "url": "https://simbad.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=csv&query=SELECT+r.bibcode%2C+r.%22year%22%2C+r.title+FROM+ref+AS+r+JOIN+has_ref+AS+h+ON+h.oidbibref%3Dr.oidbib+JOIN+ident+AS+i+ON+i.oidref%3Dh.oidref+WHERE+i.id%3D%272MASX+J12005792%2B0648226%27+AND+r.%22year%22%3E%3D2014+ORDER+BY+r.%22year%22",
+   "utc": "2026-11-16T22:34:03Z",
+   "status": 400,
+   "bytes": 697
+  },
+  {
+   "tag": "vizier2_mirong_bat0582",
+   "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJS%2F252%2F32&-c=180.24144+%2B6.80640&-c.rs=10&-out.max=20",
+   "utc": "2026-11-16T22:34:04Z",
+   "status": 200,
+   "bytes": 4948
+  },
+  {
+   "tag": "vizier2_flaires_bat0582",
+   "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FA%2BA%2F695%2FA228&-c=180.24144+%2B6.80640&-c.rs=10&-out.max=20",
+   "utc": "2026-11-16T22:34:06Z",
+   "status": 200,
+   "bytes": 3679
+  },
+  {
+   "tag": "simbad_bat0074_harvard2",
+   "url": "https://simbad.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=csv&query=SELECT+r.bibcode%2C+r.%22year%22%2C+r.title+FROM+ref+AS+r+JOIN+has_ref+AS+h+ON+h.oidbibref%3Dr.oidbib+JOIN+ident+AS+i+ON+i.oidref%3Dh.oidref+WHERE+i.id%3D%27NGC+513%27+AND+r.%22year%22%3E%3D2014+ORDER+BY+r.%22year%22",
+   "utc": "2026-11-16T22:34:07Z",
+   "status": 400,
+   "bytes": 697
+  },
+  {
+   "tag": "vizier2_mirong_bat0074",
+   "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJS%2F252%2F32&-c=21.11167+%2B33.79949&-c.rs=10&-out.max=20",
+   "utc": "2026-11-16T22:34:08Z",
+   "status": 200,
+   "bytes": 4245
+  },
+  {
+   "tag": "vizier2_flaires_bat0074",
+   "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FA%2BA%2F695%2FA228&-c=21.11167+%2B33.79949&-c.rs=10&-out.max=20",
+   "utc": "2026-11-16T22:34:10Z",
+   "status": 200,
+   "bytes": 3679
+  },
+  {
+   "tag": "simbad_bat0686_harvard2",
+   "url": "https://simbad.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=csv&query=SELECT+r.bibcode%2C+r.%22year%22%2C+r.title+FROM+ref+AS+r+JOIN+has_ref+AS+h+ON+h.oidbibref%3Dr.oidbib+JOIN+ident+AS+i+ON+i.oidref%3Dh.oidref+WHERE+i.id%3D%27NGC+5273%27+AND+r.%22year%22%3E%3D2014+ORDER+BY+r.%22year%22",
+   "utc": "2026-11-16T22:34:12Z",
+   "status": 400,
+   "bytes": 697
+  },
+  {
+   "tag": "vizier2_mirong_bat0686",
+   "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FApJS%2F252%2F32&-c=205.53491+%2B35.65430&-c.rs=10&-out.max=20",
+   "utc": "2026-11-16T22:34:12Z",
+   "status": 200,
+   "bytes": 4246
+  },
+  {
+   "tag": "vizier2_flaires_bat0686",
+   "url": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=J%2FA%2BA%2F695%2FA228&-c=205.53491+%2B35.65430&-c.rs=10&-out.max=20",
+   "utc": "2026-11-16T22:34:14Z",
+   "status": 200,
+   "bytes": 3680
+  },
+  {
+   "tag": "simbad3_bat0463",
+   "url": "https://simbad.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=csv&query=SELECT+bibcode%2C+%22year%22%2C+title+FROM+ref+JOIN+has_ref+ON+oidbibref%3Doidbib+JOIN+ident+ON+has_ref.oidref%3Dident.oidref+WHERE+id%3D%27CGCG+312-012%27+AND+%22year%22%3E%3D2014+ORDER+BY+%22year%22",
+   "utc": "2026-11-16T22:34:39Z",
+   "status": 200,
+   "bytes": 19
+  },
+  {
+   "tag": "simbad3_bat0582",
+   "url": "https://simbad.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=csv&query=SELECT+bibcode%2C+%22year%22%2C+title+FROM+ref+JOIN+has_ref+ON+oidbibref%3Doidbib+JOIN+ident+ON+has_ref.oidref%3Dident.oidref+WHERE+id%3D%272MASX+J12005792%2B0648226%27+AND+%22year%22%3E%3D2014+ORDER+BY+%22year%22",
+   "utc": "2026-11-16T22:34:40Z",
+   "status": 200,
+   "bytes": 7838
+  },
+  {
+   "tag": "simbad3_bat0074",
+   "url": "https://simbad.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=csv&query=SELECT+bibcode%2C+%22year%22%2C+title+FROM+ref+JOIN+has_ref+ON+oidbibref%3Doidbib+JOIN+ident+ON+has_ref.oidref%3Dident.oidref+WHERE+id%3D%27NGC+513%27+AND+%22year%22%3E%3D2014+ORDER+BY+%22year%22",
+   "utc": "2026-11-16T22:34:41Z",
+   "status": 200,
+   "bytes": 8077
+  },
+  {
+   "tag": "simbad3_bat0686",
+   "url": "https://simbad.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=csv&query=SELECT+bibcode%2C+%22year%22%2C+title+FROM+ref+JOIN+has_ref+ON+oidbibref%3Doidbib+JOIN+ident+ON+has_ref.oidref%3Dident.oidref+WHERE+id%3D%27NGC+5273%27+AND+%22year%22%3E%3D2014+ORDER+BY+%22year%22",
+   "utc": "2026-11-16T22:34:41Z",
+   "status": 200,
+   "bytes": 27011
+  },
+  {
+   "tag": "simbad_cone_bat0463",
+   "url": "https://simbad.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=csv&query=SELECT+main_id%2C+otype%2C+ra%2C+dec+FROM+basic+WHERE+CONTAINS%28POINT%28%27ICRS%27%2C+ra%2C+dec%29%2C+CIRCLE%28%27ICRS%27%2C+142.40783%2C+62.54406%2C+0.003%29%29+%3D+1",
+   "utc": "2026-11-16T22:35:00Z",
+   "status": 200,
+   "bytes": 69
+  },
+  {
+   "tag": "simbad4_bat0463",
+   "url": "https://simbad.harvard.edu/simbad/sim-tap/sync?request=doQuery&lang=adql&format=csv&query=SELECT+bibcode%2C+%22year%22%2C+title+FROM+ref+JOIN+has_ref+ON+oidbibref%3Doidbib+JOIN+basic+ON+has_ref.oidref%3Dbasic.oid+WHERE+main_id%3D%27Z+312-12%27+ORDER+BY+%22year%22",
+   "utc": "2026-11-16T22:35:01Z",
+   "status": 200,
+   "bytes": 5571
+  },
+  {
+   "tag": "heasarc_swiftmastr_bat0463",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+obsid%2Cstart_time%2Cxrt_exposure+FROM+swiftmastr+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C142.40783%2C62.54406%2C0.15%29%29%3D1+ORDER+BY+start_time",
+   "utc": "2026-11-16T22:35:39Z",
+   "status": 200,
+   "bytes": 385
+  },
+  {
+   "tag": "heasarc_xmmmaster_bat0463",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+obsid%2Ctime%2Cduration+FROM+xmmmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C142.40783%2C62.54406%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:35:40Z",
+   "status": 200,
+   "bytes": 385
+  },
+  {
+   "tag": "heasarc_chanmaster_bat0463",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+obsid%2Ctime%2Cexposure+FROM+chanmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C142.40783%2C62.54406%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:35:41Z",
+   "status": 200,
+   "bytes": 385
+  },
+  {
+   "tag": "heasarc_numaster_bat0463",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+obsid%2Ctime%2Cexposure_a+FROM+numaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C142.40783%2C62.54406%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:35:42Z",
+   "status": 200,
+   "bytes": 385
+  },
+  {
+   "tag": "heasarc_swiftmastr_bat0582",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+obsid%2Cstart_time%2Cxrt_exposure+FROM+swiftmastr+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C180.24144%2C6.80640%2C0.15%29%29%3D1+ORDER+BY+start_time",
+   "utc": "2026-11-16T22:35:43Z",
+   "status": 200,
+   "bytes": 385
+  },
+  {
+   "tag": "heasarc_xmmmaster_bat0582",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+obsid%2Ctime%2Cduration+FROM+xmmmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C180.24144%2C6.80640%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:35:44Z",
+   "status": 200,
+   "bytes": 385
+  },
+  {
+   "tag": "heasarc_chanmaster_bat0582",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+obsid%2Ctime%2Cexposure+FROM+chanmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C180.24144%2C6.80640%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:35:45Z",
+   "status": 200,
+   "bytes": 385
+  },
+  {
+   "tag": "heasarc_numaster_bat0582",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+obsid%2Ctime%2Cexposure_a+FROM+numaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C180.24144%2C6.80640%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:35:46Z",
+   "status": 200,
+   "bytes": 385
+  },
+  {
+   "tag": "heasarc_swiftmastr_bat0074",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+obsid%2Cstart_time%2Cxrt_exposure+FROM+swiftmastr+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C21.11167%2C33.79949%2C0.15%29%29%3D1+ORDER+BY+start_time",
+   "utc": "2026-11-16T22:35:47Z",
+   "status": 200,
+   "bytes": 385
+  },
+  {
+   "tag": "heasarc_xmmmaster_bat0074",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+obsid%2Ctime%2Cduration+FROM+xmmmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C21.11167%2C33.79949%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:35:48Z",
+   "status": 200,
+   "bytes": 385
+  },
+  {
+   "tag": "heasarc_chanmaster_bat0074",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+obsid%2Ctime%2Cexposure+FROM+chanmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C21.11167%2C33.79949%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:35:48Z",
+   "status": 200,
+   "bytes": 385
+  },
+  {
+   "tag": "heasarc_numaster_bat0074",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+obsid%2Ctime%2Cexposure_a+FROM+numaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C21.11167%2C33.79949%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:35:49Z",
+   "status": 200,
+   "bytes": 385
+  },
+  {
+   "tag": "heasarc_swiftmastr_bat0686",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+obsid%2Cstart_time%2Cxrt_exposure+FROM+swiftmastr+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C205.53491%2C35.65430%2C0.15%29%29%3D1+ORDER+BY+start_time",
+   "utc": "2026-11-16T22:35:51Z",
+   "status": 200,
+   "bytes": 385
+  },
+  {
+   "tag": "heasarc_xmmmaster_bat0686",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+obsid%2Ctime%2Cduration+FROM+xmmmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C205.53491%2C35.65430%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:35:51Z",
+   "status": 200,
+   "bytes": 385
+  },
+  {
+   "tag": "heasarc_chanmaster_bat0686",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+obsid%2Ctime%2Cexposure+FROM+chanmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C205.53491%2C35.65430%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:35:52Z",
+   "status": 200,
+   "bytes": 385
+  },
+  {
+   "tag": "heasarc_numaster_bat0686",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=SELECT+obsid%2Ctime%2Cexposure_a+FROM+numaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C205.53491%2C35.65430%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:35:53Z",
+   "status": 200,
+   "bytes": 385
+  },
+  {
+   "tag": "bat157_index",
+   "url": "https://swift.gsfc.nasa.gov/results/bs157mon/",
+   "utc": "2026-11-16T22:35:54Z",
+   "status": 200,
+   "bytes": 724075
+  },
+  {
+   "tag": "asassn_home",
+   "url": "https://asas-sn.osu.edu/",
+   "utc": "2026-11-16T22:35:59Z",
+   "status": 200,
+   "bytes": 15021
+  },
+  {
+   "tag": "bat157_582",
+   "url": "https://swift.gsfc.nasa.gov/results/bs157mon/582",
+   "utc": "2026-11-16T22:36:36Z",
+   "status": 200,
+   "bytes": 9513
+  },
+  {
+   "tag": "heasarc2_swiftmastr_bat0463",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Cstart_time%2Cxrt_exposure+FROM+swiftmastr+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C142.40783%2C62.54406%2C0.15%29%29%3D1+ORDER+BY+start_time",
+   "utc": "2026-11-16T22:36:39Z",
+   "status": 200,
+   "bytes": 1781
+  },
+  {
+   "tag": "heasarc2_xmmmaster_bat0463",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cduration+FROM+xmmmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C142.40783%2C62.54406%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:36:41Z",
+   "status": 200,
+   "bytes": 1645
+  },
+  {
+   "tag": "heasarc2_chanmaster_bat0463",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cexposure+FROM+chanmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C142.40783%2C62.54406%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:36:45Z",
+   "status": 200,
+   "bytes": 1671
+  },
+  {
+   "tag": "heasarc2_numaster_bat0463",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cexposure_a+FROM+numaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C142.40783%2C62.54406%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:36:48Z",
+   "status": 200,
+   "bytes": 1680
+  },
+  {
+   "tag": "heasarc2_swiftmastr_bat0582",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Cstart_time%2Cxrt_exposure+FROM+swiftmastr+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C180.24144%2C6.80640%2C0.15%29%29%3D1+ORDER+BY+start_time",
+   "utc": "2026-11-16T22:36:51Z",
+   "status": 200,
+   "bytes": 1906
+  },
+  {
+   "tag": "heasarc2_xmmmaster_bat0582",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cduration+FROM+xmmmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C180.24144%2C6.80640%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:36:54Z",
+   "status": 200,
+   "bytes": 1680
+  },
+  {
+   "tag": "heasarc2_chanmaster_bat0582",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cexposure+FROM+chanmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C180.24144%2C6.80640%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:36:56Z",
+   "status": 200,
+   "bytes": 1670
+  },
+  {
+   "tag": "heasarc2_numaster_bat0582",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cexposure_a+FROM+numaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C180.24144%2C6.80640%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:36:58Z",
+   "status": 200,
+   "bytes": 1679
+  },
+  {
+   "tag": "heasarc2_swiftmastr_bat0074",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Cstart_time%2Cxrt_exposure+FROM+swiftmastr+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C21.11167%2C33.79949%2C0.15%29%29%3D1+ORDER+BY+start_time",
+   "utc": "2026-11-16T22:37:01Z",
+   "status": 200,
+   "bytes": 1821
+  },
+  {
+   "tag": "heasarc2_xmmmaster_bat0074",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cduration+FROM+xmmmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C21.11167%2C33.79949%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:37:03Z",
+   "status": 200,
+   "bytes": 1680
+  },
+  {
+   "tag": "heasarc2_chanmaster_bat0074",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cexposure+FROM+chanmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C21.11167%2C33.79949%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:37:06Z",
+   "status": 200,
+   "bytes": 1670
+  },
+  {
+   "tag": "heasarc2_numaster_bat0074",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cexposure_a+FROM+numaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C21.11167%2C33.79949%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:37:08Z",
+   "status": 200,
+   "bytes": 1679
+  },
+  {
+   "tag": "heasarc2_swiftmastr_bat0686",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Cstart_time%2Cxrt_exposure+FROM+swiftmastr+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C205.53491%2C35.65430%2C0.15%29%29%3D1+ORDER+BY+start_time",
+   "utc": "2026-11-16T22:37:11Z",
+   "status": 200,
+   "bytes": 4595
+  },
+  {
+   "tag": "heasarc2_xmmmaster_bat0686",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cduration+FROM+xmmmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C205.53491%2C35.65430%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:37:14Z",
+   "status": 200,
+   "bytes": 1823
+  },
+  {
+   "tag": "heasarc2_chanmaster_bat0686",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cexposure+FROM+chanmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C205.53491%2C35.65430%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:37:17Z",
+   "status": 200,
+   "bytes": 1699
+  },
+  {
+   "tag": "heasarc2_numaster_bat0686",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cexposure_a+FROM+numaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C205.53491%2C35.65430%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:37:20Z",
+   "status": 200,
+   "bytes": 1721
+  },
+  {
+   "tag": "heasarc3_swiftmastr_bat0463",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Cstart_time%2Cxrt_exposure+FROM+swiftmastr+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C142.40783%2C62.54406%2C0.15%29%29%3D1+ORDER+BY+start_time",
+   "utc": "2026-11-16T22:37:50Z",
+   "status": 200,
+   "bytes": 1781
+  },
+  {
+   "tag": "heasarc3_xmmmaster_bat0463",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cduration+FROM+xmmmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C142.40783%2C62.54406%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:37:53Z",
+   "status": 200,
+   "bytes": 1645
+  },
+  {
+   "tag": "heasarc3_chanmaster_bat0463",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cexposure+FROM+chanmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C142.40783%2C62.54406%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:37:55Z",
+   "status": 200,
+   "bytes": 1671
+  },
+  {
+   "tag": "heasarc3_numaster_bat0463",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cexposure_a+FROM+numaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C142.40783%2C62.54406%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:37:58Z",
+   "status": 200,
+   "bytes": 1680
+  },
+  {
+   "tag": "heasarc3_swiftmastr_bat0582",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Cstart_time%2Cxrt_exposure+FROM+swiftmastr+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C180.24144%2C6.80640%2C0.15%29%29%3D1+ORDER+BY+start_time",
+   "utc": "2026-11-16T22:38:01Z",
+   "status": 200,
+   "bytes": 1906
+  },
+  {
+   "tag": "heasarc3_xmmmaster_bat0582",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cduration+FROM+xmmmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C180.24144%2C6.80640%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:38:04Z",
+   "status": 200,
+   "bytes": 1680
+  },
+  {
+   "tag": "heasarc3_chanmaster_bat0582",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cexposure+FROM+chanmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C180.24144%2C6.80640%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:38:06Z",
+   "status": 200,
+   "bytes": 1670
+  },
+  {
+   "tag": "heasarc3_numaster_bat0582",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cexposure_a+FROM+numaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C180.24144%2C6.80640%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:38:09Z",
+   "status": 200,
+   "bytes": 1679
+  },
+  {
+   "tag": "heasarc3_swiftmastr_bat0074",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Cstart_time%2Cxrt_exposure+FROM+swiftmastr+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C21.11167%2C33.79949%2C0.15%29%29%3D1+ORDER+BY+start_time",
+   "utc": "2026-11-16T22:38:12Z",
+   "status": 200,
+   "bytes": 1821
+  },
+  {
+   "tag": "heasarc3_xmmmaster_bat0074",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cduration+FROM+xmmmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C21.11167%2C33.79949%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:38:15Z",
+   "status": 200,
+   "bytes": 1680
+  },
+  {
+   "tag": "heasarc3_chanmaster_bat0074",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cexposure+FROM+chanmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C21.11167%2C33.79949%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:38:17Z",
+   "status": 200,
+   "bytes": 1670
+  },
+  {
+   "tag": "heasarc3_numaster_bat0074",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cexposure_a+FROM+numaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C21.11167%2C33.79949%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:38:20Z",
+   "status": 200,
+   "bytes": 1679
+  },
+  {
+   "tag": "heasarc3_swiftmastr_bat0686",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Cstart_time%2Cxrt_exposure+FROM+swiftmastr+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C205.53491%2C35.65430%2C0.15%29%29%3D1+ORDER+BY+start_time",
+   "utc": "2026-11-16T22:38:23Z",
+   "status": 200,
+   "bytes": 4595
+  },
+  {
+   "tag": "heasarc3_xmmmaster_bat0686",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cduration+FROM+xmmmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C205.53491%2C35.65430%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:38:26Z",
+   "status": 200,
+   "bytes": 1823
+  },
+  {
+   "tag": "heasarc3_chanmaster_bat0686",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cexposure+FROM+chanmaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C205.53491%2C35.65430%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:38:28Z",
+   "status": 200,
+   "bytes": 1699
+  },
+  {
+   "tag": "heasarc3_numaster_bat0686",
+   "url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+obsid%2Ctime%2Cexposure_a+FROM+numaster+WHERE+CONTAINS%28POINT%28%27ICRS%27%2Cra%2Cdec%29%2CCIRCLE%28%27ICRS%27%2C205.53491%2C35.65430%2C0.15%29%29%3D1+ORDER+BY+time",
+   "utc": "2026-11-16T22:38:32Z",
+   "status": 200,
+   "bytes": 1721
+  }
+ ]
+}

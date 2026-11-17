@@ -1,0 +1,38 @@
+{
+ "definition": "detector (b) flag and fitted brightening >= 0.2 mag in both bands",
+ "hosts": "two comparison stars per sample_v1 field, leave-one-out corrected; Gaussian noise of the floor size added to both bands and to the errors",
+ "null": {
+  "0": {
+   "n_stars": 462,
+   "n_stars_with_q1_in_a_null_segment": 0,
+   "star_rate_upper_95": 0.007952795415741162,
+   "n_null_segments": 9839,
+   "n_null_segments_q1": 0,
+   "n_null_segments_b": 0
+  },
+  "10": {
+   "n_stars": 462,
+   "n_stars_with_q1_in_a_null_segment": 0,
+   "star_rate_upper_95": 0.007952795415741162,
+   "n_null_segments": 9839,
+   "n_null_segments_q1": 0,
+   "n_null_segments_b": 0
+  },
+  "20": {
+   "n_stars": 462,
+   "n_stars_with_q1_in_a_null_segment": 0,
+   "star_rate_upper_95": 0.007952795415741162,
+   "n_null_segments": 9839,
+   "n_null_segments_q1": 0,
+   "n_null_segments_b": 0
+  },
+  "50": {
+   "n_stars": 462,
+   "n_stars_with_q1_in_a_null_segment": 0,
+   "star_rate_upper_95": 0.007952795415741162,
+   "n_null_segments": 9839,
+   "n_null_segments_q1": 0,
+   "n_null_segments_b": 0
+  }
+ }
+}

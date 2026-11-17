@@ -1,0 +1,19 @@
+{
+ "name": "ngc3786",
+ "ned_name": "NGC 3786",
+ "ned_ra": 174.927105,
+ "ned_dec": 31.909431,
+ "ned_z": 0.009083,
+ "allwise_designation": "J113942.51+315433.9",
+ "ra": 174.927129,
+ "dec": 31.9094276,
+ "sep_ned_allwise_arcsec": 0.074,
+ "allwise_w1mpro": 10.279,
+ "allwise_w2mpro": 9.883,
+ "allwise_ext_flg": 5,
+ "allwise_cc_flags": "0000",
+ "allwise_var_flg": "3300",
+ "allwise_w1rchi2": 23.71,
+ "allwise_w2rchi2": 10.54,
+ "reference": "Son et al. 2022, ApJ 937, 3 (arXiv:2208.08062)"
+}

@@ -1,0 +1,73 @@
+{
+ "seed": 20261112,
+ "funnel": [
+  [
+   "AllWISE sources in field query",
+   29228
+  ],
+  [
+   "R1 field",
+   28880
+  ],
+  [
+   "R2 W1 range",
+   804
+  ],
+  [
+   "R3 W1-W2 colour",
+   753
+  ],
+  [
+   "R4 cc_flags",
+   721
+  ],
+  [
+   "R5 ext_flg",
+   692
+  ],
+  [
+   "R6 nb, na",
+   679
+  ],
+  [
+   "R7 saturation",
+   648
+  ],
+  [
+   "R8 var_flg",
+   647
+  ],
+  [
+   "R9 ph_qual",
+   647
+  ],
+  [
+   "R10 rchi2",
+   647
+  ],
+  [
+   "R11 2MASS",
+   646
+  ],
+  [
+   "R12 proper motion",
+   616
+  ],
+  [
+   "R13 isolation",
+   589
+  ],
+  [
+   "bin 9.5-10.5: candidates / drawn",
+   "79 / 10"
+  ],
+  [
+   "bin 10.5-11.5: candidates / drawn",
+   "178 / 10"
+  ],
+  [
+   "bin 11.5-12.5: candidates / drawn",
+   "332 / 10"
+  ]
+ ]
+}

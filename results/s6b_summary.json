@@ -1,0 +1,67 @@
+{
+ "freeze_check": {
+  "n_files": 210,
+  "n_mismatch": 0,
+  "freeze_code_commit": "588cab7a07802004de7574f18e751800a237aebe",
+  "frozen_utc": "2026-11-17T02:18:05Z"
+ },
+ "n_sample": 210,
+ "n_with_light_curve": 210,
+ "n_measurable": 94,
+ "n_measurable_with_lbol": 70,
+ "d_replication": {
+  "n": 94,
+  "median_d": 0.2681634843866129,
+  "median_d_ci95": [
+   0.2413300051338753,
+   0.2948112627697288
+  ],
+  "wilcoxon_p_one_sided": 1.904865981691927e-17,
+  "n_above_2sigma": 87,
+  "n_below_minus_2sigma": 0,
+  "sign_reproduced": true,
+  "stage5b_reference": {
+   "median_d": 0.228,
+   "ci95": [
+    0.2,
+    0.248
+   ],
+   "n": 71
+  }
+ },
+ "d_vs_luminosity": {
+  "n": 70,
+  "rho": 0.12938500568629166,
+  "rho_ci95": [
+   -0.11996948195657914,
+   0.3677523515712634
+  ],
+  "p_one_sided_permutation": 0.1367,
+  "q2": 0.19440643863179066,
+  "rho_with_log_lbol": 0.12765250428101874,
+  "d_median_high_luminosity": 0.3167628209362706,
+  "d_median_low_luminosity": 0.24368502662828817,
+  "d_median_high_minus_low": 0.07307779430798245,
+  "log_lbol_median": 45.019999999999996,
+  "log_lbol_range": [
+   44.51,
+   45.99
+  ],
+  "q1": {
+   "model1": 0.41645034154602184,
+   "model1_half": 0.34252929623053974,
+   "model1_double": 0.3739642816537989
+  },
+  "model1_rho_median": 0.5646266293203814,
+  "power_model1": 1.0,
+  "verdict": "사용자 예측 지지",
+  "verdict_if_lag_half": "사용자 예측 지지",
+  "verdict_if_lag_double": "사용자 예측 지지"
+ },
+ "combined_reference_only": {
+  "n_v1": 63,
+  "rho_v1_already_seen": -0.052083333333333336,
+  "n_combined": 133,
+  "rho_combined": 0.15296722130971932
+ }
+}

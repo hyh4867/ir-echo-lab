@@ -1,0 +1,291 @@
+{
+ "per_object": {
+  "ngc3786": {
+   "status": "ok",
+   "n_untimely_epochs": 16,
+   "n_matched_neowise_visits": 14,
+   "untimely_last_date": "2020-12-04",
+   "max_detections_within_5arcsec": 1,
+   "flags_info_values": [
+    66
+   ],
+   "w1": {
+    "median_untimely_minus_pipeline_mag": 0.152918,
+    "rms_about_median_mag": 0.0257073,
+    "pipeline_rms_mag": 0.151487,
+    "untimely_rms_mag": 0.165665,
+    "slope_untimely_vs_pipeline": 1.06321
+   },
+   "w2": {
+    "median_untimely_minus_pipeline_mag": 0.0972625,
+    "rms_about_median_mag": 0.0139589,
+    "pipeline_rms_mag": 0.235503,
+    "untimely_rms_mag": 0.24163,
+    "slope_untimely_vs_pipeline": 1.0267
+   }
+  },
+  "mrk573": {
+   "status": "ok",
+   "n_untimely_epochs": 17,
+   "n_matched_neowise_visits": 14,
+   "untimely_last_date": "2020-07-18",
+   "max_detections_within_5arcsec": 1,
+   "flags_info_values": [
+    66
+   ],
+   "w1": {
+    "median_untimely_minus_pipeline_mag": 0.0898831,
+    "rms_about_median_mag": 0.0153475,
+    "pipeline_rms_mag": 0.0164264,
+    "untimely_rms_mag": 0.0175019,
+    "slope_untimely_vs_pipeline": 0.632736
+   },
+   "w2": {
+    "median_untimely_minus_pipeline_mag": 0.051967,
+    "rms_about_median_mag": 0.01354,
+    "pipeline_rms_mag": 0.0143467,
+    "untimely_rms_mag": 0.0186412,
+    "slope_untimely_vs_pipeline": 0.889095
+   }
+  },
+  "ngc1386": {
+   "status": "ok",
+   "n_untimely_epochs": 17,
+   "n_matched_neowise_visits": 14,
+   "untimely_last_date": "2020-07-30",
+   "max_detections_within_5arcsec": 1,
+   "flags_info_values": [
+    74
+   ],
+   "w1": {
+    "median_untimely_minus_pipeline_mag": 0.195888,
+    "rms_about_median_mag": 0.0176481,
+    "pipeline_rms_mag": 0.0197641,
+    "untimely_rms_mag": 0.0105058,
+    "slope_untimely_vs_pipeline": 0.227833
+   },
+   "w2": {
+    "median_untimely_minus_pipeline_mag": 0.0906252,
+    "rms_about_median_mag": 0.00926342,
+    "pipeline_rms_mag": 0.0211482,
+    "untimely_rms_mag": 0.0171472,
+    "slope_untimely_vs_pipeline": 0.629991
+   }
+  },
+  "ngc2273": {
+   "status": "ok",
+   "n_untimely_epochs": 16,
+   "n_matched_neowise_visits": 14,
+   "untimely_last_date": "2020-09-29",
+   "max_detections_within_5arcsec": 1,
+   "flags_info_values": [
+    66,
+    74
+   ],
+   "w1": {
+    "median_untimely_minus_pipeline_mag": 0.149939,
+    "rms_about_median_mag": 0.0338701,
+    "pipeline_rms_mag": 0.0353815,
+    "untimely_rms_mag": 0.0616695,
+    "slope_untimely_vs_pipeline": 1.55265
+   },
+   "w2": {
+    "median_untimely_minus_pipeline_mag": 0.09537,
+    "rms_about_median_mag": 0.0179047,
+    "pipeline_rms_mag": 0.0921278,
+    "untimely_rms_mag": 0.101614,
+    "slope_untimely_vs_pipeline": 1.06983
+   }
+  },
+  "ngc3081": {
+   "status": "ok",
+   "n_untimely_epochs": 16,
+   "n_matched_neowise_visits": 14,
+   "untimely_last_date": "2020-12-04",
+   "max_detections_within_5arcsec": 1,
+   "flags_info_values": [
+    66
+   ],
+   "w1": {
+    "median_untimely_minus_pipeline_mag": 0.150017,
+    "rms_about_median_mag": 0.0296698,
+    "pipeline_rms_mag": 0.0226467,
+    "untimely_rms_mag": 0.0374383,
+    "slope_untimely_vs_pipeline": 0.983315
+   },
+   "w2": {
+    "median_untimely_minus_pipeline_mag": 0.0841471,
+    "rms_about_median_mag": 0.0115448,
+    "pipeline_rms_mag": 0.0528504,
+    "untimely_rms_mag": 0.0580106,
+    "slope_untimely_vs_pipeline": 1.0522
+   }
+  },
+  "ngc3393": {
+   "status": "ok",
+   "n_untimely_epochs": 16,
+   "n_matched_neowise_visits": 14,
+   "untimely_last_date": "2020-05-26",
+   "max_detections_within_5arcsec": 1,
+   "flags_info_values": [
+    66
+   ],
+   "w1": {
+    "median_untimely_minus_pipeline_mag": 0.186746,
+    "rms_about_median_mag": 0.0309296,
+    "pipeline_rms_mag": 0.0241629,
+    "untimely_rms_mag": 0.0134213,
+    "slope_untimely_vs_pipeline": -0.141895
+   },
+   "w2": {
+    "median_untimely_minus_pipeline_mag": 0.112472,
+    "rms_about_median_mag": 0.0219449,
+    "pipeline_rms_mag": 0.0158218,
+    "untimely_rms_mag": 0.0162813,
+    "slope_untimely_vs_pipeline": 0.0639458
+   }
+  },
+  "ngc4941": {
+   "status": "ok",
+   "n_untimely_epochs": 17,
+   "n_matched_neowise_visits": 14,
+   "untimely_last_date": "2020-06-15",
+   "max_detections_within_5arcsec": 1,
+   "flags_info_values": [
+    66
+   ],
+   "w1": {
+    "median_untimely_minus_pipeline_mag": 0.223325,
+    "rms_about_median_mag": 0.0237218,
+    "pipeline_rms_mag": 0.0500941,
+    "untimely_rms_mag": 0.0442849,
+    "slope_untimely_vs_pipeline": 0.772337
+   },
+   "w2": {
+    "median_untimely_minus_pipeline_mag": 0.132995,
+    "rms_about_median_mag": 0.0131191,
+    "pipeline_rms_mag": 0.0802454,
+    "untimely_rms_mag": 0.0778265,
+    "slope_untimely_vs_pipeline": 0.951051
+   }
+  },
+  "ngc5347": {
+   "status": "ok",
+   "n_untimely_epochs": 17,
+   "n_matched_neowise_visits": 14,
+   "untimely_last_date": "2020-06-10",
+   "max_detections_within_5arcsec": 1,
+   "flags_info_values": [
+    66
+   ],
+   "w1": {
+    "median_untimely_minus_pipeline_mag": 0.0896553,
+    "rms_about_median_mag": 0.0147666,
+    "pipeline_rms_mag": 0.0708637,
+    "untimely_rms_mag": 0.0688031,
+    "slope_untimely_vs_pipeline": 0.914364
+   },
+   "w2": {
+    "median_untimely_minus_pipeline_mag": 0.0450735,
+    "rms_about_median_mag": 0.00878759,
+    "pipeline_rms_mag": 0.0987021,
+    "untimely_rms_mag": 0.0990624,
+    "slope_untimely_vs_pipeline": 0.961515
+   }
+  },
+  "ngc5728": {
+   "status": "ok",
+   "n_untimely_epochs": 16,
+   "n_matched_neowise_visits": 14,
+   "untimely_last_date": "2020-07-13",
+   "max_detections_within_5arcsec": 1,
+   "flags_info_values": [
+    66,
+    74
+   ],
+   "w1": {
+    "median_untimely_minus_pipeline_mag": 0.369511,
+    "rms_about_median_mag": 0.0396745,
+    "pipeline_rms_mag": 0.0375386,
+    "untimely_rms_mag": 0.0119384,
+    "slope_untimely_vs_pipeline": -0.0131942
+   },
+   "w2": {
+    "median_untimely_minus_pipeline_mag": 0.220127,
+    "rms_about_median_mag": 0.0212117,
+    "pipeline_rms_mag": 0.0330507,
+    "untimely_rms_mag": 0.0179865,
+    "slope_untimely_vs_pipeline": 0.448056
+   }
+  }
+ },
+ "ngc3786_flare": {
+  "n_baseline_visits_matched": 13,
+  "onset_matched": true,
+  "onset_date_pipeline": "2020-12-02",
+  "onset_date_untimely": "2020-12-04",
+  "w1": {
+   "pipeline_baseline_mag": 10.392,
+   "pipeline_onset_mag": 9.832,
+   "pipeline_dmag": 0.559988,
+   "pipeline_excess_flux_mjy": 14.5605,
+   "untimely_baseline_mag": 10.5453,
+   "untimely_onset_mag": 9.92658,
+   "untimely_dmag": 0.618683,
+   "untimely_excess_flux_mjy": 14.3864
+  },
+  "w2": {
+   "pipeline_baseline_mag": 10.189,
+   "pipeline_onset_mag": 9.334,
+   "pipeline_dmag": 0.855,
+   "pipeline_excess_flux_mjy": 17.2901,
+   "untimely_baseline_mag": 10.2867,
+   "untimely_onset_mag": 9.42102,
+   "untimely_dmag": 0.865712,
+   "untimely_excess_flux_mjy": 16.0891
+  },
+  "pipeline_excess_ratio_w1_w2": 0.842132,
+  "pipeline_excess_temperature_k": 1074.17,
+  "untimely_excess_ratio_w1_w2": 0.89417,
+  "untimely_excess_temperature_k": 1143.74
+ },
+ "ngc3786_followup": {
+  "son2026_reported_mean_brightening_mag": {
+   "w1": 0.68,
+   "w2": 1.02
+  },
+  "pre_outburst_mjd_limit": 59000.0,
+  "uncorrected": {
+   "n_pre": 13,
+   "n_post": 8,
+   "w1_mean_minus_mean": 0.682985,
+   "w1_median_minus_mean": 0.715552,
+   "w2_mean_minus_mean": 1.01814,
+   "w2_median_minus_mean": 1.06438
+  },
+  "corrected": {
+   "n_pre": 13,
+   "n_post": 8,
+   "w1_mean_minus_mean": 0.685601,
+   "w1_median_minus_mean": 0.713956,
+   "w2_mean_minus_mean": 1.0274,
+   "w2_median_minus_mean": 1.07405
+  },
+  "color_2010_vs_2014_2020": {
+   "pipeline_allwise_2010_colors": [
+    0.438,
+    0.332509
+   ],
+   "pipeline_neowise_pre_outburst_median_color": 0.212,
+   "untimely_2010_colors": [
+    0.453936,
+    0.394817
+   ],
+   "untimely_2014_2020_pre_outburst_median_color": 0.260334,
+   "untimely_2010_dates": [
+    "2010-05-28",
+    "2010-12-04"
+   ]
+  }
+ }
+}

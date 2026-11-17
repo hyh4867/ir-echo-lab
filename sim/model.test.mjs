@@ -1,0 +1,11 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {kernel,planck,colorTemperature,bolometric,SIGMA,radius,dilution,slope,sample,simulate,smooth} from './model.mjs';
+const near=(a,b,t=1e-9)=>assert.ok(Math.abs(a-b)<t,`${a} != ${b}`);
+test('Thin shell normalized response and mean delay R/c',()=>{const k=kernel(37);near(k.reduce((s,x)=>s+x.weight,0),1);near(k.reduce((s,x)=>s+x.weight*x.lag,0),37);});
+test('Blackbody two-band color temperature round trip',()=>{for(const t of [300,700,1500,1800,3000])near(colorTemperature(planck(3.4,t),planck(4.6,t)),t,1e-6);assert.ok(Number.isNaN(colorTemperature(-1,1)));});
+test('Stefan–Boltzmann numerical Planck integral',()=>{const T=1200,n=20000,lo=1e9,hi=1e16,step=Math.log(hi/lo)/n;let sum=0;for(let i=0;i<n;i++){const nu=lo*Math.exp((i+.5)*step);sum+=Math.PI*planck(2.99792458e14/nu,T)*nu*step;}near(sum/(SIGMA*T**4),1,1e-5);near(bolometric(3,2),48*SIGMA);});
+test('Sublimation radius scales as square root of luminosity',()=>near(radius(4e44,1800)/radius(1e44,1800),2));
+test('Host dilution follows total flux ratio',()=>{near(dilution(2,3),-2.5*Math.log10(5/4));assert.ok(Math.abs(dilution(2,3))<Math.abs(dilution(2,0)));});
+test('Ideal fixed area slope 0.25; moving boundary slope zero',()=>{const temps=[600,800,1000,1200],L=temps.map(t=>Math.log10(bolometric(1e30,t)));near(slope(L,temps.map(Math.log10)),.25);near(slope(L,L.map(()=>Math.log10(1800))),0);});
+test('A short event disappears between 180-day samples',()=>{const a=Array.from({length:721},(_,i)=>i>=40&&i<60?2:1);assert.equal(Math.max(...a),2);assert.equal(Math.max(...sample(a,180)),1);});
+test('Constant prehistory stays constant after convolution',()=>smooth(Array(200).fill(4),30,4).forEach(x=>near(x,4)));
+test('Simulation is deterministic and all modes produce finite flux',()=>{assert.deepEqual(simulate(),simulate());for(const mode of ['drw','step','rise','tde']){const d=simulate({mode});assert.ok(d.f1.every(v=>Number.isFinite(v)&&v>=0));assert.equal(d.obs.length,11);}});
