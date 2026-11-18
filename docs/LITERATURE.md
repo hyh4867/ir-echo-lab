@@ -207,7 +207,7 @@ arXiv API 조회: 2510.04517, 2601.00358, 2005.07339, 2401.12524.
 | 출처 | 이 천체에 대한 내용 | 이번 분석과의 관계 |
 |---|---|---|
 | Ricci et al. 2017, ApJS 233, 17 (BASS V. VizieR J/ApJS/233/17의 행) | 연X선 자료는 **Swift/XRT 관측 40946001**(이번의 2010년 관측)이고 BAT 70개월 스펙트럼과 함께 맞췄다. 행의 값(모형, N_H, Γ, 반사, 산란 비율, flux, 광도)은 공개 저장소에 옮기지 않았다. `scripts/xray_literature.py`가 다시 받는다. 받은 행에는 오차 열이 없었다 | BASS의 N_H와 광도가 이번의 "2010년 XRT + BAT 평균"(계획의 C3)과 같은 자료에서 나왔다. 즉 BASS의 값은 2022년과 독립인 과거 상태의 값이다 |
-| 2SXPS (Evans et al. 2020, VizieR IX/58의 행) | 2SXPS J092937.8+623239. 행의 값(count rate, hardness ratio, 환산 flux)은 공개 저장소에 옮기지 않았다. `scripts/xray_literature.py`가 다시 받는다 | 목록은 2018년까지의 관측을 쓰므로 2010년 관측에 해당한다. 이번에 같은 관측에서 잰 0.3–10 keV net rate와 비교했다(`results/s7b_light.json`) |
+| 2SXPS (Evans et al. 2020, VizieR IX/58의 행) | 2SXPS J092937.8+623239. 행의 값(count rate, hardness ratio, 환산 flux)은 공개 저장소의 결과 파일과 문서에 옮기지 않았다. `scripts/xray_literature.py`가 다시 받는다. 비교에 쓴 노출·밴드별 rate는 `scripts/xray_7b.py`에 적혀 있다 | 목록은 2018년까지의 관측을 쓰므로 2010년 관측에 해당한다. 이번에 같은 관측에서 잰 0.3–10 keV net rate와 비교했다(`results/s7b_light.json`) |
 | Swift-BAT 157개월 목록 파일 (`BAT_157m_catalog_20250525.txt`) | 행의 값(S/N, flux, Γ, 환산 χ², 광도)은 공개 저장소에 옮기지 않았다. `scripts/fetch_xray.py`가 파일을 받는다 | BAT 평균의 기준값. 목록의 power law 맞춤은 환산 χ²가 커서 BAT 스펙트럼 자체가 power law로 잘 맞지 않는다 |
 | SIMBAD 참고문헌 48편 | 모두 목록·표본 논문이다(Swift-BAT 54·70·105개월 목록, BASS의 여러 편, Herschel 측광, INTEGRAL 17년 survey, megamaser 탐색 등). 제목에 이 천체의 이름이 든 것은 없다 | 이 천체 하나의 X선 스펙트럼이나 변광을 다룬 논문은 **이 검색에서 못 찾음** |
 | 웹 검색 | 관측 ID 60160365002나 천체 이름으로 2022년 NuSTAR·Swift 관측을 분석한 논문을 찾지 못했다 | "분석된 적 없다"는 뜻이 아니다. 표본 논문 안에 들어 있을 수 있다 |
@@ -241,3 +241,19 @@ arXiv API 조회: 2510.04517, 2601.00358, 2005.07339, 2401.12524.
 
 - MacLeod et al.의 M_i는 K 보정된 i 밴드 절대등급이다. L_bol에서 M_i로 가는 환산은 위 Shen et al.의 식을 썼고, 이 표본(근처 Seyfert, log L_bol 43–46)은 MacLeod et al.의 표본(SDSS Stripe 82 quasar)보다 어둡다. 식을 표본 밖으로 늘려 쓴 것이다.
 - 검색어(일반 웹 검색, 영어): "M_i(z=2)" "90 - 2.5 log" L_bol Shen 2009 quasar absolute magnitude bolometric luminosity conversion / Almeyda TORMAC torus reverberation mapping code dust emission response transfer function 2017 2020 anisotropic illumination cloud orientation.
+
+## 12. 9단계 추가: W1·W2의 지연–광도 관계 (2026-11-18)
+
+사전 등록(`docs/PREDICTIONS_9.md`, `e099db9`)을 커밋한 뒤에, 5절에서 "원문에서 다시 확인한다"고 한 것을 확인했다. 9단계의 맞춤 결과를 보기 전이다.
+
+| 문헌 | 확인한 내용 | 확인한 범위 |
+|---|---|---|
+| Lyu, Rieke & Smith 2019, ApJ 886, 33 (arXiv:1909.11101v2) | **4.2.2절 "Correlation between Mid-IR Time Lag and AGN Luminosity", arXiv v2 PDF 17쪽.** 식 (15): Δt_torus,W1/day = 10^(2.10 ± 0.06) (L_AGN,SED / 10¹¹ L☉)^(0.47 ± 0.06). 식 (16): Δt_torus,W2/day = 10^(2.20 ± 0.06) (L_AGN,SED / 10¹¹ L☉)^(0.45 ± 0.05). 맞춘 식은 식 (10) log(Δt) = α + β log(L_AGN)이고 지연은 (1 + z)로 나눈 값이다(16쪽). L_AGN은 V밴드 광도에서 식 (14)로 환산했고 불확도를 0.3 dex로 두었다(16–17쪽). 같은 17쪽: Δt_W2/Δt_W1의 평균 1.21 ± 0.36, 중앙값 1.15. 식 (17): Δt_W2 = (1.17 ± 0.11) Δt_W1 + (0.21 ± 54.3). 맞춘 PG quasar 67개, 평균 z = 0.15 ± 0.10 | arXiv의 PDF를 받아 본문을 글자로 뽑아 직접 읽음. 학술지 판의 쪽 번호는 확인하지 않음. 관계 주변의 고유 산포 값은 16–18쪽에서 찾지 못함 |
+| Mandal, Woo, Wang, Rakshit, Cho, Son & Stalin 2024, arXiv:2403.01885 (arXiv에 "ApJ 게재 승인"으로 표시. 권·쪽 미확인) | 식 (6): log(R_dust,IR / 1 light-day) = β + α log(L_AGN / L_0), L_bol 맞춤에서 L_0 = 10^45.7 erg/s. **표 5 "Linear regression fitting results of the torus size – luminosity relation"** (원반 성분을 뺀 뒤, BCES, ICCF 지연): W1 α = 0.39 ± 0.02, β = 2.66 ± 0.01, σ = 0.19 dex. W2 α = 0.33 ± 0.02, β = 2.76 ± 0.01, σ = 0.18 dex. LINMIX와 JAVELIN의 값은 α 0.30–0.38, σ 0.18–0.19 dex. 표본은 W1 446개, W2 416개, L_bol 10^43.4–10^47.6 erg/s | ar5iv 본문(앞 10만 자)을 요약 도구로 두 번 조회해 같은 값을 얻음. 원문 PDF를 직접 읽지는 않았고 쪽 번호는 확인하지 않음 |
+| Tomar, Rakshit, Mandal & Pandey 2025, arXiv:2510.04517 (arXiv에 "ApJ 게재 승인"으로 표시) | AGN 51개(z < 0.8), 지연–광도 기울기 약 0.41(W1), 0.40(W2) | arXiv 초록 쪽의 요약만. 검색 요약에 τ_W2/τ_W1 = 1.21 ± 0.06이라는 값이 있었으나 원문에서 확인하지 않았다(**미확인**) |
+
+- 세 문헌의 지연은 모두 광학 → W1, 광학 → W2의 지연이다. 9단계가 맞추는 것은 W1 → W2의 지연이라, 문헌 값으로는 두 식의 차(Δτ = τ_W2 − τ_W1)를 쓴다. W1 → W2의 지연을 직접 잰 문헌 값은 찾지 못했다(이 검색에서).
+- 식 15–16의 차와 식 (17)의 비는 조금 다르다. L = 10¹¹ L☉에서 식 15–16은 126일과 158일(비 1.26), 식 (17)은 비 1.17이다(계산).
+- 두 관계가 주는 Δτ는 크게 다르다. log L_bol = 44.5에서 Lyu는 30일(115일과 145일), Mandal은 76일(156일과 231일)이다(계산). Mandal의 값은 원반 성분을 뺀 뒤의 크기이고 표본이 quasar다. 9단계의 사전 등록은 Lyu의 식만 썼고, Mandal의 식과의 비교는 사후 비교로 표시한다.
+- Mandal의 σ = 0.18–0.19 dex는 8단계 B3에서 "문헌에서 확인하지 못했다"고 적은 **지연–광도 관계의 산포**에 해당하는 값이다. 다만 광학 → W1, 광학 → W2 각각의 산포이고, 두 밴드 지연의 차의 산포가 아니다.
+- 검색어(일반 웹 검색, 영어): Lyu Rieke Smith 2019 "Mid-IR Variability and Dust Reverberation Mapping of Low-z Quasars" arXiv / WISE W1 W2 dust reverberation lag luminosity relation slope quasars Yang 2020 OR Mandal 2024 OR Chen 2023 "W2" lag "W1" lag ratio. ADS는 조회하지 않았다.

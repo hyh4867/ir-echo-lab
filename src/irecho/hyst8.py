@@ -176,12 +176,14 @@ def d_statistic(f1, s1, f2, s2, pivot: str = "peak", reference=None, rising=None
 
 
 # --- direct comparison (section 3.2) ----------------------------------------------------------
-def direct_offset(f1, s1, f2, s2, rising=None, r: float = 0.0, parity=None, trend=None) -> dict:
+def direct_offset(f1, s1, f2, s2, rising=None, r: float = 0.0, parity=None, trend=None, inside=None) -> dict:
     """Offset of W1 flux between the rising and the declining branch at the same W2 flux.
 
     Only visits inside the common W2 range of the two branches are used (no
     extrapolation). Model: F1 = c + m F2 + delta [rising] (+ gamma [parity]).
     delta > 0: the rising branch is bluer; this is the sign of D > 0.
+    ``inside`` (stage 9) fixes the visits used instead of deriving them from the
+    common W2 range, so that a second W2 series can be compared on the same visits.
     """
     f1, s1, f2, s2 = (np.asarray(v, dtype=float) for v in (f1, s1, f2, s2))
     rising = branch_rising(f1, f2) if rising is None else np.asarray(rising, dtype=bool)
@@ -193,12 +195,15 @@ def direct_offset(f1, s1, f2, s2, rising=None, r: float = 0.0, parity=None, tren
         return out
     lo = max(f2[rising].min(), f2[~rising].min())
     hi = min(f2[rising].max(), f2[~rising].max())
-    inside = (f2 >= lo) & (f2 <= hi)
+    given = inside is not None
+    inside = np.asarray(inside, dtype=bool) if given else (f2 >= lo) & (f2 <= hi)
     out.update(lo=float(lo), hi=float(hi), n_rise_in=int((inside & rising).sum()), n_fade_in=int((inside & ~rising).sum()))
-    if min(out["n_rise_in"], out["n_fade_in"]) < MIN_EACH_DIRECT or hi <= lo:
+    if min(out["n_rise_in"], out["n_fade_in"]) < MIN_EACH_DIRECT or (hi <= lo and not given):
         return out
-    if hi - lo < MIN_WIDTH_SIGMA * float(np.median(s2[inside])):
+    if not given and hi - lo < MIN_WIDTH_SIGMA * float(np.median(s2[inside])):
         return out
+    if given:
+        lo, hi = float(f2[inside].min()), float(f2[inside].max())
     x, y, sx, sy, lab = f2[inside], f1[inside], s2[inside], s1[inside], rising[inside].astype(float)
     extra = [lab]
     if parity is not None:

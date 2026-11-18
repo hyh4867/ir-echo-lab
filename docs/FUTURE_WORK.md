@@ -1,28 +1,35 @@
 # Future work and open questions
 
-This file collects the next steps and the open problems recorded at the end of stages 5b, 6A, 6B, 7 (with its supplement 7b) and 8. Wording follows the rule used throughout the project: a result is a **candidate** until it is confirmed, and "not found" means **not found in this search**.
+This file collects the open problems recorded at the end of stages 5b, 6A, 6B, 7 (with its supplement 7b), 8 and 9, and the candidates for later work. **The project stops at stage 9.** Nothing below is planned or in progress; the items are listed so that the limits of the results are visible and a later study has a starting point. Wording follows the rule used throughout the project: a result is a **candidate** until it is confirmed, and "not found" means **not found in this search**.
 
-The two checks that came before everything else (a null test of D and a direct comparison without the shared peak) were done in stage 8; the result is in the README ("Conclusions in three layers") and the criteria are in [VALIDATION_8.md](VALIDATION_8.md). The colour asymmetry is in the data; its cause is open. The next stage follows from that.
+## Where stage 9 left the question
 
-## Stage 9 (planned): is the asymmetry explained by an inter-band lag alone?
+Stage 8 showed that the colour asymmetry is in the data. Stage 9 asked whether a lag of W2 behind W1 and the width of the response give its size object by object ([PREDICTIONS_9.md](PREDICTIONS_9.md), Korean; the result is in the README, "Conclusions in three layers"). The answer has two parts.
 
-**Question.** The direct comparison gives a median Δ(W1−W2) of −17.5 mmag (`sample_v1`) and −29.8 mmag (`sample_v2`) between the rising and the fading branch. Is this, object by object, what a lag of W2 behind W1 and the width of the response give, or is a part left over? The design note is [TRANSFER_DESIGN.md](TRANSFER_DESIGN.md) (Korean).
+- A fixed linear response from W1 to W2, with a median lag of 40 d and 50 d in the observed frame, predicts 95% and 99% of the median asymmetry. No evidence was found for a component beyond it. The label by the committed rule is "depends on the model" (two cells "explained", two "undetermined", none "a part remains").
+- With six-month visits this does not identify the cause. On synthetic samples a model with delayed re-formation only, and no lag between the bands, is fitted as an apparent lag of 15–25 d and is absorbed by the fixed kernel; a pure shift is not separated from a kernel of different width or tail; undelayed accretion-disc light in W1 leaves a fixed linear relation between the bands as well. The statement is limited to "consistent with an inter-band-lag model; not distinguished from re-formation".
 
-The stage has not been run. Its models, pass/fail criteria and interpretation rule are to be committed before any model is fitted to the real light curves, and the document will state that the results up to stage 8 had already been seen.
+The fitted lags are about 1.4 times the W2 − W1 lag difference of Lyu, Rieke & Smith (2019) and depend weakly on luminosity (ρ = +0.38). This hints that the fitted lag is not only a lag between the dust seen in the two bands, but the published relations differ by a factor of 2.5 at log L_bol = 44.5 (Lyu et al. against Mandal et al. 2024), and no published direct measurement of the W1-to-W2 lag was found in this search.
 
-- **B0. Pre-registration.** Four fixed models in order of complexity: T0, the same response in both bands (no loop); T1, a pure shift of the W2 response; T2, fixed responses of different width and tail; T3, a response that changes with the past illumination (the inner edge recedes and returns late). Every model is compared with T0 directly, not only with its predecessor: the stage 7 rule that stepped from one model to the next missed the better-fitting one.
-- **B1. Identifiability first.** With the real visit times and errors, simulate T0–T3 and measure how well a six-month cadence separates them and how accurately a lag is recovered. If they cannot be separated, that is the result, and the scope of B2 is reduced accordingly.
-- **B2. Band-to-band transfer without a driver.** For each object fit F_W2(t) = a + b·(K ∗ F_W1)(t), using W1 as the input of W2, for a lag and a kernel width; the interpolation and the error propagation are to be stated and no extrapolation is allowed. Predict the direct offset δ of stage 8 from the fitted kernel and compare it with the measured δ per object and per sample: the ratio of predicted to measured, and the distribution and sign fraction of the residual. A residual consistent with zero reads "the asymmetry is explained by an inter-band lag"; otherwise its size and the objects that carry it are reported.
-- **B3. Lag against luminosity.** Compare the fitted rest-frame lags with the relation of Lyu, Rieke & Smith (2019) and other published relations, with equations and sources given from the papers themselves; report how many objects have a well-determined lag and what selection that implies.
-- **B4. Undelayed light in W1 (optional).** For objects with ZTF light curves, compare with a model that adds an immediate (accretion-disc) component to W1. If this is too heavy for the available machine, only the design is written.
-- **B5. A better mock for the lag–luminosity test (optional).** The stage 8 mock samples had half the measurable objects of the real sample and a larger D. Find a driver that first reproduces the number of measurable objects and the distribution of D, then repeat the ρ test.
+## Candidates for later work
 
-Expectation recorded in the design note: with six-month visits a pure shift (T1) and a history-dependent response (T3) were hard to tell apart in the stage 6B simulations, and T1 against T2 is expected to be harder.
+Two candidates follow directly from what stage 9 could not separate. Neither has been started.
 
-## (a) What remains of the response-width question after stage 9
+**1. Separating undelayed disc light in W1 with ZTF.** The design was written in stage 9 and not run. For objects with ZTF g and r light curves, average the optical flux in a window around each WISE visit, subtract c times that flux from W1, and repeat the transfer fit; c runs over a grid from zero to the largest value the spectral energy distribution allows, and the question is how the fitted lag and the residual change with c. To be counted first: how many objects keep at least 10 usable W2 visits after 2018, when ZTF starts, and for what fraction the seasonal gaps of the optical light curve miss the WISE visits. The method does not work where host light dilutes the optical variability, which is the case for most type 2 objects. An exploratory split in stage 9 found no difference in the median lag between types 1 and 2 (37.5 and 40 d in `sample_v1`, p = 0.68; 50 and 50 d in `sample_v2`, p = 0.18) and a larger asymmetry in type 1; this split alone does not decide anything, because the size of the asymmetry also depends on the amplitude and speed of the variability.
+
+**2. Denser infrared data.** The separation of a fixed kernel from re-formation needs one of: (i) light curves at 3–5 μm with a cadence of weeks, in at least two bands, for a subset of the objects; (ii) an optical driver for the same objects, so that the response of each band can be fitted instead of the relation between the bands; (iii) one AGN with a sharp optical/UV drop followed by a long low state, in which a shortening of the hot-dust lag can be looked for after checking how much a fixed kernel driven by the observed light curve already explains (NGC 4151 and Mrk 590 are the starting cases). No such data set has been identified for the objects of this project. More wavelengths would also remove the single-temperature assumption and separate host light.
+
+Smaller items left open by stage 9:
+
+- The synthetic samples are rougher than the real light curves (residuals beyond 3σ in 3–4 and 9–10 objects of the two samples, against medians of 16–43 in the synthetic samples). The driver's strength on time scales shorter than the visit spacing cannot be set from WISE; optical structure functions could set it.
+- The fit used a linear interpolation of W1. Another interpolation (a Gaussian process) was left out of the plan and was not tried. The fit was not repeated with the unTimely photometry.
+- Why the lags exceed the Lyu et al. difference is not determined. The PDF of Mandal et al. (2024) and the ratio of the W2 and W1 lags in Tomar et al. (2025) were not checked in the papers; ADS was not queried.
+- The mock for the lag–luminosity test of stage 8 comes closer to the data with a driver matched in amplitude (79–100 measurable objects against 70; 30–34 before) but still does not reproduce the sample, so its ρ test was not used. Host fraction and the shape of the response were not varied.
+
+## (a) The response-width question
 
 - Stage 6B could not separate the explanations, and stage 8 showed that its verdict against the pure-delay model depends on assuming no scatter in the lag–luminosity relation. A lag that depends weakly on luminosity, a difference in the W1 and W2 response that does not depend on luminosity, a re-formation delay, undelayed disc light in W1, and combinations of these all remain.
-- Response functions for a fixed, radially extended torus exist in the literature (TORMAC; Almeyda et al. 2017, 2020). Only the abstracts were read; the per-band response-weighted delays and widths have not been taken from the papers, and whether the response functions are available as data was not checked. Until then the kernels of stage 9 are parametric and are to be described as such, not as TORMAC results.
+- Response functions for a fixed, radially extended torus exist in the literature (TORMAC; Almeyda et al. 2017, 2020). Only the abstracts were read; the per-band response-weighted delays and widths have not been taken from the papers, and whether the response functions are available as data was not checked. The kernels of stage 9 are parametric (a top-hat with a lag and a width) and are not TORMAC results.
 - Not yet varied in the toy models: host fraction, shape of the dust response, a luminosity exponent of 0.4 as well as 0.5 in the lag relation.
 
 ## (b) Dependence on density and Eddington ratio: a third sample
@@ -33,11 +40,10 @@ Expectation recorded in the design note: with six-month visits a pure shift (T1)
 - Open from 6B: the weak positive trends (median D higher by 0.07 in the brighter half and by 0.04 in sample_v2) could come from luminosity, from redshift (shorter rest wavelength, (1+z) time dilation) or from the mix of types; the rank correlation of luminosity with redshift in sample_v2 is 0.78. Only 17 type 2 objects had both a measurable D and a luminosity.
 - Re-formation within one AGN is a cleaner test than a sample trend: find a sharp optical/UV drop followed by a sustained low state, and test whether the hot-dust lag shortens or the W1 response recovers, after checking how much a fixed kernel driven by the observed light curve already explains. NGC 4151 and Mrk 590 are the starting cases.
 
-## (c) Denser infrared data
+## (c) What six-month visits allow
 
-- Six-month visits cannot measure the lag of W2 behind W1, and both the hysteresis statistic and the slope move if W2 responds later. The stacked cross-correlation estimator failed validation and was not applied.
-- Needed: infrared light curves with a cadence of weeks, in at least two bands, for a subset of the measurable objects; or archival or ground-based near-infrared monitoring that overlaps the WISE visits. No such data set has been identified yet for these objects.
-- More wavelengths would also remove the single-temperature assumption and separate host light and, in type 1 objects, accretion-disc light in W1.
+- The stacked cross-correlation estimator failed validation and was not applied. The lags of stage 9 come from a fit of W2 to linearly interpolated W1: the sample median is recovered within 10 d in the synthetic tests, the lag of a single object only to 21–68 d (rms).
+- Both the hysteresis statistic and the slope move if W2 responds later. Archival or ground-based near-infrared monitoring that overlaps the WISE visits would be the cheapest addition; see candidate 2 above.
 
 ## (d) X-ray analysis of CGCG 312-012 (done; what the data cannot decide)
 
@@ -63,4 +69,5 @@ Expectation recorded in the design note: with six-month visits a pure shift (T1)
 ## Questions on which outside advice would help
 
 - How does the same-flux colour statistic relate to the brightening/dimming amplitude asymmetry of Son, Kim & Ho (2026)? Could both come from the same process in the torus?
-- Which transfer-function model would be the accepted benchmark for stage 9, and are per-band response functions for the WISE bands available as data?
+- Which transfer-function model would be the accepted benchmark for a test like stage 9, and are per-band response functions for the WISE bands available as data?
+- Is there a published direct measurement of the lag of W2 behind W1 (not the difference of two lags behind the optical) for Seyferts of this luminosity?

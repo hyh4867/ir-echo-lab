@@ -461,7 +461,7 @@
    "tables": {
     "IX_58_2sxps": {
      "n_rows": 1,
-     "withheld": "Row values from the 2SXPS catalogue (Evans et al. 2020, ApJS 247, 54; VizieR IX/58) are not reproduced here; scripts/xray_literature.py and scripts/xray_7b.py light query them again."
+     "withheld": "Row values from the 2SXPS catalogue (Evans et al. 2020, ApJS 247, 54; VizieR IX/58) are not reproduced in this file; scripts/xray_literature.py queries the row again. The numbers that the comparison uses (exposure, dates, off-axis angle, count rates in four bands) are written in scripts/xray_7b.py."
     }
    }
   },

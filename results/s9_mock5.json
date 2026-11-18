@@ -1,0 +1,149 @@
+{
+ "note": "stage 9 B5: inter-band lag from Lyu et al. 2019 (linear response, pure shift) with a driver whose amplitude is matched to the observed W2 rms of every object; sample_v2 objects with a bolometric luminosity",
+ "n_objects": 163,
+ "observed": {
+  "n_measurable_with_lbol": 70,
+  "median_d": 0.268,
+  "rho": 0.129
+ },
+ "configs": {
+  "fast_scatter0.00": {
+   "driver_tau_days": 200.0,
+   "scatter_dex": 0.0,
+   "n_samples": 100,
+   "n_measurable_p5_p50_p95": [
+    90.0,
+    94.0,
+    100.05
+   ],
+   "median_d_p5_p50_p95": [
+    0.33306166312815,
+    0.378064362164641,
+    0.40781353942122356
+   ],
+   "reproduces_the_sample": false,
+   "rho_p5_p50_p95": [
+    0.3183890998097288,
+    0.43087745136035965,
+    0.5665068589025756
+   ],
+   "fraction_at_or_below_observed": 0.0,
+   "outside": true
+  },
+  "fast_scatter0.15": {
+   "driver_tau_days": 200.0,
+   "scatter_dex": 0.15,
+   "n_samples": 100,
+   "n_measurable_p5_p50_p95": [
+    88.0,
+    93.0,
+    99.0
+   ],
+   "median_d_p5_p50_p95": [
+    0.3285118876190644,
+    0.3643552734785518,
+    0.4042526895302077
+   ],
+   "reproduces_the_sample": false,
+   "rho_p5_p50_p95": [
+    0.20676605953218952,
+    0.3464770798322213,
+    0.510288931090613
+   ],
+   "fraction_at_or_below_observed": 0.0,
+   "outside": true
+  },
+  "fast_scatter0.30": {
+   "driver_tau_days": 200.0,
+   "scatter_dex": 0.3,
+   "n_samples": 100,
+   "n_measurable_p5_p50_p95": [
+    85.0,
+    89.5,
+    95.0
+   ],
+   "median_d_p5_p50_p95": [
+    0.2931042437078845,
+    0.34733684477622995,
+    0.412193072955529
+   ],
+   "reproduces_the_sample": false,
+   "rho_p5_p50_p95": [
+    0.07787687222101095,
+    0.22520567574652134,
+    0.40683806082809393
+   ],
+   "fraction_at_or_below_observed": 0.15,
+   "outside": false
+  },
+  "slow_scatter0.00": {
+   "driver_tau_days": 1000.0,
+   "scatter_dex": 0.0,
+   "n_samples": 100,
+   "n_measurable_p5_p50_p95": [
+    83.95,
+    89.0,
+    94.05
+   ],
+   "median_d_p5_p50_p95": [
+    0.24853745455848528,
+    0.2786087041565893,
+    0.3048497774718113
+   ],
+   "reproduces_the_sample": false,
+   "rho_p5_p50_p95": [
+    0.25529297020772423,
+    0.42878230190318534,
+    0.58612802667764
+   ],
+   "fraction_at_or_below_observed": 0.0,
+   "outside": true
+  },
+  "slow_scatter0.15": {
+   "driver_tau_days": 1000.0,
+   "scatter_dex": 0.15,
+   "n_samples": 100,
+   "n_measurable_p5_p50_p95": [
+    83.0,
+    89.0,
+    94.0
+   ],
+   "median_d_p5_p50_p95": [
+    0.24781206490360197,
+    0.2734131283135921,
+    0.30894277070410603
+   ],
+   "reproduces_the_sample": false,
+   "rho_p5_p50_p95": [
+    0.18906724411633247,
+    0.35069376587844436,
+    0.4815066031341322
+   ],
+   "fraction_at_or_below_observed": 0.01,
+   "outside": true
+  },
+  "slow_scatter0.30": {
+   "driver_tau_days": 1000.0,
+   "scatter_dex": 0.3,
+   "n_samples": 100,
+   "n_measurable_p5_p50_p95": [
+    79.0,
+    84.5,
+    90.0
+   ],
+   "median_d_p5_p50_p95": [
+    0.2169290280471117,
+    0.25139317121858507,
+    0.29629663736595846
+   ],
+   "reproduces_the_sample": false,
+   "rho_p5_p50_p95": [
+    0.06341216288858395,
+    0.24248112771567162,
+    0.3831969464938905
+   ],
+   "fraction_at_or_below_observed": 0.14,
+   "outside": false
+  }
+ }
+}

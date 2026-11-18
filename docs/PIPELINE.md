@@ -451,7 +451,30 @@ WHERE CONTAINS(POINT('ICRS', t.ra, t.dec), CIRCLE('ICRS', p.pra, p.pdec, 0.00083
 - **scan 방향**: 방문 시각을 반년 단위로 반올림한 홀짝. unTimely의 `FORWARD` 표시와 맞는지 확인했다.
 - 병렬 실행은 `multiprocessing`의 fork 방식을 쓴다(준비한 광도곡선을 worker가 물려받는다).
 
-## 17. 재현
+## 17. 9단계: 색 비대칭이 inter-band lag만으로 설명되는가 (`docs/PREDICTIONS_9.md`)
+
+순서: 모형·기준·해석 규칙 커밋(`e099db9`, 실제 광도곡선에 맞추기 전) → B1 합성 실험과 그 결과 커밋 → 실제 자료 맞춤 → 맞춘 지연을 넣은 null 표본 → 판정.
+
+| 단계 | 코드 | 산출물 |
+|---|---|---|
+| 보간 가중치, 일반화 최소제곱, 모형 사다리, 예측 δ, 합성 광도곡선 | `src/irecho/transfer9.py` | 단위 테스트 `tests/test_transfer9.py` |
+| B1 식별 가능성 (진실 모형 11가지 × driver 2가지 × 표본 2개 × 50회) | `scripts/run_stage9.py ident 2` | `results/s9_identifiability.json` (회차별 값은 `data/cache/s9/ident_*.json`, git 밖) |
+| B2 실제 자료 맞춤 | `scripts/run_stage9.py fit` | `results/s9_objects.csv`, `results/s9_transfer.json` |
+| B2 null 표본 (맞춘 지연을 진실로) | `scripts/run_stage9.py null 2` | `data/cache/s9/fitted_*.json` (git 밖) |
+| B2–B4 판정, 지연–광도 | `scripts/run_stage9.py verdict` (`scripts/stage9_verdict.py`) | `results/s9_verdict.json` |
+| B5 진폭을 맞춘 driver의 mock | `scripts/run_stage9.py mock5 2` | `results/s9_mock5.json` |
+| 그림 | `src/irecho/plots9.py`, `scripts/plot_stage9.py` | `results/fig_s9_identifiability.png`, `fig_s9_examples.png`, `fig_s9_offsets.png`, `s9_examples.json` |
+
+- **모형**: F_W2(t_i) = a + b·(K ∗ F_W1)(t_i) [+ η·R_i]. K는 지연 τ를 중심으로 한 폭 w의 top-hat. 방문 사이의 W1은 이웃 방문을 잇는 직선이고, top-hat 구간의 평균은 그 직선의 적분으로 정확히 계산한다(`transfer9.kernel_weights`). 그래서 예측은 W1 방문 flux의 가중합이다.
+- **외삽 금지**: kernel은 W2 방문의 과거 350일, 미래 150일까지만 닿는다. 그 구간이 W1 방문으로 덮이고 250일보다 긴 간격이 없는 W2 방문만 쓴다(`transfer9.usable_visits`). 보간 함수는 범위 밖의 시각을 받으면 예외를 낸다.
+- **오차 전파**: 잔차의 공분산은 diag(σ2²) + b²·c·diag(σ1²)·cᵀ − b·(X + Xᵀ)다(`transfer9.residual_covariance`. 단위 테스트에서 Monte Carlo와 대조). 통계량은 S = χ² + ln det C. 선형 보간의 오차는 넣지 않았고 합성 자료로 쟀다.
+- **모형 사다리**: T0(지연 없음), T1(τ), T2(τ, w), T3(η를 더함). 모든 모형을 T0와 직접 비교한다. 격자는 τ 5일 간격, w 0·100·200·300일의 284점.
+- **예측 δ**: 맞춤에 쓴 방문에서 8단계의 `hyst8.direct_offset`을 관측된 W2와 모형의 W2로 각각 계산한다(`transfer9.offsets`). 가지 표시와 공통 범위 안의 방문은 관측 쪽 것을 쓴다(`direct_offset`에 `inside` 인자를 더했다. 기본 동작은 그대로다).
+- **합성 표본**: driver는 damped random walk(시간척도 200일, 1000일), 진폭은 천체마다 관측된 W2의 상대 rms에 맞춘다. W1의 응답은 Lyu et al. (2019)의 W1 지연을 폭으로 하는 boxcar. 방문 시각·오차·오차 상관은 실제 값이다(`transfer9.mock_truth`).
+- **null 범위**: 합성 표본 50개의 값에서 가장 작은 것과 가장 큰 것을 하나씩 뺀 범위(`run_stage9.band`).
+- `results/s9_objects.csv`에는 목록 값(유형, z, L_bol)을 넣지 않았다. 이름과 맞춤 결과만 있다.
+
+## 18. 재현
 
 ```
 uv venv --python 3.12 .venv && uv pip install --python .venv/bin/python -r requirements.txt
@@ -509,6 +532,10 @@ python scripts/xray_7b.py light; python scripts/xray_7b.py fits   # 7b: 사후 �
 .venv/bin/python scripts/run_stage8.py direct  # 8: 직접 비교
 .venv/bin/python scripts/run_stage8.py lag 2   # 8: lag 모형 재시험 (약 25분)
 .venv/bin/python scripts/run_stage8.py select; .venv/bin/python scripts/plot_stage8.py   # 8: 보고 보완, 그림
+.venv/bin/python scripts/run_stage9.py ident 2 # 9: B1 식별 가능성 (worker 2개로 약 70분)
+.venv/bin/python scripts/run_stage9.py fit     # 9: 실제 자료 맞춤
+.venv/bin/python scripts/run_stage9.py null 2  # 9: 맞춘 지연을 넣은 null 표본
+.venv/bin/python scripts/run_stage9.py verdict; .venv/bin/python scripts/run_stage9.py mock5 2; .venv/bin/python scripts/plot_stage9.py   # 9: 판정, B5, 그림
 ```
 
 난수는 기준 별·비교 별 추첨과 blackbody 온도의 Monte Carlo에만 쓴다. 모두 seed 20261112에서 나온다(`config.SEED`. 5a단계의 비교 별은 `[20261112, 5, BAT 목록 번호]`).

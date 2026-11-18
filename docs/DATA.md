@@ -104,7 +104,9 @@
   - 문헌·목록 조회(`scripts/xray_literature.py`, `results/s7_literature.json`): SIMBAD TAP 미러(참고문헌 제목), VizieR CfA 미러의 J/ApJS/233/17(Ricci et al. 2017)과 IX/58(2SXPS, Evans et al. 2020).
   - 이용 조건: HEASARC의 안내(`https://heasarc.gsfc.nasa.gov/docs/heasarc/acknow.html`, 2026-11-17 확인)는 다음 문구를 쓰라고 한다. "This research has made use of data and/or software provided by the High Energy Astrophysics Science Archive Research Center (HEASARC), which is a service of the Astrophysics Science Division at NASA/GSFC." 그 쪽에는 이용 제한에 관한 문장이 없다. NuSTAR와 Swift 각 임무의 이용 조건·인용 안내 전문은 확인하지 않았다. 원자료와 처리된 event 파일, 스펙트럼, 응답 행렬은 저장소에 넣지 않았고 맞춤 결과의 수치와 그림만 `results/s7_*`에 있다.
 
-- 7b와 8단계(2026-11-17)에서는 새 자료를 받지 않았다. 7b에서 2SXPS(VizieR IX/58, CfA 미러)의 이 천체 행을 노출·관측 수·밴드별 rate 열까지 다시 조회했고(공개 저장소에는 목록의 값을 옮기지 않았다. 자체 측정값과 차이만 `results/s7b_light.json`의 `comparison_with_2sxps`에 있다), 8단계는 이미 받은 캐시(5a·6B의 NEOWISE-R, unTimely)와 동결 광도곡선만 썼다. 8단계가 캐시에서 다시 뽑은 unTimely 광도곡선은 `data/cache/s8/`에 있고 git에 넣지 않는다. 문헌의 식을 확인한 기록은 `docs/LITERATURE.md` 11절에 있다.
+- 7b와 8단계(2026-11-17)에서는 새 자료를 받지 않았다. 7b에서 2SXPS(VizieR IX/58, CfA 미러)의 이 천체 행을 노출·관측 수·밴드별 rate 열까지 다시 조회했고(공개 저장소의 결과 파일과 문서에는 목록의 값을 옮기지 않았고, 자체 측정값과 차이만 `results/s7b_light.json`의 `comparison_with_2sxps`에 있다. 다만 비교에 쓴 행의 값은 `scripts/xray_7b.py`에 적혀 있다), 8단계는 이미 받은 캐시(5a·6B의 NEOWISE-R, unTimely)와 동결 광도곡선만 썼다. 8단계가 캐시에서 다시 뽑은 unTimely 광도곡선은 `data/cache/s8/`에 있고 git에 넣지 않는다. 문헌의 식을 확인한 기록은 `docs/LITERATURE.md` 11절에 있다.
+
+- 9단계(2026-11-18)에서도 새 관측 자료를 받지 않았다. 동결 광도곡선과 8단계의 오차 상관만 썼다. 합성 표본의 회차별 값은 `data/cache/s9/`에 있고 git에 넣지 않는다. 문헌의 식을 확인하려고 arXiv의 논문 PDF 한 편(1909.11101v2)을 받아 본문을 읽었고(저장소에 넣지 않음), 확인한 내용은 `docs/LITERATURE.md` 12절에 있다. `results/s9_objects.csv`에는 목록 값(유형, z, L_bol)이 없다.
 
 ## 2. 이용 조건
 

@@ -1,0 +1,50 @@
+{
+ "rule": "(sample_v2, fit usable and branch offset comparable), chosen by a fixed rule:\nthe largest improvement from T0 to T1 among the 'well determined' lags, the 'well determined'\nlag closest to the sample median, and the largest residual offset in units of its error.",
+ "objects": [
+  {
+   "name": "bat0523",
+   "counterpart": "2MASX J10594361+6504063",
+   "rule": "largest improvement from no lag to a lag",
+   "tau_t1_days": 65.0,
+   "tau_interval_days": [
+    60.0,
+    75.0
+   ],
+   "tau_t2_days": 60.0,
+   "width_t2_days": 300.0,
+   "ds_01": 670.6807584061897,
+   "d_colour_obs_mag": -0.0601979,
+   "d_colour_t2_mag": -0.0586625
+  },
+  {
+   "name": "bat0810",
+   "counterpart": "VII Zw 653",
+   "rule": "lag closest to the sample median",
+   "tau_t1_days": 50.0,
+   "tau_interval_days": [
+    40.0,
+    55.0
+   ],
+   "tau_t2_days": 45.0,
+   "width_t2_days": 200.0,
+   "ds_01": 217.51510420135656,
+   "d_colour_obs_mag": -0.033721,
+   "d_colour_t2_mag": -0.0279044
+  },
+  {
+   "name": "bat1442",
+   "counterpart": "2PBC J1419.2+6804",
+   "rule": "largest residual offset in units of its error",
+   "tau_t1_days": 60.0,
+   "tau_interval_days": [
+    45.0,
+    75.0
+   ],
+   "tau_t2_days": 60.0,
+   "width_t2_days": 100.0,
+   "ds_01": 231.3373975846141,
+   "d_colour_obs_mag": -0.0645322,
+   "d_colour_t2_mag": -0.0353
+  }
+ ]
+}
