@@ -1,0 +1,515 @@
+{
+ "base_url": "https://heasarc.gsfc.nasa.gov/FTP/caldb/",
+ "tarballs": [
+  {
+   "file": "caldb_setup_files.tar.Z",
+   "sha256": "05f966aed715eb15f75cb37ae6f94952c08fabf2189948c454963cac061901ca",
+   "bytes": 8668,
+   "started_utc": "2026-11-17T04:49:37Z",
+   "url": "https://heasarc.gsfc.nasa.gov/FTP/caldb/software/tools/caldb_setup_files.tar.Z"
+  },
+  {
+   "file": "goodfiles_swift_mis.tar.Z",
+   "sha256": "b7bcf45f823431f82c886e05a63d7beac8fc05eaee7b9b906fb08f8a4761576e",
+   "bytes": 2202249,
+   "started_utc": "2026-11-17T04:49:38Z",
+   "url": "https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/mis/goodfiles_swift_mis.tar.Z"
+  },
+  {
+   "file": "goodfiles_swift_xrt.tar.Z",
+   "sha256": "9668ee53f195c570f05cd741c41ac6b0bbc6c0b62cd49d48830ed05b56f570ff",
+   "bytes": 660443737,
+   "started_utc": "2026-11-17T04:49:44Z",
+   "url": "https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/xrt/goodfiles_swift_xrt.tar.Z"
+  }
+ ],
+ "nustar_subset": {
+  "selection": "scripts/fetch_caldb_subset.py 2022-05-01 (good-quality entry with the latest validity start on or before the date, per instrument, detector, code name and boundary; 'nocut' response matrices left out)",
+  "date": "2022-05-01",
+  "caldb_index_version": "20261102",
+  "n_files": 94,
+  "bytes": 1948238146,
+  "left_out": [
+   "data/nustar/fpm/cpf/rmf/nuAnocutdet0_20100101v003.rmf",
+   "data/nustar/fpm/cpf/rmf/nuAnocutdet1_20100101v003.rmf",
+   "data/nustar/fpm/cpf/rmf/nuAnocutdet2_20100101v003.rmf",
+   "data/nustar/fpm/cpf/rmf/nuAnocutdet3_20100101v003.rmf",
+   "data/nustar/fpm/cpf/rmf/nuBnocutdet0_20100101v003.rmf",
+   "data/nustar/fpm/cpf/rmf/nuBnocutdet1_20100101v003.rmf",
+   "data/nustar/fpm/cpf/rmf/nuBnocutdet2_20100101v003.rmf",
+   "data/nustar/fpm/cpf/rmf/nuBnocutdet3_20100101v003.rmf"
+  ],
+  "files": [
+   {
+    "file": "data/nustar/fpm/bcf/align/nuCalign20200901v001.fits",
+    "bytes": 92160,
+    "sha256": "137e159a5bd32813a4450ec50f4d4e85e0f0b105b56ae0f59c3e98cde67030e0"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/aperture_stop/nuAapstop20100101v001.fits",
+    "bytes": 12769920,
+    "sha256": "1d3d370491d6da8d20b5cb193f3e63d1083bc4ab344cb856757cceeb1421a363"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/aperture_stop/nuBapstop20100101v001.fits",
+    "bytes": 12769920,
+    "sha256": "b651e7e0baf2a8d5b0b407b4c3512295e67e309e9b5d6271e27da860b00ac3e2"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/arf/nuAtemp0_20180101v002.arf",
+    "bytes": 60480,
+    "sha256": "bc47f4f62b641901c65fca4cfbe84ba431aacd203fa3fa794acf4e9391612412"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/arf/nuAtemp1_20190101v001.arf",
+    "bytes": 60480,
+    "sha256": "fa8c983faa250f6e0ad319189da7fc76927ef4f628f5afa8fc2e5a57b38f20ba"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/arf/nuAtemp2_20190101v001.arf",
+    "bytes": 60480,
+    "sha256": "1297a0257e5863c3097d4e127dea5ae7b25b0b81960df92cd90865788a6b5677"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/arf/nuAtemp3_20190101v001.arf",
+    "bytes": 60480,
+    "sha256": "06ebaccf86fe074bb10c17030f0f0442b8fee4a966a63ee8c14e2cd9d63f3201"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/arf/nuAtemp4_20190101v001.arf",
+    "bytes": 60480,
+    "sha256": "1dd5a8019c108ee9ef9dec81bcd1c4ee58149fc2733a437c83c6ea30c6676a6b"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/arf/nuAtemp5_20190101v001.arf",
+    "bytes": 60480,
+    "sha256": "325797140f6bd575507d0620b1edee4bf1e2c2b1dbb85ce20e0d17dfd0103dac"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/arf/nuB20100101v006.arf",
+    "bytes": 60480,
+    "sha256": "7e3bcef33aeab46413a504ceac2653faf46a6283369ee874fc79756bda6a7f6b"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/badpix/nuAbadpix20100101v003.fits",
+    "bytes": 37440,
+    "sha256": "05fe629c29758d1bbf8b336bd0d10a873381546e2f3aa69fd260c255ec7236b9"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/badpix/nuBbadpix20100101v005.fits",
+    "bytes": 37440,
+    "sha256": "eeffe539c65af9759349de6db427e5d0462b68fd494aa7d31d97ec5b2432329e"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/cap_offset/nuAoffset20100101v001.fits",
+    "bytes": 302400,
+    "sha256": "90800f2f71d22b9db4943b9b499f01bcf92664cc6b1ba2613c58929e240847c9"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/cap_offset/nuBoffset20100101v001.fits",
+    "bytes": 302400,
+    "sha256": "bf50dee07de809aad8606e9574bdb15082038c0d447782e5a70dcc4d14648dca"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/clc/nuAclc20100101v004.fits",
+    "bytes": 717120,
+    "sha256": "69d0d0a6710133b1e4acee7c02dba18f2d5b536755afa5e90cec383fddc5a8f7"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/clc/nuBclc20100101v004.fits",
+    "bytes": 717120,
+    "sha256": "383dc93b4aa73bbc94cad8c99a6f33175810ab51c131a88300ae70a5153fd191"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/clc/nuCclcfilter20100101v001.fits",
+    "bytes": 8640,
+    "sha256": "f1f8961ba97a0867462259ffc42714bf796167fcc0c04e40b9f431ee42b1124a"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/clock/nuCclock20100101v235.fits.gz",
+    "bytes": 12679426,
+    "sha256": "24a440096719c2f8c992d6c03e3c3ac769bc7f7638826b1a422d64a1a9d75d19"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/detabs/nuAdetabs20100101v004.fits",
+    "bytes": 233280,
+    "sha256": "6009d1b7fe23e15eb23fe4b7a6a30cb254a98aa15b62212dd336849b3224b452"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/detabs/nuBdetabs20100101v004.fits",
+    "bytes": 233280,
+    "sha256": "e86579e64c6e31d81cbaa3c7e24b7c3d8c5bc14b5e2b766229ed4e895cd40f67"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/eef/nuAeef20100101v003.fits",
+    "bytes": 54720,
+    "sha256": "2ffbfe8286a9769800c3552c6bee1224315837b2915a5736a3f3822a7a4a66d6"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/eef/nuBeef20100101v003.fits",
+    "bytes": 54720,
+    "sha256": "e961ec40089406aae5a55f7b9225618511676a695d99ec2c1c1aeb5f9a9dc4bb"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/gain/nuAgain20100101v011.fits",
+    "bytes": 1071360,
+    "sha256": "eead462306edc4109124618c0d2e99433d087e895a7312b57c487117b060fbe7"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/gain/nuBgain20100101v009.fits",
+    "bytes": 970560,
+    "sha256": "09805cc3fb1cddc2ace6c63ecd488b6329f917c212258bf38cfec42dc1aa03d0"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/ghost_rays/nuAgr20100101v001.fits",
+    "bytes": 190581120,
+    "sha256": "a3c1e1b4779c716c9f1239e4e00f9b96da02d5d55c28880d42abc7938aecac1b"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/ghost_rays/nuBgr20100101v001.fits",
+    "bytes": 190581120,
+    "sha256": "49a82750a93ab61d6d6426a31d407cb841012525db4eb0380a23efeaa5b5527e"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/grade/nuCgrade20100101v002.fits",
+    "bytes": 8640,
+    "sha256": "532658c61084d5ce44045c2b32ba5062726eb23cf5c8542dbd43451775ec22c9"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrmap/nuAinstrmap20100101v004.fits",
+    "bytes": 527040,
+    "sha256": "d0d9132521db44d6c2dc4a8c45c1b61742b2c365816e1e753b162b98cd920ea7"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrmap/nuAinstrprobmap20100101v001.fits",
+    "bytes": 2099520,
+    "sha256": "98d6dc88d39e2ed9dafd73bc6d1ede4dd4fc2a5b4bc969d067a8c2f6485bd9f4"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrmap/nuBinstrmap20100101v004.fits",
+    "bytes": 527040,
+    "sha256": "f0d3231e8e74000e945b1517218c7bc1b2b0a03a7408e088a9f8048541f6d360"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrmap/nuBinstrprobmap20100101v001.fits",
+    "bytes": 2099520,
+    "sha256": "d75493527fd6b54ab5df5b569074fd7e12121006401fb1c4461b777667427adc"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuAcutevtrange20100101v001.fits",
+    "bytes": 8640,
+    "sha256": "7020fb728d242188aac8bbe97ebeb04f355eccefa2d2b253f47d7f7f3e9fa4a7"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuAdepthcut20100101v004.fits",
+    "bytes": 402719040,
+    "sha256": "aac4f55a091baafa554fb8266d47f1495da49429b4c4e9711d6ccddad93b44aa"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuAevtcut20100101v001.fits",
+    "bytes": 37440,
+    "sha256": "50d842c8c861a15ed2182781756c1424311b0a2eaf57b7f8deed1e2fe1be02da"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuAhkrange01_20100101v007.fits",
+    "bytes": 20160,
+    "sha256": "8150907d327f629358889e77b97a283d107072db21dd2e72922e71ca1e65eb2c"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuAhkrange02_20100101v005.fits",
+    "bytes": 20160,
+    "sha256": "93a2e0d46ff662c3061beecbfd8a830631348533e8a54bb721d3a7a6091602b9"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuAhkrange03_20100101v005.fits",
+    "bytes": 20160,
+    "sha256": "710b7edd82962f41221257c3e9c9d2f1db6354da294a695100843f5ff2a4b929"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuAhkrange04_20100101v005.fits",
+    "bytes": 20160,
+    "sha256": "15af02cd375652e876b4e4a78ee25d1a23583f7538621911d373bbd8e7d924c9"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuAhkrange05_20100101v005.fits",
+    "bytes": 20160,
+    "sha256": "8b693097a49e98b755dd400acc82bdf1adb1e2ad5d2db534c04838962a70a248"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuAhkrange06_20100101v005.fits",
+    "bytes": 20160,
+    "sha256": "6c9b1faa98d99d0e076528bd085cc4ce70ea57c4106d2f325ceeeab0685f2232"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuAnocutevtrange20100101v001.fits",
+    "bytes": 8640,
+    "sha256": "728d563fb4b9b6436e7402805ad31e13a3e3ee13a7470315bfcdbbac729e4079"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuAphapar20100101v001.fits",
+    "bytes": 60480,
+    "sha256": "bb91870041da54884d4ae016fe09e2f2007fd29f942b707aa5278c24576346f0"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuBcutevtrange20100101v001.fits",
+    "bytes": 8640,
+    "sha256": "70ebfd9d9968b0c6b3173334734e2d37179f2768729d51a87881390b5069fed2"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuBdepthcut20100101v004.fits",
+    "bytes": 402719040,
+    "sha256": "154f9fd1d3024456c2e73c9c4228872ed8bb993f65419194f92722e9d413d72c"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuBevtcut20100101v001.fits",
+    "bytes": 37440,
+    "sha256": "f52799fb2ed583292bf64b56746b6ddecf9d427d57586104173c043395a88934"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuBhkrange01_20100101v007.fits",
+    "bytes": 20160,
+    "sha256": "2bee73e3f9d68509a3bcaf46b71f52987ebb6305cf9ca030e8cad5effefd5d37"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuBhkrange02_20100101v005.fits",
+    "bytes": 20160,
+    "sha256": "aabb9d6cf49d6746d373e087af1cd035313a611ef580286210f6f96d8143ec71"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuBhkrange03_20100101v005.fits",
+    "bytes": 20160,
+    "sha256": "11a285630eeff7d7bb3985f95d70adec897d2aa771adf8d97e6d319484397e09"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuBhkrange04_20100101v005.fits",
+    "bytes": 20160,
+    "sha256": "3baa9248cdf936ee83098e1ba6a9ca1861053654ea9f10162d7f03e51e31b209"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuBhkrange05_20100101v005.fits",
+    "bytes": 20160,
+    "sha256": "060a7396dd2e181f67ff1604e1cb16319e37f2704f286ca12043b30ead6d84cb"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuBhkrange06_20100101v005.fits",
+    "bytes": 20160,
+    "sha256": "959744efece0f0f9054904c130d2fb683ef56259cdcf6dded14dbd483861b867"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuBnocutevtrange20100101v001.fits",
+    "bytes": 8640,
+    "sha256": "d539508cc797ac05876fef6911bdf13caa2025e3af07934be8485d39cc8de187"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuBphapar20100101v001.fits",
+    "bytes": 60480,
+    "sha256": "e1e05f8f84d2acaad6f0a8b41e4728bbfd1a4de94dfffbebc75d7cd3130e34c3"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuCabsparBe20100101v001.fits",
+    "bytes": 54720,
+    "sha256": "560d45534ff7d68a46c039731331b143fe7c95eb586fb50225f472930504e46c"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuCchu123range20100101v001.fits",
+    "bytes": 63360,
+    "sha256": "f57e6af5d8a2f22c2b80dd03f78bfe677446dd077395cb699817a16cee6b27ea"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuCchuoffset20100101v001.fits",
+    "bytes": 8640,
+    "sha256": "8503275d1139b80325eae0de92f7e1aa4a169963ee413082ed37c1b193c15c0a"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuCmkfconf20100101v005.fits",
+    "bytes": 17280,
+    "sha256": "7408b524bf564947c4da0e4e9112fc086590a199c93e4a02c59cc57794dd41c3"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuCpreconf20100101v001.fits",
+    "bytes": 8640,
+    "sha256": "1b7b3c1881ebbb9a44f77db7e5170059e68c3f1e3f306ca9072946a891c58ffc"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/instrument/nuCsaapar20100101v003.fits",
+    "bytes": 43200,
+    "sha256": "e6a9670243cf7e3177955358111ad1785edb186bb99e8f55d6ceb6f5cf73f8a1"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/metrology/nuCmetgrid20100101v002.fits",
+    "bytes": 273600,
+    "sha256": "01ccb9f63623bdd2396e52a659ce3563abbbde8f3760353fe1dad1c9f82ddac2"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/pixpos/nuApixpos20100101v007.fits",
+    "bytes": 26775360,
+    "sha256": "0ec310c37b2443a88509f16c665845947bb9dde2e12d301874f0d4e54bca4ed4"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/pixpos/nuBpixpos20100101v007.fits",
+    "bytes": 26775360,
+    "sha256": "65e728da4ddb9e8fbb02c362f930d16dc77590aae23fa2fc121bff83502083ed"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/psf/nuA2dpsf20100101v003.fits",
+    "bytes": 7778880,
+    "sha256": "f1e349f1710425d28d9fb5904d5cf680b8de2fe362ac3f815689d80c5bfbfe5c"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/psf/nuA2dpsfen1_20100101v001.fits",
+    "bytes": 7778880,
+    "sha256": "715e326880d21ee146b620a4cba1b901edd919c59fd1220fc7d17e6d94bdd1c5"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/psf/nuA2dpsfen2_20100101v001.fits",
+    "bytes": 7778880,
+    "sha256": "78cba9b42d3da69a40bbfb47483214a88795e0034261bd4a25f4d1f8c5f6e1e4"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/psf/nuA2dpsfen3_20100101v001.fits",
+    "bytes": 7778880,
+    "sha256": "34c2803eb003daa2ce6e19e5089e4acb6e52ad9d8e24286b5db6bd967bc77d88"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/psf/nuA2dpsfen4_20100101v001.fits",
+    "bytes": 7778880,
+    "sha256": "01c85a8f3317770c4694f5eeaf2aee5cbec24d3ec9fca6feacfb56ef0265dbe1"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/psf/nuA2dpsfen5_20100101v001.fits",
+    "bytes": 7778880,
+    "sha256": "d2bf1edc998af45981f846470f76d4c5e02a9cd3f3ae63e4607e8a50f6639a4d"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/psf/nuA2dpsfen6_20100101v001.fits",
+    "bytes": 7778880,
+    "sha256": "73c6191ec53b5c0ba1fd87767dbd0a651aab06afa3c95bdd904a68c5edb04a41"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/psf/nuAgrppsf20100101v001.fits",
+    "bytes": 11520,
+    "sha256": "7370e365ae6f3b02f929710e6b6ec47f3043819a9f77ae3f364aa46afdbd62c1"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/psf/nuB2dpsf20100101v003.fits",
+    "bytes": 7778880,
+    "sha256": "b0393c51b20eeb6fd1d9e990cf0a98a25fe137afe4e6dc616511a94121d1678b"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/psf/nuB2dpsfen1_20100101v001.fits",
+    "bytes": 7778880,
+    "sha256": "62982c67085c1b048d9cd41440bf1ec38d9169fa5cf671546339af3d4af78f26"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/psf/nuB2dpsfen2_20100101v001.fits",
+    "bytes": 7778880,
+    "sha256": "5392e56715ae71fc24e4372e97ab74af07d0d093ab6659b379d1a4ffa7f1f67b"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/psf/nuB2dpsfen3_20100101v001.fits",
+    "bytes": 7778880,
+    "sha256": "a8990dc789d81d63374d748a1be776f27de5592b891aa4b0fc3bf3051e68bbd2"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/psf/nuB2dpsfen4_20100101v001.fits",
+    "bytes": 7778880,
+    "sha256": "a211c889c630e2b4b189e06b13a089a7828d44967f0ca40a3c85dec35ecae96f"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/psf/nuB2dpsfen5_20100101v001.fits",
+    "bytes": 7778880,
+    "sha256": "813efc5e954330063508017e5389f9ca4ed6e1c7873e8da282e28fb695aa8636"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/psf/nuB2dpsfen6_20100101v001.fits",
+    "bytes": 7778880,
+    "sha256": "058327b63563fe56e5293bbd598adca329cae023a5075309dfbf8723cfc549e4"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/psf/nuBgrppsf20100101v001.fits",
+    "bytes": 11520,
+    "sha256": "0bd6da1598ebbdbd1a61ba9c805f5fbb1e2aa7cfd8467a2735b181b010235d0e"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/teldef/nuA20100101v002.teldef",
+    "bytes": 14400,
+    "sha256": "1ea135a2f5ddf811a8772f27eb4bbf12b5b7fdbe8b8691389a2f069d8f817939"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/teldef/nuB20100101v002.teldef",
+    "bytes": 14400,
+    "sha256": "ec1c7e9c00347a13d562cc56ea8ba1b3e00a69bc8e029ed9b971e372d3877569"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/vign/nuAvign20100101v008.fits",
+    "bytes": 5716800,
+    "sha256": "0ab8b1a4792243ae871736f9e350697ba517292ce1c7c43ba58045792913232a"
+   },
+   {
+    "file": "data/nustar/fpm/bcf/vign/nuBvign20100101v008.fits",
+    "bytes": 5716800,
+    "sha256": "537802619711d60b33c9c7bb52acc3410bd554916f0979fe9fe4291ed120f640"
+   },
+   {
+    "file": "data/nustar/fpm/cpf/rmf/nuAcutdet0_20100101v003.rmf",
+    "bytes": 67233600,
+    "sha256": "3cf093f5610677ef6fbe062e993854abb94ea295390a104cfa37409cd983231c"
+   },
+   {
+    "file": "data/nustar/fpm/cpf/rmf/nuAcutdet1_20100101v003.rmf",
+    "bytes": 67233600,
+    "sha256": "3813235eef3b600dea8ec62bd0c669b9a448c16e5fa90b1465a4e233bb42692e"
+   },
+   {
+    "file": "data/nustar/fpm/cpf/rmf/nuAcutdet2_20100101v003.rmf",
+    "bytes": 67233600,
+    "sha256": "d2a2eb3424f57e84d74def4df4e85fd52f4c650815ce67b4d19bbb8dd66708c3"
+   },
+   {
+    "file": "data/nustar/fpm/cpf/rmf/nuAcutdet3_20100101v003.rmf",
+    "bytes": 67233600,
+    "sha256": "d26dd472ef1d327397e1eb50f5fe79f15056fedfc2e6f261fbbd0b9f7fb3a2cf"
+   },
+   {
+    "file": "data/nustar/fpm/cpf/rmf/nuAcutgrprmf20100101v003.fits",
+    "bytes": 37440,
+    "sha256": "f48bebeab2c90474f496fa6c6b20635ac38d03996c04af959d797e1fdb969633"
+   },
+   {
+    "file": "data/nustar/fpm/cpf/rmf/nuAnocutgrprmf20100101v003.fits",
+    "bytes": 37440,
+    "sha256": "e0a66c5ef8e56c202e12b1800c6bf57246f3f16b86aa3751080261ffbb74ef93"
+   },
+   {
+    "file": "data/nustar/fpm/cpf/rmf/nuBcutdet0_20100101v003.rmf",
+    "bytes": 67233600,
+    "sha256": "cb3416f6b9e572f6b958ed804293bf88224c176e7a5e82df2c6d5904d2f8db66"
+   },
+   {
+    "file": "data/nustar/fpm/cpf/rmf/nuBcutdet1_20100101v003.rmf",
+    "bytes": 67233600,
+    "sha256": "528011e5c90aa351465a8132e46e0a84d92cf34a49e0053fd141fbb959767c7f"
+   },
+   {
+    "file": "data/nustar/fpm/cpf/rmf/nuBcutdet2_20100101v003.rmf",
+    "bytes": 67233600,
+    "sha256": "2abd37725fbd8c4eebea2e8a41c648d568aa40646fa30a7f99481bee81de9514"
+   },
+   {
+    "file": "data/nustar/fpm/cpf/rmf/nuBcutdet3_20100101v003.rmf",
+    "bytes": 67233600,
+    "sha256": "e82dda1c80bd75d99eaa9cd2b22213e57de85607bc76c57ee6074da189e39d08"
+   },
+   {
+    "file": "data/nustar/fpm/cpf/rmf/nuBcutgrprmf20100101v003.fits",
+    "bytes": 37440,
+    "sha256": "28ffb09f8b9a8b028333206a1b9c43b0ec6656e8fd9fcfef1cf29322f22a7f34"
+   },
+   {
+    "file": "data/nustar/fpm/cpf/rmf/nuBnocutgrprmf20100101v003.fits",
+    "bytes": 37440,
+    "sha256": "aef21b2d2e6b40c272b499649bf828cfe74c4116d8be18ea1bdd38f57827f061"
+   }
+  ]
+ }
+}

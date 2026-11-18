@@ -17,7 +17,8 @@ START, END = "<!-- manifest:start -->", "<!-- manifest:end -->"
 GROUPED_PREFIXES = ("s5/neowise/", "s5/allwise_mep/", "s5/untimely/", "s5/ztf/", "s6/asassn/", "s6/bat157/",
                     "s6b/neowise/", "s6b/allwise_mep/", "s6b/untimely/",
                     "allwise_cat/s5_targets_", "allwise_cat/s5_fields_",
-                    "allwise_cat/s6b_targets_", "allwise_cat/s6b_fields_", "catalogs/")
+                    "allwise_cat/s6b_targets_", "allwise_cat/s6b_fields_", "catalogs/",
+                    "s7/nustar/", "s7/swift/", "s7/bat157/")
 
 
 def main() -> None:

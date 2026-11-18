@@ -1,0 +1,290 @@
+{
+ "note": "stage 7b, post hoc: computed after the stage 7 results were seen. The registered verdict of stage 7 is unchanged.",
+ "registered_verdict_stage7": {
+  "verdict": "H1 지지, 가림 변화는 배제 못 함",
+  "note": "AGN 자체의 증광 후보",
+  "c1": "높다",
+  "c2": "높다",
+  "absorption": "판정불가"
+ },
+ "chosen_model_stage7": "M0",
+ "flux_ratio_14_50": {
+  "stage7_value_renamed": {
+   "log_ratio": 0.5459845494127293,
+   "lo": 0.46163231025944684,
+   "hi": 0.6459017308712706,
+   "ratio": 3.5154793353391334,
+   "note": "90% intervals of the two fluxes combined in quadrature; statistical only",
+   "name": "BAT fitted over all 8 channels (14-195 keV), flux integrated over 14-50 keV"
+  },
+  "bat_channels_1_4_free_gamma": {
+   "log_ratio": 0.5273356800074964,
+   "lo": 0.44230284546536947,
+   "hi": 0.6286321840769347,
+   "ratio": 3.367717704080982,
+   "note": "90% intervals of the two fluxes combined in quadrature; statistical only"
+  },
+  "bat_channels_1_4_gamma_fixed_to_nustar": {
+   "log_ratio": 0.5246611827642393,
+   "lo": 0.4410178807882991,
+   "hi": 0.6235272662375699,
+   "ratio": 3.347042159333139,
+   "note": "90% intervals of the two fluxes combined in quadrature; statistical only"
+  },
+  "joint_same_shape": {
+   "log_ratio": 0.5256578499859867,
+   "lo": 0.4411143079399578,
+   "hi": 0.6244232518729416
+  }
+ },
+ "c1_shape_tied": {
+  "M0": {
+   "delta1": 0.6118183316127406,
+   "stat_90": [
+    0.5250927947515165,
+    0.7141520284705746
+   ],
+   "assumption": "BAT average has the spectral shape of the 2022 model; not a model-independent luminosity change"
+  },
+  "M2": {
+   "delta1": 0.5574399247552767,
+   "stat_90": [
+    0.47021243356106746,
+    0.6497166744032354
+   ],
+   "assumption": "BAT average has the spectral shape of the 2022 model; not a model-independent luminosity change"
+  }
+ },
+ "m0_delta2_delta_nh": {
+  "stage7_xrt_constant_1": {
+   "delta2": 0.7792362092773999,
+   "delta2_90": [
+    0.6178565656378522,
+    0.9427468802055807
+   ],
+   "delta_nh": 0.15998399808490152,
+   "delta_nh_90": [
+    -0.0332479231601698,
+    0.3731315311859759
+   ],
+   "label_delta2_stat_only": "높다",
+   "label_delta_nh": "판정불가",
+   "factor": [
+    4.148170184644104,
+    6.015007999815094,
+    8.764898277986731
+   ]
+  },
+  "a_constant_on_both_xrt": {
+   "delta2": 0.6114733815879774,
+   "delta2_90": [
+    0.43484081172936634,
+    0.7896000259081685
+   ],
+   "delta_nh": 0.13081241104715063,
+   "delta_nh_90": [
+    -0.06417943970296222,
+    0.34565322499780465
+   ],
+   "const_xrt": 0.6847364366888262,
+   "const_xrt_90": [
+    0.5770608953580432,
+    0.8061258968056441
+   ],
+   "statistic": 1574.8127294682085,
+   "label_delta2_stat_only": "높다",
+   "label_delta_nh": "판정불가",
+   "factor": [
+    2.7217034996640543,
+    4.087646976813544,
+    6.160273950768206
+   ]
+  },
+  "b_constant_on_2022_xrt_only": {
+   "delta2": 0.7759499007720336,
+   "delta2_90": [
+    0.6146973508426983,
+    0.9393901879420357
+   ],
+   "delta_nh": 0.13081235508799163,
+   "delta_nh_90": [
+    -0.06417943617868019,
+    0.34565322206532395
+   ],
+   "const_xrt": 0.6847364571589948,
+   "const_xrt_90": [
+    0.5770609038923187,
+    0.806125895495097
+   ],
+   "statistic": 1574.812729468154,
+   "label_delta2_stat_only": "높다",
+   "label_delta_nh": "판정불가",
+   "factor": [
+    4.1181043849953305,
+    5.969664179175145,
+    8.697414897259657
+   ]
+  }
+ },
+ "m0_delta2_envelope": {
+  "lo": 0.43484081172936634,
+  "hi": 0.9427468802055807,
+  "factor": [
+   2.7217034996640543,
+   8.764898277986731
+  ],
+  "note": "union of the 90% intervals of the readings of the XRT constant; M0 only"
+ },
+ "m2_xrt_constant_free": {
+  "statistic": 1453.6905364428085,
+  "const_xrt22": 0.6474865369015823,
+  "const_xrt22_90": [
+   0.542560726565901,
+   0.7598834763418417,
+   "FFFFFFFFF"
+  ],
+  "pegged": [
+   "group 1 lg10Lum = 36"
+  ],
+  "values": {
+   "nh_1e22": 22.751952043782786,
+   "gamma": 1.8491368779013313,
+   "log_lint_2_10": 43.09502010190451,
+   "log_lscat_2_10": 36.0,
+   "scattered_fraction": 8.034889307585095e-08,
+   "refl_norm": 0.0041579931589049105,
+   "line_norm": 1.2154821047282075e-05,
+   "primary_norm_1kev": 0.002506181438375731,
+   "reflection_r": 1.7384856430066302,
+   "const_fpmb": 1.0058183200998447
+  },
+  "by_spectrum": {
+   "xrt22": {
+    "statistic": 87.4174,
+    "n_bins": 108,
+    "stat_method": "cstat",
+    "exposure_s": 6934.96142578125,
+    "net_rate": 0.015502317546101688,
+    "net_rate_err": 0.0015765758109012196
+   },
+   "fpma": {
+    "statistic": 678.706,
+    "n_bins": 760,
+    "stat_method": "cstat",
+    "exposure_s": 22640.974609375,
+    "net_rate": 0.15291189877898,
+    "net_rate_err": 0.0026708183598773217
+   },
+   "fpmb": {
+    "statistic": 687.5672,
+    "n_bins": 738,
+    "stat_method": "cstat",
+    "exposure_s": 22442.40234375,
+    "net_rate": 0.14516959292527695,
+    "net_rate_err": 0.002634416104277363
+   }
+  },
+  "reference_const_fixed": {
+   "statistic": 1474.4984726817293,
+   "by_spectrum": {
+    "xrt22": {
+     "statistic": 104.5914,
+     "n_bins": 108,
+     "stat_method": "cstat",
+     "exposure_s": 6934.96142578125,
+     "net_rate": 0.015502317546101688,
+     "net_rate_err": 0.0015765758109012196
+    },
+    "fpma": {
+     "statistic": 681.364,
+     "n_bins": 760,
+     "stat_method": "cstat",
+     "exposure_s": 22640.974609375,
+     "net_rate": 0.15291189877898,
+     "net_rate_err": 0.0026708183598773217
+    },
+    "fpmb": {
+     "statistic": 688.543,
+     "n_bins": 738,
+     "stat_method": "cstat",
+     "exposure_s": 22442.40234375,
+     "net_rate": 0.14516959292527695,
+     "net_rate_err": 0.002634416104277363
+    }
+   }
+  },
+  "nh_90": [
+   19.40485229213394,
+   26.636965041621615,
+   "FFFFFFFFF"
+  ],
+  "gamma_90": [
+   1.719755704316867,
+   1.9715084007484087,
+   "FFFFFFFFF"
+  ],
+  "lum_90": [
+   43.042897425586155,
+   43.1375386516849,
+   "FFFFFFFFF"
+  ],
+  "refl_norm_90": [
+   0.002007459564952602,
+   0.007550084552192293,
+   "FFFFFFFFF"
+  ],
+  "line_norm_90": [
+   6.987349560832799e-06,
+   1.7495122914693138e-05,
+   "FFFFFFFFF"
+  ]
+ },
+ "observed": {
+  "xrt_rate_ratio_2_10": {
+   "value": 3.327332690052869,
+   "err": 0.5913178789999932,
+   "log10": 0.5220962268473527,
+   "log10_err": 0.07718076784691805,
+   "effective_area_ratio": 1.0084090933157652,
+   "significance_of_change_sigma": 6.5443641589335435
+  },
+  "hardness_ratio": {
+   "xrt10": {
+    "soft_counts_source_region": 13,
+    "soft_background_expected": 3.766010036701371,
+    "hard_counts_source_region": 52,
+    "hard_background_expected": 3.483559283948768,
+    "soft_net_p05_p50_p95": [
+     4.61023711770963,
+     9.863951686026665,
+     16.883371177087398
+    ],
+    "soft_net_upper_limit_90": 15.163502344083717,
+    "hr_p05_p50_p95": [
+     0.46557365177796967,
+     0.6657313186472671,
+     0.8331807524448711
+    ],
+    "hr_lower_limit_90": 0.511994838352169
+   },
+   "xrt22": {
+    "soft_counts_source_region": 8,
+    "soft_background_expected": 9.231299138899288,
+    "hard_counts_source_region": 111,
+    "hard_background_expected": 2.4020217147135905,
+    "soft_net_p05_p50_p95": [
+     0.16698732130207042,
+     1.9904606181388864,
+     6.867774093803425
+    ],
+    "soft_net_upper_limit_90": 5.542471407187777,
+    "hr_p05_p50_p95": [
+     0.8801575175758093,
+     0.9642444478500795,
+     0.9969667480753734
+    ],
+    "hr_lower_limit_90": 0.9026079615900356
+   }
+  }
+ }
+}

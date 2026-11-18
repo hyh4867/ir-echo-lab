@@ -1,0 +1,96 @@
+{
+ "note": "stage 8 B4: descriptive",
+ "v2_measurable_with_and_without_lbol": {
+  "with_lbol": {
+   "n": 70,
+   "median_d": 0.2569305,
+   "d_p16_p84": [
+    0.130913,
+    0.45390828000000005
+   ],
+   "median_z": 0.0631,
+   "n_type1": 53,
+   "n_type2": 17,
+   "n_other_type": 0,
+   "median_sigma_d": 0.05871775,
+   "median_w2_variability_snr": 10.710785718616904,
+   "median_n_visits": 21.0
+  },
+  "without_lbol": {
+   "n": 24,
+   "median_d": 0.2799735,
+   "d_p16_p84": [
+    0.2059168,
+    0.34276736
+   ],
+   "median_z": 0.06555,
+   "n_type1": 14,
+   "n_type2": 10,
+   "n_other_type": 0,
+   "median_sigma_d": 0.06572765,
+   "median_w2_variability_snr": 8.383535679378362,
+   "median_n_visits": 21.0
+  },
+  "mann_whitney_p_two_sided": {
+   "d": 0.8725539030910907,
+   "z": 0.5070995736105735,
+   "w2_variability_snr": 0.028563954814841253
+  },
+  "types_of_objects_without_lbol": [
+   "Sy1",
+   "Sy1.2",
+   "Sy1.5",
+   "Sy1.9",
+   "Sy2",
+   "Sy2 candidate"
+  ]
+ },
+ "v1_types": {
+  "n_main": 225,
+  "by_type_group": {
+   "2": 135,
+   "1": 88,
+   "other": 2
+  },
+  "objects_outside_type_1_and_2": {
+   "n": 2,
+   "withheld": "Names and catalogue types of the objects outside types 1 and 2 are not reproduced here; scripts/restore_catalog_columns.py fills them in."
+  }
+ },
+ "v1_q1_against_q2_q3": {
+  "n_q1": 16,
+  "n_brightened_for_q2_q3": 20,
+  "n_in_both": 16,
+  "q1_not_in_q2": [],
+  "q2_not_in_q1": [
+   "bat0463",
+   "bat0582",
+   "bat0684",
+   "bat0778"
+  ],
+  "n_flagged_a": 4,
+  "n_flagged_b": 18,
+  "columns": "q1 and brightened in results/s5b_objects.csv"
+ },
+ "p_values": {
+  "test": "one-sided Wilcoxon signed-rank test of D against 0 (scipy.stats.wilcoxon, alternative='greater')",
+  "code": {
+   "v1": "src/irecho/stage5b.py hysteresis_test (called by scripts/run_stage5b.py)",
+   "v2": "scripts/run_stage6b.py main (d_replication)"
+  },
+  "v1": {
+   "n": 71,
+   "p": 2.2022391304158586e-13,
+   "n_positive": 68
+  },
+  "v2": {
+   "n": 94,
+   "p": 1.904865981691927e-17,
+   "n_positive": 94
+  },
+  "smallest_possible_p_when_all_positive": {
+   "v1": 4.235164736271502e-22,
+   "v2": 5.048709793414476e-29
+  }
+ }
+}

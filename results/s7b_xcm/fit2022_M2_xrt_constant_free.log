@@ -1,0 +1,147 @@
+
+3 files 3 spectra 
+Spectrum 1  Spectral Data File: xrt22_min1.pha
+Net count rate (cts/s) for Spectrum:1  1.550e-02 +/- 1.577e-03 (90.3 % total)
+ Assigned to Data Group 1 and Plot Group 1
+  Noticed Channels:  8-115
+  Telescope: SWIFT Instrument: XRT  Channel Type: PI
+  Exposure Time: 6935 sec
+ Using fit statistic: cstat
+ Using Background File                xrt22_bkg.pha
+  Background Exposure Time: 6935 sec
+ Using Response (RMF) File            xrt22.rmf for Source 1
+ Using Auxiliary Response (ARF) File  xrt22.arf
+
+Spectrum 2  Spectral Data File: fpma_min1.pha
+Net count rate (cts/s) for Spectrum:2  1.529e-01 +/- 2.671e-03 (95.8 % total)
+ Assigned to Data Group 2 and Plot Group 2
+  Noticed Channels:  24-783
+  Telescope: NuSTAR Instrument: FPMA  Channel Type: PI
+  Exposure Time: 2.264e+04 sec
+ Using fit statistic: cstat
+ Using Background File                fpma_bkg.pha
+  Background Exposure Time: 2.264e+04 sec
+ Using Response (RMF) File            fpma.rmf for Source 1
+ Using Auxiliary Response (ARF) File  fpma.arf
+
+Spectrum 3  Spectral Data File: fpmb_min1.pha
+Net count rate (cts/s) for Spectrum:3  1.452e-01 +/- 2.634e-03 (94.6 % total)
+ Assigned to Data Group 3 and Plot Group 3
+  Noticed Channels:  24-761
+  Telescope: NuSTAR Instrument: FPMB  Channel Type: PI
+  Exposure Time: 2.244e+04 sec
+ Using fit statistic: cstat
+ Using Background File                fpmb_bkg.pha
+  Background Exposure Time: 2.244e+04 sec
+ Using Response (RMF) File            fpmb.rmf for Source 1
+ Using Auxiliary Response (ARF) File  fpmb.arf
+
+
+Parameters defined:
+========================================================================
+Model constant<1>*TBabs<2>(zTBabs<3>*clumin<4>*zpowerlw<5> + clumin<6>*zpowerlw<7> + pexrav<8> + zgauss<9>) Source No.: 1   Active/On
+Model Model Component  Parameter  Unit     Value
+ par  comp
+                           Data group: 1
+   1    1   constant   factor              0.647487     +/-  8.74688E-02  
+   2    2   TBabs      nH         10^22    3.03000E-02  frozen
+   3    3   zTBabs     nH         10^22    22.7520      +/-  2.12615      
+   4    3   zTBabs     Redshift            2.56000E-02  frozen
+   5    4   clumin     Emin       keV      2.00000      frozen
+   6    4   clumin     Emax       keV      10.0000      frozen
+   7    4   clumin     Redshift            2.56000E-02  frozen
+   8    4   clumin     lg10Lum    cgs      43.0950      +/-  2.50447E-02  
+   9    5   zpowerlw   PhoIndex            1.84914      +/-  8.52704E-02  
+  10    5   zpowerlw   Redshift            2.56000E-02  frozen
+  11    5   zpowerlw   norm                1.00000      frozen
+  12    6   clumin     Emin       keV      2.00000      frozen
+  13    6   clumin     Emax       keV      10.0000      frozen
+  14    6   clumin     Redshift            2.56000E-02  frozen
+  15    6   clumin     lg10Lum    cgs      36.0000      +/-  1.63263E+04  
+  16    7   zpowerlw   PhoIndex            1.84914      = p9
+  17    7   zpowerlw   Redshift            2.56000E-02  frozen
+  18    7   zpowerlw   norm                1.00000      frozen
+  19    8   pexrav     PhoIndex            1.84914      = p9
+  20    8   pexrav     foldE      keV      1.00000E+06  frozen
+  21    8   pexrav     rel_refl            -1.00000     frozen
+  22    8   pexrav     Redshift            2.56000E-02  frozen
+  23    8   pexrav     abund               1.00000      frozen
+  24    8   pexrav     Fe_abund            1.00000      frozen
+  25    8   pexrav     cosIncl             0.450000     frozen
+  26    8   pexrav     norm                4.15799E-03  +/-  1.86251E-03  
+  27    9   zgauss     LineE      keV      6.40000      frozen
+  28    9   zgauss     Sigma      keV      1.00000E-02  frozen
+  29    9   zgauss     Redshift            2.56000E-02  frozen
+  30    9   zgauss     norm                1.21548E-05  +/-  3.19983E-06  
+                           Data group: 2
+  31    1   constant   factor              1.00000      frozen
+  32    2   TBabs      nH         10^22    3.03000E-02  = p2
+  33    3   zTBabs     nH         10^22    22.7520      = p3
+  34    3   zTBabs     Redshift            2.56000E-02  = p4
+  35    4   clumin     Emin       keV      2.00000      = p5
+  36    4   clumin     Emax       keV      10.0000      = p6
+  37    4   clumin     Redshift            2.56000E-02  = p7
+  38    4   clumin     lg10Lum    cgs      43.0950      = p8
+  39    5   zpowerlw   PhoIndex            1.84914      = p9
+  40    5   zpowerlw   Redshift            2.56000E-02  = p10
+  41    5   zpowerlw   norm                1.00000      = p11
+  42    6   clumin     Emin       keV      2.00000      = p12
+  43    6   clumin     Emax       keV      10.0000      = p13
+  44    6   clumin     Redshift            2.56000E-02  = p14
+  45    6   clumin     lg10Lum    cgs      36.0000      = p15
+  46    7   zpowerlw   PhoIndex            1.84914      = p16
+  47    7   zpowerlw   Redshift            2.56000E-02  = p17
+  48    7   zpowerlw   norm                1.00000      = p18
+  49    8   pexrav     PhoIndex            1.84914      = p19
+  50    8   pexrav     foldE      keV      1.00000E+06  = p20
+  51    8   pexrav     rel_refl            -1.00000     = p21
+  52    8   pexrav     Redshift            2.56000E-02  = p22
+  53    8   pexrav     abund               1.00000      = p23
+  54    8   pexrav     Fe_abund            1.00000      = p24
+  55    8   pexrav     cosIncl             0.450000     = p25
+  56    8   pexrav     norm                4.15799E-03  = p26
+  57    9   zgauss     LineE      keV      6.40000      = p27
+  58    9   zgauss     Sigma      keV      1.00000E-02  = p28
+  59    9   zgauss     Redshift            2.56000E-02  = p29
+  60    9   zgauss     norm                1.21548E-05  = p30
+                           Data group: 3
+  61    1   constant   factor              1.00582      +/-  3.70948E-02  
+  62    2   TBabs      nH         10^22    3.03000E-02  = p2
+  63    3   zTBabs     nH         10^22    22.7520      = p3
+  64    3   zTBabs     Redshift            2.56000E-02  = p4
+  65    4   clumin     Emin       keV      2.00000      = p5
+  66    4   clumin     Emax       keV      10.0000      = p6
+  67    4   clumin     Redshift            2.56000E-02  = p7
+  68    4   clumin     lg10Lum    cgs      43.0950      = p8
+  69    5   zpowerlw   PhoIndex            1.84914      = p9
+  70    5   zpowerlw   Redshift            2.56000E-02  = p10
+  71    5   zpowerlw   norm                1.00000      = p11
+  72    6   clumin     Emin       keV      2.00000      = p12
+  73    6   clumin     Emax       keV      10.0000      = p13
+  74    6   clumin     Redshift            2.56000E-02  = p14
+  75    6   clumin     lg10Lum    cgs      36.0000      = p15
+  76    7   zpowerlw   PhoIndex            1.84914      = p16
+  77    7   zpowerlw   Redshift            2.56000E-02  = p17
+  78    7   zpowerlw   norm                1.00000      = p18
+  79    8   pexrav     PhoIndex            1.84914      = p19
+  80    8   pexrav     foldE      keV      1.00000E+06  = p20
+  81    8   pexrav     rel_refl            -1.00000     = p21
+  82    8   pexrav     Redshift            2.56000E-02  = p22
+  83    8   pexrav     abund               1.00000      = p23
+  84    8   pexrav     Fe_abund            1.00000      = p24
+  85    8   pexrav     cosIncl             0.450000     = p25
+  86    8   pexrav     norm                4.15799E-03  = p26
+  87    9   zgauss     LineE      keV      6.40000      = p27
+  88    9   zgauss     Sigma      keV      1.00000E-02  = p28
+  89    9   zgauss     Redshift            2.56000E-02  = p29
+  90    9   zgauss     norm                1.21548E-05  = p30
+________________________________________________________________________
+
+
+Fit statistic  : C-Statistic                 87.4174     using 108 bins, spectrum 1, group 1.
+                 C-Statistic                678.7060     using 760 bins, spectrum 2, group 2.
+                 C-Statistic                687.5672     using 738 bins, spectrum 3, group 3.
+Total fit statistic                         1453.691     with 1598 d.o.f.
+
+Test statistic : Chi-Squared                1900.227     using 1606 bins.
+ Null hypothesis probability of 2.169e-07 with 1598 degrees of freedom

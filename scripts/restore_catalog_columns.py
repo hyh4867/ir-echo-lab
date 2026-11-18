@@ -17,8 +17,15 @@ columns back into:
     targets/sample_v1_props.csv
     results/s5b_objects.csv, s5b_objects_nofloor.csv, s6b_objects.csv
     results/s5b_summary.json, s6a_flares.json
+    results/s8_direct_objects.csv (type, z), s8_selection.json (the two objects outside types 1 and 2)
+    results/s7_summary.json (the energy budget that starts from the BASS luminosity; rebuilt by
+    scripts/run_stage7.py from the committed fit results)
 
-Nothing else in those files is touched. The downloads are cached under
+Nothing else in those files is touched. Three records hold rows of other catalogues
+(BASS X-ray, 2SXPS, the Swift-BAT 157-month file) and are not restored here:
+results/s7_literature.json is rebuilt by scripts/xray_literature.py (network; the BAT row
+also needs scripts/fetch_xray.py), and the 2SXPS numbers in results/s7b_light.json by
+scripts/xray_7b.py light (needs the X-ray data and HEASoft). The downloads are cached under
 data/cache/catalogs/ (git-ignored) and recorded in data/manifest.json. Please cite Oh et al. (2018), Koss et al.
 (2022) and Ricci et al. (2017) when you use the restored values.
 """
@@ -38,6 +45,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import build_props  # noqa: E402
 import build_sample  # noqa: E402
+import run_stage7  # noqa: E402
 from irecho import config, sample  # noqa: E402
 from irecho.sample import CRITERIA  # noqa: E402
 
@@ -110,7 +118,7 @@ def restore_stage5b(props: dict[str, dict]) -> None:
             for obj in group.get("h_breath", {}).get("measurable_objects", []):
                 p = props[obj["name"]]
                 obj.update(type=p["type"], logedd=p["dr2_logedd"], lognh=p["dr1_lognh"])
-    path.write_text(json.dumps(summary, indent=1) + "\n")
+    path.write_text(json.dumps(summary, indent=1, ensure_ascii=False) + "\n")
     print("results/s5b_summary.json")
 
 
@@ -144,8 +152,41 @@ def restore_flares(props: dict[str, dict]) -> None:
         p = props[name]
         obj.update(type=p["type"], z=z[name], log_lbol_bass=num(p["dr2_loglbol"]),
                    log_edd_bass=num(p["dr2_logedd"]), log_nh_bass=num(p["dr1_lognh"]))
-    path.write_text(json.dumps(flares, indent=1) + "\n")
+    path.write_text(json.dumps(flares, indent=1, ensure_ascii=False) + "\n")
     print("results/s6a_flares.json")
+
+
+def restore_stage8() -> None:
+    """Type and redshift in the stage 8 object table, and the objects outside types 1 and 2."""
+    _, v1 = read_csv(config.RESULTS_DIR / "s5b_objects.csv")
+    _, v2 = read_csv(config.RESULTS_DIR / "s6b_objects.csv")
+    values = {("v1", r["name"]): (r["type"], r["z"]) for r in v1}
+    values.update({("v2", r["name"]): (r["type"], r["z"]) for r in v2})
+    path = config.RESULTS_DIR / "s8_direct_objects.csv"
+    fields, rows = read_csv(path)
+    for row in rows:
+        kind, z = values[(row["sample"], row["name"])]
+        row.update(type=kind, z=f"{float(z):.6g}")
+    write_csv(path, fields, rows)
+    print(f"results/s8_direct_objects.csv: {len(rows)} rows")
+    path = config.RESULTS_DIR / "s8_selection.json"
+    selection = json.loads(path.read_text())
+    selection["v1_types"]["objects_outside_type_1_and_2"] = [
+        {"name": r["name"], "counterpart": r["counterpart"], "type": r["type"], "type_group": r["type_group"]}
+        for r in v1 if r["sample"] == "main" and r["type_group"] not in ("1", "2")]
+    path.write_text(json.dumps(selection, indent=1, ensure_ascii=False) + "\n")
+    print("results/s8_selection.json")
+
+
+def restore_stage7() -> None:
+    """Rebuild the stage 7 verdict table; its energy budget starts from the BASS luminosity."""
+    import importlib
+
+    from irecho import xray
+    importlib.reload(xray)          # the luminosity is read from targets/sample_v1_props.csv at import
+    importlib.reload(run_stage7)
+    run_stage7.main()
+    print("results/s7_summary.json")
 
 
 CATALOG_DIR = config.CACHE_DIR / "catalogs"
@@ -192,6 +233,8 @@ def main() -> None:
     restore_stage5b(props)
     restore_stage6b(dr2)
     restore_flares(props)
+    restore_stage8()
+    restore_stage7()
     print("done. The restored values come from Oh et al. (2018), Koss et al. (2022) and "
           "Ricci et al. (2017); do not commit them to a public copy.")
 

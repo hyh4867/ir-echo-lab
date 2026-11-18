@@ -26,9 +26,18 @@ This repository starts from a single commit, so its own history does not show th
 | 2026-11-17 11:32:37 | (run log) | **Frozen `sample_v2` files first opened** to compute D |
 | 2026-11-17 11:47:35 | `6d4d16f448ce49627cec9f819cfabd6d93f9b5d3` | Stage 6B results |
 | 2026-11-17 13:33:22 | `e34ce17d3b8394104945ed432ff45a5b00fd3c98` | `XRAY_PLAN.md`: predictions and decision rules for CGCG 312-012, before any X-ray data were downloaded |
+| 2026-11-17 13:35 | (download log) | **X-ray data first downloaded** (`scripts/fetch_xray.py`, 04:35–04:49 UTC; times of each file in `data/manifest.json`) |
+| 2026-11-17 15:08:32 | `9590ca55c0ffd53eb20073e5a1108c5639f7f721` | Stage 7: X-ray data reprocessed, regions and spectra |
+| 2026-11-17 18:03:05 | `d407c424e48824c8e28f491491441fd8f3cbe8b3` | Stage 7 results (fits and the registered verdict) |
+| 2026-11-17 19:38:16 | `288dfce42ed69e8973e86fcf67f3e4c5427a45ee` | `XRAY_PLAN.md` section 9: plan of the supplement 7b. **Post hoc**: written after the stage 7 results and an outside review had been seen; not a pre-registration |
+| 2026-11-17 20:10:42 | `b4cc9e338ca0f546edeb02f6fc13dd551c066d5d` | Stage 7b results |
+| 2026-11-17 20:15:32 | `1e28fff411742559908303fd044f7104270aaa68` | `VALIDATION_8.md`: null test, direct comparison and lag-model re-test with pass/fail criteria and the interpretation rule, before any of them was run (the results of stages 5b and 6B had been seen; the document says so) |
+| 2026-11-17 21:37:40 | `337309cf00b2c4390c95139e94414c89984ec7a4` | Stage 8 results |
 
 Notes
 
 - Deviations from the plans were recorded in the stage reports, not hidden. Two that matter for reading the table: in stage 6A the criteria for light-curve shape and colour were written after the shape and colour had already been seen in stage 5b (marked in `FLARES_PLAN.md`); in stage 6B the model-1 threshold was fixed after the download but before D was computed.
 - Before each freeze, the only quantities computed for the targets were frame counts, visit counts, rejection counts per cut, saturation fractions, visit gaps, error sizes and the median and scatter of the difference between the two photometries.
+- Stage 7: the registered rule for choosing the spectral model stepped from one model to the next and stopped at the absorbed power law, although the reflection model fits better by 36.7 in AIC; this was reported as a deviation and both are shown side by side. Stage 8: one planned variant of the null test was not run because no bias was found, and a linear time term was added to the direct comparison after the plan.
+- This repository has more than one commit from 2026-11-18 on; the first commit holds the state up to the stage 7 plan, the second adds stages 7, 7b and 8 in one step. The order within them is given by the table above.
 - Commit timestamps are set by the committing machine. The push times recorded by the remote are the independent record of the order; they are part of the original history that can be shown on request.

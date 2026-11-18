@@ -1,0 +1,17 @@
+{
+ "rule": "sample_v2, measurable D and directly comparable: largest D; D closest to the median of the 94",
+ "objects": [
+  {
+   "name": "bat0363",
+   "label": "largest D\nMrk 376 (bat0363)",
+   "d": 0.763578,
+   "d_colour_mag": -0.0659128
+  },
+  {
+   "name": "bat1333",
+   "label": "D closest to the median\n2MASX J08384815+0407340 (bat1333)",
+   "d": 0.267563,
+   "d_colour_mag": -0.0453855
+  }
+ ]
+}

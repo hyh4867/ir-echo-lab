@@ -103356,6 +103356,867 @@
   "sha256": "593d2908a0b311acc01da8d3c3ab38d6dcd7b3ea573f8391d1bd2767b88d5fec",
   "source": "s3://nasa-irsa-wise/unwise/neo7/catalogs/time_domain/healpix_k5/unwise-neo7-time_domain-healpix_k5.parquet/healpix_k0=4/healpix_k5=4801/ (anonymous, region us-west-2)"
  },
+ "s7/bat157/BAT_157m_catalog_20250525.txt": {
+  "bytes": 470669,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:48:36Z",
+  "sha256": "9901ec0dc86cd67781383242b4808f4d87e0ec396fb23eb134c30b4b177b0249",
+  "url": "https://swift.gsfc.nasa.gov/bat_survey/bs157mon/data/BAT_157m_catalog_20250525.txt"
+ },
+ "s7/bat157/BAT_157m_swiftbat_survey_full_157m.rsp": {
+  "bytes": 31680,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:48:34Z",
+  "sha256": "f9113bc147d84508f01ebdf5e6d9b0314c757d68182b15ac4730d20dd918c427",
+  "url": "https://swift.gsfc.nasa.gov/bat_survey/bs157mon/data/BAT_157m_swiftbat_survey_full_157m.rsp"
+ },
+ "s7/bat157/SWIFT_J0929.7+6232.pha": {
+  "bytes": 17280,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:48:33Z",
+  "sha256": "94fdc98c2086a4be7b8107ca2af0930db800b84da4344a79ba3390be1ee67794",
+  "url": "https://swift.gsfc.nasa.gov/bat_survey/bs157mon/spectra/SWIFT_J0929.7+6232.pha"
+ },
+ "s7/nustar/60160365002/auxil/NUSTAR_TLE_ARCHIVE.txt.2022123": {
+  "bytes": 373380,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:35:07Z",
+  "sha256": "e3bd6714ec8e74b1f237176a9afaa687b7cf366f3c70c317c1fa4d42527ba4f7",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/auxil/NUSTAR_TLE_ARCHIVE.txt.2022123"
+ },
+ "s7/nustar/60160365002/auxil/nu60160365002_att.fits.gz": {
+  "bytes": 12575727,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:35:31Z",
+  "sha256": "27d422ba1e4ab8bf959886a611a51c5b3a277de8cb364b7f2886e2381ed93d73",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/auxil/nu60160365002_att.fits.gz"
+ },
+ "s7/nustar/60160365002/auxil/nu60160365002_orb.fits.gz": {
+  "bytes": 2005012,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:35:39Z",
+  "sha256": "fe24c7cc0f2f60d7aeca75eb1e71ed96313015facd6a783ea05fb5ba2ab8c6e1",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/auxil/nu60160365002_orb.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002A.attorb.gz": {
+  "bytes": 4465614,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:43:31Z",
+  "sha256": "345351b03a193d622c2896e6919f42da74d935ac570e06529125814cb6316671",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002A.attorb.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002A.mkf.gz": {
+  "bytes": 3156536,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:43:37Z",
+  "sha256": "f429d830cc62edc1f87f65c3df5f61291c90978fb3e2910d428d24d43e2cc926",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002A.mkf.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002A01_cl.evt.gz": {
+  "bytes": 6162559,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:43:48Z",
+  "sha256": "20fd329fd060bd5c3be62406a95864bff5c0ba10d07df955fc4579b5c452aecc",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002A01_cl.evt.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002A01_gti.fits.gz": {
+  "bytes": 2875,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:43:48Z",
+  "sha256": "5a675618e91394a1fbb162efebeac966527b2494c8605afd59a653055699d376",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002A01_gti.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002A01_im.gif": {
+  "bytes": 19981,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:43:48Z",
+  "sha256": "d66ed838e783ff5f5cad53249bf28b6927edabfb4829d1f035e7df5f206a4521",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002A01_im.gif"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002A01_lc.gif": {
+  "bytes": 30654,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:43:49Z",
+  "sha256": "892f89f902d9ef38522deb00870c3aeb797dd4221402a779f02b52c1bad780b6",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002A01_lc.gif"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002A01_ph.gif": {
+  "bytes": 7226,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:43:49Z",
+  "sha256": "c5f2ac0c0f1e59372ee9fe561c38e7e6676680cc0f40d72f112cb795786e15d7",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002A01_ph.gif"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002A01_sk.img.gz": {
+  "bytes": 32324,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:43:49Z",
+  "sha256": "3c49eba0cd82b1ef67185f8a7b73fb7683e9f8ed6e552ca362f820ded84e720e",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002A01_sk.img.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002A01_src.reg": {
+  "bytes": 24,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:43:50Z",
+  "sha256": "cc4474ce06a614e09ea0c816f2e05113f29a23a132c87b886d88997b890cc095",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002A01_src.reg"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002A02_cl.evt.gz": {
+  "bytes": 1693529,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:43:53Z",
+  "sha256": "bfb35888d186fa9089cbe5f59eeeccc67ea11818c625d4cbe823d30fcad8c53b",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002A02_cl.evt.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002A02_gti.fits.gz": {
+  "bytes": 2073,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:43:53Z",
+  "sha256": "6eddcf7ff0f674da824902c77465106b2912da7b75d312b07540c6226b823841",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002A02_gti.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002A03_cl.evt.gz": {
+  "bytes": 10945,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:43:53Z",
+  "sha256": "604e27541d4ea3b8f2fd75f96bc03af08e5e9c7cfaa236bcdbb4ca15bd094237",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002A03_cl.evt.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002A03_gti.fits.gz": {
+  "bytes": 1966,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:43:54Z",
+  "sha256": "c6d355e02b8a088a16c3d9f7c7257ca3cd328885d0a0943f0e508718cb707668",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002A03_gti.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002A04_gti.fits.gz": {
+  "bytes": 2016,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:43:54Z",
+  "sha256": "a5e1dcd5df07da3d7114348f52a988057b1119f91f84b96ef7f98e339a03b155",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002A04_gti.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002A05_gti.fits.gz": {
+  "bytes": 1921,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:43:54Z",
+  "sha256": "cad27dc636b76a60d2dffb39e1602388925596d7e60bf2e1a277eda564b1bef2",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002A05_gti.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002A06_cl.evt.gz": {
+  "bytes": 1126146,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:43:56Z",
+  "sha256": "7aae9bd9e7acd7b76c8945d9cd973740950e1c3a5eec1a9e8e36bc6c8feeef06",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002A06_cl.evt.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002A06_gti.fits.gz": {
+  "bytes": 2872,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:43:57Z",
+  "sha256": "e47e5fc3fe5cf362074c0231da7152d2de7a1007f94c9d8a5302c86e6cda1e6f",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002A06_gti.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002A_bp.fits.gz": {
+  "bytes": 3131,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:43:57Z",
+  "sha256": "c16246abd09094637db50e28767c6ff32aacf8a5acd925d145637f87c0ccd89c",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002A_bp.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002A_det1.fits.gz": {
+  "bytes": 3087060,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:44:03Z",
+  "sha256": "54a53461b6f247374ca6b3b91383cfc63dcd05eae14f297955b74eb0a5e667bb",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002A_det1.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002A_hp.fits.gz": {
+  "bytes": 4041,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:44:03Z",
+  "sha256": "95833f181f42580644c5d1e9d25989be45cd246accdc1ebfce46e5922fcbf11c",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002A_hp.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002A_oa.fits.gz": {
+  "bytes": 5927933,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:44:13Z",
+  "sha256": "3acaf30c1fecfb0b4711be1b998e15fd6e0351080020a345d6ae56a3a13e4d35",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002A_oa.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002B.attorb.gz": {
+  "bytes": 4465606,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:44:21Z",
+  "sha256": "9b3c45cebde52d7fc788a32b208f666a146356d0f684b47350f7764dfdf301ed",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002B.attorb.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002B.mkf.gz": {
+  "bytes": 3153703,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:44:27Z",
+  "sha256": "b936cad9786871acb021f07bed1839d8d89024e44279fd963b93aa1c4c9d9b1f",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002B.mkf.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002B01_cl.evt.gz": {
+  "bytes": 5712991,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:44:37Z",
+  "sha256": "7117732ac7534d6fef623ee2dd677a5ad4934699a739d2833082864da229860e",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002B01_cl.evt.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002B01_gti.fits.gz": {
+  "bytes": 2877,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:44:38Z",
+  "sha256": "3d8cb2d43258c8c791fc0fab12e45c5f349db79c7f735da3e428a0f662ebe7b2",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002B01_gti.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002B01_im.gif": {
+  "bytes": 19594,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:44:38Z",
+  "sha256": "b09f7fb4647744ebdabce21551131d332fb6ce4d79b48809b89b969106dd91a1",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002B01_im.gif"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002B01_lc.gif": {
+  "bytes": 27519,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:44:38Z",
+  "sha256": "eda0897935c41aafe2f92335cc3bb67a1de56753124fbf90525020cc8f502a76",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002B01_lc.gif"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002B01_ph.gif": {
+  "bytes": 7235,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:44:39Z",
+  "sha256": "c36cff71b4d5a018691fedb2e1f97c559d9d56cb2dad613f8f32302d7b79692f",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002B01_ph.gif"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002B01_sk.img.gz": {
+  "bytes": 31075,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:44:39Z",
+  "sha256": "78283b1ba5c89af2fea5a1c9c6f26ce7ac47a82f6a16d7b8ee8f2efa159f1caa",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002B01_sk.img.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002B01_src.reg": {
+  "bytes": 24,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:44:39Z",
+  "sha256": "cc4474ce06a614e09ea0c816f2e05113f29a23a132c87b886d88997b890cc095",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002B01_src.reg"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002B02_cl.evt.gz": {
+  "bytes": 1597879,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:44:51Z",
+  "sha256": "95faaf0db3e53942cb84201004ff46f5184c330780b80663d67df5625f750af6",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002B02_cl.evt.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002B02_gti.fits.gz": {
+  "bytes": 2071,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:44:51Z",
+  "sha256": "8e1659651d92c72027e0ec9092276730965fd16c452af044d608b86b4edc94f8",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002B02_gti.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002B03_cl.evt.gz": {
+  "bytes": 10621,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:44:51Z",
+  "sha256": "034b003ac685d17243a535fa0d0b5975b5e6fbd469b135ac53953c086fdb0f7e",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002B03_cl.evt.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002B03_gti.fits.gz": {
+  "bytes": 1970,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:44:52Z",
+  "sha256": "4fe31742a7199688ee407b1f2edfe1fa740821140c9f84b04fb234fd37f3ba83",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002B03_gti.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002B04_gti.fits.gz": {
+  "bytes": 2012,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:44:52Z",
+  "sha256": "da010aa690c49e55dc58bec747ceca2bc4d5d4bcfd5794e12bb065404056db90",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002B04_gti.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002B05_gti.fits.gz": {
+  "bytes": 1922,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:44:52Z",
+  "sha256": "8bb821dd5b1b892e1b3e10a2cd50366ffbad1565ac6b191ed3d2eb553c7a0661",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002B05_gti.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002B06_cl.evt.gz": {
+  "bytes": 1039615,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:44:58Z",
+  "sha256": "04241230beb18922202de64211f01f61c950c3cf7bcf738ad63cb5381f2ef4cd",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002B06_cl.evt.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002B06_gti.fits.gz": {
+  "bytes": 2877,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:44:58Z",
+  "sha256": "4871cbdd58b49bafac6dcaf5e4b2cab3c2092275b82bbecd983296805495bc84",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002B06_gti.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002B_bp.fits.gz": {
+  "bytes": 3150,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:44:59Z",
+  "sha256": "d1436d5fe7d2ec3d590058864a41d49e51719e06d4a0b864001ce6e285a80962",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002B_bp.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002B_det1.fits.gz": {
+  "bytes": 3086311,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:45:06Z",
+  "sha256": "7f4db3d1f032b613c2e49508f0b1d8f013092d816bf3a736694c1dece339c37a",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002B_det1.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002B_hp.fits.gz": {
+  "bytes": 5674,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:45:06Z",
+  "sha256": "b2509b535f5cd77f6bfb0d7daab7e9e4d8b0a646bce5cc3f08db6c675ac8927d",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002B_hp.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002B_oa.fits.gz": {
+  "bytes": 5927005,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:45:21Z",
+  "sha256": "d80b00d927dcbb8b95ee9285357d377bb398e4da642d155459fd2cd2ef81edcb",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002B_oa.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002_mast.fits.gz": {
+  "bytes": 1539330,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:45:24Z",
+  "sha256": "92682cc0e59009ecbef7ca9dd79c09ce12f9d9117bfba58e6c0fc63c5f33bee9",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002_mast.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002_psd.fits.gz": {
+  "bytes": 720246,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:45:25Z",
+  "sha256": "b8f8a021fdf8724d3a172c5576c28ec3944d3d9b49495fe29e79a21729f472b0",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002_psd.fits.gz"
+ },
+ "s7/nustar/60160365002/event_cl/nu60160365002_psdcorr.fits.gz": {
+  "bytes": 795162,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:45:27Z",
+  "sha256": "5ae989c18f4ee60334ca7d8abd7ae75c507a89e06a1dfedb737b07ab485db331",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_cl/nu60160365002_psdcorr.fits.gz"
+ },
+ "s7/nustar/60160365002/event_uf/nu60160365002A_uf.evt.gz": {
+  "bytes": 60789253,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:40:36Z",
+  "sha256": "eaba64787fcc37e09b8d7d099cf6b266311ef148972856114ca63193aee25cd4",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_uf/nu60160365002A_uf.evt.gz"
+ },
+ "s7/nustar/60160365002/event_uf/nu60160365002B_uf.evt.gz": {
+  "bytes": 91143832,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:43:23Z",
+  "sha256": "99b90adb2787f967682acf930364df75906dc112323c3057d267aa269958a936",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/event_uf/nu60160365002B_uf.evt.gz"
+ },
+ "s7/nustar/60160365002/hk/nu60160365002A_dspx.fits.gz": {
+  "bytes": 2150,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:35:39Z",
+  "sha256": "7a0c0b895473375afd050df232cb2731157271e56a627c530fd2cbaf0e2136cc",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/hk/nu60160365002A_dspx.fits.gz"
+ },
+ "s7/nustar/60160365002/hk/nu60160365002A_fpm.hk.gz": {
+  "bytes": 1706334,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:35:43Z",
+  "sha256": "86d395f43155f435767965c8e53892b772af56e2edea9f37f721148f7ee12ae6",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/hk/nu60160365002A_fpm.hk.gz"
+ },
+ "s7/nustar/60160365002/hk/nu60160365002B_dspx.fits.gz": {
+  "bytes": 2231,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:35:43Z",
+  "sha256": "36b37b0a6f307ecea49765d3950330e4a572e5a88f9f1474df626cfdf6602f30",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/hk/nu60160365002B_dspx.fits.gz"
+ },
+ "s7/nustar/60160365002/hk/nu60160365002B_fpm.hk.gz": {
+  "bytes": 1703306,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:35:48Z",
+  "sha256": "00e20492d88af4dcf9f6e6b7503b2ae26633b04bd06fd182a638be2d2be6bb6f",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/hk/nu60160365002B_fpm.hk.gz"
+ },
+ "s7/nustar/60160365002/hk/nu60160365002_ceb.hk.gz": {
+  "bytes": 450814,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:35:49Z",
+  "sha256": "ed298274479a3a6bacd4af490f201cc78a7bf5267678d7acf057b6800c7c7a8c",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/hk/nu60160365002_ceb.hk.gz"
+ },
+ "s7/nustar/60160365002/hk/nu60160365002_chu123.fits.gz": {
+  "bytes": 207648,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:36:27Z",
+  "sha256": "db66521e715f81c53dfe22c3dccbd6887d5037fcf025e2eb43764b67c766fa7b",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/hk/nu60160365002_chu123.fits.gz"
+ },
+ "s7/nustar/60160365002/hk/nu60160365002_chu4.fits.gz": {
+  "bytes": 8921627,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:36:26Z",
+  "sha256": "84519c8f7a70fbc53f7c5e002ac65b8e55a61329d8816bb6233b85196dc4ed6d",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/hk/nu60160365002_chu4.fits.gz"
+ },
+ "s7/nustar/60160365002/hk/nu60160365002_eng.hk.gz": {
+  "bytes": 2411578,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:36:43Z",
+  "sha256": "c83e964a7dc74e7027b44366221436fa59ef07bceccd79a2594284dcf88a3366",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/hk/nu60160365002_eng.hk.gz"
+ },
+ "s7/nustar/60160365002/hk/nu60160365002_met.fits.gz": {
+  "bytes": 2513408,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:36:50Z",
+  "sha256": "4748cfce335bd024b06af5cffe85a7db7aa5b67f96d6650292fe3181f04c1d4a",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/hk/nu60160365002_met.fits.gz"
+ },
+ "s7/nustar/60160365002/hk/nu60160365002_obeb.hk.gz": {
+  "bytes": 559130,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:36:52Z",
+  "sha256": "22ad2bb7c8f693dcd8309627359d15bd9ec6424c83584fa674292a154a752091",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/hk/nu60160365002_obeb.hk.gz"
+ },
+ "s7/swift/00040946001/auxil/SWIFT_TLE_ARCHIVE.txt.16231.92210476.gz": {
+  "bytes": 113299,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:45:28Z",
+  "sha256": "48ea66785e5d47b826b94a55931dac892daf21be215869c4ee8356e50746f681",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/auxil/SWIFT_TLE_ARCHIVE.txt.16231.92210476.gz"
+ },
+ "s7/swift/00040946001/auxil/sw00040946001pat.fits.gz": {
+  "bytes": 193319,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:45:28Z",
+  "sha256": "73573d7fd43349bc55b5479380d1eadbbbf548888bf962ee1fc0b63a30571f64",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/auxil/sw00040946001pat.fits.gz"
+ },
+ "s7/swift/00040946001/auxil/sw00040946001pjb.par.gz": {
+  "bytes": 2392,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:45:29Z",
+  "sha256": "e62a7971ecfcce70c6379fab5d03d586081460328626fa7bdae22231f21ced9f",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/auxil/sw00040946001pjb.par.gz"
+ },
+ "s7/swift/00040946001/auxil/sw00040946001pob.cat.gz": {
+  "bytes": 5810,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:45:29Z",
+  "sha256": "f2006c6bd7ba6c40d5c11ace681a7544bd5b9fa74f16e247bb1756bdd977db46",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/auxil/sw00040946001pob.cat.gz"
+ },
+ "s7/swift/00040946001/auxil/sw00040946001ppr.par.gz": {
+  "bytes": 1800,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:45:29Z",
+  "sha256": "78c88f1c6e2c752cd946325862993d520e0a804b720a6c604c782d59f308fbd4",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/auxil/sw00040946001ppr.par.gz"
+ },
+ "s7/swift/00040946001/auxil/sw00040946001s.mkf.gz": {
+  "bytes": 652415,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:45:31Z",
+  "sha256": "8572d14eb89124ebe5522212c19fa1a67db6f231e1e4829e09e1f7bc36f83afa",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/auxil/sw00040946001s.mkf.gz"
+ },
+ "s7/swift/00040946001/auxil/sw00040946001sao.fits.gz": {
+  "bytes": 4930027,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:45:39Z",
+  "sha256": "9302b105358bfc253e748bd1042e30394c260ae822bd332a14de5c3619d71d7c",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/auxil/sw00040946001sao.fits.gz"
+ },
+ "s7/swift/00040946001/auxil/sw00040946001sat.fits.gz": {
+  "bytes": 198046,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:45:40Z",
+  "sha256": "00930518d6b4c43a1927f4ce2f6467dd0533e639cb5d58f4373115dd34b64cb5",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/auxil/sw00040946001sat.fits.gz"
+ },
+ "s7/swift/00040946001/auxil/sw00040946001sen.hk.gz": {
+  "bytes": 2561679,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:45:45Z",
+  "sha256": "35eccc8aa57dde43ec254880d810f618cec50b9b58aee7606b6e790cdc31cd5b",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/auxil/sw00040946001sen.hk.gz"
+ },
+ "s7/swift/00040946001/auxil/sw00040946001sti.fits.gz": {
+  "bytes": 4075,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:45:45Z",
+  "sha256": "07bd1f2be1365979bdc2c1ec513fe4336e55a9e83b6bbdb087e7f59e150794a7",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/auxil/sw00040946001sti.fits.gz"
+ },
+ "s7/swift/00040946001/auxil/sw00040946001uat.fits.gz": {
+  "bytes": 141168,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:45:46Z",
+  "sha256": "50d22643e5930c7eaa590187429dfc86ad136e0cd74bdc63786f3e384e6aa624",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/auxil/sw00040946001uat.fits.gz"
+ },
+ "s7/swift/00040946001/xrt/event/sw00040946001xpcw3po_cl.evt.gz": {
+  "bytes": 59837,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:45:46Z",
+  "sha256": "e9064bdeb1e387550c151938aaed4f8daa1355a947e28f39967ff44737eaa372",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/xrt/event/sw00040946001xpcw3po_cl.evt.gz"
+ },
+ "s7/swift/00040946001/xrt/event/sw00040946001xpcw3po_uf.evt.gz": {
+  "bytes": 22539792,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:32Z",
+  "sha256": "2cb4ff0d4e7cc2ce0e08ba087301e9644bc0ab5e7451b211a571740c7aed3bf4",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/xrt/event/sw00040946001xpcw3po_uf.evt.gz"
+ },
+ "s7/swift/00040946001/xrt/event/sw00040946001xwtw2po_cl.evt.gz": {
+  "bytes": 9821,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:32Z",
+  "sha256": "c3452cbebf69f25eeac827bd48b9449a8886b1a7fdcc89e2a5d78b2513def007",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/xrt/event/sw00040946001xwtw2po_cl.evt.gz"
+ },
+ "s7/swift/00040946001/xrt/event/sw00040946001xwtw2po_uf.evt.gz": {
+  "bytes": 22348,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:33Z",
+  "sha256": "cd1c6901ee2313e9dd268c75cf35bb61c7689d94513e9ae7f0b43c0a6f781288",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/xrt/event/sw00040946001xwtw2po_uf.evt.gz"
+ },
+ "s7/swift/00040946001/xrt/event/sw00040946001xwtw2po_ufre.evt.gz": {
+  "bytes": 11136,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:33Z",
+  "sha256": "74dc5a03c118b7df563379e521d5dd8d3180f53f6836a733724df708f1a8630d",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/xrt/event/sw00040946001xwtw2po_ufre.evt.gz"
+ },
+ "s7/swift/00040946001/xrt/event/sw00040946001xwtw2sl_cl.evt.gz": {
+  "bytes": 12067,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:33Z",
+  "sha256": "c2046ee34b191701fd50b187e7b73df91a6456d8f7adf0d898bc2a0a59764239",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/xrt/event/sw00040946001xwtw2sl_cl.evt.gz"
+ },
+ "s7/swift/00040946001/xrt/event/sw00040946001xwtw2sl_uf.evt.gz": {
+  "bytes": 79559,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:34Z",
+  "sha256": "5734e75df97b5470180997fd16f07d185a1acc144726a67b9f67a53ed19f2c68",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/xrt/event/sw00040946001xwtw2sl_uf.evt.gz"
+ },
+ "s7/swift/00040946001/xrt/event/sw00040946001xwtw2sl_ufre.evt.gz": {
+  "bytes": 28196,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:34Z",
+  "sha256": "366ec1e4c9dbf43489da02cc66fcaa3ae3c1783d037ea219e8e4d0133a8e4ef7",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/xrt/event/sw00040946001xwtw2sl_ufre.evt.gz"
+ },
+ "s7/swift/00040946001/xrt/event/sw00040946001xwtw2st_cl.evt.gz": {
+  "bytes": 9800,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:34Z",
+  "sha256": "d9a6555e49c72712958ad9046cd6e8d31eaa3a17b89d05e42615e9e3d9bba88c",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/xrt/event/sw00040946001xwtw2st_cl.evt.gz"
+ },
+ "s7/swift/00040946001/xrt/event/sw00040946001xwtw2st_uf.evt.gz": {
+  "bytes": 19480,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:35Z",
+  "sha256": "7409676ed238d79ea0d254c48fb4a6ae0222f7034d700f3903b11b680e2a9c9a",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/xrt/event/sw00040946001xwtw2st_uf.evt.gz"
+ },
+ "s7/swift/00040946001/xrt/event/sw00040946001xwtw2st_ufre.evt.gz": {
+  "bytes": 12827,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:35Z",
+  "sha256": "c673db741b8e5b61e0f6b703ae9bcd613154f534acfcdfbc0514774a3a3cede7",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/xrt/event/sw00040946001xwtw2st_ufre.evt.gz"
+ },
+ "s7/swift/00040946001/xrt/hk/sw00040946001xbf_rw.img.gz": {
+  "bytes": 846810,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:37Z",
+  "sha256": "04b683d94f34dc6f5c6a135f6ba33940e4f887a2df9ebaee011fec5a2274d809",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/xrt/hk/sw00040946001xbf_rw.img.gz"
+ },
+ "s7/swift/00040946001/xrt/hk/sw00040946001xen.hk.gz": {
+  "bytes": 248836,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:38Z",
+  "sha256": "07153e5eb8c08901035aa8b71938c97e7fa647d70058728dccd3cacee76264c2",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/xrt/hk/sw00040946001xen.hk.gz"
+ },
+ "s7/swift/00040946001/xrt/hk/sw00040946001xhd.hk.gz": {
+  "bytes": 556180,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:39Z",
+  "sha256": "265df22d87832ad9c92494e19818b1a73d9f3cce0a148cb03a379f670dc150cd",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/xrt/hk/sw00040946001xhd.hk.gz"
+ },
+ "s7/swift/00040946001/xrt/hk/sw00040946001xtr.hk.gz": {
+  "bytes": 23082,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:39Z",
+  "sha256": "9a53fd609babeaec9ef244acc0fbae180fde0f8ea29dc57690b182a05f538a7d",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/xrt/hk/sw00040946001xtr.hk.gz"
+ },
+ "s7/swift/00040946001/xrt/products/sw00040946001x_skim.gif": {
+  "bytes": 12486,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:40Z",
+  "sha256": "95a1cd05c6e149c885ade73e1abf66a90360fa6eefaf9674cffbcbb687d5fe03",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/xrt/products/sw00040946001x_skim.gif"
+ },
+ "s7/swift/00040946001/xrt/products/sw00040946001xpc_ex.img.gz": {
+  "bytes": 806009,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:41Z",
+  "sha256": "5f0fc3f9c3ccd157221d13bd7d23879c72e9dc0f7a0026e190bd070917787878",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/xrt/products/sw00040946001xpc_ex.img.gz"
+ },
+ "s7/swift/00040946001/xrt/products/sw00040946001xpc_sk.img.gz": {
+  "bytes": 19746,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:42Z",
+  "sha256": "d3eb8d18400b265739652173afb76a11eb08bb59de3cbdebe52863ca06903cdc",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/xrt/products/sw00040946001xpc_sk.img.gz"
+ },
+ "s7/swift/00040946001/xrt/products/sw00040946001xwt_ex.img.gz": {
+  "bytes": 253021,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:42Z",
+  "sha256": "40ff9d3b61959041775990071de0880c7594d65b805c79967b59aa60ea99ce05",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/xrt/products/sw00040946001xwt_ex.img.gz"
+ },
+ "s7/swift/00040946001/xrt/products/sw00040946001xwt_sk.img.gz": {
+  "bytes": 11923,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:43Z",
+  "sha256": "63e3d54c48e5d723c30b424f56ce1324a7465508e85647edb25a7ecb5e217bb5",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/xrt/products/sw00040946001xwt_sk.img.gz"
+ },
+ "s7/swift/00081051001/auxil/SWIFT_TLE_ARCHIVE.txt.22130.41277987.gz": {
+  "bytes": 172371,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:43Z",
+  "sha256": "357a1354e245b07a72902c0d435a30e7ab90021eb6a2df53be4efa98e43065e3",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/auxil/SWIFT_TLE_ARCHIVE.txt.22130.41277987.gz"
+ },
+ "s7/swift/00081051001/auxil/sw00081051001pat.fits.gz": {
+  "bytes": 152109,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:44Z",
+  "sha256": "65a60d97fc7ba1a849ad283bd75007921c710c79ee32465968df3ac87961291f",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/auxil/sw00081051001pat.fits.gz"
+ },
+ "s7/swift/00081051001/auxil/sw00081051001pjb.par.gz": {
+  "bytes": 2408,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:44Z",
+  "sha256": "63f12ecaf0f7cc9fa39bf92377c18b5784d55f42e1198fd199afa0b35945e3b0",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/auxil/sw00081051001pjb.par.gz"
+ },
+ "s7/swift/00081051001/auxil/sw00081051001pob.cat.gz": {
+  "bytes": 6398,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:45Z",
+  "sha256": "2c77da7640d1f9ae2d3f8fb1db1a259f0e4d4425c8c780b09affdf0689c13326",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/auxil/sw00081051001pob.cat.gz"
+ },
+ "s7/swift/00081051001/auxil/sw00081051001ppr.par.gz": {
+  "bytes": 1731,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:45Z",
+  "sha256": "5dc03e521f3ed4a15c42af570a080592c109c1d555649aebba9e924e4774dc6f",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/auxil/sw00081051001ppr.par.gz"
+ },
+ "s7/swift/00081051001/auxil/sw00081051001s.mkf.gz": {
+  "bytes": 463276,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:46Z",
+  "sha256": "4495aabecb8e4ed19ccbfa8f0c236e3b7344d58ee4a064075bab0df63e4d34d9",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/auxil/sw00081051001s.mkf.gz"
+ },
+ "s7/swift/00081051001/auxil/sw00081051001sao.fits.gz": {
+  "bytes": 2813439,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:51Z",
+  "sha256": "85b2d9ff602662291b91f3c55de1d0e6f0527c868c30bd1dcfad13c0b3ba9196",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/auxil/sw00081051001sao.fits.gz"
+ },
+ "s7/swift/00081051001/auxil/sw00081051001sat.fits.gz": {
+  "bytes": 158803,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:52Z",
+  "sha256": "e2fba0c2ddd7bcdfde0601f26c8c305ff88ecfa0e3848fd2ae612d1e61988159",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/auxil/sw00081051001sat.fits.gz"
+ },
+ "s7/swift/00081051001/auxil/sw00081051001sen.hk.gz": {
+  "bytes": 1775786,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:55Z",
+  "sha256": "a5ff5d07919796403fe39a625e8300057e035cfcd2b55fa7d73c92a88d6f77f6",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/auxil/sw00081051001sen.hk.gz"
+ },
+ "s7/swift/00081051001/auxil/sw00081051001sti.fits.gz": {
+  "bytes": 4405,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:56Z",
+  "sha256": "51eedbf4dcb18ed87a0569ccbd3a5449138db4b594488b7cf9c329b27b4679d1",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/auxil/sw00081051001sti.fits.gz"
+ },
+ "s7/swift/00081051001/auxil/sw00081051001uat.fits.gz": {
+  "bytes": 112183,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:56Z",
+  "sha256": "1edf41f4732b34195c0e2fe853046f4050f98545a08638e67a764d0f66bec21c",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/auxil/sw00081051001uat.fits.gz"
+ },
+ "s7/swift/00081051001/auxil/sw00081051001x.mkf.gz": {
+  "bytes": 463014,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:57Z",
+  "sha256": "83f6e6f3dc6979a92abff86cea500ea2c12fa16328962768d758b03704dd5147",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/auxil/sw00081051001x.mkf.gz"
+ },
+ "s7/swift/00081051001/xrt/event/sw00081051001xpcw3po_cl.evt.gz": {
+  "bytes": 106443,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:46:58Z",
+  "sha256": "34731288ad688cb384cbcb0ac1ed22914cb483a819c9709977920680978258a0",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/xrt/event/sw00081051001xpcw3po_cl.evt.gz"
+ },
+ "s7/swift/00081051001/xrt/event/sw00081051001xpcw3po_uf.evt.gz": {
+  "bytes": 39196934,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:48:23Z",
+  "sha256": "ca39034f4a22d6c3bf879ff24a5836b9581310fd2e768b7ff5fecf3731285c4d",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/xrt/event/sw00081051001xpcw3po_uf.evt.gz"
+ },
+ "s7/swift/00081051001/xrt/event/sw00081051001xwtw2po_uf.evt.gz": {
+  "bytes": 15188,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:48:23Z",
+  "sha256": "d927bac242627d89327b3675853e1f84a3cbac0f5c35741ee4ca60c8495d5f32",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/xrt/event/sw00081051001xwtw2po_uf.evt.gz"
+ },
+ "s7/swift/00081051001/xrt/event/sw00081051001xwtw2po_ufre.evt.gz": {
+  "bytes": 7595,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:48:24Z",
+  "sha256": "9082bc1c3f0769556f3848792a84290b0147665319ec5df33df4d39727ab0634",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/xrt/event/sw00081051001xwtw2po_ufre.evt.gz"
+ },
+ "s7/swift/00081051001/xrt/event/sw00081051001xwtw2sl_cl.evt.gz": {
+  "bytes": 13055,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:48:24Z",
+  "sha256": "2e6453377b91458ed6d2b3922dd050b166141da74f287706d4d83d303515c807",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/xrt/event/sw00081051001xwtw2sl_cl.evt.gz"
+ },
+ "s7/swift/00081051001/xrt/event/sw00081051001xwtw2sl_uf.evt.gz": {
+  "bytes": 89005,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:48:25Z",
+  "sha256": "5119670b8e37f6db3e24262ac4f77666146409b76ca56460e76415e1d4199006",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/xrt/event/sw00081051001xwtw2sl_uf.evt.gz"
+ },
+ "s7/swift/00081051001/xrt/event/sw00081051001xwtw2sl_ufre.evt.gz": {
+  "bytes": 24972,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:48:25Z",
+  "sha256": "22f3ab84ec9ff3d9ffe773ed8469495c96b3fbe51250d77f558ff55aa39013ae",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/xrt/event/sw00081051001xwtw2sl_ufre.evt.gz"
+ },
+ "s7/swift/00081051001/xrt/event/sw00081051001xwtw2st_cl.evt.gz": {
+  "bytes": 10548,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:48:25Z",
+  "sha256": "ad8cd685ce5b79e71ae82fe951f001747432c0a0d80d65f7c3b6be3640fa8b2f",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/xrt/event/sw00081051001xwtw2st_cl.evt.gz"
+ },
+ "s7/swift/00081051001/xrt/event/sw00081051001xwtw2st_uf.evt.gz": {
+  "bytes": 32540,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:48:26Z",
+  "sha256": "bf68836dd19ca2c595eebba80dd6103064ab4252a1c9e7fa213ff126d4fa58a7",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/xrt/event/sw00081051001xwtw2st_uf.evt.gz"
+ },
+ "s7/swift/00081051001/xrt/event/sw00081051001xwtw2st_ufre.evt.gz": {
+  "bytes": 13024,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:48:26Z",
+  "sha256": "c8a87485e29f7f29471eb18d2a4328923f786ff75e44b2b125339cc3e85cd285",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/xrt/event/sw00081051001xwtw2st_ufre.evt.gz"
+ },
+ "s7/swift/00081051001/xrt/hk/sw00081051001xbf_rw.img.gz": {
+  "bytes": 709673,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:48:28Z",
+  "sha256": "359e36f52ca2709b3d78a63bafe387b1bf70cc2f2be8c424aae1c6b687df6d07",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/xrt/hk/sw00081051001xbf_rw.img.gz"
+ },
+ "s7/swift/00081051001/xrt/hk/sw00081051001xen.hk.gz": {
+  "bytes": 180549,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:48:29Z",
+  "sha256": "990fdaefdbd6c47a859f787d372aaffbcc5b97c6bc833e69037a1251c28dca51",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/xrt/hk/sw00081051001xen.hk.gz"
+ },
+ "s7/swift/00081051001/xrt/hk/sw00081051001xhd.hk.gz": {
+  "bytes": 412626,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:48:30Z",
+  "sha256": "333e73b1142b94d589b5842efaaf1566132a8eb2c1c332946983a91d2843ae6d",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/xrt/hk/sw00081051001xhd.hk.gz"
+ },
+ "s7/swift/00081051001/xrt/hk/sw00081051001xtr.hk.gz": {
+  "bytes": 19130,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:48:30Z",
+  "sha256": "7b51e9a276b1c9e89ce8503c1ebb38d7fe4e855183ffe163937e4a93f13b8d2f",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/xrt/hk/sw00081051001xtr.hk.gz"
+ },
+ "s7/swift/00081051001/xrt/products/sw00081051001x_skim.gif": {
+  "bytes": 11218,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:48:30Z",
+  "sha256": "0d293058fc909f94d1d38bccfbcc3151f9579bcbfd77c74e5d6595e462ca4e15",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/xrt/products/sw00081051001x_skim.gif"
+ },
+ "s7/swift/00081051001/xrt/products/sw00081051001xpc_ex.img.gz": {
+  "bytes": 615990,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:48:32Z",
+  "sha256": "386278b5f808c151f84c5c3884ace0ee72a1c46e79b610d3940da53d801bf91a",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/xrt/products/sw00081051001xpc_ex.img.gz"
+ },
+ "s7/swift/00081051001/xrt/products/sw00081051001xpc_sk.img.gz": {
+  "bytes": 26055,
+  "n_rows": 0,
+  "retrieved_utc": "2026-11-17T04:48:32Z",
+  "sha256": "738ad32285b48684c8ab9d7fe6a8849cfcb09797f4396fa7ad87fcc1ff749bbb",
+  "url": "https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2022_05/00081051001/xrt/products/sw00081051001xpc_sk.img.gz"
+ },
  "untimely/mrk573.csv": {
   "bytes": 10522,
   "n_rows": 34,

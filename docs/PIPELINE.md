@@ -386,7 +386,72 @@ WHERE CONTAINS(POINT('ICRS', t.ra, t.dec), CIRCLE('ICRS', p.pra, p.pdec, 0.00083
 - **판정**: q2는 실제 D를 천체 사이에서 섞어 구한 ρ의 95번째 백분위, q1은 모형 1의 합성 표본에서 실제 '측정 가능' 수 n에 맞춘 ρ의 5번째 백분위다(n이 격자 사이면 선형 보간). 규칙은 PREDICTIONS_6.md 7절.
 - **밴드 간 지연 추정기** (`bandlag.stacked_lag`): F2 = a + b[F1 − δ dF1/dt]를 천체마다 맞추고 표본 전체의 χ²(δ)를 더해 δ를 구한다. 합성 자료에서 통과 조건 셋을 모두 만족할 때만 실제 자료에 적용한다.
 
-## 15. 재현
+## 15. 7단계: CGCG 312-012의 X선 분석 (`docs/XRAY_PLAN.md`)
+
+순서: 해석별 예측과 판정 기준 커밋(`e34ce17`) → 도구 설치 → 자료 받기 → 재처리 → 영역 → 스펙트럼 → 맞춤 → 판정. 문헌 조사는 계획을 커밋한 뒤에 했다.
+
+| 단계 | 코드 | 산출물 |
+|---|---|---|
+| 판정 규칙과 수치 도우미 (HEASoft 없이 동작) | `src/irecho/xray.py` | 단위 테스트 `tests/test_xray.py` |
+| 자료 받기 (HEASARC, Swift-BAT survey 페이지) | `scripts/fetch_xray.py` | `data/cache/s7/{nustar,swift,bat157}/` (git 밖), manifest |
+| NuSTAR 보정 파일 일부만 받기 | `scripts/fetch_caldb_subset.py 2022-05-01` | `data/cache/s7/caldb/` (git 밖), `results/s7_caldb.json` |
+| 환경 | `scripts/heasoft_env.sh` | (conda 환경 `.heasoft/`, git 밖) |
+| 재처리 | `scripts/xray_process.sh xrt10`, `xrt22`, `nustar` | `data/cache/s7/work/` (git 밖) |
+| 영역과 배경 광도곡선 확인 | `scripts/xray_regions.py` (`xray_process.sh regions`) | `results/s7_regions.json`, `results/fig_s7_xray_images.png` |
+| 스펙트럼, 응답 행렬, 묶기, 우리 은하 N_H | `scripts/xray_process.sh products` | `data/cache/s7/work/*/prod*` (git 밖) |
+| 맞춤 (PyXspec) | `scripts/xray_fit.py fits` | `results/s7_fits.json` |
+| 광도 정의의 독립 확인, XRT 유효 면적, 그림용 배열 | `scripts/xray_fit.py lumcheck`, `arf`, `plotdata` | `results/s7_lum_check.json`, `s7_arf.json`, `s7_spectra_plot.json` |
+| 합성 자료 검증, MCMC | `scripts/xray_fit.py sims 200`, `mcmc` | `results/s7_sim_validation.json`, `s7_mcmc.json` |
+| 사후 확인 (계획에 없음) | `scripts/xray_fit.py posthoc` | `results/s7_posthoc.json` |
+| 판정 표 (HEASoft 없이 동작) | `scripts/run_stage7.py` | `results/s7_summary.json` |
+| 문헌·목록 조회 | `scripts/xray_literature.py` | `results/s7_literature.json` |
+| 그림 | `src/irecho/plots7.py`, `scripts/plot_stage7.py` | `results/fig_s7_xray_spectra.png` |
+
+- **도구**: HEASoft 6.37.1(NuSTARDAS 2.1.6, swxrtdas 3.7.2, XSPEC 13.0.1, PyXspec 2.2.0)을 conda로 프로젝트 폴더 안의 `.heasoft/`에 설치했다. 맞춤 스크립트는 그 환경의 Python에서 돌고, 판정 표·그림·테스트는 프로젝트의 `.venv`에서 돈다(커밋된 JSON만 읽는다).
+- **경로 길이**: CALDB 조회(`quzcif`)와 `nuexpomap`은 파일 경로가 길면 실패한다("Error constructing path", "contains too many characters"). 그래서 (가) `CALDB` 환경 변수는 사용자 임시 폴더의 짧은 symlink(`$TMPDIR/irecho-s7-caldb` → `data/cache/s7/caldb`)를 가리키고, (나) `nuproducts`는 작업 폴더로 들어가 상대 경로로 부른다. 프로젝트 폴더 밖에 생기는 것은 이 symlink 하나와 XSPEC이 처음 실행될 때 만드는 설정 폴더(`~/.xspec`)다.
+- **NuSTAR**: `nupipeline`을 기본 설정으로 한 번 돌린 뒤 배경 광도곡선(천체에서 120″ 밖, 200초 구간)을 봤다. 두 모듈 모두 290초짜리 짧은 구간 하나의 배경이 나머지의 1.5배였다. 계획대로 `saamode=optimized tentacle=yes`로 다시 처리했고(노출 23.05 → 22.64 ks, 22.82 → 22.44 ks) 이쪽을 썼다. 천체 영역은 영상 중심의 반지름 50″ 원, 배경은 같은 칩(DET0)에서 천체와 190″ 이상 떨어지고 시야 안에 완전히 들어가는 반지름 100″ 원 가운데 가장 먼 것(`xray_regions.nustar_background`)이다.
+- **Swift XRT**: PC mode, grade 0–12, 천체 영역 반지름 20 화소, 배경 고리 60–110 화소. 고리 안에서 반지름 10 화소 칸을 옮겨 가며 Poisson 기대치를 10⁻⁵ 수준으로 넘는 곳을 찾았고 두 관측 모두 없었다. `xrtmkarf`에 exposure map을 넣었다.
+- **묶기와 통계량**: XRT와 NuSTAR는 bin마다 1 count 이상으로 묶고(`ftgrouppha grouptype=min groupscale=1`) 배경 스펙트럼과 함께 `cstat`(W 통계량)으로, BAT의 8채널은 χ²로 맞춘다. 스펙트럼마다 data group을 따로 둔다.
+- **모형**: `constant*TBabs*(zTBabs*clumin*zpowerlw + clumin*zpowerlw + pexrav + zgauss)`에서 M0는 첫 항만, M1은 둘째 항까지, M2는 전부다. `clumin`은 흡수를 걷어낸 정지계 2–10 keV 광도를 맞춤 매개변수(lg10Lum)로 만들어 준다. 그래서 광도의 구간이 N_H, Γ와 같은 방법(통계량 차이 2.706)으로 나온다. `pexrav`는 `rel_refl = −1`(반사만), cutoff 없음(`foldE`를 상한 10⁶ keV에 고정), cos i = 0.45, Γ는 주 성분과 같게 두고 norm을 자유로 둔다. 반사 세기 R은 norm의 비로 나중에 계산한다.
+- **계산 격자**: 모형은 0.1–300 keV의 로그 격자 1500칸에서 계산해 응답 행렬의 격자로 보간한다(`AllModels.setEnergies`). 응답 행렬의 격자를 그대로 쓰면 `pexrav`가 든 맞춤 한 번이 2분 넘게 걸렸다. M0에서 두 방법의 차이는 통계량 0.08, N_H 0.1%다.
+- **Δ2와 ΔN의 구간**: 두 매개변수의 차와 비이므로 `error`로 바로 구할 수 없다. 2010년의 값을 "2022년 값 − Δ"(또는 "× 10^−ΔN")로 묶어 Δ를 0.03 dex씩 옮기며 다시 맞추고, 통계량이 2.706 오르는 곳을 보간했다(`xray_fit.profile`).
+- **PyXspec에서 조심할 점**: 둘째 이후 data group의 매개변수는 `Parameter.index`가 그 group 안의 번호를 준다. `error`나 chain의 열 이름에는 전체 번호(`startParIndex + index − 1`)를 써야 한다. 처음에 이를 놓쳐 2010년 매개변수의 구간이 2022년 것으로 계산됐고, 결과를 쓰기 전에 고쳐 다시 돌렸다.
+- **판정**: `scripts/run_stage7.py`가 커밋된 맞춤 결과에 XRAY_PLAN.md 6절의 규칙(`xray.luminosity_label`, `absorption_label`, `overall_verdict`, `energy_budget`)을 적용한다.
+
+## 16. 7b와 8단계
+
+### 16.1 7b: X선 분석의 사후 보완 (`docs/XRAY_PLAN.md` 9절)
+
+| 단계 | 코드 | 산출물 |
+|---|---|---|
+| 가벼운 확인 (BAT 채널 선택, XRT 보정 계수, GTI 겹침, chain 진단, hardness ratio) | `scripts/xray_7b.py light` | `results/s7b_light.json` |
+| 맞춤 (`.xcm` 저장과 새 세션 재현, 3000칸 격자, XRT 상수의 두 해석, 기본 SAA 스펙트럼) | `scripts/xray_7b.py fits`, `scripts/xray_process.sh products_saa_none` | `results/s7b_fits.json`, `results/s7b_xcm/` |
+| 표와 그림 | `scripts/run_stage7b.py` | `results/s7b_summary.json`, `results/fig_s7b_supplement.png` |
+
+- BAT의 채널은 번호로 고른다(`xray.bat_channels_in_band`). XSPEC의 `ignore`에 실수를 주면 그 에너지를 포함한 채널까지 빠진다.
+- XSPEC은 이름이 `none`으로 시작하는 응답 파일을 "응답 없음"으로 읽는다.
+
+### 16.2 8단계: hysteresis 통계량의 검증 (`docs/VALIDATION_8.md`)
+
+순서: 계획과 기준 커밋(`1e28fff`) → 오차 상관 추정 → null test → (직접 비교가 null에서 치우치지 않음을 확인한 뒤) 실제 자료의 직접 비교 → lag 모형 재시험.
+
+| 단계 | 코드 | 산출물 |
+|---|---|---|
+| null 자료, 직접 비교의 추정량, driver 식 | `src/irecho/hyst8.py` | 단위 테스트 `tests/test_hyst8.py` |
+| W1·W2 오차의 상관, unTimely 광도곡선 | `scripts/run_stage8_noise.py` (`IRECHO_SAMPLE=v2`로 한 번 더) | `results/s8_error_correlation_v1.json`, `_v2.json`, `data/cache/s8/untimely_lc_*.json` (git 밖) |
+| B1 null test와 직접 비교의 null 시험 | `scripts/run_stage8.py null 2` | `results/s8_null.json` (회차별 값은 `data/cache/s8/null_*.json`) |
+| B2 직접 비교, unTimely, scan 방향 | `scripts/run_stage8.py direct` | `results/s8_direct.json`, `results/s8_direct_objects.csv` |
+| B3 lag 모형 재시험 | `scripts/run_stage8.py lag 2` | `results/s8_lag_model.json` |
+| B4 선택 효과와 보고 보완 | `scripts/run_stage8.py select` | `results/s8_selection.json` |
+| 그림 | `src/irecho/plots8.py`, `scripts/plot_stage8.py` | `results/fig_s8_null.png`, `fig_s8_direct.png`, `fig_s8_examples.png`, `s8_examples.json` |
+
+- **오차 상관**: 같은 방문을 pipeline과 unTimely가 각각 잰 값의 차이를 W1과 W2에서 구하고, 방문들에 걸친 Pearson 상관을 천체마다 낸다(쌍 6개 이상). 두 측광의 오차 상관이 섞인 값이다.
+- **null 자료**: 참값 W2 = 관측된 방문 flux. W1은 (a) 직선, (b) 넓이가 고정된 blackbody의 온도만 변하는 경우(`hyst8.truth_single_temperature`). 잡음은 동결 파일의 오차와 위의 상관으로 넣는다. 추정은 `breath.measure` 그대로다.
+- **직접 비교** (`hyst8.direct_offset`): 두 구간의 W2 flux가 겹치는 구간 안의 방문만으로 F1 = c + m·F2 + δ·[밝아지는 구간]을 두 변수의 오차를 넣어 맞춘다(`hyst8.eiv_fit`). 기준 방문, 초과 flux, 공유 peak, blackbody를 쓰지 않는다. δ > 0가 D > 0에 대응한다.
+- **scan 방향**: 방문 시각을 반년 단위로 반올림한 홀짝. unTimely의 `FORWARD` 표시와 맞는지 확인했다.
+- 병렬 실행은 `multiprocessing`의 fork 방식을 쓴다(준비한 광도곡선을 worker가 물려받는다).
+
+## 17. 재현
 
 ```
 uv venv --python 3.12 .venv && uv pip install --python .venv/bin/python -r requirements.txt
@@ -429,6 +494,30 @@ IRECHO_SAMPLE=v2 .venv/bin/python scripts/run_qa.py                           # 
 .venv/bin/python scripts/plot_stage6.py            # 6단계 그림
 .venv/bin/python scripts/update_data_doc.py    # docs/DATA.md 해시 표 갱신
 .venv/bin/python -m pytest -v                  # 단위 테스트 + 캐시 기반 회귀 테스트
+bash scripts/xray_process.sh xrt10 && bash scripts/xray_process.sh xrt22   # 7: Swift XRT 재처리 (HEASoft 환경 필요, 아래 참고)
+bash scripts/xray_process.sh nustar            # 7: NuSTAR 재처리 (NU_EXTRA="saamode=optimized tentacle=yes")
+bash scripts/xray_process.sh regions && bash scripts/xray_process.sh products   # 7: 영역, 스펙트럼
+python scripts/xray_fit.py fits                # 7: 맞춤 (HEASoft 환경의 python, 약 1시간)
+python scripts/xray_fit.py plotdata; python scripts/xray_fit.py arf; python scripts/xray_fit.py lumcheck
+python scripts/xray_fit.py mcmc; python scripts/xray_fit.py sims 200; python scripts/xray_fit.py posthoc
+.venv/bin/python scripts/run_stage7.py         # 7: 판정 표 (커밋된 JSON만 읽음)
+.venv/bin/python scripts/plot_stage7.py        # 7: 그림
+python scripts/xray_7b.py light; python scripts/xray_7b.py fits   # 7b: 사후 보완 (HEASoft 환경)
+.venv/bin/python scripts/run_stage7b.py        # 7b: 표와 그림
+.venv/bin/python scripts/run_stage8_noise.py; IRECHO_SAMPLE=v2 .venv/bin/python scripts/run_stage8_noise.py   # 8: 오차 상관 (캐시 필요)
+.venv/bin/python scripts/run_stage8.py null 2  # 8: null test (약 50분)
+.venv/bin/python scripts/run_stage8.py direct  # 8: 직접 비교
+.venv/bin/python scripts/run_stage8.py lag 2   # 8: lag 모형 재시험 (약 25분)
+.venv/bin/python scripts/run_stage8.py select; .venv/bin/python scripts/plot_stage8.py   # 8: 보고 보완, 그림
 ```
 
 난수는 기준 별·비교 별 추첨과 blackbody 온도의 Monte Carlo에만 쓴다. 모두 seed 20261112에서 나온다(`config.SEED`. 5a단계의 비교 별은 `[20261112, 5, BAT 목록 번호]`).
+
+7단계의 도구 설치(프로젝트 폴더 안, git 밖):
+
+```
+conda create -y -p .heasoft --override-channels -c https://heasarc.gsfc.nasa.gov/FTP/software/conda/ -c conda-forge heasoft=6.37.1
+.venv/bin/python scripts/fetch_xray.py         # 관측 자료 (322 MB)
+# CALDB: data/cache/s7/caldb/ 에 caldb_setup_files.tar.Z, goodfiles_swift_mis.tar.Z, goodfiles_swift_xrt.tar.Z 를 풀고
+source scripts/heasoft_env.sh && python scripts/fetch_caldb_subset.py 2022-05-01   # NuSTAR 보정 파일 94개 (1.95 GB)
+```

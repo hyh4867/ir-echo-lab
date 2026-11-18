@@ -1,0 +1,112 @@
+
+4 files 4 spectra 
+Spectrum 1  Spectral Data File: xrt22_min1.pha
+Net count rate (cts/s) for Spectrum:1  1.550e-02 +/- 1.577e-03 (90.3 % total)
+ Assigned to Data Group 1 and Plot Group 1
+  Noticed Channels:  8-115
+  Telescope: SWIFT Instrument: XRT  Channel Type: PI
+  Exposure Time: 6935 sec
+ Using fit statistic: cstat
+ Using Background File                xrt22_bkg.pha
+  Background Exposure Time: 6935 sec
+ Using Response (RMF) File            xrt22.rmf for Source 1
+ Using Auxiliary Response (ARF) File  xrt22.arf
+
+Spectrum 2  Spectral Data File: fpma_min1.pha
+Net count rate (cts/s) for Spectrum:2  1.529e-01 +/- 2.671e-03 (95.8 % total)
+ Assigned to Data Group 2 and Plot Group 2
+  Noticed Channels:  24-783
+  Telescope: NuSTAR Instrument: FPMA  Channel Type: PI
+  Exposure Time: 2.264e+04 sec
+ Using fit statistic: cstat
+ Using Background File                fpma_bkg.pha
+  Background Exposure Time: 2.264e+04 sec
+ Using Response (RMF) File            fpma.rmf for Source 1
+ Using Auxiliary Response (ARF) File  fpma.arf
+
+Spectrum 3  Spectral Data File: fpmb_min1.pha
+Net count rate (cts/s) for Spectrum:3  1.452e-01 +/- 2.634e-03 (94.6 % total)
+ Assigned to Data Group 3 and Plot Group 3
+  Noticed Channels:  24-761
+  Telescope: NuSTAR Instrument: FPMB  Channel Type: PI
+  Exposure Time: 2.244e+04 sec
+ Using fit statistic: cstat
+ Using Background File                fpmb_bkg.pha
+  Background Exposure Time: 2.244e+04 sec
+ Using Response (RMF) File            fpmb.rmf for Source 1
+ Using Auxiliary Response (ARF) File  fpmb.arf
+
+Spectrum 4  Spectral Data File: bat.pha
+Net count rate (cts/s) for Spectrum:4  1.385e-05 +/- 1.767e-06
+ Assigned to Data Group 4 and Plot Group 4
+  Noticed Channels:  1-8
+  Telescope: SWIFT Instrument: BAT  Channel Type: PI
+  Exposure Time: 2.709e+08 sec
+ Using fit statistic: chi
+ Using Response (RMF) File            bat.rsp for Source 1
+
+
+Parameters defined:
+========================================================================
+Model constant<1>*TBabs<2>*zTBabs<3>*clumin<4>*zpowerlw<5> Source No.: 1   Active/On
+Model Model Component  Parameter  Unit     Value
+ par  comp
+                           Data group: 1
+   1    1   constant   factor              1.00000      frozen
+   2    2   TBabs      nH         10^22    3.03000E-02  frozen
+   3    3   zTBabs     nH         10^22    21.8710      +/-  1.45716      
+   4    3   zTBabs     Redshift            2.56000E-02  frozen
+   5    4   clumin     Emin       keV      2.00000      frozen
+   6    4   clumin     Emax       keV      10.0000      frozen
+   7    4   clumin     Redshift            2.56000E-02  frozen
+   8    4   clumin     lg10Lum    cgs      43.1687      +/-  1.52462E-02  
+   9    5   zpowerlw   PhoIndex            1.53490      +/-  3.39348E-02  
+  10    5   zpowerlw   Redshift            2.56000E-02  frozen
+  11    5   zpowerlw   norm                1.00000      frozen
+                           Data group: 2
+  12    1   constant   factor              1.00000      = p1
+  13    2   TBabs      nH         10^22    3.03000E-02  = p2
+  14    3   zTBabs     nH         10^22    21.8710      = p3
+  15    3   zTBabs     Redshift            2.56000E-02  = p4
+  16    4   clumin     Emin       keV      2.00000      = p5
+  17    4   clumin     Emax       keV      10.0000      = p6
+  18    4   clumin     Redshift            2.56000E-02  = p7
+  19    4   clumin     lg10Lum    cgs      43.1687      = p8
+  20    5   zpowerlw   PhoIndex            1.53490      = p9
+  21    5   zpowerlw   Redshift            2.56000E-02  = p10
+  22    5   zpowerlw   norm                1.00000      = p11
+                           Data group: 3
+  23    1   constant   factor              1.01818      +/-  2.53538E-02  
+  24    2   TBabs      nH         10^22    3.03000E-02  = p2
+  25    3   zTBabs     nH         10^22    21.8710      = p3
+  26    3   zTBabs     Redshift            2.56000E-02  = p4
+  27    4   clumin     Emin       keV      2.00000      = p5
+  28    4   clumin     Emax       keV      10.0000      = p6
+  29    4   clumin     Redshift            2.56000E-02  = p7
+  30    4   clumin     lg10Lum    cgs      43.1687      = p8
+  31    5   zpowerlw   PhoIndex            1.53490      = p9
+  32    5   zpowerlw   Redshift            2.56000E-02  = p10
+  33    5   zpowerlw   norm                1.00000      = p11
+                           Data group: 4
+  34    1   constant   factor              0.244445     +/-  3.12947E-02  
+  35    2   TBabs      nH         10^22    3.03000E-02  = p2
+  36    3   zTBabs     nH         10^22    21.8710      = p3
+  37    3   zTBabs     Redshift            2.56000E-02  = p4
+  38    4   clumin     Emin       keV      2.00000      = p5
+  39    4   clumin     Emax       keV      10.0000      = p6
+  40    4   clumin     Redshift            2.56000E-02  = p7
+  41    4   clumin     lg10Lum    cgs      43.1687      = p8
+  42    5   zpowerlw   PhoIndex            1.53490      = p9
+  43    5   zpowerlw   Redshift            2.56000E-02  = p10
+  44    5   zpowerlw   norm                1.00000      = p11
+________________________________________________________________________
+
+
+Fit statistic  : C-Statistic                103.6576     using 108 bins, spectrum 1, group 1.
+                 C-Statistic                705.1122     using 760 bins, spectrum 2, group 2.
+                 C-Statistic                708.6323     using 738 bins, spectrum 3, group 3.
+                 Chi-Squared                 21.9975     using 8 bins, spectrum 4, group 4.
+Total fit statistic                         1539.400     with 1609 d.o.f.
+
+Test statistic : Chi-Squared                2037.719     using 1614 bins.
+ Null hypothesis probability of 1.414e-12 with 1609 degrees of freedom

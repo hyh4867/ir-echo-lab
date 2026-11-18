@@ -188,3 +188,56 @@ arXiv API 조회: 번호로 8편(0907.0573, 1504.07286, 1908.01627, 1904.08946, 
 2. AGN mid-infrared color hysteresis OR "loop" OR asymmetry rising declining phase W1-W2 color lags flux dust echo color-magnitude time evolution
 
 arXiv API 조회: 2510.04517, 2601.00358, 2005.07339, 2401.12524.
+
+## 10. 7단계 추가: CGCG 312-012의 X선 관측을 다룬 문헌 (2026-11-17)
+
+계획 문서(`docs/XRAY_PLAN.md`, `e34ce17`)를 커밋한 뒤에 찾았다. 조회 기록은 `results/s7_literature.json`에 있다(`scripts/xray_literature.py`).
+
+### 10.1 검색 범위
+
+- 2026-11-17 (05:00–05:10 UTC와 그 뒤의 웹 검색).
+- SIMBAD의 참고문헌 목록(이름 `Z 312-12`, 미러 simbad.harvard.edu) 48편의 **제목**. X선·Swift·BAT·NuSTAR·흡수·변광·flare 같은 낱말이 든 제목을 표시했다(27편).
+- VizieR(CfA 미러)의 목록 세 개에서 이 천체의 행: J/ApJS/233/17(Ricci et al. 2017), IX/58(2SXPS, Evans et al. 2020), IX/69(LSXPS. 행이 없었다). CDS 본 서버의 TAP은 시간 초과로 쓰지 못했다.
+- Swift-BAT 157개월 목록 파일의 행.
+- 일반 웹 검색 5번(영어. 10.4절).
+- **조회하지 않은 것**: ADS(API 접근 없음), arXiv 전문 검색, 논문 본문. 표본 논문의 본문 표에 이 천체의 값이 따로 있을 수 있다. NuSTAR의 2022년 관측(60160365002)을 쓴 논문이 있는지는 관측 ID와 천체 이름의 웹 검색으로만 봤다.
+
+### 10.2 찾은 것
+
+| 출처 | 이 천체에 대한 내용 | 이번 분석과의 관계 |
+|---|---|---|
+| Ricci et al. 2017, ApJS 233, 17 (BASS V. VizieR J/ApJS/233/17의 행) | 연X선 자료는 **Swift/XRT 관측 40946001**(이번의 2010년 관측)이고 BAT 70개월 스펙트럼과 함께 맞췄다. 행의 값(모형, N_H, Γ, 반사, 산란 비율, flux, 광도)은 공개 저장소에 옮기지 않았다. `scripts/xray_literature.py`가 다시 받는다. 받은 행에는 오차 열이 없었다 | BASS의 N_H와 광도가 이번의 "2010년 XRT + BAT 평균"(계획의 C3)과 같은 자료에서 나왔다. 즉 BASS의 값은 2022년과 독립인 과거 상태의 값이다 |
+| 2SXPS (Evans et al. 2020, VizieR IX/58의 행) | 2SXPS J092937.8+623239. 행의 값(count rate, hardness ratio, 환산 flux)은 공개 저장소에 옮기지 않았다. `scripts/xray_literature.py`가 다시 받는다 | 목록은 2018년까지의 관측을 쓰므로 2010년 관측에 해당한다. 이번에 같은 관측에서 잰 0.3–10 keV net rate와 비교했다(`results/s7b_light.json`) |
+| Swift-BAT 157개월 목록 파일 (`BAT_157m_catalog_20250525.txt`) | 행의 값(S/N, flux, Γ, 환산 χ², 광도)은 공개 저장소에 옮기지 않았다. `scripts/fetch_xray.py`가 파일을 받는다 | BAT 평균의 기준값. 목록의 power law 맞춤은 환산 χ²가 커서 BAT 스펙트럼 자체가 power law로 잘 맞지 않는다 |
+| SIMBAD 참고문헌 48편 | 모두 목록·표본 논문이다(Swift-BAT 54·70·105개월 목록, BASS의 여러 편, Herschel 측광, INTEGRAL 17년 survey, megamaser 탐색 등). 제목에 이 천체의 이름이 든 것은 없다 | 이 천체 하나의 X선 스펙트럼이나 변광을 다룬 논문은 **이 검색에서 못 찾음** |
+| 웹 검색 | 관측 ID 60160365002나 천체 이름으로 2022년 NuSTAR·Swift 관측을 분석한 논문을 찾지 못했다 | "분석된 적 없다"는 뜻이 아니다. 표본 논문 안에 들어 있을 수 있다 |
+
+- NuSTAR 관측의 종류는 HEASARC 목록에 `EGS`로 적혀 있다. BAT로 고른 AGN을 짧게 찍는 survey의 일부로 보이지만, 그 survey의 설명 문서는 확인하지 않았다.
+- INTEGRAL 17년 survey(Krivonos et al. 2022)와 Palermo BAT 목록이 참고문헌에 있다. 두 목록에서 이 천체의 값은 받아 보지 않았다(BAT 157개월과 독립인 hard X-ray 평균이 될 수 있다. 남은 일).
+
+### 10.3 교차 보정의 계통 오차에 대해
+
+계획에서 NuSTAR–BAT 0.06 dex, XRT–NuSTAR 0.04 dex를 가정했고 근거를 문헌에서 확인하기로 했다. Madsen et al. (2017, AJ 153, 2, arXiv:1609.09032)의 초록은 Chandra, NuSTAR, Suzaku, Swift, XMM-Newton의 flux를 기기 쌍마다 비교해 상수를 표로 준다고만 적고 수치가 없다. 본문은 읽지 않았다. 따라서 **두 값의 근거는 확인하지 못했고 가정 그대로다.** 2022년의 XRT와 NuSTAR는 같은 날 관측이라 XRT의 상대 상수를 자유로 둔 맞춤으로 크기를 볼 수 있다(보고서의 민감도 확인).
+
+### 10.4 검색어
+
+1. "CGCG 312-012" X-ray
+2. "SWIFT J0929.7+6232" NuSTAR OR XRT OR "X-ray"
+3. "CGCG 312-012" OR "Z 312-12" OR "2MASX J09293791+6232384" NuSTAR spectral absorption column density Seyfert 2
+4. NuSTAR 60160365002 OR "CGCG 312-012" OR "CGCG312-012" BAT AGN legacy survey NuSTAR 2022 obscured AGN catalog
+5. Madsen 2017 IACHEC cross-calibration Chandra NuSTAR Swift Suzaku XMM-Newton 3C 273 PKS 2155-304 flux differences percent
+
+## 11. 8단계 추가: driver의 변광 식과 torus response function (2026-11-17)
+
+계획 문서(`docs/VALIDATION_8.md`)에 쓸 식을 확인하려고 찾았다. 이 천체들의 hysteresis를 다룬 문헌을 새로 찾은 것은 아니다.
+
+| 문헌 | 쓴 것 | 확인한 범위 |
+|---|---|---|
+| MacLeod et al. 2010, ApJ 721, 1014 (arXiv:1004.0276) | 식 (7) log f = A + B log(λ_RF/4000 Å) + C(M_i + 23) + D log(M_BH/10⁹ M☉). SF∞(mag): A = −0.51 ± 0.02, B = −0.479 ± 0.005, C = 0.131 ± 0.008, D = 0.18 ± 0.03. τ(일, 정지계): A = 2.4 ± 0.2, B = 0.17 ± 0.02, C = 0.03 ± 0.04, D = 0.21 ± 0.07. SF∞ = √2 σ | ar5iv의 본문에서 식과 표 1을 읽음(앞 10만 자) |
+| Burke et al. 2021, Science 373, 789 (arXiv:2108.05389) | τ_damping = 107 (+11/−12)일 × (M_BH/10⁸ M☉)^0.38 (+0.05/−0.04), 고유 산포 0.09 dex, AGN 67개 | ar5iv의 본문에서 식을 읽음. 초록에는 수치가 없다 |
+| Shen et al. 2009의 환산 (Shankar, Weinberg & Shen 2010, arXiv:1004.1173의 각주에서 인용) | L_bol = 10^[(M_i(z=2) − 90)/(−2.5)], M_i(z=2) = M_i(z=0) − 0.596 | 검색 요약의 인용문만 확인. Shen et al. 2009 원문은 읽지 않음 |
+| Lyu, Rieke & Smith 2019, ApJ 886, 33 | 식 15–16: W1 a = 2.10 ± 0.06, b = 0.47 ± 0.06, W2 a = 2.20 ± 0.06, b = 0.45 ± 0.05. 관계 주변의 산포(dex)는 읽은 범위(앞 10만 자)에서 찾지 못함 | ar5iv 본문 일부 |
+| Almeyda et al. 2017, ApJ 843, 3; 2020, ApJ 891, 26 (arXiv:2002.12823) | TORMAC. 3.6, 4.5, 30 μm의 response function, response-weighted delay와 core-to-total area ratio | 2020년 논문의 초록과 검색 요약만. 밴드별 값은 읽지 않음 (`docs/TRANSFER_DESIGN.md`) |
+
+- MacLeod et al.의 M_i는 K 보정된 i 밴드 절대등급이다. L_bol에서 M_i로 가는 환산은 위 Shen et al.의 식을 썼고, 이 표본(근처 Seyfert, log L_bol 43–46)은 MacLeod et al.의 표본(SDSS Stripe 82 quasar)보다 어둡다. 식을 표본 밖으로 늘려 쓴 것이다.
+- 검색어(일반 웹 검색, 영어): "M_i(z=2)" "90 - 2.5 log" L_bol Shen 2009 quasar absolute magnitude bolometric luminosity conversion / Almeyda TORMAC torus reverberation mapping code dust emission response transfer function 2017 2020 anisotropic illumination cloud orientation.

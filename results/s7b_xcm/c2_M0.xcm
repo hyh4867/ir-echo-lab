@@ -1,0 +1,71 @@
+# c2_M0: saved by scripts/xray_7b.py. Run from a directory that holds the spectra and responses
+# (data/cache/s7/work/fit/, made by scripts/xray_fit.py prepare). Model energies: 0.1 300. 1500 log.
+#PyXspec: Output generated from Xset.save().  DO NOT MODIFY.
+
+statistic cstat
+data 1:1 xrt22_min1.pha
+
+data 2:2 fpma_min1.pha
+
+data 3:3 fpmb_min1.pha
+
+data 4:4 xrt10_min1.pha
+ignore 1:1-7,116-181 2:1-23,784-937 3:1-23,762-854 4:1-2,64-164
+
+energies 0.1 300. 1500 log
+method leven 200 0.0001
+abund wilm
+xsect vern
+cosmo 67.4 0 0.685
+xset delta 0.01
+xset APECROOT  3.1.3
+xset NEIAPECROOT  3.1.3
+xset SPEXROOT  3.08
+xset TBABSVERSION  2.0
+systematic 0
+model  constant*TBabs*zTBabs*clumin*zpowerlw
+              1         -1          0          0      1e+10      1e+10
+         0.0303         -1          0          0     100000      1e+06
+        21.2743        0.1       0.01       0.01        500        500
+         0.0256         -1     -0.999     -0.999         10         10
+              2         -1          0          0      1e+06      1e+06
+             10         -1          0          0      1e+06      1e+06
+         0.0256         -1          0          0         10         10
+        43.1606       0.01         38         38         46         46
+        1.51728       0.01          1          1          3          3
+         0.0256         -1     -0.999     -0.999         10         10
+              1         -1          0          0      1e+20      1e+24
+= p1
+= p2
+= p3
+= p4
+= p5
+= p6
+= p7
+= p8
+= p9
+= p10
+= p11
+        1.01851       0.01        0.5        0.5          2          2
+= p2
+= p3
+= p4
+= p5
+= p6
+= p7
+= p8
+= p9
+= p10
+= p11
+= p1
+= p2
+        14.7188        0.1       0.01       0.01        500        500
+= p4
+= p5
+= p6
+= p7
+        42.3813       0.01         38         38         46         46
+= p9
+= p10
+= p11
+bayes off

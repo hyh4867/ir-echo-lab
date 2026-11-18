@@ -1,0 +1,605 @@
+{
+ "note": "stage 7b: computed after the stage 7 results were seen (docs/XRAY_PLAN.md section 9)",
+ "bat_common_band": {
+  "ebounds_kev": [
+   [
+    14.0,
+    20.0
+   ],
+   [
+    20.0,
+    24.0
+   ],
+   [
+    24.0,
+    35.0
+   ],
+   [
+    35.0,
+    50.0
+   ],
+   [
+    50.0,
+    75.0
+   ],
+   [
+    75.0,
+    100.0
+   ],
+   [
+    100.0,
+    150.0
+   ],
+   [
+    150.0,
+    195.0
+   ]
+  ],
+  "channels_used": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "channel_bounds_used_kev": [
+   [
+    14.0,
+    20.0
+   ],
+   [
+    20.0,
+    24.0
+   ],
+   [
+    24.0,
+    35.0
+   ],
+   [
+    35.0,
+    50.0
+   ]
+  ],
+  "nustar_14_50": {
+   "cstat": 738.6200882600579,
+   "n_bins": 832,
+   "n_free": 3,
+   "gamma": 1.5576432663231026,
+   "gamma_90": [
+    1.4114883342667943,
+    1.7071948399062635,
+    "FFFFFFFFF"
+   ],
+   "log_flux_14_50": -10.768322163226742,
+   "log_flux_14_50_90": [
+    -10.801540478382359,
+    -10.73568367398849,
+    "FFFFFFFFF"
+   ],
+   "const_fpmb": 1.014213293241237
+  },
+  "bat_ch1_4_free_gamma": {
+   "channels_noticed": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "n_free": 2,
+   "chi2": 4.21316930301067,
+   "dof": 2,
+   "gamma": 1.451765797394485,
+   "gamma_fixed": false,
+   "log_flux_14_50": -11.295657843234238,
+   "log_flux_14_50_90": [
+    -11.391552111868679,
+    -11.217381879564087,
+    "FFFFFFFFF"
+   ],
+   "gamma_90": [
+    0.8335143679645564,
+    2.036675269904234,
+    "FFFFFFFFF"
+   ],
+   "nustar_over_bat": {
+    "log_ratio": 0.5273356800074964,
+    "lo": 0.44230284546536947,
+    "hi": 0.6286321840769347,
+    "ratio": 3.367717704080982,
+    "note": "90% intervals of the two fluxes combined in quadrature; statistical only"
+   }
+  },
+  "bat_ch1_4_gamma_fixed_to_nustar": {
+   "channels_noticed": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "n_free": 1,
+   "chi2": 4.302195296994129,
+   "dof": 3,
+   "gamma": 1.5576432663231026,
+   "gamma_fixed": true,
+   "log_flux_14_50": -11.292983345990981,
+   "log_flux_14_50_90": [
+    -11.386306609337266,
+    -11.21621912578612,
+    "FFFFFFFFF"
+   ],
+   "nustar_over_bat": {
+    "log_ratio": 0.5246611827642393,
+    "lo": 0.4410178807882991,
+    "hi": 0.6235272662375699,
+    "ratio": 3.347042159333139,
+    "note": "90% intervals of the two fluxes combined in quadrature; statistical only"
+   }
+  },
+  "bat_all_channels_integrated_14_50": {
+   "channels_noticed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "n_free": 2,
+   "chi2": 14.93302622063687,
+   "dof": 6,
+   "gamma": 2.04286783496333,
+   "gamma_fixed": false,
+   "log_flux_14_50": -11.314306712639471,
+   "log_flux_14_50_90": [
+    -11.408742787160088,
+    -11.23677063208084,
+    "FFFFFFFFF"
+   ],
+   "gamma_90": [
+    1.720445391776206,
+    2.4053709189748247,
+    "FFFFFFFFF"
+   ],
+   "nustar_over_bat": {
+    "log_ratio": 0.5459845494127293,
+    "lo": 0.46163231025944684,
+    "hi": 0.6459017308712706,
+    "ratio": 3.5154793353391334,
+    "note": "90% intervals of the two fluxes combined in quadrature; statistical only"
+   }
+  },
+  "joint_same_shape_14_50": {
+   "statistic": 742.9168997563838,
+   "bat_channels_noticed": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "gamma": 1.5512609446203323,
+   "k_bat": 0.2980863917192226,
+   "k_bat_90": [
+    0.23745250095660275,
+    0.3621476672443159,
+    "FFFFFFFFF"
+   ],
+   "log_ratio": 0.5256578499859867,
+   "lo": 0.4411143079399578,
+   "hi": 0.6244232518729416,
+   "note": "NuSTAR 14-50 keV and BAT channels 1-4 with one photon index; assumes the same shape in this band"
+  }
+ },
+ "xrt_corrections": {
+  "xrt10": {
+   "reproduces_the_arf_used_in_stage_7": true,
+   "off_axis_arcmin": 0.913717,
+   "energies_kev": [
+    0.5,
+    1.0,
+    1.5,
+    3.0,
+    5.0,
+    7.0,
+    9.0
+   ],
+   "factor_psf_and_expomap": [
+    0.7334429715892742,
+    0.7334429664931649,
+    0.7334429511251139,
+    0.7334429473088437,
+    0.7334429805957469,
+    0.7334429392462782,
+    0.7334429505100074
+   ],
+   "factor_psf_only": [
+    0.7964945421949738,
+    0.7964945388921899,
+    0.7964945595181359,
+    0.7964945527561559,
+    0.7964945526411674,
+    0.7964945431878903,
+    0.7964945385734188
+   ],
+   "factor_expomap_only": [
+    0.9208386658470497,
+    0.920838663267271,
+    0.9208386201267127,
+    0.9208386231530009,
+    0.9208386650776931,
+    0.9208386240924472,
+    0.9208386435689321
+   ],
+   "area_cm2_no_correction": [
+    108.81556701660156,
+    152.20304711700297,
+    163.80352020263672,
+    110.50306701660156,
+    118.31365203857422,
+    99.7638053894043,
+    43.888816833496094
+   ],
+   "exposure_map": {
+    "max_s": 10350.134765625,
+    "at_source_pixel_s": 9591.6953125,
+    "mean_in_region_s": 8609.715225984486,
+    "min_in_region_s": 4927.740234375,
+    "mean_in_region_over_max": 0.8318457122490021
+   },
+   "bad_columns_rawx": [
+    146,
+    176,
+    177,
+    291,
+    292,
+    453
+   ],
+   "per_gti": [
+    {
+     "duration_s": 804.843299984932,
+     "n_source_events": 7,
+     "rawx_median": 317.0,
+     "rawy_median": 318.0,
+     "nearest_bad_column_pix": 25.0
+    },
+    {
+     "duration_s": 1213.5332000255585,
+     "n_source_events": 8,
+     "rawx_median": 309.0,
+     "rawy_median": 327.0,
+     "nearest_bad_column_pix": 17.0
+    },
+    {
+     "duration_s": 1411.6098999977112,
+     "n_source_events": 8,
+     "rawx_median": 301.0,
+     "rawy_median": 312.0,
+     "nearest_bad_column_pix": 9.0
+    },
+    {
+     "duration_s": 1469.2778000235558,
+     "n_source_events": 12,
+     "rawx_median": 306.5,
+     "rawy_median": 317.5,
+     "nearest_bad_column_pix": 14.5
+    },
+    {
+     "duration_s": 1484.3216000199318,
+     "n_source_events": 9,
+     "rawx_median": 302.0,
+     "rawy_median": 339.0,
+     "nearest_bad_column_pix": 10.0
+    },
+    {
+     "duration_s": 1188.4602000117302,
+     "n_source_events": 7,
+     "rawx_median": 299.0,
+     "rawy_median": 336.0,
+     "nearest_bad_column_pix": 7.0
+    },
+    {
+     "duration_s": 1406.5953000187874,
+     "n_source_events": 6,
+     "rawx_median": 311.5,
+     "rawy_median": 375.0,
+     "nearest_bad_column_pix": 19.5
+    },
+    {
+     "duration_s": 1371.4931000471115,
+     "n_source_events": 9,
+     "rawx_median": 297.0,
+     "rawy_median": 322.0,
+     "nearest_bad_column_pix": 5.0
+    }
+   ],
+   "nearest_bad_column_pix_min": 5.0,
+   "n_gti_with_bad_column_inside_region": 7,
+   "count_weighted_factor": {
+    "0.3-10": 0.7334429603518191,
+    "2-10": 0.7334429590468776
+   }
+  },
+  "xrt22": {
+   "reproduces_the_arf_used_in_stage_7": true,
+   "off_axis_arcmin": 3.57868,
+   "energies_kev": [
+    0.5,
+    1.0,
+    1.5,
+    3.0,
+    5.0,
+    7.0,
+    9.0
+   ],
+   "factor_psf_and_expomap": [
+    0.7751270523774122,
+    0.7751270562079146,
+    0.7751270369464919,
+    0.7751270306351746,
+    0.7751270796059134,
+    0.775127088607678,
+    0.7751270555212184
+   ],
+   "factor_psf_only": [
+    0.822341856075267,
+    0.8223418714554539,
+    0.8223418754014175,
+    0.822341873539338,
+    0.8223418480204021,
+    0.8223418724739004,
+    0.8223418847269065
+   ],
+   "factor_expomap_only": [
+    0.9425849440241393,
+    0.9425849310530983,
+    0.9425849031075089,
+    0.9425848975670521,
+    0.9425849863677167,
+    0.942584969285118,
+    0.9425849150060405
+   ],
+   "area_cm2_no_correction": [
+    106.19033432006836,
+    148.46118009522854,
+    159.68273162841797,
+    107.42389678955078,
+    114.0810546875,
+    94.2901496887207,
+    39.452850341796875
+   ],
+   "exposure_map": {
+    "max_s": 6962.771484375,
+    "at_source_pixel_s": 6950.3701171875,
+    "mean_in_region_s": 6672.060503209149,
+    "min_in_region_s": 3982.275634765625,
+    "mean_in_region_over_max": 0.9582478066645977
+   },
+   "bad_columns_rawx": [
+    146,
+    177,
+    291,
+    292,
+    319,
+    453
+   ],
+   "per_gti": [
+    {
+     "duration_s": 1368.9858000278473,
+     "n_source_events": 25,
+     "rawx_median": 217.0,
+     "rawy_median": 238.0,
+     "nearest_bad_column_pix": 40.0
+    },
+    {
+     "duration_s": 1411.6098999977112,
+     "n_source_events": 29,
+     "rawx_median": 241.0,
+     "rawy_median": 254.0,
+     "nearest_bad_column_pix": 50.0
+    },
+    {
+     "duration_s": 1582.106299996376,
+     "n_source_events": 35,
+     "rawx_median": 202.0,
+     "rawy_median": 270.0,
+     "nearest_bad_column_pix": 25.0
+    },
+    {
+     "duration_s": 1426.6536999940872,
+     "n_source_events": 23,
+     "rawx_median": 315.0,
+     "rawy_median": 283.0,
+     "nearest_bad_column_pix": 4.0
+    },
+    {
+     "duration_s": 631.8395999670029,
+     "n_source_events": 12,
+     "rawx_median": 236.5,
+     "rawy_median": 274.0,
+     "nearest_bad_column_pix": 54.5
+    },
+    {
+     "duration_s": 541.5767999887466,
+     "n_source_events": 13,
+     "rawx_median": 234.0,
+     "rawy_median": 260.0,
+     "nearest_bad_column_pix": 57.0
+    }
+   ],
+   "nearest_bad_column_pix_min": 4.0,
+   "n_gti_with_bad_column_inside_region": 1,
+   "count_weighted_factor": {
+    "0.3-10": 0.7751270534930972,
+    "2-10": 0.7751270534530335
+   }
+  },
+  "comparison_with_2sxps": {
+   "catalogue": {
+    "source": "2SXPS J092937.8+623239 (VizieR IX/58, queried 2026-11-17)",
+    "withheld": "Row values from the 2SXPS catalogue (Evans et al. 2020, ApJS 247, 54; VizieR IX/58) are not reproduced here; scripts/xray_literature.py and scripts/xray_7b.py light query them again."
+   },
+   "0.3-10": {
+    "own_net_rate_raw": 0.005602059871892914,
+    "own_net_rate_raw_err": 0.0007841268386641211,
+    "correction_factor": 0.7334429603518191,
+    "own_rate_corrected": 0.007638030732758971,
+    "own_rate_corrected_err": 0.0010691040490565073,
+    "catalogue_rate": null,
+    "catalogue_err": null,
+    "difference_sigma": -0.7964529259538484
+   },
+   "2-10": {
+    "own_net_rate_raw": 0.004706319978314002,
+    "own_net_rate_raw_err": 0.0007006125555194297,
+    "correction_factor": 0.7334429590468776,
+    "own_rate_corrected": 0.006416749823912619,
+    "own_rate_corrected_err": 0.0009552379593770842,
+    "catalogue_rate": null,
+    "catalogue_err": null,
+    "difference_sigma": -0.5404194034045351
+   },
+   "exposure_ratio_catalogue_over_nominal": null
+  }
+ },
+ "gti_overlap": {
+  "xrt22_gti_total_s": 6962.772100162692,
+  "n_xrt_gti": 6,
+  "fpma_gti_total_s": 24088.52454589214,
+  "overlap_with_fpma_s": 61.891853995621204,
+  "fpmb_gti_total_s": 24148.524545459077,
+  "overlap_with_fpmb_s": 61.891853995621204,
+  "xrt_span_mjd": [
+   59700.16750190999,
+   59700.51184607804
+  ],
+  "note": "MJD from each file's MJDREF; the Swift and NuSTAR clocks are compared at the level of seconds only"
+ },
+ "mcmc_diagnostics": {
+  "file": "data/cache/s7/work/fit/chain_c2.fits",
+  "n_rows": 100000,
+  "n_walkers": 20,
+  "n_steps_per_walker": 5000,
+  "layout_assumed": "rows cycle through the walkers (row i belongs to walker i mod n_walkers)",
+  "delta2": {
+   "autocorr_time_steps": 79.32311112172995,
+   "effective_sample_size": 1260.6666403507436,
+   "gelman_rubin_split": 1.0144874139120719,
+   "walker_means_min_max": [
+    0.746791722197392,
+    0.7941485808841235
+   ],
+   "p05_p50_p95": [
+    0.5990326524842778,
+    0.7661776667892966,
+    0.9363613836155977
+   ],
+   "first_half_p05_p95": [
+    0.5975620666359731,
+    0.9413978097071821
+   ],
+   "second_half_p05_p95": [
+    0.5998048582198265,
+    0.9314747744117398
+   ]
+  },
+  "delta_nh": {
+   "autocorr_time_steps": 83.9006846801526,
+   "effective_sample_size": 1191.8853866475756,
+   "gelman_rubin_split": 1.0150675073575277,
+   "walker_means_min_max": [
+    0.10132878940067193,
+    0.16640912020711024
+   ],
+   "p05_p50_p95": [
+    -0.0702490265143775,
+    0.13144473372057472,
+    0.357037355214355
+   ],
+   "first_half_p05_p95": [
+    -0.06735873172137519,
+    0.3644222591526799
+   ],
+   "second_half_p05_p95": [
+    -0.07228430535686493,
+    0.34994658173817195
+   ]
+  },
+  "delta2_autocorr_time_if_rows_were_walker_blocks": 0.899207435629062
+ },
+ "synthetic_validation_record": {
+  "n_sims": 200,
+  "scope": "spectra made with M0 and fitted with M0; XRT relative constant fixed at 1; 2022 XRT has about 150 net counts in the synthetic spectra (107 in the data)",
+  "coverage_90": {
+   "nh": 0.865,
+   "gamma": 0.855,
+   "delta2": 0.88,
+   "delta_nh": 0.88
+  },
+  "binomial_se_at_90": 0.021213203435596423,
+  "coverage_minus_nominal_in_sigma": {
+   "nh": -1.6499158227686126,
+   "gamma": -2.1213203435596446,
+   "delta2": -0.9428090415820644,
+   "delta_nh": -0.9428090415820644
+  },
+  "n_nh10_at_limit": 0,
+  "n_nh22_at_limit": 0,
+  "n_gamma_at_limit": 0,
+  "n_negative_dstat_below_minus_0p05": {
+   "nh": 0,
+   "gamma": 0,
+   "delta2": 0,
+   "delta_nh": 0
+  },
+  "n_non_finite": 0,
+  "xrt22_net_counts_median": 153.73253431946387,
+  "xrt10_net_counts_median": 50.7625457107367,
+  "not_recorded": "the 90% intervals themselves were not computed per realisation (coverage was tested by fixing the truth)"
+ },
+ "hardness_ratio": {
+  "method": "posterior samples of the net counts with Poisson source and background (flat priors, net >= 0); HR = (H - S) / (H + S) from the samples",
+  "xrt10": {
+   "soft_counts_source_region": 13,
+   "soft_background_expected": 3.766010036701371,
+   "hard_counts_source_region": 52,
+   "hard_background_expected": 3.483559283948768,
+   "soft_net_p05_p50_p95": [
+    4.61023711770963,
+    9.863951686026665,
+    16.883371177087398
+   ],
+   "soft_net_upper_limit_90": 15.163502344083717,
+   "hr_p05_p50_p95": [
+    0.46557365177796967,
+    0.6657313186472671,
+    0.8331807524448711
+   ],
+   "hr_lower_limit_90": 0.511994838352169
+  },
+  "xrt22": {
+   "soft_counts_source_region": 8,
+   "soft_background_expected": 9.231299138899288,
+   "hard_counts_source_region": 111,
+   "hard_background_expected": 2.4020217147135905,
+   "soft_net_p05_p50_p95": [
+    0.16698732130207042,
+    1.9904606181388864,
+    6.867774093803425
+   ],
+   "soft_net_upper_limit_90": 5.542471407187777,
+   "hr_p05_p50_p95": [
+    0.8801575175758093,
+    0.9642444478500795,
+    0.9969667480753734
+   ],
+   "hr_lower_limit_90": 0.9026079615900356
+  },
+  "note": "2022: the soft band is not detected, so only a lower limit on HR is given",
+  "background_fraction_in_source_region": {
+   "fpma": 0.06410937085213698,
+   "fpmb": 0.07908305462653288,
+   "xrt10_0p3_10": 0.11153183570230983,
+   "xrt22_0p3_10": 0.09775899876985612
+  }
+ }
+}

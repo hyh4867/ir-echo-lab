@@ -1,0 +1,11 @@
+{
+ "expression": "constant*TBabs*zTBabs*zpowerlw",
+ "statistic": 1517.157058664799,
+ "nh_1e22": 21.268970938420892,
+ "gamma": 1.517127280112567,
+ "norm": 0.0017402989169117806,
+ "const_fpmb": 1.0185104786362822,
+ "z": 0.0256,
+ "d_l_mpc_project": 116.07308170502591,
+ "log_lint_2_10_from_norm": 43.16241705384371
+}

@@ -1,0 +1,23 @@
+{
+ "note": "null (b): reference temperature of the single-temperature truth (hyst8.truth_single_temperature)",
+ "v1": {
+  "n_objects": 225,
+  "n_reference_temperature_from_root": 224,
+  "n_fallback_700K": 1,
+  "t_ref_k_p5_p50_p95": [
+   510.89514579083357,
+   735.4228048137668,
+   999.9527423664364
+  ]
+ },
+ "v2": {
+  "n_objects": 210,
+  "n_reference_temperature_from_root": 209,
+  "n_fallback_700K": 1,
+  "t_ref_k_p5_p50_p95": [
+   567.8737521437243,
+   777.3614903188015,
+   1109.197569659328
+  ]
+ }
+}

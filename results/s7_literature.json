@@ -1,0 +1,488 @@
+{
+ "date_utc": "2026-11-17T05:03:03Z",
+ "object": "CGCG 312-012",
+ "keywords": [
+  "x-ray",
+  "xray",
+  "nustar",
+  "swift",
+  "bat ",
+  "bass",
+  "hard x",
+  "xmm",
+  "chandra",
+  "rosat",
+  "absor",
+  "obscur",
+  "compton",
+  "70 month",
+  "70-month",
+  "105-month",
+  "105 month",
+  "flare",
+  "transient",
+  "tidal",
+  "changing",
+  "echo",
+  "outburst",
+  "variab"
+ ],
+ "simbad_references": {
+  "service": "https://simbad.harvard.edu/simbad/sim-tap/sync",
+  "identifier": "Z 312-12",
+  "status": "ok",
+  "n": 48,
+  "n_with_keywords": 27,
+  "rows": [
+   {
+    "bibcode": "1999A&AS..140...89P",
+    "year": "1999",
+    "title": "Galaxy coordinates. II. Accurate equatorial coordinates for 17298 galaxies.",
+    "keyword_hit": []
+   },
+   {
+    "bibcode": "1999PASP..111..438F",
+    "year": "1999",
+    "title": "The updated Zwicky catalog (UZC).",
+    "keyword_hit": []
+   },
+   {
+    "bibcode": "2003A&A...412...45P",
+    "year": "2003",
+    "title": "HYPERLEDA. I. Identification and designation of galaxies.",
+    "keyword_hit": []
+   },
+   {
+    "bibcode": "2010A&A...524A..64C",
+    "year": "2010",
+    "title": "The Palermo Swift-BAT hard X-ray catalogue. III. Results after 54 months  of sky survey.",
+    "keyword_hit": [
+     "x-ray",
+     "swift",
+     "bat",
+     "hard x"
+    ]
+   },
+   {
+    "bibcode": "2010ApJ...711..284S",
+    "year": "2010",
+    "title": "Galaxy Zoo: the fundamentally different co-evolution of supermassive  black holes and their early- and late-type host galaxies.",
+    "keyword_hit": []
+   },
+   {
+    "bibcode": "2011ApJ...739...57K",
+    "year": "2011",
+    "title": "Host galaxy properties of the Swift BAT ultra hard X-ray selected active galactic nucleus.",
+    "keyword_hit": [
+     "x-ray",
+     "swift",
+     "bat",
+     "hard x"
+    ]
+   },
+   {
+    "bibcode": "2011MNRAS.416.2840L",
+    "year": "2011",
+    "title": "The 2M++ galaxy redshift catalogue.",
+    "keyword_hit": []
+   },
+   {
+    "bibcode": "2012ApJS..199...26H",
+    "year": "2012",
+    "title": "The 2MASS Redshift Survey - Description and data release.",
+    "keyword_hit": []
+   },
+   {
+    "bibcode": "2013ApJS..207...19B",
+    "year": "2013",
+    "title": "The 70 month Swift-BAT all-sky hard X-ray survey.",
+    "keyword_hit": [
+     "x-ray",
+     "swift",
+     "bat",
+     "hard x",
+     "70 month"
+    ]
+   },
+   {
+    "bibcode": "2014A&A...561A..67P",
+    "year": "2014",
+    "title": "Accurate classification of 75 counterparts of objects detected in the  54-month Palermo Swift/BAT hard X-ray catalogue.",
+    "keyword_hit": [
+     "x-ray",
+     "swift",
+     "bat",
+     "hard x"
+    ]
+   },
+   {
+    "bibcode": "2014ApJ...788...45T",
+    "year": "2014",
+    "title": "Luminosity and redshift dependence of the covering factor of active galactic nuclei viewed with WISE and Sloan Digital Sky Survey.",
+    "keyword_hit": []
+   },
+   {
+    "bibcode": "2014ApJ...794..152M",
+    "year": "2014",
+    "title": "Herschel far-infrared photometry of the Swift burst alert telescope active galactic nuclei sample of the local universe. I. PACS observations.",
+    "keyword_hit": [
+     "swift"
+    ]
+   },
+   {
+    "bibcode": "2015AJ....149..171T",
+    "year": "2015",
+    "title": "Galaxy groups: a 2MASS catalog.",
+    "keyword_hit": []
+   },
+   {
+    "bibcode": "2016A&A...588A..14T",
+    "year": "2016",
+    "title": "Friends-of-friends galaxy group finder with membership refinement.",
+    "keyword_hit": []
+   },
+   {
+    "bibcode": "2016ApJS..223...15B",
+    "year": "2016",
+    "title": "The IBIS soft gamma-ray sky after 1000 INTEGRAL orbits.",
+    "keyword_hit": []
+   },
+   {
+    "bibcode": "2016MNRAS.456.3335S",
+    "year": "2016",
+    "title": "Herschel far-infrared photometry of the Swift Burst Alert Telescope active galactic nuclei sample of the local universe - II. SPIRE observations.",
+    "keyword_hit": [
+     "swift"
+    ]
+   },
+   {
+    "bibcode": "2016MNRAS.459..140M",
+    "year": "2016",
+    "title": "INTEGRAL/IBIS deep extragalactic survey: M81, LMC and 3C 273/Coma fields.",
+    "keyword_hit": []
+   },
+   {
+    "bibcode": "2016MNRAS.460...19M",
+    "year": "2016",
+    "title": "The INTEGRAL/IBIS AGN catalogue: an update.",
+    "keyword_hit": []
+   },
+   {
+    "bibcode": "2016MNRAS.460.1588W",
+    "year": "2016",
+    "title": "Determining the radio active galactic nuclei contribution to the radio-far-infrared correlation using the black hole Fundamental Plane relation.",
+    "keyword_hit": []
+   },
+   {
+    "bibcode": "2017ApJ...835...74I",
+    "year": "2017",
+    "title": "The complete infrared view of active galactic nuclei from the 70 month Swift/BAT catalog.",
+    "keyword_hit": [
+     "swift",
+     "bat",
+     "70 month"
+    ]
+   },
+   {
+    "bibcode": "2017ApJ...850...74K",
+    "year": "2017",
+    "title": "BAT AGN Spectroscopic Survey. I. Spectral measurements, derived quantities, and AGN demographics.",
+    "keyword_hit": [
+     "bat"
+    ]
+   },
+   {
+    "bibcode": "2017ApJS..233...17R",
+    "year": "2017",
+    "title": "BAT AGN spectroscopic survey. V. X-ray properties of the Swift/BAT 70-month AGN catalog.",
+    "keyword_hit": [
+     "x-ray",
+     "swift",
+     "bat",
+     "70-month"
+    ]
+   },
+   {
+    "bibcode": "2017MNRAS.466.2879B",
+    "year": "2017",
+    "title": "Active galactic nuclei from He II: a more complete census of AGN in SDSS galaxies yields a new population of low-luminosity AGN in highly star-forming galaxies.",
+    "keyword_hit": []
+   },
+   {
+    "bibcode": "2017MNRAS.466.3161S",
+    "year": "2017",
+    "title": "Herschel far-infrared photometry of the Swift Burst Alert Telescope active galactic nuclei sample of the local universe - III. Global star-forming properties and the lack of a connection to nuclear activity.",
+    "keyword_hit": [
+     "swift"
+    ]
+   },
+   {
+    "bibcode": "2018A&A...618A..81T",
+    "year": "2018",
+    "title": "Bayesian group finder based on marked point processes. Method and feasibility study using the 2MRS data set.",
+    "keyword_hit": []
+   },
+   {
+    "bibcode": "2018ApJS..235....4O",
+    "year": "2018",
+    "title": "The 105-month Swift-BAT all-sky hard X-ray survey.",
+    "keyword_hit": [
+     "x-ray",
+     "swift",
+     "bat",
+     "hard x",
+     "105-month"
+    ]
+   },
+   {
+    "bibcode": "2019ApJ...870...31I",
+    "year": "2019",
+    "title": "BAT AGN spectroscopic survey. XI. The covering factor of dust and gas in Swift/BAT active galactic nuclei.",
+    "keyword_hit": [
+     "swift",
+     "bat"
+    ]
+   },
+   {
+    "bibcode": "2019ApJ...872..148C",
+    "year": "2019",
+    "title": "Radio sources in the nearby universe.",
+    "keyword_hit": []
+   },
+   {
+    "bibcode": "2019MNRAS.488.4317B",
+    "year": "2019",
+    "title": "BAT AGN Spectroscopic Survey - XVII. The parsec-scale jet properties of the ultrahard X-ray-selected local AGNs.",
+    "keyword_hit": [
+     "x-ray",
+     "bat",
+     "hard x"
+    ]
+   },
+   {
+    "bibcode": "2020A&A...639A...5M",
+    "year": "2020",
+    "title": "X-ray absorption in INTEGRAL active galactic nuclei. Host galaxy inclination.",
+    "keyword_hit": [
+     "x-ray",
+     "absor"
+    ]
+   },
+   {
+    "bibcode": "2020A&A...641A.162P",
+    "year": "2020",
+    "title": "Water megamaser emission in hard X-ray selected AGN.",
+    "keyword_hit": [
+     "x-ray",
+     "hard x"
+    ]
+   },
+   {
+    "bibcode": "2020ApJ...892...18K",
+    "year": "2020",
+    "title": "A more efficient search for H_2_O megamaser galaxies: the power of X-ray and mid-infrared photometry.",
+    "keyword_hit": [
+     "x-ray"
+    ]
+   },
+   {
+    "bibcode": "2020ApJ...896..122L",
+    "year": "2020",
+    "title": "The BAT AGN spectroscopic survey. XVIII. Searching for supermassive black hole binaries in X-rays.",
+    "keyword_hit": [
+     "x-ray",
+     "bat"
+    ]
+   },
+   {
+    "bibcode": "2020ApJS..247...53K",
+    "year": "2020",
+    "title": "Radio sources associated with Optical Galaxies and having Unresolved or Extended morphologies (ROGUE). I. A catalog of SDSS galaxies with FIRST core identifications.",
+    "keyword_hit": []
+   },
+   {
+    "bibcode": "2020MNRAS.492.4216S",
+    "year": "2020",
+    "title": "BAT AGN spectroscopic survey - XV: the high frequency radio cores of ultra-hard X-ray selected AGN.",
+    "keyword_hit": [
+     "x-ray",
+     "bat",
+     "hard x"
+    ]
+   },
+   {
+    "bibcode": "2021A&A...645A..18D",
+    "year": "2021",
+    "title": "Onboard catalogue of known X-ray sources for SVOM/ECLAIRs.",
+    "keyword_hit": [
+     "x-ray"
+    ]
+   },
+   {
+    "bibcode": "2021ApJ...914..121A",
+    "year": "2021",
+    "title": "The NANOGrav 11 yr data set: limits on supermassive black hole binaries in galaxies within 500 Mpc.",
+    "keyword_hit": []
+   },
+   {
+    "bibcode": "2022A&A...659A..32P",
+    "year": "2022",
+    "title": "Turin-SyCAT: A multifrequency catalog of Seyfert galaxies.",
+    "keyword_hit": []
+   },
+   {
+    "bibcode": "2022ApJ...935..170A",
+    "year": "2022",
+    "title": "Arrival Directions of Cosmic Rays above 32 EeV from Phase One of the Pierre Auger Observatory.",
+    "keyword_hit": []
+   },
+   {
+    "bibcode": "2022ApJS..261....2K",
+    "year": "2022",
+    "title": "BASS. XXII. The BASS DR2 AGN Catalog and Data.",
+    "keyword_hit": [
+     "bass"
+    ]
+   },
+   {
+    "bibcode": "2022ApJS..261....4O",
+    "year": "2022",
+    "title": "BASS. XXIV. The BASS DR2 Spectroscopic Line Measurements and AGN Demographics.",
+    "keyword_hit": [
+     "bass"
+    ]
+   },
+   {
+    "bibcode": "2022ApJS..261....6K",
+    "year": "2022",
+    "title": "BASS. XXVI. DR2 Host Galaxy Stellar Velocity Dispersions.",
+    "keyword_hit": [
+     "bass"
+    ]
+   },
+   {
+    "bibcode": "2022MNRAS.510.4796K",
+    "year": "2022",
+    "title": "INTEGRAL/IBIS 17-yr hard X-ray all-sky survey.",
+    "keyword_hit": [
+     "x-ray",
+     "hard x"
+    ]
+   },
+   {
+    "bibcode": "2023A&A...675A..65S",
+    "year": "2023",
+    "title": "A machine learning algorithm for reliably predicting active galactic nucleus absorbing column densities.",
+    "keyword_hit": [
+     "absor"
+    ]
+   },
+   {
+    "bibcode": "2023ApJS..269....3M",
+    "year": "2023",
+    "title": "Siena Galaxy Atlas 2020.",
+    "keyword_hit": []
+   },
+   {
+    "bibcode": "2025A&A...700A.111P",
+    "year": "2025",
+    "title": "BASS XLIV. Morphological preferences of local hard X-ray selected AGNs.",
+    "keyword_hit": [
+     "x-ray",
+     "bass",
+     "hard x"
+    ]
+   },
+   {
+    "bibcode": "2025ApJ...981..101L",
+    "year": "2025",
+    "title": "Estimating Black Hole Masses in Obscured Active Galactic Nuclei from X-Ray and Optical Emission Line Luminosities.",
+    "keyword_hit": [
+     "x-ray",
+     "obscur"
+    ]
+   },
+   {
+    "bibcode": "2025ApJ...981..202M",
+    "year": "2025",
+    "title": "BASS. XLVII. 22 GHz Radio Atlas of Swift-BAT Selected AGN.",
+    "keyword_hit": [
+     "swift",
+     "bat",
+     "bass"
+    ]
+   }
+  ]
+ },
+ "vizier": {
+  "service": "https://vizier.cfa.harvard.edu/viz-bin/asu-tsv",
+  "bass_xray_ricci2017_by_position": {
+   "params": {
+    "-source": "J/ApJS/233/17",
+    "-c": "142.4078+62.5441",
+    "-c.rs": "60"
+   },
+   "status": "ok",
+   "tables": {
+    "J_ApJS_233_17_agns": {
+     "n_rows": 1,
+     "withheld": "Row values from the BASS X-ray catalogue (Ricci et al. 2017, ApJS 233, 17; VizieR J/ApJS/233/17) are not reproduced here; scripts/xray_literature.py queries them again."
+    }
+   }
+  },
+  "bass_xray_ricci2017_by_name": {
+   "params": {
+    "-source": "J/ApJS/233/17",
+    "SWIFT": "J0929.7+6232"
+   },
+   "status": "ok",
+   "tables": {
+    "J_ApJS_233_17_agns": {
+     "n_rows": 1,
+     "withheld": "Row values from the BASS X-ray catalogue (Ricci et al. 2017, ApJS 233, 17; VizieR J/ApJS/233/17) are not reproduced here; scripts/xray_literature.py queries them again."
+    },
+    "J_ApJS_233_17_Xraydata": {
+     "n_rows": 1,
+     "withheld": "Row values from the BASS X-ray catalogue (Ricci et al. 2017, ApJS 233, 17; VizieR J/ApJS/233/17) are not reproduced here; scripts/xray_literature.py queries them again."
+    },
+    "J_ApJS_233_17_table13": {
+     "n_rows": 1,
+     "withheld": "Row values from the BASS X-ray catalogue (Ricci et al. 2017, ApJS 233, 17; VizieR J/ApJS/233/17) are not reproduced here; scripts/xray_literature.py queries them again."
+    }
+   }
+  },
+  "2sxps": {
+   "params": {
+    "-source": "IX/58/2sxps",
+    "-c": "142.4078+62.5441",
+    "-c.rs": "30"
+   },
+   "status": "ok",
+   "tables": {
+    "IX_58_2sxps": {
+     "n_rows": 1,
+     "withheld": "Row values from the 2SXPS catalogue (Evans et al. 2020, ApJS 247, 54; VizieR IX/58) are not reproduced here; scripts/xray_literature.py and scripts/xray_7b.py light query them again."
+    }
+   }
+  },
+  "lsxps": {
+   "params": {
+    "-source": "IX/69",
+    "-c": "142.4078+62.5441",
+    "-c.rs": "30"
+   },
+   "status": "ok",
+   "tables": {}
+  }
+ },
+ "bat157_catalogue": {
+  "file": "data/cache/s7/bat157/BAT_157m_catalog_20250525.txt",
+  "header": [
+   "#    |             BAT_NAME|      RA|     DEC|     SNR|              COUNTERPART_NAME|                     OTHER_NAME| CTPT_RA|CTPT_DEC|    FLUX| FLUX_LO| FLUX_HI|CONTA|  GAMMA|GAMM_LO|GAMM_HI|  CHI_SQ_R|REDSHIFT|       LUM|ASSOC_STREN|   CL2|                 TYPE",
+   "#    |                     |     deg|     deg|        |                              |                               |     deg|     deg|10^-12er|10^-12er|10^-12er|     |       |       |       |          |        |log[erg/s]|      |           |"
+  ],
+  "row": {
+   "withheld": "The row of the Swift-BAT 157-month catalogue file is not reproduced here; scripts/fetch_xray.py downloads the file and scripts/xray_literature.py reads the row."
+  }
+ }
+}

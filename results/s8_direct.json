@@ -1,0 +1,226 @@
+{
+ "note": "stage 8 B2: offset of W1 between the rising and the declining branch at the same W2 flux; no reference visits, no shared peak, no blackbody",
+ "samples": {
+  "v1": {
+   "n_objects": 225,
+   "n_usable": 217,
+   "direct": {
+    "n": 211,
+    "n_delta_positive": 180,
+    "frac_delta_positive": 0.8530805687203792,
+    "binomial_p_one_sided": 4.9482053787609456e-27,
+    "median_d_colour_mag": -0.01747982180005322,
+    "median_d_colour_ci95": [
+     -0.020892241019530113,
+     -0.013187710835288658
+    ],
+    "median_frac_delta": 0.016099163109291974,
+    "wilcoxon_p_one_sided": 3.3942481077352617e-28,
+    "n_above_2sigma": 86,
+    "n_below_minus_2sigma": 1,
+    "median_sigma_colour_mag": 0.010018276661552371,
+    "null_usable": true,
+    "null_frac_positive_p99": 0.5782040986484114,
+    "null_frac_positive_p2p5_p97p5": [
+     0.4244103773584906,
+     0.5680912489152927
+    ],
+    "label": "비대칭 지지"
+   },
+   "direct_with_scan_parity_term": {
+    "n": 211,
+    "n_delta_positive": 181,
+    "frac_delta_positive": 0.8578199052132701,
+    "binomial_p_one_sided": 8.41034315233497e-28,
+    "median_d_colour_mag": -0.017486268341159142,
+    "median_d_colour_ci95": [
+     -0.020985286374597404,
+     -0.013526337293650277
+    ],
+    "median_frac_delta": 0.016105100208207174,
+    "wilcoxon_p_one_sided": 2.1678642745901007e-28,
+    "n_above_2sigma": 85,
+    "n_below_minus_2sigma": 1,
+    "median_sigma_colour_mag": 0.010062308428683527
+   },
+   "untimely": {
+    "n": 218,
+    "n_delta_positive": 170,
+    "frac_delta_positive": 0.7798165137614679,
+    "binomial_p_one_sided": 1.7296877392088728e-17,
+    "median_d_colour_mag": -0.013927786993250446,
+    "median_d_colour_ci95": [
+     -0.0185109989407608,
+     -0.009849130325770368
+    ],
+    "median_frac_delta": 0.012827789939426088,
+    "wilcoxon_p_one_sided": 2.639175714400019e-22,
+    "n_above_2sigma": 154,
+    "n_below_minus_2sigma": 35,
+    "median_sigma_colour_mag": 0.0009218172050377937,
+    "label": "같은 방향"
+   },
+   "not_in_plan_with_linear_time_term": {
+    "n": 211,
+    "n_delta_positive": 179,
+    "frac_delta_positive": 0.8483412322274881,
+    "binomial_p_one_sided": 2.8051042611102844e-26,
+    "median_d_colour_mag": -0.01512433063172942,
+    "median_d_colour_ci95": [
+     -0.019211217403679138,
+     -0.012532881914037768
+    ],
+    "median_frac_delta": 0.013929798051105639,
+    "wilcoxon_p_one_sided": 4.460517939281102e-28,
+    "n_above_2sigma": 74,
+    "n_below_minus_2sigma": 1,
+    "median_sigma_colour_mag": 0.010327606767070773,
+    "note": "added after the plan: F1 = c + m F2 + delta [rise] + kappa (t - mean t); guards against a slow drift of the colour",
+    "median_w1_fraction_per_year": -0.0015217664647560192,
+    "median_years_rise_minus_fade": 0.08362495398889047,
+    "frac_rise_earlier_than_fade": 0.4834123222748815
+   },
+   "two_lines": {
+    "n": 211,
+    "frac_positive": 0.8388625592417062
+   },
+   "with_r_zero": {
+    "n": 211,
+    "frac_positive": 0.8578199052132701
+   },
+   "with_d": {
+    "n_both": 71,
+    "n_same_sign": 67,
+    "frac_delta_positive_among_d_measurable": 0.9577464788732394,
+    "spearman_d_vs_minus_colour": 0.7362173038229376,
+    "n_d_measurable_not_comparable": 0
+   },
+   "untimely_against_pipeline": {
+    "n_both": 204,
+    "n_same_sign": 154
+   },
+   "scan_parity": {
+    "n": 211,
+    "gamma_pull_mean": 0.0502169180427619,
+    "gamma_pull_std": 1.7000561098517692,
+    "frac_abs_pull_above_2": 0.13270142180094788,
+    "median_d_colour_plain": -0.01747982180005322,
+    "median_d_colour_with_parity": -0.017486268341159142,
+    "relative_change": 0.0003687990174991995,
+    "parity_follows_untimely_forward_flag_median_agreement": 1.0,
+    "label": "scan 방향과 무관"
+   }
+  },
+  "v2": {
+   "n_objects": 210,
+   "n_usable": 205,
+   "direct": {
+    "n": 200,
+    "n_delta_positive": 194,
+    "frac_delta_positive": 0.97,
+    "binomial_p_one_sided": 5.290203632598724e-50,
+    "median_d_colour_mag": -0.02975982217345595,
+    "median_d_colour_ci95": [
+     -0.033384741865871544,
+     -0.025814279401728972
+    ],
+    "median_frac_delta": 0.027408093156878525,
+    "wilcoxon_p_one_sided": 1.5449538073327026e-34,
+    "n_above_2sigma": 152,
+    "n_below_minus_2sigma": 0,
+    "median_sigma_colour_mag": 0.007611438038828475,
+    "null_usable": true,
+    "null_frac_positive_p99": 0.5779691386224048,
+    "null_frac_positive_p2p5_p97p5": [
+     0.4364931036250833,
+     0.5736578987848024
+    ],
+    "label": "비대칭 지지"
+   },
+   "direct_with_scan_parity_term": {
+    "n": 200,
+    "n_delta_positive": 194,
+    "frac_delta_positive": 0.97,
+    "binomial_p_one_sided": 5.290203632598724e-50,
+    "median_d_colour_mag": -0.030266864073366553,
+    "median_d_colour_ci95": [
+     -0.03349445642906855,
+     -0.02609913597520193
+    ],
+    "median_frac_delta": 0.02787500685507765,
+    "wilcoxon_p_one_sided": 1.4770269291512458e-34,
+    "n_above_2sigma": 152,
+    "n_below_minus_2sigma": 0,
+    "median_sigma_colour_mag": 0.007744331839193054
+   },
+   "untimely": {
+    "n": 192,
+    "n_delta_positive": 173,
+    "frac_delta_positive": 0.9010416666666666,
+    "binomial_p_one_sided": 1.412092914155868e-32,
+    "median_d_colour_mag": -0.03257833893754743,
+    "median_d_colour_ci95": [
+     -0.03513728250110554,
+     -0.026452202921553543
+    ],
+    "median_frac_delta": 0.03000350675040771,
+    "wilcoxon_p_one_sided": 1.6783800734215065e-28,
+    "n_above_2sigma": 163,
+    "n_below_minus_2sigma": 13,
+    "median_sigma_colour_mag": 0.0017220635878579344,
+    "label": "같은 방향"
+   },
+   "not_in_plan_with_linear_time_term": {
+    "n": 200,
+    "n_delta_positive": 189,
+    "frac_delta_positive": 0.945,
+    "binomial_p_one_sided": 2.560608937985755e-43,
+    "median_d_colour_mag": -0.026737094982034824,
+    "median_d_colour_ci95": [
+     -0.03092041782102347,
+     -0.02238586453762094
+    ],
+    "median_frac_delta": 0.02462453008026367,
+    "wilcoxon_p_one_sided": 5.2531176140828635e-34,
+    "n_above_2sigma": 138,
+    "n_below_minus_2sigma": 0,
+    "median_sigma_colour_mag": 0.008332546330752344,
+    "note": "added after the plan: F1 = c + m F2 + delta [rise] + kappa (t - mean t); guards against a slow drift of the colour",
+    "median_w1_fraction_per_year": -0.00025934729652806225,
+    "median_years_rise_minus_fade": -0.18839381292522794,
+    "frac_rise_earlier_than_fade": 0.555
+   },
+   "two_lines": {
+    "n": 200,
+    "frac_positive": 0.95
+   },
+   "with_r_zero": {
+    "n": 200,
+    "frac_positive": 0.965
+   },
+   "with_d": {
+    "n_both": 94,
+    "n_same_sign": 94,
+    "frac_delta_positive_among_d_measurable": 1.0,
+    "spearman_d_vs_minus_colour": 0.6060109092222664,
+    "n_d_measurable_not_comparable": 0
+   },
+   "untimely_against_pipeline": {
+    "n_both": 185,
+    "n_same_sign": 161
+   },
+   "scan_parity": {
+    "n": 200,
+    "gamma_pull_mean": -0.017263439032712817,
+    "gamma_pull_std": 1.6604894463686006,
+    "frac_abs_pull_above_2": 0.195,
+    "median_d_colour_plain": -0.02975982217345595,
+    "median_d_colour_with_parity": -0.030266864073366553,
+    "relative_change": 0.017037800056576156,
+    "parity_follows_untimely_forward_flag_median_agreement": 1.0,
+    "label": "scan 방향과 무관"
+   }
+  }
+ },
+ "overall": "지지"
+}

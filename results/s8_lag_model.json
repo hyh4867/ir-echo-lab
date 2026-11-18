@@ -1,0 +1,184 @@
+{
+ "note": "stage 8 B3: model 1 (inter-band lag from Lyu et al. 2019) with a driver that depends on mass and luminosity",
+ "n_objects": 163,
+ "n_mbh_known": 160,
+ "n_real_measurable_with_lbol": 70,
+ "rho_observed": 0.129,
+ "driver": {
+  "sigma_mag_p5_p50_p95": [
+   0.11456482196640763,
+   0.20199285246419224,
+   0.29586125464410173
+  ],
+  "tau_rest_days_macleod_p5_p50_p95": [
+   117.48775750803829,
+   179.94094626640566,
+   253.70850194881257
+  ],
+  "tau_rest_days_burke_p5_p50_p95": [
+   58.25344613838568,
+   130.28180823444256,
+   255.79231644864268
+  ],
+  "stage6b_toy": "sigma uniform 0.15-0.6 mag, tau 1000 d, 30% of objects with a ramp of 0.5-1.5 mag"
+ },
+ "configs": {
+  "macleod_scatter0.00": {
+   "driver": "macleod",
+   "scatter_dex": 0.0,
+   "n_realisations": 200,
+   "n_with_rho": 200,
+   "n_measurable_p5_p50_p95": [
+    28.0,
+    34.0,
+    41.0
+   ],
+   "median_d_p50": 0.4726380165162007,
+   "rho_p5_p50_p95": [
+    0.27409064259953453,
+    0.5276909562360499,
+    0.6844758064516129
+   ],
+   "fraction_at_or_below_observed": 0.015,
+   "outside": true,
+   "matched_n_with_rho": 200,
+   "matched_rho_p5_p50_p95": [
+    0.1156254272043746,
+    0.461384026601418,
+    0.6879068322981365
+   ],
+   "matched_fraction_at_or_below_observed": 0.06
+  },
+  "macleod_scatter0.15": {
+   "driver": "macleod",
+   "scatter_dex": 0.15,
+   "n_realisations": 200,
+   "n_with_rho": 200,
+   "n_measurable_p5_p50_p95": [
+    27.0,
+    34.0,
+    41.0
+   ],
+   "median_d_p50": 0.42563388278915737,
+   "rho_p5_p50_p95": [
+    0.10111696979327679,
+    0.3749513348164627,
+    0.6206604956604954
+   ],
+   "fraction_at_or_below_observed": 0.075,
+   "outside": false,
+   "matched_n_with_rho": 200,
+   "matched_rho_p5_p50_p95": [
+    -0.029558823529411762,
+    0.3183712958867757,
+    0.6333719179371353
+   ],
+   "matched_fraction_at_or_below_observed": 0.205
+  },
+  "macleod_scatter0.30": {
+   "driver": "macleod",
+   "scatter_dex": 0.3,
+   "n_realisations": 200,
+   "n_with_rho": 200,
+   "n_measurable_p5_p50_p95": [
+    27.0,
+    34.0,
+    42.0
+   ],
+   "median_d_p50": 0.3310402243109982,
+   "rho_p5_p50_p95": [
+    -0.10632850888948449,
+    0.20019119289068354,
+    0.5191024275507032
+   ],
+   "fraction_at_or_below_observed": 0.315,
+   "outside": false,
+   "matched_n_with_rho": 199,
+   "matched_rho_p5_p50_p95": [
+    -0.30220247229326513,
+    0.17352941176470588,
+    0.5345687748783723
+   ],
+   "matched_fraction_at_or_below_observed": 0.4271356783919598
+  },
+  "macleod_sf_burke_tau_scatter0.00": {
+   "driver": "macleod_sf_burke_tau",
+   "scatter_dex": 0.0,
+   "n_realisations": 200,
+   "n_with_rho": 200,
+   "n_measurable_p5_p50_p95": [
+    22.950000000000003,
+    29.0,
+    36.0
+   ],
+   "median_d_p50": 0.4822541920875336,
+   "rho_p5_p50_p95": [
+    0.21547797647908884,
+    0.4812807881773398,
+    0.6976977744893788
+   ],
+   "fraction_at_or_below_observed": 0.02,
+   "outside": true,
+   "matched_n_with_rho": 199,
+   "matched_rho_p5_p50_p95": [
+    0.061029411764705895,
+    0.45098039215686275,
+    0.7640000866007057
+   ],
+   "matched_fraction_at_or_below_observed": 0.09547738693467336
+  },
+  "macleod_sf_burke_tau_scatter0.15": {
+   "driver": "macleod_sf_burke_tau",
+   "scatter_dex": 0.15,
+   "n_realisations": 200,
+   "n_with_rho": 200,
+   "n_measurable_p5_p50_p95": [
+    23.0,
+    30.0,
+    36.0
+   ],
+   "median_d_p50": 0.434659385508677,
+   "rho_p5_p50_p95": [
+    0.06714574123194816,
+    0.37222710628283384,
+    0.6183325563325562
+   ],
+   "fraction_at_or_below_observed": 0.085,
+   "outside": false,
+   "matched_n_with_rho": 198,
+   "matched_rho_p5_p50_p95": [
+    -0.11780185758513931,
+    0.3187564499484004,
+    0.6709304511278193
+   ],
+   "matched_fraction_at_or_below_observed": 0.24242424242424243
+  },
+  "macleod_sf_burke_tau_scatter0.30": {
+   "driver": "macleod_sf_burke_tau",
+   "scatter_dex": 0.3,
+   "n_realisations": 200,
+   "n_with_rho": 200,
+   "n_measurable_p5_p50_p95": [
+    23.0,
+    30.0,
+    37.0
+   ],
+   "median_d_p50": 0.3233542388861452,
+   "rho_p5_p50_p95": [
+    -0.11054260024365697,
+    0.21628762541806018,
+    0.5104546905325547
+   ],
+   "fraction_at_or_below_observed": 0.315,
+   "outside": false,
+   "matched_n_with_rho": 200,
+   "matched_rho_p5_p50_p95": [
+    -0.2671918767507003,
+    0.17497590129169074,
+    0.6356372549019608
+   ],
+   "matched_fraction_at_or_below_observed": 0.415
+  }
+ },
+ "verdict": "가정에 달림"
+}

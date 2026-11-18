@@ -1,0 +1,192 @@
+{
+ "fpma": {
+  "event_file": "data/cache/s7/work/nustar/pipe/nu60160365002A01_cl.evt",
+  "exposure_s": 22640.9739318459,
+  "n_events": 27895,
+  "pixel_scale_arcsec": 2.45810736,
+  "header": {
+   "DATE-OBS": "2022-05-01T02:46:03.9340",
+   "DATE-END": "2022-05-01T14:11:06.1840",
+   "SOFTVER": "Hea_02Sep2026_V6.37.1_nustardas_15Jun26_v2.1.6",
+   "CALDBVER": "20261102",
+   "OBS_ID": "60160365002",
+   "DATAMODE": "NONE",
+   "ONTIME": "24088.52454739809",
+   "LIVETIME": "22640.9739318459"
+  },
+  "target_xy": [
+   423.09474227296147,
+   519.4065215314129
+  ],
+  "centroid_xy": [
+   422.52337228714526,
+   519.5659432387312
+  ],
+  "centroid_ra_dec": [
+   142.40867847983617,
+   62.54417075894126
+  ],
+  "centroid_offset_arcsec": 1.4581341639880607,
+  "source_radius_arcsec": 50.0,
+  "source_counts": 3767,
+  "background": {
+   "x": 367.0,
+   "y": 613.0,
+   "radius_arcsec": 100.0,
+   "counts": 966,
+   "same_chip_fraction": 1.0,
+   "separation_arcsec": 267.1632275096267,
+   "source_det_id": 0,
+   "ra": 142.491329122059,
+   "dec": 62.607875873139534
+  },
+  "background_lightcurve": {
+   "binsize_s": 200.0,
+   "n_bins": 115,
+   "n_orbits": 9,
+   "median_rate": 0.9,
+   "max_rate": 1.27,
+   "max_deviation_sigma": 5.515634344499481,
+   "n_bins_above_5_sigma": 1,
+   "chi2_constant": 307.8078663790964
+  },
+  "expected_background_in_source": 241.5
+ },
+ "fpmb": {
+  "event_file": "data/cache/s7/work/nustar/pipe/nu60160365002B01_cl.evt",
+  "exposure_s": 22442.4029462624,
+  "n_events": 26028,
+  "pixel_scale_arcsec": 2.45810736,
+  "header": {
+   "DATE-OBS": "2022-05-01T02:46:03.9340",
+   "DATE-END": "2022-05-01T14:11:06.1840",
+   "SOFTVER": "Hea_02Sep2026_V6.37.1_nustardas_15Jun26_v2.1.6",
+   "CALDBVER": "20261102",
+   "OBS_ID": "60160365002",
+   "DATAMODE": "NONE",
+   "ONTIME": "24148.52454739809",
+   "LIVETIME": "22442.4029462624"
+  },
+  "target_xy": [
+   423.09474227296147,
+   519.4065215314129
+  ],
+  "centroid_xy": [
+   422.86043639357763,
+   519.9036640592836
+  ],
+  "centroid_ra_dec": [
+   142.40818020096887,
+   62.54440176753385
+  ],
+  "centroid_offset_arcsec": 1.3509529460107237,
+  "source_radius_arcsec": 50.0,
+  "source_counts": 3588,
+  "background": {
+   "x": 376.0,
+   "y": 616.0,
+   "radius_arcsec": 100.0,
+   "counts": 1135,
+   "same_chip_fraction": 1.0,
+   "separation_arcsec": 262.8038242890419,
+   "source_det_id": 0,
+   "ra": 142.47798493894453,
+   "dec": 62.609942513212076
+  },
+  "background_lightcurve": {
+   "binsize_s": 200.0,
+   "n_bins": 116,
+   "n_orbits": 9,
+   "median_rate": 0.8125,
+   "max_rate": 1.205,
+   "max_deviation_sigma": 6.158046643338979,
+   "n_bins_above_5_sigma": 1,
+   "chi2_constant": 324.4392263497797
+  },
+  "expected_background_in_source": 283.75
+ },
+ "xrt10": {
+  "event_file": "data/cache/s7/work/xrt10/pipe/sw00040946001xpcw3po_cl.evt",
+  "exposure_s": 10308.78498266321,
+  "n_events": 2077,
+  "pixel_scale_arcsec": 2.35731204,
+  "header": {
+   "DATE-OBS": "2010-12-29T00:21:37.9606",
+   "DATE-END": "2010-12-29T16:25:01.1241",
+   "SOFTVER": "Hea_02Sep2026_V6.37.1_swxrtdas_09Jul26_v3.7.2",
+   "CALDBVER": "x20260327",
+   "XRTVSUB": "6",
+   "OBS_ID": "00040946001",
+   "DATAMODE": "PHOTON",
+   "ONTIME": "10350.13440012932",
+   "LIVETIME": "10308.78498266321"
+  },
+  "target_xy": [
+   500.12547669986276,
+   522.9685420944762
+  ],
+  "centroid_xy": [
+   500.53333333333336,
+   523.7333333333333
+  ],
+  "centroid_ra_dec": [
+   142.40725265902492,
+   62.5445633930778
+  ],
+  "centroid_offset_arcsec": 2.043196280677694,
+  "source_radius_pix": 20.0,
+  "source_counts": 66,
+  "source_counts_0p3_2": 13,
+  "source_counts_2_10": 52,
+  "background_annulus_pix": [
+   60.0,
+   110.0
+  ],
+  "background_counts": 180,
+  "background_counts_0p3_2": 80,
+  "background_counts_2_10": 74,
+  "contaminants_masked": []
+ },
+ "xrt22": {
+  "event_file": "data/cache/s7/work/xrt22/pipe/sw00081051001xpcw3po_cl.evt",
+  "exposure_s": 6934.961626458692,
+  "n_events": 9446,
+  "pixel_scale_arcsec": 2.35731204,
+  "header": {
+   "DATE-OBS": "2022-05-01T04:01:12.1650",
+   "DATE-END": "2022-05-01T12:17:03.5011",
+   "SOFTVER": "Hea_02Sep2026_V6.37.1_swxrtdas_09Jul26_v3.7.2",
+   "CALDBVER": "x20260327",
+   "XRTVSUB": "6",
+   "OBS_ID": "00081051001",
+   "DATAMODE": "PHOTON",
+   "ONTIME": "6962.772099971771",
+   "LIVETIME": "6934.961626458692"
+  },
+  "target_xy": [
+   409.5752227213964,
+   494.34879483914335
+  ],
+  "centroid_xy": [
+   409.76,
+   493.712
+  ],
+  "centroid_ra_dec": [
+   142.4075676740612,
+   62.54364586386113
+  ],
+  "centroid_offset_arcsec": 1.5630424253708302,
+  "source_radius_pix": 20.0,
+  "source_counts": 137,
+  "source_counts_0p3_2": 8,
+  "source_counts_2_10": 111,
+  "background_annulus_pix": [
+   60.0,
+   110.0
+  ],
+  "background_counts": 684,
+  "background_counts_0p3_2": 196,
+  "background_counts_2_10": 51,
+  "contaminants_masked": []
+ }
+}

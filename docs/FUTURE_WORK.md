@@ -1,20 +1,29 @@
 # Future work and open questions
 
-This file collects the next steps and the open problems recorded at the end of stages 5b, 6A and 6B. Wording follows the rule used throughout the project: a result is a **candidate** until it is confirmed, and "not found" means **not found in this search**.
+This file collects the next steps and the open problems recorded at the end of stages 5b, 6A, 6B, 7 (with its supplement 7b) and 8. Wording follows the rule used throughout the project: a result is a **candidate** until it is confirmed, and "not found" means **not found in this search**.
 
-The first two items come before everything else: they test whether the hysteresis observation itself holds.
+The two checks that came before everything else (a null test of D and a direct comparison without the shared peak) were done in stage 8; the result is in the README ("Conclusions in three layers") and the criteria are in [VALIDATION_8.md](VALIDATION_8.md). The colour asymmetry is in the data; its cause is open. The next stage follows from that.
 
-## 0. Checks in progress
+## Stage 9 (planned): is the asymmetry explained by an inter-band lag alone?
 
-1. **Null test of D.** Run light curves with no colour loop through the full pipeline: one case with ΔF_W1 = a ΔF_W2 exactly, and one with a single temperature T(t) shared by both bands. Apply the real cadence, the error covariance between the bands, the faintest-three baseline, the peak selection and the measurability cut. Report the distribution of D and the fraction with D > 0. W2 enters both the flux axis and the colour, so correlated errors could shift D if the two branches differ in signal-to-noise, flux range or distance from the peak.
-2. **Direct comparison without the shared peak.** Where the two branches overlap in W2 excess flux, estimate F_W1,rise − F_W1,fade at matched W2 flux, with the W2 errors included and no extrapolation. A stable host flux cancels in the difference. Repeat with unTimely photometry. Report the common flux range, the number of visits per branch and the effect as Δ(W1−W2).
+**Question.** The direct comparison gives a median Δ(W1−W2) of −17.5 mmag (`sample_v1`) and −29.8 mmag (`sample_v2`) between the rising and the fading branch. Is this, object by object, what a lag of W2 behind W1 and the width of the response give, or is a part left over? The design note is [TRANSFER_DESIGN.md](TRANSFER_DESIGN.md) (Korean).
 
-## (a) A model of the different W1 and W2 response widths
+The stage has not been run. Its models, pass/fail criteria and interpretation rule are to be committed before any model is fitted to the real light curves, and the document will state that the results up to stage 8 had already been seen.
 
-- Stage 6B could not separate the explanations. The baseline prediction of the pure-delay model (a strong positive correlation of D with luminosity) does not match, but a lag that depends weakly on luminosity, a difference in the W1 and W2 response that does not depend on luminosity, a re-formation delay, and combinations of these all remain.
-- Build W1 and W2 transfer functions for a fixed, radially extended torus, starting from TORMAC (Almeyda et al. 2017, 2020). Compare in order: a pure shift; fixed kernels of different width and tail; kernels that change with the past illumination. Pass each through the real cadence and the same analysis, and compare D, the fraction with D > 0, the correlation with luminosity and the measurable fraction. Two symmetric kernels with the same centroid do not by themselves give a directed loop for a symmetric flare, so the rise and decay times of the driver matter.
-- Rerun the lag model with a driver whose timescale and amplitude scale with black-hole mass and luminosity (observed variability timescales grow with mass; Burke et al. 2021), with scatter in the lag–luminosity relation, a luminosity exponent of 0.4 as well as 0.5, and the 210 → 94 → 70 selection applied to the simulated samples. Then check whether ρ = +0.13 still falls outside the model.
-- Not yet varied in the toy models: driver amplitude and timescale, host fraction, shape of the dust response.
+- **B0. Pre-registration.** Four fixed models in order of complexity: T0, the same response in both bands (no loop); T1, a pure shift of the W2 response; T2, fixed responses of different width and tail; T3, a response that changes with the past illumination (the inner edge recedes and returns late). Every model is compared with T0 directly, not only with its predecessor: the stage 7 rule that stepped from one model to the next missed the better-fitting one.
+- **B1. Identifiability first.** With the real visit times and errors, simulate T0–T3 and measure how well a six-month cadence separates them and how accurately a lag is recovered. If they cannot be separated, that is the result, and the scope of B2 is reduced accordingly.
+- **B2. Band-to-band transfer without a driver.** For each object fit F_W2(t) = a + b·(K ∗ F_W1)(t), using W1 as the input of W2, for a lag and a kernel width; the interpolation and the error propagation are to be stated and no extrapolation is allowed. Predict the direct offset δ of stage 8 from the fitted kernel and compare it with the measured δ per object and per sample: the ratio of predicted to measured, and the distribution and sign fraction of the residual. A residual consistent with zero reads "the asymmetry is explained by an inter-band lag"; otherwise its size and the objects that carry it are reported.
+- **B3. Lag against luminosity.** Compare the fitted rest-frame lags with the relation of Lyu, Rieke & Smith (2019) and other published relations, with equations and sources given from the papers themselves; report how many objects have a well-determined lag and what selection that implies.
+- **B4. Undelayed light in W1 (optional).** For objects with ZTF light curves, compare with a model that adds an immediate (accretion-disc) component to W1. If this is too heavy for the available machine, only the design is written.
+- **B5. A better mock for the lag–luminosity test (optional).** The stage 8 mock samples had half the measurable objects of the real sample and a larger D. Find a driver that first reproduces the number of measurable objects and the distribution of D, then repeat the ρ test.
+
+Expectation recorded in the design note: with six-month visits a pure shift (T1) and a history-dependent response (T3) were hard to tell apart in the stage 6B simulations, and T1 against T2 is expected to be harder.
+
+## (a) What remains of the response-width question after stage 9
+
+- Stage 6B could not separate the explanations, and stage 8 showed that its verdict against the pure-delay model depends on assuming no scatter in the lag–luminosity relation. A lag that depends weakly on luminosity, a difference in the W1 and W2 response that does not depend on luminosity, a re-formation delay, undelayed disc light in W1, and combinations of these all remain.
+- Response functions for a fixed, radially extended torus exist in the literature (TORMAC; Almeyda et al. 2017, 2020). Only the abstracts were read; the per-band response-weighted delays and widths have not been taken from the papers, and whether the response functions are available as data was not checked. Until then the kernels of stage 9 are parametric and are to be described as such, not as TORMAC results.
+- Not yet varied in the toy models: host fraction, shape of the dust response, a luminosity exponent of 0.4 as well as 0.5 in the lag relation.
 
 ## (b) Dependence on density and Eddington ratio: a third sample
 
@@ -30,10 +39,16 @@ The first two items come before everything else: they test whether the hysteresi
 - Needed: infrared light curves with a cadence of weeks, in at least two bands, for a subset of the measurable objects; or archival or ground-based near-infrared monitoring that overlaps the WISE visits. No such data set has been identified yet for these objects.
 - More wavelengths would also remove the single-temperature assumption and separate host light and, in type 1 objects, accretion-disc light in W1.
 
-## (d) X-ray analysis of CGCG 312-012 (in progress)
+## (d) X-ray analysis of CGCG 312-012 (done; what the data cannot decide)
 
-- CGCG 312-012 is a mid-infrared nuclear flare **candidate**; a report of it was **not found in this search** (SIMBAD references, two flare catalogues, a web search; TNS, ADS and ATel were not queried directly).
-- NuSTAR and Swift XRT observed it in 2022.33, close to the infrared peak, and a Swift observation from 2010 gives a comparison. The plan, with predictions and decision rules for each interpretation, was committed before any X-ray data were downloaded: [XRAY_PLAN.md](XRAY_PLAN.md). The analysis is running; no result is reported here.
+- CGCG 312-012 is a mid-infrared nuclear flare **candidate**; a report of it was **not found in this search** (SIMBAD references, two flare catalogues, web searches; TNS, ADS and ATel were not queried directly).
+- Stage 7 and its post hoc supplement 7b are summarised in the README. The observed rise (a factor of 3.3 in the XRT 2–10 keV rate against 2010, 3.4 in the 14–50 keV flux against the BAT average) stands; the factor by which the intrinsic luminosity rose (4.1 or 6.0 with an absorbed power law, depending on how the XRT normalisation is read) and the state of the source in 2010 (unconstrained once a reflection component is allowed) are not determined. No further model was added: more parameters do not add counts to the 58-count spectrum of 2010.
+- What observations would decide it:
+  - A broad-band X-ray spectrum now (a soft X-ray telescope together with NuSTAR) would show whether the flux has returned to the BAT average and whether the reflection component and the 6.4 keV line followed the direct continuum. The second point tests the assumption of the reflection model that these stayed constant, and with it how the 2010 data should be read.
+  - Hard X-ray monitoring after 2017 (this work used the BAT average up to the 157-month release) would date the start and the length of the brightening.
+  - The state in 2010 cannot be re-observed. No other X-ray archive data from around 2010 were found in the HEASARC lists of Swift, XMM-Newton, Chandra and NuSTAR; other missions were not searched.
+  - Optical spectroscopy (broad lines, coronal lines) and 3–5 μm photometry after 2024 remain open from stage 6A.
+- Unexplained: the XRT/NuSTAR normalisation of 0.65–0.68 on the same day. The values of this object in the INTEGRAL 17-year survey and the Palermo BAT catalogue were not looked up; they would be a hard X-ray average independent of BAT.
 - Infrared photometry alone cannot separate a tidal disruption inside an AGN from AGN variability; spectroscopy and X-rays are needed. The energy quoted for the event is a lower limit, because it had not ended when WISE stopped in 2024.
 - Also open from 6A: whether the NGC 513 signal is real; the 2022 X-ray data of 2MASX J12005792+0648226; the 100 K difference in dust temperature between this work and the MIRONG list for that object, which comes from the emissivity assumption.
 
@@ -48,4 +63,4 @@ The first two items come before everything else: they test whether the hysteresi
 ## Questions on which outside advice would help
 
 - How does the same-flux colour statistic relate to the brightening/dimming amplitude asymmetry of Son, Kim & Ho (2026)? Could both come from the same process in the torus?
-- Which transfer-function model would be the accepted benchmark for (a)?
+- Which transfer-function model would be the accepted benchmark for stage 9, and are per-band response functions for the WISE bands available as data?

@@ -70,6 +70,42 @@
 
   모집단은 5a단계와 같은 두 목록(Swift-BAT 105개월, BASS DR2)이고 새로 받은 목록은 없다. 받는 방법은 5a단계와 같고 명령 앞에 `IRECHO_SAMPLE=v2`를 붙인다. 캐시 위치는 `data/cache/s6b/neowise/`, `s6b/allwise_mep/`, `s6b/untimely/`, `data/cache/allwise_cat/s6b_targets_<번호>.csv`, `s6b_fields_<번호>.csv`다. 표본의 정의는 `docs/PREDICTIONS_6.md` 4절, 실행 기록은 `docs/SAMPLE.md` 10절에 있다.
 
+- 7단계(2026-11-17)에서 더한 자료: CGCG 312-012의 X선 관측. 모두 로그인 없이 받는 공개 자료다.
+
+| 자료 | 관측 ID | 날짜 (UTC) | 노출 | 보관소의 처리 | 이 프로젝트에서 다시 한 처리 |
+|---|---|---|---|---|---|
+| Swift XRT (PC mode) | 00040946001 | 2010-12-29 00:21 – 16:25 | 10.31 ks | 처리 버전 3.17.06 | `xrtpipeline` (swxrtdas 3.7.2, HEASoft 6.37.1), XRT CALDB 20260327 |
+| Swift XRT (PC mode) | 00081051001 | 2022-05-01 04:01 – 12:17 | 6.93 ks | 처리 버전 3.18.19 | 위와 같음 |
+| NuSTAR FPMA, FPMB | 60160365002 | 2022-05-01 (MJD 59700.11–59700.59) | FPMA 22.64 ks, FPMB 22.44 ks (SAA 필터 뒤. 기본 설정으로는 23.05, 22.82 ks) | NuSTARDAS 2.1.1, CALDB 20220215 | `nupipeline` (NuSTARDAS 2.1.6, HEASoft 6.37.1, `saamode=optimized tentacle=yes`), CALDB 색인 20261102 |
+| Swift-BAT 157개월 평균 스펙트럼 (8채널, 14–195 keV)과 응답 행렬, 목록 | SWIFT J0929.7+6232 | 2004-12 ~ 2017-12 | survey 평균 | survey 페이지의 제품 | 그대로 사용 |
+
+  - 받은 곳: NuSTAR와 Swift는 HEASARC 보관소 `https://heasarc.gsfc.nasa.gov/FTP/nustar/data/obs/01/6/60160365002/`, `https://heasarc.gsfc.nasa.gov/FTP/swift/data/obs/2010_12/00040946001/`, `.../2022_05/00081051001/`. BAT는 `https://swift.gsfc.nasa.gov/bat_survey/bs157mon/`의 `spectra/SWIFT_J0929.7+6232.pha`, `data/BAT_157m_swiftbat_survey_full_157m.rsp`, `data/BAT_157m_catalog_20250525.txt`.
+  - 받는 방법: `python scripts/fetch_xray.py` (2026-11-17 04:35–04:49 UTC, 파일 123개, 321.8 MB). NuSTAR는 `auxil/`, `hk/`, `event_uf/`, `event_cl/`, Swift는 `auxil/`, `xrt/`만 받았다(UVOT와 BAT event 자료는 받지 않음). 캐시 위치는 `data/cache/s7/`이고 git에 넣지 않는다. 파일별 URL, 크기, 받은 시각, SHA-256은 `data/manifest.json`의 `s7/`로 시작하는 항목에 있다.
+  - 관측 목록의 값(관측 ID, 날짜, 노출, 보관소 처리 버전)은 HEASARC TAP의 `swiftmastr`, `numaster` 표에서 읽었다.
+  - 주요 입력 파일의 SHA-256:
+
+| 캐시 파일 (data/cache/ 아래) | 크기 (byte) | SHA-256 |
+|---|---|---|
+| `s7/nustar/60160365002/event_uf/nu60160365002A_uf.evt.gz` | 60,789,253 | `eaba64787fcc37e09b8d7d099cf6b266311ef148972856114ca63193aee25cd4` |
+| `s7/nustar/60160365002/event_uf/nu60160365002B_uf.evt.gz` | 91,143,832 | `99b90adb2787f967682acf930364df75906dc112323c3057d267aa269958a936` |
+| `s7/nustar/60160365002/auxil/nu60160365002_att.fits.gz` | 12,575,727 | `27d422ba1e4ab8bf959886a611a51c5b3a277de8cb364b7f2886e2381ed93d73` |
+| `s7/nustar/60160365002/auxil/nu60160365002_orb.fits.gz` | 2,005,012 | `fe24c7cc0f2f60d7aeca75eb1e71ed96313015facd6a783ea05fb5ba2ab8c6e1` |
+| `s7/swift/00040946001/xrt/event/sw00040946001xpcw3po_uf.evt.gz` | 22,539,792 | `2cb4ff0d4e7cc2ce0e08ba087301e9644bc0ab5e7451b211a571740c7aed3bf4` |
+| `s7/swift/00040946001/auxil/sw00040946001sat.fits.gz` | 198,046 | `00930518d6b4c43a1927f4ce2f6467dd0533e639cb5d58f4373115dd34b64cb5` |
+| `s7/swift/00081051001/xrt/event/sw00081051001xpcw3po_uf.evt.gz` | 39,196,934 | `ca39034f4a22d6c3bf879ff24a5836b9581310fd2e768b7ff5fecf3731285c4d` |
+| `s7/swift/00081051001/auxil/sw00081051001sat.fits.gz` | 158,803 | `e2fba0c2ddd7bcdfde0601f26c8c305ff88ecfa0e3848fd2ae612d1e61988159` |
+| `s7/bat157/SWIFT_J0929.7+6232.pha` | 17,280 | `94fdc98c2086a4be7b8107ca2af0930db800b84da4344a79ba3390be1ee67794` |
+| `s7/bat157/BAT_157m_swiftbat_survey_full_157m.rsp` | 31,680 | `f9113bc147d84508f01ebdf5e6d9b0314c757d68182b15ac4730d20dd918c427` |
+| `s7/bat157/BAT_157m_catalog_20250525.txt` | 470,669 | `9901ec0dc86cd67781383242b4808f4d87e0ec396fb23eb134c30b4b177b0249` |
+
+  - **도구와 보정 파일** (git에 넣지 않음):
+    - HEASoft 6.37.1을 conda로 프로젝트 폴더 안의 `.heasoft/`에 설치했다(1.6 GB. 채널 `https://heasarc.gsfc.nasa.gov/FTP/software/conda/`와 conda-forge). XSPEC 13.0.1, PyXspec 2.2.0이 들어 있다.
+    - CALDB는 `data/cache/s7/caldb/`에 두었다. Swift XRT는 `goodfiles_swift_xrt.tar.Z`(660,443,737 byte, 색인 20260327)와 `goodfiles_swift_mis.tar.Z` 전체. NuSTAR는 전체 묶음(2.3 GB)을 받지 않고, 색인(`caldb.indx`, 버전 20261102)에서 2022-05-01에 유효한 파일 94개(1.95 GB)만 받았다(`scripts/fetch_caldb_subset.py`. 'nocut' 응답 행렬 8개는 이 처리에서 쓰이지 않아 뺐다). 묶음과 파일별 SHA-256은 `results/s7_caldb.json`에 있다.
+  - 문헌·목록 조회(`scripts/xray_literature.py`, `results/s7_literature.json`): SIMBAD TAP 미러(참고문헌 제목), VizieR CfA 미러의 J/ApJS/233/17(Ricci et al. 2017)과 IX/58(2SXPS, Evans et al. 2020).
+  - 이용 조건: HEASARC의 안내(`https://heasarc.gsfc.nasa.gov/docs/heasarc/acknow.html`, 2026-11-17 확인)는 다음 문구를 쓰라고 한다. "This research has made use of data and/or software provided by the High Energy Astrophysics Science Archive Research Center (HEASARC), which is a service of the Astrophysics Science Division at NASA/GSFC." 그 쪽에는 이용 제한에 관한 문장이 없다. NuSTAR와 Swift 각 임무의 이용 조건·인용 안내 전문은 확인하지 않았다. 원자료와 처리된 event 파일, 스펙트럼, 응답 행렬은 저장소에 넣지 않았고 맞춤 결과의 수치와 그림만 `results/s7_*`에 있다.
+
+- 7b와 8단계(2026-11-17)에서는 새 자료를 받지 않았다. 7b에서 2SXPS(VizieR IX/58, CfA 미러)의 이 천체 행을 노출·관측 수·밴드별 rate 열까지 다시 조회했고(공개 저장소에는 목록의 값을 옮기지 않았다. 자체 측정값과 차이만 `results/s7b_light.json`의 `comparison_with_2sxps`에 있다), 8단계는 이미 받은 캐시(5a·6B의 NEOWISE-R, unTimely)와 동결 광도곡선만 썼다. 8단계가 캐시에서 다시 뽑은 unTimely 광도곡선은 `data/cache/s8/`에 있고 git에 넣지 않는다. 문헌의 식을 확인한 기록은 `docs/LITERATURE.md` 11절에 있다.
+
 ## 2. 이용 조건
 
 IRSA "Terms of Use of Data Hosted by IRSA" (https://irsa.ipac.caltech.edu/data_use_terms.html, 최종 갱신 2023-02-08, 2026-11-12 확인):
@@ -401,7 +437,7 @@ WHERE CONTAINS(POINT('ICRS', t.ra, t.dec), CIRCLE('ICRS', p.pra, p.pdec, 0.00083
 | `ztf/ngc3786_g.csv` | 747 | 2026-11-12T14:52:19Z | `aa3ce98e7166531505007d7f9c2efd8bf5a0123346b275524e1df7893c06df66` |
 | `ztf/ngc3786_r.csv` | 933 | 2026-11-12T14:52:29Z | `68aaf20d02f15fa4582a21651d8315677c730b53c44dd654ef1a8abd0258abbe` |
 
-파일 2024개, 모두 9,962,672행, 1613.28 MB.
+파일 2147개, 모두 9,962,672행, 1935.06 MB.
 
 5a·5b단계의 파일은 수가 많아 묶음별 합계만 적는다. 파일별 조회 조건, 시각, 행 수, SHA-256은 `data/manifest.json`에 있다.
 
@@ -421,4 +457,7 @@ WHERE CONTAINS(POINT('ICRS', t.ra, t.dec), CIRCLE('ICRS', p.pra, p.pdec, 0.00083
 | `s6b/allwise_mep/*` | 210 | 94,910 | 14.9 | 2026-11-16T23:41:16Z – 2026-11-17T02:16:49Z |
 | `s6b/neowise/*` | 210 | 843,129 | 170.1 | 2026-11-16T23:40:54Z – 2026-11-17T02:16:36Z |
 | `s6b/untimely/*` | 210 | 44,201 | 13.8 | 2026-11-16T23:40:33Z – 2026-11-17T00:50:31Z |
+| `s7/bat157/*` | 3 | 0 | 0.5 | 2026-11-17T04:48:33Z – 2026-11-17T04:48:36Z |
+| `s7/nustar/*` | 60 | 0 | 239.3 | 2026-11-17T04:35:07Z – 2026-11-17T04:45:27Z |
+| `s7/swift/*` | 60 | 0 | 82.0 | 2026-11-17T04:45:28Z – 2026-11-17T04:48:32Z |
 <!-- manifest:end -->

@@ -1,0 +1,32 @@
+#XSPEC version: 13.0.1
+#Build Date/Time: Tue Nov 17 13:47:52 2026
+#
+!XSPEC>show fit
+#
+#Fit statistic  : C-Statistic                103.4192     using 108 bins, spectrum 1, group 1.
+#                 C-Statistic                705.1213     using 760 bins, spectrum 2, group 2.
+#                 C-Statistic                708.6166     using 738 bins, spectrum 3, group 3.
+#Total fit statistic                         1517.157     with 1602 d.o.f.
+#
+#Test statistic : Chi-Squared                2032.208     using 1606 bins.
+# Null hypothesis probability of 1.097e-12 with 1602 degrees of freedom
+#
+!XSPEC>show free
+#
+#Free parameters defined:
+#========================================================================
+#Model constant<1>*TBabs<2>*zTBabs<3>*clumin<4>*zpowerlw<5> Source No.: 1   Active/On
+#Model Model Component  Parameter  Unit     Value
+# par  comp
+#                           Data group: 1
+#   3    3   zTBabs     nH         10^22    21.2693      +/-  1.45609      
+#   8    4   clumin     lg10Lum    cgs      43.1605      +/-  1.52680E-02  
+#   9    5   zpowerlw   PhoIndex            1.51714      +/-  3.41368E-02  
+#                           Data group: 2
+#                           Data group: 3
+#  23    1   constant   factor              1.01851      +/-  2.53452E-02  
+#________________________________________________________________________
+#
+#
+!XSPEC>log none
+#
