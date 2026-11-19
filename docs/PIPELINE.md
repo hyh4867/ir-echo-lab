@@ -474,7 +474,20 @@ WHERE CONTAINS(POINT('ICRS', t.ra, t.dec), CIRCLE('ICRS', p.pra, p.pdec, 0.00083
 - **null 범위**: 합성 표본 50개의 값에서 가장 작은 것과 가장 큰 것을 하나씩 뺀 범위(`run_stage9.band`).
 - `results/s9_objects.csv`에는 목록 값(유형, z, L_bol)을 넣지 않았다. 이름과 맞춤 결과만 있다.
 
-## 18. 재현
+## 18. 10단계: 광학(ZTF) driver로 W1, W2의 지연을 따로 재기 (`docs/PREDICTIONS_10.md`)
+
+코드: `src/irecho/driver10.py`(맞춤과 합성 광도곡선), `scripts/fetch_ztf10.py`, `scripts/run_stage10.py`, `scripts/stage10_analysis.py`, `scripts/stage10_verdict.py`, `scripts/plot_stage10.py`, `src/irecho/plots10.py`.
+
+1. **광학 광도곡선**(`run_stage10.py build`): `catflags == 0`인 점이 가장 많은 `oid`의 측광점(`magerr` < 0.2) → 0.5일 안에 이어진 점을 역분산 가중 평균한 밤 단위 flux(등급 중앙값의 flux를 1로) → ±15일 안의 다른 밤의 중앙값에서 5 robust σ 넘게 벗어난 밤 제거(한 번).
+2. **쓰는 방문**: WISE 방문 t는 [t − 700일, t + 100일]이 광학 광도곡선 안에 들고 그 안에 250일보다 긴 광학 공백이 없을 때만 쓴다. 모든 모형이 같은 방문을 쓴다. 8개 이상이어야 맞춘다.
+3. **계절 공백**: 밤 단위 flux에 damped random walk + 백색 잡음(jitter) + 상수 평균(평평한 사전분포)의 Gaussian process를 최대가능도로 맞추고(천체마다 한 번), 2일 격자 위의 조건부 평균(밤 flux의 선형 결합)과 조건부 공분산 P를 구한다.
+4. **맞춤**: F_W(t_i) = a + b (K ∗ D)(t_i). K는 평균 지연 τ의 kernel(기준: 폭이 |τ|인 top-hat). 예측의 불확도 b²·cPcᵀ를 잔차 공분산에 더하고 S = χ² + ln det로 τ를 5일 격자에서 고른다(일반화 최소제곱, b는 3번 갱신). 꼴을 바꾼 것(M2, MG), 지연 없는 항을 더한 것(MA), 가지 표시를 더한 것(ME)은 모두 기준 모형 M1과 직접 비교한다.
+5. **Δτ의 구간**: 두 밴드를 함께 맞춘 10일 격자의 분포(driver 불확도의 공유 항과 같은 방문의 오차 상관 r 포함).
+6. **검출**: 예측과 관측의 가중 상관 r_w가 다른 천체 20개의 driver로 바꿔 맞춘 값 모두보다 클 때. 검출 표본 D는 두 밴드 모두 검출이고 τ가 격자 끝이 아닌 천체.
+7. **합성 표본**(`run_stage10.py ident`): 실제 ZTF 밤의 시각·오차·jitter와 실제 WISE 방문 시각·오차·오차 상관에, 진실 모형 21가지 × driver 2가지 × 50회차. 천체별 준비 계산(가중치 W와 공분산 V)은 관측 시각에만 달려 있어 회차마다 다시 쓰인다.
+8. **판정**(`stage10_verdict.py`): 식별 가능성의 기준 → 실제 통계량을 합성 null 범위와 비교(`docs/PREDICTIONS_10.md` 5.2절, 6절).
+
+## 19. 재현
 
 ```
 uv venv --python 3.12 .venv && uv pip install --python .venv/bin/python -r requirements.txt
@@ -536,6 +549,12 @@ python scripts/xray_7b.py light; python scripts/xray_7b.py fits   # 7b: 사후 �
 .venv/bin/python scripts/run_stage9.py fit     # 9: 실제 자료 맞춤
 .venv/bin/python scripts/run_stage9.py null 2  # 9: 맞춘 지연을 넣은 null 표본
 .venv/bin/python scripts/run_stage9.py verdict; .venv/bin/python scripts/run_stage9.py mock5 2; .venv/bin/python scripts/plot_stage9.py   # 9: 판정, B5, 그림
+.venv/bin/python scripts/fetch_ztf10.py objects; .venv/bin/python scripts/fetch_ztf10.py curves --workers 3; .venv/bin/python scripts/fetch_ztf10.py meta   # 10: ZTF (약 2시간)
+.venv/bin/python scripts/run_stage10.py build            # 10: 밤 단위 광도곡선, 기준, 동결 (약 4분)
+.venv/bin/python scripts/run_stage10.py ident --workers 3; .venv/bin/python scripts/run_stage10.py ident-summary   # 10: 식별 가능성 (약 37분)
+.venv/bin/python scripts/run_stage10.py fit              # 10: 실제 자료 맞춤, driver 바꾸기, 시간 반전 (약 4분)
+.venv/bin/python scripts/run_stage10.py fitted --workers 3; .venv/bin/python scripts/run_stage10.py fitted-summary   # 10: 맞춘 지연을 넣은 null 표본
+.venv/bin/python scripts/stage10_verdict.py; .venv/bin/python scripts/run_stage10.py checks; .venv/bin/python scripts/plot_stage10.py   # 10: 판정, 민감도 (약 13분), 그림
 ```
 
 난수는 기준 별·비교 별 추첨과 blackbody 온도의 Monte Carlo에만 쓴다. 모두 seed 20261112에서 나온다(`config.SEED`. 5a단계의 비교 별은 `[20261112, 5, BAT 목록 번호]`).

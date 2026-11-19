@@ -1,6 +1,6 @@
 # Future work and open questions
 
-This file collects the open problems recorded at the end of stages 5b, 6A, 6B, 7 (with its supplement 7b), 8 and 9, and the candidates for later work. **The project stops at stage 9.** Nothing below is planned or in progress; the items are listed so that the limits of the results are visible and a later study has a starting point. Wording follows the rule used throughout the project: a result is a **candidate** until it is confirmed, and "not found" means **not found in this search**.
+This file collects the open problems recorded at the end of stages 5b, 6A, 6B, 7 (with its supplement 7b), 8, 9 and 10, and the candidates for later work. The project was closed after stage 9 and reopened once, for stage 10 (optical driver). **The analysis stops at stage 10.** Nothing below is planned or in progress; the items are listed so that the limits of the results are visible and a later study has a starting point. Wording follows the rule used throughout the project: a result is a **candidate** until it is confirmed, and "not found" means **not found in this search**.
 
 ## Where stage 9 left the question
 
@@ -11,13 +11,34 @@ Stage 8 showed that the colour asymmetry is in the data. Stage 9 asked whether a
 
 The fitted lags are about 1.4 times the W2 − W1 lag difference of Lyu, Rieke & Smith (2019) and depend weakly on luminosity (ρ = +0.38). This hints that the fitted lag is not only a lag between the dust seen in the two bands, but the published relations differ by a factor of 2.5 at log L_bol = 44.5 (Lyu et al. against Mandal et al. 2024), and no published direct measurement of the W1-to-W2 lag was found in this search.
 
+## Where stage 10 left the question
+
+Stage 10 used the ZTF optical light curve as the driver and fitted W1 and W2 separately, for the type 1 objects ([PREDICTIONS_10.md](PREDICTIONS_10.md), Korean; the result is in the README, layer 2 of "Conclusions in three layers"). Of 234 type 1 objects 135 passed the data criteria (8–9 usable visits each) and 32 were detected in both bands against the null of swapped drivers.
+
+- In the detected set the median lags behind the optical driver are 110 d (W1) and 157.5 d (W2) in the observed frame. They are shorter than both published relations: 0.74 and 0.69 of Lyu et al. (2019), 0.57 and 0.50 of Mandal et al. (2024). The labels by the committed rule are "different" for both. A resampling of the objects keeps the Mandal ratio below 0.75; the Lyu ratio reaches 1 when log L_bol is moved by −0.3 dex, and the definition of the BASS luminosity was not checked in the paper.
+- The lag difference W2 − W1 has a median of 25 d against 40 d for the stage 9 lag of the same objects (ratio 0.63, label "different" by the rule). This label is weak: the resampling interval of the ratio is 0.25–1.44, and the median difference moves to 45–50 d with the r band or with linear interpolation of the driver. Object by object the two measures are rank-correlated (ρ = +0.47).
+- A term without delay improves the W1 fits (median share 0.16; label "an undelayed component is present"), but the same share is found in W2 and a broad kernel gives the same signature on synthetic samples. It is not identified as accretion-disc light. It does not explain the "1.4 times" of stage 9: with the optical driver the lag difference did not come out longer than the Lyu difference (ratio 0.33, resampling interval 0.19–1.25), so there was nothing of that size to explain (label "undetermined").
+- A fixed kernel and re-formation were not separated on synthetic samples (power 0), so the test was not tried on the real light curves.
+- The synthetic null ranges of stage 10 are narrower than the real scatter (χ² per degree of freedom 0.5–0.9 against 1.8), so labels made from them overstate what the data decide.
+
 ## Candidates for later work
 
-Two candidates follow directly from what stage 9 could not separate. Neither has been started.
+None has been started.
 
-**1. Separating undelayed disc light in W1 with ZTF.** The design was written in stage 9 and not run. For objects with ZTF g and r light curves, average the optical flux in a window around each WISE visit, subtract c times that flux from W1, and repeat the transfer fit; c runs over a grid from zero to the largest value the spectral energy distribution allows, and the question is how the fitted lag and the residual change with c. To be counted first: how many objects keep at least 10 usable W2 visits after 2018, when ZTF starts, and for what fraction the seasonal gaps of the optical light curve miss the WISE visits. The method does not work where host light dilutes the optical variability, which is the case for most type 2 objects. An exploratory split in stage 9 found no difference in the median lag between types 1 and 2 (37.5 and 40 d in `sample_v1`, p = 0.68; 50 and 50 d in `sample_v2`, p = 0.18) and a larger asymmetry in type 1; this split alone does not decide anything, because the size of the asymmetry also depends on the amplitude and speed of the variability.
+**1. A longer and cleaner optical driver.** Stage 10 kept 8–9 WISE visits per object because the kernel window (700 d) had to lie inside the ZTF light curve, which starts in 2018. Earlier optical surveys (ASAS-SN, ATLAS, CRTS/CSS) would add visits back to 2014 at the cost of cross-calibration; they were left out of the plan. Difference-image (forced) photometry would remove the seeing dependence found in 56 of 135 objects but needs a registration, which was excluded. Both would have to be registered before the fits are repeated.
 
-**2. Denser infrared data.** The separation of a fixed kernel from re-formation needs one of: (i) light curves at 3–5 μm with a cadence of weeks, in at least two bands, for a subset of the objects; (ii) an optical driver for the same objects, so that the response of each band can be fitted instead of the relation between the bands; (iii) one AGN with a sharp optical/UV drop followed by a long low state, in which a shortening of the hot-dust lag can be looked for after checking how much a fixed kernel driven by the observed light curve already explains (NGC 4151 and Mrk 590 are the starting cases). No such data set has been identified for the objects of this project. More wavelengths would also remove the single-temperature assumption and separate host light.
+**2. Kernel shape.** The fitted lag is 58–97 d shorter than the mean lag when the kernel has a long tail (synthetic test), and the real fits prefer a top-hat that starts at zero lag. A kernel family with a free tail, fitted jointly for a set of objects, would say whether "shorter than the published relations" is a property of the dust or of the top-hat. With 8–9 visits per object this needs the longer driver of item 1.
+
+**3. Disc light against a broad kernel.** The undelayed share is the same in W1 and W2. Disc light should be weaker at W2 by a known factor (f_ν ∝ ν^(1/3) against a dust spectrum that rises), so a joint fit with the ratio of the two shares fixed by the disc spectrum, compared with a fit that leaves it free, is a direct test. It was not registered and was not run.
+
+**4. Denser infrared data.** As after stage 9: light curves at 3–5 μm with a cadence of weeks, or one AGN with a sharp optical/UV drop followed by a long low state (NGC 4151 and Mrk 590 are the starting cases). No such data set has been identified for the objects of this project.
+
+Smaller items left open by stage 10:
+
+- The definition of the BASS DR2 bolometric luminosity (tracer and correction) was not checked in the paper; the conversion to the 5100 Å-based luminosities of the two relations is open.
+- The lag difference is not stable between the separate fits and the joint fit of the two bands (9 of 32 objects outside the joint 95% interval). The joint fit as the primary estimator was not registered.
+- Type 2 objects were excluded. The colour asymmetry of stage 8 was measured in both types, so stage 10 covers a part of the stage 8 and 9 samples only.
+- The direct comparison of stage 8 needs at least three visits per branch; with 8–9 visits it is usable in 5 of 32 detected objects.
 
 Smaller items left open by stage 9:
 

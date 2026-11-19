@@ -108,6 +108,8 @@
 
 - 9단계(2026-11-18)에서도 새 관측 자료를 받지 않았다. 동결 광도곡선과 8단계의 오차 상관만 썼다. 합성 표본의 회차별 값은 `data/cache/s9/`에 있고 git에 넣지 않는다. 문헌의 식을 확인하려고 arXiv의 논문 PDF 한 편(1909.11101v2)을 받아 본문을 읽었고(저장소에 넣지 않음), 확인한 내용은 `docs/LITERATURE.md` 12절에 있다. `results/s9_objects.csv`에는 목록 값(유형, z, L_bol)이 없다.
 
+- 10단계(2026-11-18 – 19)에서 ZTF 공개 광도곡선(g, r)을 type 1 천체로 넓혀 받았다. 대상 234개 가운데 ZTF DR24 objects 표에 천체가 있는 것은 189개다. 그 가운데 75개(밴드 파일 150개)는 5b단계(2026-11-16)에 받은 파일을 그대로 썼고, 나머지 114개 천체의 밴드 파일 225개를 2026-11-18에 새로 받았다(`data/cache/s10/ztf/`). 요청 한 건(한 천체의 g 밴드)은 두 번의 시도와 재실행에서 모두 시간 초과(600초)나 504 응답으로 끝나 "자료 없음"으로 셌고, 그 천체는 r 밴드를 driver로 썼다. 받은 측광 행은 모두 272,180개, 관측 시각의 범위는 MJD 58198.36 – 60969.54다. 노출별 seeing은 IRSA TAP의 `ztf.ztf_current_meta_sci` 표에서 쓴 field·CCD·quadrant·필터 조합 371개를 조회해 `expid`로 붙였다(`data/cache/s10/ztf_meta/`). 밤 단위로 묶은 광도곡선은 `data/frozen/ztf_v3/`에 두고 SHA-256을 `data/freeze_v3.json`에 적었다. 원본, 메타데이터, 밤 단위 광도곡선은 git에 넣지 않는다. `results/s10_objects.csv`와 `results/s10_sample.json`에는 목록 값(유형, z, L_bol)이 없다. 문헌의 식과 광도 정의를 확인하려고 arXiv의 논문 PDF 두 편(1909.11101, 2403.01885)을 받아 읽었고(저장소에 넣지 않음), 확인한 내용은 `docs/LITERATURE.md` 13절에 있다.
+
 ## 2. 이용 조건
 
 IRSA "Terms of Use of Data Hosted by IRSA" (https://irsa.ipac.caltech.edu/data_use_terms.html, 최종 갱신 2023-02-08, 2026-11-12 확인):
@@ -239,6 +241,14 @@ WHERE CONTAINS(POINT('ICRS', t.ra, t.dec), CIRCLE('ICRS', p.pra, p.pdec, 0.00083
 - 먼저 `ztf_objects_dr24` 표를 표본 231개 위치(반지름 3″)로 한 번 조회한다(17초). ZTF 천체가 있는 표적만 광도곡선을 요청한다.
 - 광도곡선 서비스는 요청 하나에 1–4분이 걸렸다. 천체 ID 여러 개를 한 요청에 넣어도 빨라지지 않았다(12개에 10분 넘게 걸려 중단). 그래서 요청을 동시에 여러 개 보내고(`--workers`), 판정에 필요한 천체를 먼저 받았다(`--order`).
 - 파일은 `data/cache/s5/ztf/<이름>_<밴드>.csv`, 파일마다 조회 조건·시각·행 수·SHA-256을 담은 sidecar가 있고 `--register-sample`이 manifest에 옮긴다.
+
+### 10단계: type 1 천체의 ZTF 받는 방법
+
+- `scripts/fetch_ztf10.py objects`: `ztf_objects_dr24` 표를 type 1 천체 234개의 위치(반지름 3″)로 한 번 조회한다. 천체가 있는 189개만 광도곡선을 요청한다.
+- `scripts/fetch_ztf10.py curves --workers 3`: 5b단계와 같은 서비스, 같은 요청(`nph_light_curves`, `POS=CIRCLE <ra> <dec> 0.0008333`, `BANDNAME`, `FORMAT=csv`)이고 5b의 함수 `fetch_ztf.fetch_one`을 그대로 쓴다. 5b에서 받은 파일(`data/cache/s5/ztf/`)이 있는 천체는 건너뛴다. 파일마다 sidecar(`.meta.json`: 주소, 인자, 받은 시각, 행 수, SHA-256)를 쓴다. 로그인이나 등록이 필요한 서비스는 쓰지 않았다.
+- 걸린 시간: 요청 하나에 5초 – 6분. 동시에 6건을 보내자 서비스가 느려지고 시간 초과가 늘었고, 3건으로 줄이자 회복됐다(2026-11-18 밤의 경험). 전체 약 2시간.
+- `scripts/fetch_ztf10.py meta`: 쓰는 `oid`의 (field, ccdid, qid, filtercode)마다 `SELECT expid, obsjd, seeing, airmass, maglimit, moonillf FROM ztf.ztf_current_meta_sci WHERE ...`를 TAP으로 조회한다. 조회 하나에 10–40초, 371개.
+- `scripts/run_stage10.py build`: 품질 기준(`catflags == 0`, 가장 점이 많은 `oid`, `magerr` < 0.2), 밤 단위 묶기, 튀는 밤 제거, 천체를 쓰는 기준, seeing·airmass 표시, 동결을 한 번에 한다(`docs/PREDICTIONS_10.md` 2절).
 
 ## 5. 해시
 
@@ -463,3 +473,5 @@ WHERE CONTAINS(POINT('ICRS', t.ra, t.dec), CIRCLE('ICRS', p.pra, p.pdec, 0.00083
 | `s7/nustar/*` | 60 | 0 | 239.3 | 2026-11-17T04:35:07Z – 2026-11-17T04:45:27Z |
 | `s7/swift/*` | 60 | 0 | 82.0 | 2026-11-17T04:45:28Z – 2026-11-17T04:48:32Z |
 <!-- manifest:end -->
+
+10단계: ZTF 원본 파일(천체·밴드별)과 밤 단위 광도곡선의 SHA-256은 `data/freeze_v3.json`에 있다(천체 189개, 밴드 파일 375개, 동결 시각 2026-11-18T14:09:08Z, 코드 commit `1b6c59e`). `tests/test_regression_stage10.py`가 밤 단위 파일이 있으면 해시를 다시 계산해 비교한다.
