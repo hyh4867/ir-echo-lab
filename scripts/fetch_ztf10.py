@@ -41,16 +41,21 @@ def targets() -> list[dict]:
     """Type 1 objects of the two registered samples with their AllWISE positions."""
     import run_stage8 as r8
 
+    blank = ("the object tables have blank catalogue columns (the public copy leaves them out). "
+             "Run scripts/restore_catalog_columns.py first.")
     out = []
     for tag in ("v1", "v2"):
         with open(config.TARGETS_DIR / f"sample_{tag}.csv", newline="") as fh:
             pos = {r["name"]: (float(r["ra"]), float(r["dec"])) for r in csv.DictReader(fh)}
-        for o in r8.sample_names(tag):
+        try:
+            names = r8.sample_names(tag)
+        except ValueError as exc:   # a blank redshift
+            raise SystemExit(blank) from exc
+        for o in names:
             if o["type"] in TYPE1:
                 out.append({"name": o["name"], "sample": tag, "ra": pos[o["name"]][0], "dec": pos[o["name"]][1]})
     if not out:
-        raise SystemExit("no type 1 object found: the object tables have blank catalogue columns (the public copy "
-                         "leaves them out). Run scripts/restore_catalog_columns.py first.")
+        raise SystemExit(blank)
     return out
 
 
